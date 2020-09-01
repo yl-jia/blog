@@ -16,6 +16,31 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo[Next] @ add rounded corners</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
+    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
+<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
+
+<p>add the follow code should be OK:</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
+
+<p>The rendering is as follows: </p>
+<a id="more"></a>
+
+<img src="/images/image-20200831234709921.png" alt="image-20200831234709921" style="zoom: 67%;" />
+
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo[Next] @ Custom background image</title>
     <url>/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</url>
     <content><![CDATA[<p>*<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong> Based on <code>Next theme</code> <a href="https://github.com/theme-next/hexo-theme-next/commit/f9956802c9cf51ebdb447fb954efa6383fbb2bd6">Release v7.8.0</a></p>
@@ -96,31 +121,6 @@
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 搜索</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
 
 <h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo[Next] @ add rounded corners</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
-    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
-<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
-
-<p>add the follow code should be OK:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
-
-<p>The rendering is as follows: </p>
-<a id="more"></a>
-
-<img src="/images/image-20200831234709921.png" alt="image-20200831234709921" style="zoom: 67%;" />
 
 ]]></content>
       <categories>
