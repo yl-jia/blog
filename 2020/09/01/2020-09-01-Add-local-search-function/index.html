@@ -21,22 +21,22 @@
     var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"manual"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false}};
   </script>
 
-  <meta name="description" content="*** Based on Next theme Release v7.8.0 Define the background image @Locating to your site config file:  1cd .&#x2F;site_folder&#x2F;themes&#x2F;next&#x2F;_config.yml |vi">
+  <meta name="description" content="1. Install hexo-generator-searchdb  plugin.1npm install hexo-generator-searchdb --save  2. Open config file and add code:1cd .&#x2F;site_folder&#x2F;_config.yml |vi  add the code below after “Extensio">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo[Next] @ Custom background image">
-<meta property="og:url" content="http://yoursite.com/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/index.html">
+<meta property="og:title" content="Hexo[Next] @ Add local search function">
+<meta property="og:url" content="http://yoursite.com/2020/09/01/2020-09-01-Add-local-search-function/index.html">
 <meta property="og:site_name" content="云焱逍の栈">
-<meta property="og:description" content="*** Based on Next theme Release v7.8.0 Define the background image @Locating to your site config file:  1cd .&#x2F;site_folder&#x2F;themes&#x2F;next&#x2F;_config.yml |vi">
+<meta property="og:description" content="1. Install hexo-generator-searchdb  plugin.1npm install hexo-generator-searchdb --save  2. Open config file and add code:1cd .&#x2F;site_folder&#x2F;_config.yml |vi  add the code below after “Extensio">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-08-31T18:22:15.000Z">
-<meta property="article:modified_time" content="2020-08-31T21:56:59.137Z">
+<meta property="article:published_time" content="2020-09-01T00:37:51.000Z">
+<meta property="article:modified_time" content="2020-09-01T00:45:00.350Z">
 <meta property="article:author" content="Yunlong JIA">
 <meta property="article:tag" content="Page optimization">
 <meta property="article:tag" content="Hexo[Next]">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://yoursite.com/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/">
+<link rel="canonical" href="http://yoursite.com/2020/09/01/2020-09-01-Add-local-search-function/">
 
 
 <script class="page-configurations">
@@ -49,7 +49,7 @@
   };
 </script>
 
-  <title>Hexo[Next] @ Custom background image | 云焱逍の栈</title>
+  <title>Hexo[Next] @ Add local search function | 云焱逍の栈</title>
   
 
 
@@ -221,7 +221,7 @@
 
       <!--noindex-->
       <section class="post-toc-wrap sidebar-panel">
-          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Define-the-background-image"><span class="nav-text">Define the background image</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Locating-to-your-site-config-file"><span class="nav-text">@Locating to your site config file:</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Find-the-code-as-below-remove-the-from-last-line-make-it-work"><span class="nav-text">@Find the code as below, remove the # from last line, make it work:</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#You-next-will-find-that-we%E2%80%99ve-no-folder-%E2%80%9C-data%E2%80%9D-and-the-file-%E2%80%9Cstyles-styl%E2%80%9D-don%E2%80%99t-worry-just-create-them-as-the-path-indicated"><span class="nav-text">@You next will find that, we’ve no folder “_data” and the file “styles.styl”, don’t worry, just create them as the path indicated.</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Then-edit-and-paste-following-command-line-in-your-%E2%80%9Cstyles-styl%E2%80%9D"><span class="nav-text">@Then edit and paste following command line in your “styles.styl” :</span></a></li></ol></li></ol></div>
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-Install-hexo-generator-searchdb-plugin"><span class="nav-text">1. Install hexo-generator-searchdb  plugin.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-Open-config-file-and-add-code"><span class="nav-text">2. Open config file and add code:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-Open-theme-config-file-and-change-%E2%80%9Cenable%E2%80%9D-as-true"><span class="nav-text">3. Open theme config file, and change “enable” as true:</span></a></li></ol></div>
       </section>
       <!--/noindex-->
 
@@ -322,7 +322,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/09/01/2020-09-01-Add-local-search-function/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/yl.jpg">
@@ -338,7 +338,7 @@
     
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hexo[Next] @ Custom background image
+          Hexo[Next] @ Add local search function
         </h1>
 
         <div class="post-meta-container">
@@ -350,7 +350,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2020-08-31 20:22:15 / Modified: 23:56:59" itemprop="dateCreated datePublished" datetime="2020-08-31T20:22:15+02:00">2020-08-31</time>
+      <time title="Created: 2020-09-01 02:37:51 / Modified: 02:45:00" itemprop="dateCreated datePublished" datetime="2020-09-01T02:37:51+02:00">2020-09-01</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -382,8 +382,8 @@
       </span>
       <span class="post-meta-item-text">Disqus: </span>
     
-    <a title="disqus" href="/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/" itemprop="commentCount"></span>
+    <a title="disqus" href="/2020/09/01/2020-09-01-Add-local-search-function/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2020/09/01/2020-09-01-Add-local-search-function/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -397,42 +397,15 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>*<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong> Based on <code>Next theme</code> <a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next/commit/f9956802c9cf51ebdb447fb954efa6383fbb2bd6">Release v7.8.0</a></p>
-<h4 id="Define-the-background-image"><a href="#Define-the-background-image" class="headerlink" title="Define the background image"></a>Define the background image</h4><ul>
-<li><h5 id="Locating-to-your-site-config-file"><a href="#Locating-to-your-site-config-file" class="headerlink" title="@Locating to your site config file:"></a>@Locating to your site config file:</h5></li>
-</ul>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
+        <h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a target="_blank" rel="noopener" href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
 
-<a id="more"></a>
+<h4 id="2-Open-config-file-and-add-code"><a href="#2-Open-config-file-and-add-code" class="headerlink" title="2. Open config file and add code:"></a>2. Open config file and add code:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;_config.yml |vi</span><br></pre></td></tr></table></figure>
 
-<br>
+<p>add the code below after “Extension”:</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 搜索</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
 
-<ul>
-<li><h5 id="Find-the-code-as-below-remove-the-from-last-line-make-it-work"><a href="#Find-the-code-as-below-remove-the-from-last-line-make-it-work" class="headerlink" title="@Find the code as below, remove the # from last line, make it work:"></a>@Find the code as below, remove the <code>#</code> from last line, make it work:</h5></li>
-</ul>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Define custom file paths.</span></span><br><span class="line"><span class="comment"># Create your custom files in site directory `source/_data` and uncomment needed files below.</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.njk</span></span><br><span class="line">  <span class="comment">#header: source/_data/header.njk</span></span><br><span class="line">  <span class="comment">#sidebar: source/_data/sidebar.njk</span></span><br><span class="line">  <span class="comment">#postMeta: source/_data/post-meta.njk</span></span><br><span class="line">  <span class="comment">#postBodyEnd: source/_data/post-body-end.njk</span></span><br><span class="line">  <span class="comment">#footer: source/_data/footer.njk</span></span><br><span class="line">  <span class="comment">#bodyEnd: source/_data/body-end.njk</span></span><br><span class="line">  <span class="comment">#variable: source/_data/variables.styl</span></span><br><span class="line">  <span class="comment">#mixin: source/_data/mixins.styl</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">source/_data/styles.styl</span>    <span class="comment">### here, remove the &quot;#&quot;</span></span><br></pre></td></tr></table></figure>
+<h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
 
-
-
-<br>
-
-
-
-<ul>
-<li><h5 id="You-next-will-find-that-we’ve-no-folder-“-data”-and-the-file-“styles-styl”-don’t-worry-just-create-them-as-the-path-indicated"><a href="#You-next-will-find-that-we’ve-no-folder-“-data”-and-the-file-“styles-styl”-don’t-worry-just-create-them-as-the-path-indicated" class="headerlink" title="@You next will find that, we’ve no folder “_data” and the file “styles.styl”, don’t worry, just create them as the path indicated."></a>@You next will find that, we’ve no folder “_data” and the file “styles.styl”, don’t worry, just create them as the path indicated.</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">touch ./site_folder/source/_data/styles.styl</span><br><span class="line"></span><br><span class="line">&quot;old version Next, have custom.styl</span><br><span class="line">&quot;themes\next\source\css\ _custom\custom.styl</span><br><span class="line">&quot;They are same things&quot;</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>All same to “custom.styl”, just change all parameter in new <code>styles.styl</code></p>
-</blockquote>
-<br>
-</li>
-<li><h5 id="Then-edit-and-paste-following-command-line-in-your-“styles-styl”"><a href="#Then-edit-and-paste-following-command-line-in-your-“styles-styl”" class="headerlink" title="@Then edit and paste following command line in your “styles.styl” :"></a>@Then edit and paste following command line in your “styles.styl” :</h5></li>
-</ul>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">body</span> &#123;</span><br><span class="line"> 	<span class="string">background:url(/images/lomgmao.jpg);</span> </span><br><span class="line"> 	<span class="attr">background-repeat:</span> <span class="literal">no</span><span class="string">-repeat;</span>  </span><br><span class="line"> 	<span class="string">height:100%;</span>  <span class="string">//no</span> <span class="string">scaling</span></span><br><span class="line">  	<span class="string">width:100%;</span>  <span class="string">//no</span> <span class="string">scaling</span></span><br><span class="line">    <span class="string">background-attachment:fixed;</span>  <span class="string">//</span> <span class="string">Whether</span> <span class="string">the</span> <span class="string">background</span> <span class="string">scrolls</span> <span class="string">up</span> <span class="string">and</span> <span class="string">down</span> <span class="string">with</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">background-size:</span> <span class="string">cover;</span>      <span class="string">//</span> <span class="string">If</span> <span class="string">the</span> <span class="string">background</span> <span class="string">image</span> <span class="string">is</span> <span class="string">not</span> <span class="string">full</span> <span class="string">screen</span>, <span class="string">whether</span> <span class="string">the</span> <span class="string">background</span> <span class="string">forced</span> <span class="string">to</span> <span class="string">be</span> <span class="string">stretched</span> <span class="string">to</span> <span class="string">full</span> <span class="string">screen</span> <span class="string">by</span> <span class="string">stretching.</span></span><br><span class="line">    <span class="string">//</span> <span class="string">background-size:100%</span> <span class="number">100</span><span class="string">%;</span> <span class="string">//It</span> <span class="string">can</span> <span class="string">be</span> <span class="string">scaled</span> <span class="string">in</span> <span class="string">sync</span> <span class="string">with</span> <span class="string">the</span> <span class="string">browser</span> <span class="string">size.</span></span><br><span class="line">    <span class="string">background-position:50%</span> <span class="number">50</span><span class="string">%;</span>      <span class="string">//centering</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>the annotation should follow the “//“</p>
-</blockquote>
 
     </div>
 
@@ -443,11 +416,11 @@
   <div class="popular-posts-header">Related Posts</div>
   <ul class="popular-posts">
     <li class="popular-posts-item">
-        <div class="popular-posts-img"><img src="/images/image-20200831234709921.png"></div>
-      <div class="popular-posts-title"><a href="\2020\08\31\2020-08-31-Hexo-Next-add-rounded-corners\" rel="bookmark">Hexo[Next] @ add rounded corners</a></div>
+      <div class="popular-posts-title"><a href="\2020\08\31\2020-08-31-Hexo-Next-Custom-background-image-of-your-blog\" rel="bookmark">Hexo[Next] @ Custom background image</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\2020\09\01\2020-09-01-Add-local-search-function\" rel="bookmark">Hexo[Next] @ Add local search function</a></div>
+        <div class="popular-posts-img"><img src="/images/image-20200831234709921.png"></div>
+      <div class="popular-posts-title"><a href="\2020\08\31\2020-08-31-Hexo-Next-add-rounded-corners\" rel="bookmark">Hexo[Next] @ add rounded corners</a></div>
     </li>
     <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="\2020\09\01\2020-09-01-Hexo-Next-Add-related-post-function\" rel="bookmark">Hexo[Next] @ Add related post function</a></div>
@@ -471,7 +444,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>Post link: </strong>
-      <a href="http://yoursite.com/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/" title="Hexo[Next] @ Custom background image">http://yoursite.com/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</a>
+      <a href="http://yoursite.com/2020/09/01/2020-09-01-Add-local-search-function/" title="Hexo[Next] @ Add local search function">http://yoursite.com/2020/09/01/2020-09-01-Add-local-search-function/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/en" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-ND</a> unless stating additionally.
@@ -488,13 +461,10 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2020/08/31/2020-08-31-Post-guide-of-YAML-front-matter/" rel="prev" title="Post guide of YAML front matter">
-                  <i class="fa fa-chevron-left"></i> Post guide of YAML front matter
-                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2020/08/24/2020-08-24-Saki-portrait-md/" rel="next" title="Saki before the Doomsday Sky">
-                  Saki before the Doomsday Sky <i class="fa fa-chevron-right"></i>
+                <a href="/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/" rel="next" title="Hexo[Next] @ Add related post function">
+                  Hexo[Next] @ Add related post function <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -625,9 +595,9 @@
 </script>
 <script>
   var disqus_config = function() {
-    this.page.url = "http://yoursite.com/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/";
-    this.page.identifier = "2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/";
-    this.page.title = "Hexo[Next] @ Custom background image";
+    this.page.url = "http://yoursite.com/2020/09/01/2020-09-01-Add-local-search-function/";
+    this.page.identifier = "2020/09/01/2020-09-01-Add-local-search-function/";
+    this.page.title = "Hexo[Next] @ Add local search function";
     };
   NexT.utils.loadComments('#disqus_thread', () => {
     if (window.DISQUS) {

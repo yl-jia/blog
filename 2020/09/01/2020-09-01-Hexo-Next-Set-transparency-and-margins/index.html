@@ -18,7 +18,7 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"manual"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"manual"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false}};
   </script>
 
   <meta name="description" content="Go to the custom style file: 1cd .&#x2F;site_folder&#x2F;source&#x2F;_data&#x2F;styles.styl | vi    Add the code as below:">
@@ -29,7 +29,7 @@
 <meta property="og:description" content="Go to the custom style file: 1cd .&#x2F;site_folder&#x2F;source&#x2F;_data&#x2F;styles.styl | vi    Add the code as below:">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-08-31T22:53:18.000Z">
-<meta property="article:modified_time" content="2020-08-31T23:02:25.117Z">
+<meta property="article:modified_time" content="2020-09-01T00:32:37.651Z">
 <meta property="article:author" content="Yunlong JIA">
 <meta property="article:tag" content="Page optimization">
 <meta property="article:tag" content="Hexo[Next]">
@@ -121,6 +121,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -164,11 +165,38 @@
     <a href="/alumni/" rel="section"><i class="fa fa-graduation-cap fa-fw"></i>Alumni</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
         
@@ -207,7 +235,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives">
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">8</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -321,7 +349,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2020-09-01 00:53:18 / Modified: 01:02:25" itemprop="dateCreated datePublished" datetime="2020-09-01T00:53:18+02:00">2020-09-01</time>
+      <time title="Created: 2020-09-01 00:53:18 / Modified: 02:32:37" itemprop="dateCreated datePublished" datetime="2020-09-01T00:53:18+02:00">2020-09-01</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -376,7 +404,7 @@
 <p>Add the code as below:</p>
 <a id="more"></a>
 
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;1_The menu bar tranparency</span><br><span class="line">.header-inner &#123;</span><br><span class="line">  background: rgba(255,255,255,0.7); &#x2F;&#x2F;from 0-1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;2_Avatar info bar</span><br><span class="line">.sidebar &#123;</span><br><span class="line">  opacity: 0.85;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;3_local-search box</span><br><span class="line">.popup &#123;</span><br><span class="line">  opacity: 0.9;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;4_post tranparency and middle body tranparency</span><br><span class="line">.main-inner &#123; </span><br><span class="line">    margin-top: 20px;  &#x2F;&#x2F;Margin from the top of the page</span><br><span class="line">    padding: 20px 40px 20px 40px; &#x2F;&#x2F; page margin for up,right,down,and left.</span><br><span class="line">    background: none; &#x2F;&#x2F;The page margin color, #fff [white] is default. &#x2F;&#x2F;&quot;none&quot; is transparent</span><br><span class="line">    opacity: 0.90;     </span><br><span class="line">    min-height: 500px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">//1_The</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="string">rgba(255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.7</span><span class="string">);</span> <span class="string">//from</span> <span class="number">0</span><span class="number">-1</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//2_Avatar</span> <span class="string">info</span> <span class="string">bar</span></span><br><span class="line"><span class="string">.sidebar</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.85</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//3_local-search</span> <span class="string">box</span></span><br><span class="line"><span class="string">.popup</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.9</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//4_post</span> <span class="string">tranparency</span> <span class="string">and</span> <span class="string">middle</span> <span class="string">body</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.main-inner</span> &#123; </span><br><span class="line">    <span class="attr">margin-top:</span> <span class="string">20px;</span>  <span class="string">//Margin</span> <span class="string">from</span> <span class="string">the</span> <span class="string">top</span> <span class="string">of</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">padding:</span> <span class="string">20px</span> <span class="string">40px</span> <span class="string">20px</span> <span class="string">40px;</span> <span class="string">//</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">for</span> <span class="string">up</span>,<span class="string">right</span>,<span class="string">down</span>,<span class="string">and</span> <span class="string">left.</span></span><br><span class="line">    <span class="attr">background:</span> <span class="string">none;</span> <span class="string">//The</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">color</span>, <span class="comment">#fff [white] is default. //&quot;none&quot; is transparent</span></span><br><span class="line">    <span class="attr">opacity:</span> <span class="number">0.90</span><span class="string">;</span>     </span><br><span class="line">    <span class="attr">min-height:</span> <span class="string">500px;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>You can now customize all the transparency of your site and margins.</p>
 <p>Good luck！</p>
@@ -395,6 +423,12 @@
     <li class="popular-posts-item">
         <div class="popular-posts-img"><img src="/images/image-20200831234709921.png"></div>
       <div class="popular-posts-title"><a href="\2020\08\31\2020-08-31-Hexo-Next-add-rounded-corners\" rel="bookmark">Hexo[Next] @ add rounded corners</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\2020\09\01\2020-09-01-Add-local-search-function\" rel="bookmark">Hexo[Next] @ Add local search function</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\2020\09\01\2020-09-01-Hexo-Next-Add-related-post-function\" rel="bookmark">Hexo[Next] @ Add related post function</a></div>
     </li>
     <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="\2020\09\01\2020-09-01-Hexo-Next-add-Comment-system-in-your-site\" rel="bookmark">Hexo[Next] @ add Comment System in your site</a></div>
@@ -429,6 +463,9 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
+                <a href="/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/" rel="prev" title="Hexo[Next] @ Add related post function">
+                  <i class="fa fa-chevron-left"></i> Hexo[Next] @ Add related post function
+                </a>
             </div>
             <div class="post-nav-item">
                 <a href="/2020/09/01/2020-09-01-Hexo-Next-add-Comment-system-in-your-site/" rel="next" title="Hexo[Next] @ add Comment System in your site">
@@ -523,6 +560,8 @@
 
 
 
+
+  <script src="/js/local-search.js"></script>
 
 
 
