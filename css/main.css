@@ -3019,8 +3019,8 @@ body {
   opacity: 0.9;
 }
 .main-inner {
-  margin-top: 20px;
-  padding: 20px 40px 20px 40px;
+  margin-top: -1px;
+  padding: 10px 1px 10px 1px;
   background: none;
   opacity: 0.9;
   min-height: 500px;
