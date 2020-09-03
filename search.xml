@@ -65,25 +65,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Post guide of YAML front matter</title>
-    <url>/2020/08/31/2020-08-31-Post-guide-of-YAML-front-matter/</url>
-    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
-<p>It includes all necessary parameter needed for your article.</p>
-<p>Here is just some of important ones, which should be always considered before your writing: </p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>YAML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo[Next] @ add rounded corners</title>
     <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
     <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
@@ -130,6 +111,25 @@
       <tags>
         <tag>Page optimization</tag>
         <tag>Hexo[Next]</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Post guide of YAML front matter</title>
+    <url>/2020/08/31/2020-08-31-Post-guide-of-YAML-front-matter/</url>
+    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
+<p>It includes all necessary parameter needed for your article.</p>
+<p>Here is just some of important ones, which should be always considered before your writing: </p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>YAML</tag>
       </tags>
   </entry>
   <entry>
