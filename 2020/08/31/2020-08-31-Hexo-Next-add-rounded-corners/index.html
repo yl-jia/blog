@@ -15,10 +15,11 @@
 
 
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"manual"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false}};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"manual"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false}};
   </script>
 
   <meta name="description" content="To make the page look more comfortable,  we need further add the rounded corners for page block. First, should know your Next_theme type, here we use  Gemini  1cd .&#x2F;site_floder&#x2F;themes&#x2F;next&#x2F;source&#x2F;css&#x2F;">
@@ -28,14 +29,12 @@
 <meta property="og:site_name" content="云焱逍の栈">
 <meta property="og:description" content="To make the page look more comfortable,  we need further add the rounded corners for page block. First, should know your Next_theme type, here we use  Gemini  1cd .&#x2F;site_floder&#x2F;themes&#x2F;next&#x2F;source&#x2F;css&#x2F;">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://yoursite.com/images/image-20200831234709921.png">
 <meta property="article:published_time" content="2020-08-31T21:35:56.000Z">
-<meta property="article:modified_time" content="2020-08-31T21:57:28.443Z">
+<meta property="article:modified_time" content="2020-09-04T21:18:26.792Z">
 <meta property="article:author" content="Yunlong JIA">
 <meta property="article:tag" content="Page optimization">
 <meta property="article:tag" content="Hexo[Next]">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://yoursite.com/images/image-20200831234709921.png">
 
 
 <link rel="canonical" href="http://yoursite.com/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/">
@@ -147,11 +146,6 @@
     <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
 
   </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
-
-  </li>
         <li class="menu-item menu-item-post-limeline">
 
     <a href="/archives/" rel="section"><i class="fa fa-stream fa-fw"></i>Post limeline</a>
@@ -237,7 +231,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives">
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">10</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -300,6 +294,21 @@
           <i class="fa fa-arrow-up"></i>
           <span>0%</span>
         </div>
+
+      <!-- location for tag cloud-->
+      
+        <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+        <div class="widget-wrap">
+            <div id="myCanvasContainer" class="widget tagcloud">
+                <canvas width="250" height="250" id="resCanvas" style="width=100%">
+                    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo-Next/" rel="tag">Hexo[Next]</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Page-optimization/" rel="tag">Page optimization</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Saki/" rel="tag">Saki</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/YAML/" rel="tag">YAML</a><span class="tag-list-count">1</span></li></ul>
+                </canvas>
+            </div>
+        </div>
+      
+      <!-- end for tag cloud-->
+
     </div>
   </aside>
   <div class="sidebar-dimmer"></div>
@@ -352,10 +361,16 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2020-08-31 23:35:56 / Modified: 23:57:28" itemprop="dateCreated datePublished" datetime="2020-08-31T23:35:56+02:00">2020-08-31</time>
+      <time title="Created: 2020-08-31 23:35:56" itemprop="dateCreated datePublished" datetime="2020-08-31T23:35:56+02:00">2020-08-31</time>
     </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2020-09-04 23:18:26" itemprop="dateModified" datetime="2020-09-04T23:18:26+02:00">2020-09-04</time>
+      </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
@@ -406,12 +421,9 @@
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
 
 <p>add the follow code should be OK:</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
-
-<p>The rendering is as follows: </p>
 <a id="more"></a>
 
-<img src="/images/image-20200831234709921.png" alt="image-20200831234709921" style="zoom: 67%;" />
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
 
 
     </div>
@@ -429,10 +441,10 @@
       <div class="popular-posts-title"><a href="\2020\09\01\2020-09-01-Add-local-search-function\" rel="bookmark">Hexo[Next] @ Add local search function</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\2020\09\01\2020-09-01-Hexo-Next-Add-related-post-function\" rel="bookmark">Hexo[Next] @ Add related post function</a></div>
+      <div class="popular-posts-title"><a href="\2020\09\01\2020-09-01-Hexo-Next-Set-transparency-and-margins\" rel="bookmark">Hexo[Next] @ Set transparency and margins</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\2020\09\01\2020-09-01-Hexo-Next-Set-transparency-and-margins\" rel="bookmark">Hexo[Next] @ Set transparency and margins</a></div>
+      <div class="popular-posts-title"><a href="\2020\09\01\2020-09-01-Hexo-Next-Add-related-post-function\" rel="bookmark">Hexo[Next] @ Add related post function</a></div>
     </li>
     <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="\2020\09\01\2020-09-01-Hexo-Next-add-Comment-system-in-your-site\" rel="bookmark">Hexo[Next] @ add Comment System in your site</a></div>
@@ -441,6 +453,28 @@
 
 
     <footer class="post-footer">
+          <div class="reward-container">
+  <div></div>
+  <button onclick="document.querySelector('.post-reward').classList.toggle('active');">
+    Donate
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/paypal.png" alt="Yunlong JIA Paypal">
+        <span>Paypal</span>
+      </div>
+      <div>
+        <img src="/images/Wechat.png" alt="Yunlong JIA Wechatpay">
+        <span>Wechatpay</span>
+      </div>
+      <div>
+        <img src="/images/Alipay.png" alt="Yunlong JIA Alipay">
+        <span>Alipay</span>
+      </div>
+
+  </div>
+</div>
+
           
 
 <div class="post-copyright">
@@ -558,6 +592,8 @@
 
   
   <script src="//cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
 
   

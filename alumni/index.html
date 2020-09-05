@@ -15,10 +15,11 @@
 
 
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"manual"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false}};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"manual"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false}};
   </script>
 
   <meta name="description" content="Samir lab@ Interns @                                                                                                    Ngô Thiên Tân">
@@ -30,8 +31,9 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://yoursite.com/images/image-20200902221240484.png">
 <meta property="og:image" content="http://yoursite.com/images/image-20200902225726500.png">
+<meta property="og:image" content="http://yoursite.com/images/image-20200905093255158.png">
 <meta property="article:published_time" content="2020-08-30T22:32:17.000Z">
-<meta property="article:modified_time" content="2020-09-03T20:59:55.623Z">
+<meta property="article:modified_time" content="2020-09-05T08:03:59.114Z">
 <meta property="article:author" content="Yunlong JIA">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://yoursite.com/images/image-20200902221240484.png">
@@ -147,11 +149,6 @@
     <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
 
   </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
-
-  </li>
         <li class="menu-item menu-item-post-limeline">
 
     <a href="/archives/" rel="section"><i class="fa fa-stream fa-fw"></i>Post limeline</a>
@@ -238,7 +235,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives">
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">10</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -301,6 +298,21 @@
           <i class="fa fa-arrow-up"></i>
           <span>0%</span>
         </div>
+
+      <!-- location for tag cloud-->
+      
+        <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+        <div class="widget-wrap">
+            <div id="myCanvasContainer" class="widget tagcloud">
+                <canvas width="250" height="250" id="resCanvas" style="width=100%">
+                    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo-Next/" rel="tag">Hexo[Next]</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Page-optimization/" rel="tag">Page optimization</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Saki/" rel="tag">Saki</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/YAML/" rel="tag">YAML</a><span class="tag-list-count">1</span></li></ul>
+                </canvas>
+            </div>
+        </div>
+      
+      <!-- end for tag cloud-->
+
     </div>
   </aside>
   <div class="sidebar-dimmer"></div>
@@ -348,7 +360,7 @@
           <h3 id="Samir-lab"><a href="#Samir-lab" class="headerlink" title="Samir lab"></a><font color=blue>Samir lab</font></h3><h4 id="Interns"><a href="#Interns" class="headerlink" title="@ Interns @"></a>@ Interns @</h4><table> <!--表格开始符号-->  
     <tr><!--表格一中一行的开始 = table row-->
             <td width="20%" height="100%">             
-        <img src="/images/image-20200902221240484.png" alt="thien" width = "160"/>         
+        <img src="/images/image-20200902221240484.png" alt="" width = "160"/>         
     </td>
         <td width="70%"> <!--定义第一个单元格的宽度--> 
     <table> <!--这是第二个表格的开始，套在第一个表格中-->  
@@ -359,7 +371,7 @@
         <td align="left">Student L2_DUT [IUT Lyon]</td>
     </tr> <!--第二个表格的第二行结束-->                
 <tr>                     
-    <td align="left"> Under the supervision of <strong>Yunlong</strong></td>                                   
+    <td align="left"> Mentored by <strong>Yunlong</strong></td>                                   
         </tr>              
 <tr>                     
     <td align="left">07.2020 ~ 08.2020</td>                                     
@@ -370,7 +382,7 @@
 <table> <!--表格开始符号-->  
     <tr><!--表格一中一行的开始 = table row-->
             <td width="20%" height="100%">             
-        <img src="/images/image-20200902225726500.png" alt="thien" width = "160"/>         
+        <img src="/images/image-20200902225726500.png" alt="" width = "160"/>         
     </td>
         <td width="70%"> <!--定义第一个单元格的宽度--> 
     <table> <!--这是第二个表格的开始，套在第一个表格中-->  
@@ -381,7 +393,7 @@
         <td align="left">Student L3_GBC [Lyon1]</td>
     </tr> <!--第二个表格的第二行结束-->                
 <tr>                     
-    <td align="left"> Under the supervision of <strong>Yunlong</strong></td>                                   
+    <td align="left"> Mentored by <strong>Yunlong</strong></td>                                   
 </tr>                 
 <tr>                     
     <td align="left">04.2019 ~ 05.2019</td>                                     
@@ -392,8 +404,32 @@
 
 
 
+
 <hr>
-<h4 id="Graduate-Students"><a href="#Graduate-Students" class="headerlink" title="@ Graduate Students @"></a>@ Graduate Students @</h4>
+<h4 id="Graduate-Students"><a href="#Graduate-Students" class="headerlink" title="@ Graduate Students @"></a>@ Graduate Students @</h4><table> <!--表格开始符号-->  
+    <tr><!--表格一中一行的开始 = table row-->
+            <td width="20%" height="100%">             
+        <img src="/images/image-20200905093255158.png" alt="" width = "160"/>         
+    </td>
+        <td width="70%"> <!--定义第一个单元格的宽度--> 
+    <table> <!--这是第二个表格的开始，套在第一个表格中-->  
+        <tr> <!--第二个表格，行的开始符号-->
+            <td align="left"><strong> Rachel PAUL </strong> </td>   <!-- 定义了单元格靠右，并且定义了内容-->               
+        </tr>  <!--第二个表格的第一行结束-->  
+        <tr>                     
+                <td align="left"> <font size=3>PhD:&nbsp;07.2016 ~ 09.2019 </font> </td>
+    </tr> 
+            <tr>                     
+                <td align="left"> <strong><font size=2.5>Msc.&nbsp;Life Sciences:</font></strong> <font  size=2.5>&emsp;IISE PUNE, India</font></td>
+    </tr> <!--第二个表格的第二行结束-->                
+<tr>                     
+    <td align="left"> <strong><font size=2.5>Bsc.&nbsp;Biochemistry:</font></strong> <font size=2.5>&emsp;St.Xavier's College, Ahmedabad, India</font></td>                                   
+        </tr>              
+<tr>                     
+    <td align="left"><strong><font size=2.5>Thesis Title: </font></strong><font size=2.5>&nbsp;Hox dose and the specification of flight appendages in insects</font></td>                                     
+        </tr>   </table>  </td> </tr></table>
+
+
       </div>
       
       
@@ -479,6 +515,8 @@
 
   
   <script src="//cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
 
   
