@@ -25,22 +25,22 @@
 <!-- daovoice code-->
 
 <!-- daovoice code end-->
-  <meta name="description" content="Go to the custom style file: 1cd .&#x2F;site_folder&#x2F;source&#x2F;_data&#x2F;styles.styl | vi    Add the code as below:">
+  <meta name="description" content="1. Install the plugin “hexo-tag-cloud”1npm install hexo-tag-cloud@^2.* --save    2. Configure the “sidebar.njk” file.1cd .&#x2F;site_folder&#x2F;themes&#x2F;next&#x2F;layout&#x2F;_macro&#x2F;sidebar.njk |vi  Add the code block:">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo[Next] @ Set transparency and margins">
-<meta property="og:url" content="http://yoursite.com/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/index.html">
+<meta property="og:title" content="Hexo[Next] @ add Tag Cloud Widget">
+<meta property="og:url" content="http://yoursite.com/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/index.html">
 <meta property="og:site_name" content="云焱逍の栈">
-<meta property="og:description" content="Go to the custom style file: 1cd .&#x2F;site_folder&#x2F;source&#x2F;_data&#x2F;styles.styl | vi    Add the code as below:">
+<meta property="og:description" content="1. Install the plugin “hexo-tag-cloud”1npm install hexo-tag-cloud@^2.* --save    2. Configure the “sidebar.njk” file.1cd .&#x2F;site_folder&#x2F;themes&#x2F;next&#x2F;layout&#x2F;_macro&#x2F;sidebar.njk |vi  Add the code block:">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-08-31T22:53:18.000Z">
-<meta property="article:modified_time" content="2020-09-01T00:32:37.651Z">
+<meta property="article:published_time" content="2020-09-04T21:05:49.000Z">
+<meta property="article:modified_time" content="2020-09-05T10:40:18.000Z">
 <meta property="article:author" content="Yunlong JIA">
 <meta property="article:tag" content="Page optimization">
 <meta property="article:tag" content="Hexo[Next]">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://yoursite.com/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/">
+<link rel="canonical" href="http://yoursite.com/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/">
 
 
 <script class="page-configurations">
@@ -53,7 +53,7 @@
   };
 </script>
 
-  <title>Hexo[Next] @ Set transparency and margins | 云焱逍の栈</title>
+  <title>Hexo[Next] @ add Tag Cloud Widget | 云焱逍の栈</title>
   
 
 
@@ -208,7 +208,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -220,6 +220,7 @@
 
       <!--noindex-->
       <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-Install-the-plugin-%E2%80%9Chexo-tag-cloud%E2%80%9D"><span class="nav-text">1. Install the plugin “hexo-tag-cloud”</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-Configure-the-%E2%80%9Csidebar-njk%E2%80%9D-file"><span class="nav-text">2. Configure the “sidebar.njk” file.</span></a></li></ol></div>
       </section>
       <!--/noindex-->
 
@@ -338,7 +339,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/yl.jpg">
@@ -354,7 +355,7 @@
     
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hexo[Next] @ Set transparency and margins
+          Hexo[Next] @ add Tag Cloud Widget
         </h1>
 
         <div class="post-meta-container">
@@ -364,10 +365,16 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2020-09-01 00:53:18 / Modified: 02:32:37" itemprop="dateCreated datePublished" datetime="2020-09-01T00:53:18+02:00">2020-09-01</time>
+      <time title="Created: 2020-09-04 23:05:49" itemprop="dateCreated datePublished" datetime="2020-09-04T23:05:49+02:00">2020-09-04</time>
     </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2020-09-05 12:40:18" itemprop="dateModified" datetime="2020-09-05T12:40:18+02:00">2020-09-05</time>
+      </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
@@ -398,8 +405,8 @@
       </span>
       <span class="post-meta-item-text">Disqus: </span>
     
-    <a title="disqus" href="/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/" itemprop="commentCount"></span>
+    <a title="disqus" href="/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -413,18 +420,21 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>Go to the custom style file:</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ./site_folder/source/_data/styles.styl | vi</span><br></pre></td></tr></table></figure>
+        <h4 id="1-Install-the-plugin-“hexo-tag-cloud”"><a href="#1-Install-the-plugin-“hexo-tag-cloud”" class="headerlink" title="1. Install the plugin “hexo-tag-cloud”"></a>1. Install the plugin “hexo-tag-cloud”</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-tag-cloud@^2.* --save</span><br></pre></td></tr></table></figure>
 
 
 
-<p>Add the code as below:</p>
+<h4 id="2-Configure-the-“sidebar-njk”-file"><a href="#2-Configure-the-“sidebar-njk”-file" class="headerlink" title="2. Configure the “sidebar.njk” file."></a>2. Configure the “sidebar.njk” file.</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ./site_folder/themes/next/layout/_macro/sidebar.njk |vi</span><br></pre></td></tr></table></figure>
+
+<p>Add the code block:</p>
 <a id="more"></a>
 
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">//1_The</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="string">rgba(255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.7</span><span class="string">);</span> <span class="string">//from</span> <span class="number">0</span><span class="number">-1</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//2_Avatar</span> <span class="string">info</span> <span class="string">bar</span></span><br><span class="line"><span class="string">.sidebar</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.85</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//3_local-search</span> <span class="string">box</span></span><br><span class="line"><span class="string">.popup</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.9</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//4_post</span> <span class="string">tranparency</span> <span class="string">and</span> <span class="string">middle</span> <span class="string">body</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.main-inner</span> &#123; </span><br><span class="line">    <span class="attr">margin-top:</span> <span class="string">20px;</span>  <span class="string">//Margin</span> <span class="string">from</span> <span class="string">the</span> <span class="string">top</span> <span class="string">of</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">padding:</span> <span class="string">20px</span> <span class="string">40px</span> <span class="string">20px</span> <span class="string">40px;</span> <span class="string">//</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">for</span> <span class="string">up</span>,<span class="string">right</span>,<span class="string">down</span>,<span class="string">and</span> <span class="string">left.</span></span><br><span class="line">    <span class="attr">background:</span> <span class="string">none;</span> <span class="string">//The</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">color</span>, <span class="comment">#fff [white] is default. //&quot;none&quot; is transparent</span></span><br><span class="line">    <span class="attr">opacity:</span> <span class="number">0.90</span><span class="string">;</span>     </span><br><span class="line">    <span class="attr">min-height:</span> <span class="string">500px;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcloud.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcanvas.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width=100%&quot;</span>&gt;</span></span><br><span class="line">                    &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">                <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
 
-<p>You can now customize all the transparency of your site and margins.</p>
-<p>Good luck！</p>
+<p>To the next location:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">&#123;%- if theme.back2top.enable and theme.back2top.sidebar %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;back-to-top animated&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;fa fa-arrow-up&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">span</span>&gt;</span>0%<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;%- endif %&#125;</span><br><span class="line"></span><br><span class="line">      <span class="comment">&lt;!-- location for tag cloud--&gt;</span></span><br><span class="line"> 	  &#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcloud.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcanvas.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width=100%&quot;</span>&gt;</span></span><br><span class="line">                    &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">                <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;% endif %&#125;</span><br><span class="line">      <span class="comment">&lt;!-- end for tag cloud--&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;sidebar-dimmer&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">&#123;% endmacro %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Reload page, the 3D cloud-tag will appear.</p>
 
     </div>
 
@@ -484,7 +494,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>Post link: </strong>
-      <a href="http://yoursite.com/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/" title="Hexo[Next] @ Set transparency and margins">http://yoursite.com/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/</a>
+      <a href="http://yoursite.com/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/" title="Hexo[Next] @ add Tag Cloud Widget">http://yoursite.com/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/en" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-ND</a> unless stating additionally.
@@ -501,13 +511,13 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/" rel="prev" title="Hexo[Next] @ Add related post function">
-                  <i class="fa fa-chevron-left"></i> Hexo[Next] @ Add related post function
+                <a href="/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/" rel="prev" title="Hexo[Next] @ Insert Image Browser for embedded images">
+                  <i class="fa fa-chevron-left"></i> Hexo[Next] @ Insert Image Browser for embedded images
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2020/09/01/2020-09-01-Hexo-Next-add-Comment-system-in-your-site/" rel="next" title="Hexo[Next] @ add Comment System in your site">
-                  Hexo[Next] @ add Comment System in your site <i class="fa fa-chevron-right"></i>
+                <a href="/2020/09/01/2020-09-01-Add-local-search-function/" rel="next" title="Hexo[Next] @ Add local search function">
+                  Hexo[Next] @ Add local search function <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -640,9 +650,9 @@
 </script>
 <script>
   var disqus_config = function() {
-    this.page.url = "http://yoursite.com/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/";
-    this.page.identifier = "2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/";
-    this.page.title = "Hexo[Next] @ Set transparency and margins";
+    this.page.url = "http://yoursite.com/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/";
+    this.page.identifier = "/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/";
+    this.page.title = "Hexo[Next] @ add Tag Cloud Widget";
     };
   NexT.utils.loadComments('#disqus_thread', () => {
     if (window.DISQUS) {

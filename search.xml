@@ -205,7 +205,7 @@
   </entry>
   <entry>
     <title>Hexo[Next] @ add Tag Cloud Widget</title>
-    <url>/2020/09/04/2020-09-04-Hexo-Next-add%20tag%20cloud%20widget%20/</url>
+    <url>//2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/</url>
     <content><![CDATA[<h4 id="1-Install-the-plugin-“hexo-tag-cloud”"><a href="#1-Install-the-plugin-“hexo-tag-cloud”" class="headerlink" title="1. Install the plugin “hexo-tag-cloud”"></a>1. Install the plugin “hexo-tag-cloud”</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-tag-cloud@^2.* --save</span><br></pre></td></tr></table></figure>
 
 
@@ -233,7 +233,7 @@
   </entry>
   <entry>
     <title>Hexo[Next] @ Insert Image Browser for embedded images</title>
-    <url>/2020/09/05/2020-09-04-Hexo-Next-Insert%20Image%20Browser%20for%20embedded%20images%20/</url>
+    <url>/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</url>
     <content><![CDATA[<img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifr5ldjnej30gs0cnn36.jpg" alt="" style="zoom:80%;" />
 
 <a id="more"></a>
