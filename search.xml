@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Saki before the Doomsday Sky</title>
-    <url>/2020/08/24/2020-08-24-Saki-portrait-md/</url>
-    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/4483f524gy1gi1jyh7uw1j20w40frtcl.jpg"></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">I&#39;ve been watching you~</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Daily life</category>
-        <category>Saki&#39;s</category>
-      </categories>
-      <tags>
-        <tag>Saki</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo[Next] @ Custom background image</title>
     <url>/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</url>
     <content><![CDATA[<p>*<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong> Based on <code>Next theme</code> <a href="https://github.com/theme-next/hexo-theme-next/commit/f9956802c9cf51ebdb447fb954efa6383fbb2bd6">Release v7.8.0</a></p>
@@ -62,6 +47,21 @@
       <tags>
         <tag>Page optimization</tag>
         <tag>Hexo[Next]</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Saki before the Doomsday Sky</title>
+    <url>/2020/08/24/2020-08-24-Saki-portrait-md/</url>
+    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/4483f524gy1gi1jyh7uw1j20w40frtcl.jpg"></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">I&#39;ve been watching you~</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Daily life</category>
+        <category>Saki&#39;s</category>
+      </categories>
+      <tags>
+        <tag>Saki</tag>
       </tags>
   </entry>
   <entry>
@@ -232,44 +232,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ Insert Image Browser for embedded images</title>
-    <url>/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</url>
-    <content><![CDATA[<img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifr5ldjnej30gs0cnn36.jpg" alt="" style="zoom:80%;" />
-
-<a id="more"></a>
-
-<h4 id="1-Install-the-fancyBox3-for-Next"><a href="#1-Install-the-fancyBox3-for-Next" class="headerlink" title="1. Install the fancyBox3 for Next"></a>1. Install the fancyBox3 for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/themes/next/source/lib</span><br><span class="line">cd ./site_folder/themes/next/source/lib</span><br><span class="line">git clone https://github.com/theme-next/theme-next-fancybox3 fancybox</span><br></pre></td></tr></table></figure>
-
-<p>or</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/source/lib</span><br><span class="line"><span class="built_in">cd</span> ./site_folder/source/lib</span><br><span class="line">git clone https://github.com/theme<span class="literal">-next</span>/theme<span class="literal">-next</span><span class="literal">-fancybox3</span> fancybox</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="2-Configure-the-“next-config-yml”-file"><a href="#2-Configure-the-“next-config-yml”-file" class="headerlink" title="2. Configure the “next/_config.yml” file."></a>2. Configure the “next/_config.yml” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml | vi</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="3-Effect-preview"><a href="#3-Effect-preview" class="headerlink" title="3. Effect preview"></a>3. Effect preview</h4><img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifrhfusq8j31h30oq7wh.jpg" alt="" style="zoom: 33%;" />
-
-<p>This setting works globally, all images in your blog.</p>
-<blockquote>
-<p>Ref:</p>
-<p><a href="https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html">https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html</a></p>
-<p><a href="https://github.com/theme-next/theme-next-fancybox3">https://github.com/theme-next/theme-next-fancybox3</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo[Next] @ Post displayed per page in Archive</title>
     <url>/2020/09/05/2020-09-05-Hexo-Next-Post-displayed-per-page-in-Archive/</url>
     <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
@@ -333,19 +295,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Encrypt test</title>
-    <url>/2020/09/05/test/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="ed8ea9f959d26034b0310137a7ed7b395bcb2757afdf4d9eeb12cb78f8ba9687">5300e48635ea839002cc0a52b513a87a9ab18eb68cdf6cdd386fe70f98163f2d2f609a276893e15f73f76b6669904bec3227d0b701e1f2d4a41f4642967fa73269fe0a6f060609accc1e9a14332c9d231af5db80878e088a01c833c0a309f22041e6e0e4df4fd099afd92fefbd6182c7330a0cdc661f6a2729e2824ffb90007aa180b959a6b2c51698098638d16afbbfccdc04f934240f75629983587be4556c7f93c30e9effcbcc1b93ac6c291f1e0cfd2f9c6ca966c7e5fe4a958fa077b20b</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Zotero @ Citation style custom</title>
     <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
     <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
@@ -364,6 +313,57 @@
       </categories>
       <tags>
         <tag>Zotero</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Encrypt test</title>
+    <url>/2020/09/05/test/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="ed8ea9f959d26034b0310137a7ed7b395bcb2757afdf4d9eeb12cb78f8ba9687">5300e48635ea839002cc0a52b513a87a9ab18eb68cdf6cdd386fe70f98163f2d2f609a276893e15f73f76b6669904bec3227d0b701e1f2d4a41f4642967fa73269fe0a6f060609accc1e9a14332c9d231af5db80878e088a01c833c0a309f22041e6e0e4df4fd099afd92fefbd6182c7330a0cdc661f6a2729e2824ffb90007aa180b959a6b2c51698098638d16afbbfccdc04f934240f75629983587be4556c7f93c30e9effcbcc1b93ac6c291f1e0cfd2f9c6ca966c7e5fe4a958fa077b20b</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo[Next] @ Insert Image Browser for embedded images</title>
+    <url>/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</url>
+    <content><![CDATA[<img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifr5ldjnej30gs0cnn36.jpg" alt="" style="zoom:80%;" />
+
+<a id="more"></a>
+
+<h4 id="1-Install-the-fancyBox3-for-Next"><a href="#1-Install-the-fancyBox3-for-Next" class="headerlink" title="1. Install the fancyBox3 for Next"></a>1. Install the fancyBox3 for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/themes/next/source/lib</span><br><span class="line">cd ./site_folder/themes/next/source/lib</span><br><span class="line">git clone https://github.com/theme-next/theme-next-fancybox3 fancybox</span><br></pre></td></tr></table></figure>
+
+<p>or</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/source/lib</span><br><span class="line"><span class="built_in">cd</span> ./site_folder/source/lib</span><br><span class="line">git clone https://github.com/theme<span class="literal">-next</span>/theme<span class="literal">-next</span><span class="literal">-fancybox3</span> fancybox</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="2-Configure-the-“next-config-yml”-file"><a href="#2-Configure-the-“next-config-yml”-file" class="headerlink" title="2. Configure the “next/_config.yml” file."></a>2. Configure the “next/_config.yml” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml | vi</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="3-Effect-preview"><a href="#3-Effect-preview" class="headerlink" title="3. Effect preview"></a>3. Effect preview</h4><img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifrhfusq8j31h30oq7wh.jpg" alt="" style="zoom: 33%;" />
+
+<p>This setting works globally, all images in your blog.</p>
+<blockquote>
+<p>Ref:</p>
+<p><a href="https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html">https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html</a></p>
+<p><a href="https://github.com/theme-next/theme-next-fancybox3">https://github.com/theme-next/theme-next-fancybox3</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
       </tags>
   </entry>
 </search>
