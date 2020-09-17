@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-09-05T21:07:36.437Z</updated>
+  <updated>2020-09-16T10:49:23.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Zotero @ Citation style custom</title>
+    <link href="http://yoursite.com/2020/09/16/2020-09-16-Zotero-citation-style-custom/"/>
+    <id>http://yoursite.com/2020/09/16/2020-09-16-Zotero-citation-style-custom/</id>
+    <published>2020-09-16T10:30:15.000Z</published>
+    <updated>2020-09-16T10:49:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p><a id="more"></a><p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p><p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p><blockquote><p>ref:</p><p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tutorials" scheme="http://yoursite.com/categories/Tutorials/"/>
+    
+    <category term="Zotero" scheme="http://yoursite.com/categories/Tutorials/Zotero/"/>
+    
+    
+    <category term="Zotero" scheme="http://yoursite.com/tags/Zotero/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo[Next] @ Post displayed per page in Archive</title>
