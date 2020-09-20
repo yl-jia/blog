@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo[Next] @ Custom background image</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</url>
+    <content><![CDATA[<p>*<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong> Based on <code>Next theme</code> <a href="https://github.com/theme-next/hexo-theme-next/commit/f9956802c9cf51ebdb447fb954efa6383fbb2bd6">Release v7.8.0</a></p>
+<h4 id="Define-the-background-image"><a href="#Define-the-background-image" class="headerlink" title="Define the background image"></a>Define the background image</h4><ul>
+<li><h5 id="Locating-to-your-site-config-file"><a href="#Locating-to-your-site-config-file" class="headerlink" title="@Locating to your site config file:"></a>@Locating to your site config file:</h5></li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<br>
+
+<ul>
+<li><h5 id="Find-the-code-as-below-remove-the-from-last-line-make-it-work"><a href="#Find-the-code-as-below-remove-the-from-last-line-make-it-work" class="headerlink" title="@Find the code as below, remove the # from last line, make it work:"></a>@Find the code as below, remove the <code>#</code> from last line, make it work:</h5></li>
+</ul>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Define custom file paths.</span></span><br><span class="line"><span class="comment"># Create your custom files in site directory `source/_data` and uncomment needed files below.</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.njk</span></span><br><span class="line">  <span class="comment">#header: source/_data/header.njk</span></span><br><span class="line">  <span class="comment">#sidebar: source/_data/sidebar.njk</span></span><br><span class="line">  <span class="comment">#postMeta: source/_data/post-meta.njk</span></span><br><span class="line">  <span class="comment">#postBodyEnd: source/_data/post-body-end.njk</span></span><br><span class="line">  <span class="comment">#footer: source/_data/footer.njk</span></span><br><span class="line">  <span class="comment">#bodyEnd: source/_data/body-end.njk</span></span><br><span class="line">  <span class="comment">#variable: source/_data/variables.styl</span></span><br><span class="line">  <span class="comment">#mixin: source/_data/mixins.styl</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">source/_data/styles.styl</span>    <span class="comment">### here, remove the &quot;#&quot;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<br>
+
+
+
+<ul>
+<li><h5 id="You-next-will-find-that-we’ve-no-folder-“-data”-and-the-file-“styles-styl”-don’t-worry-just-create-them-as-the-path-indicated"><a href="#You-next-will-find-that-we’ve-no-folder-“-data”-and-the-file-“styles-styl”-don’t-worry-just-create-them-as-the-path-indicated" class="headerlink" title="@You next will find that, we’ve no folder “_data” and the file “styles.styl”, don’t worry, just create them as the path indicated."></a>@You next will find that, we’ve no folder “_data” and the file “styles.styl”, don’t worry, just create them as the path indicated.</h5><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">touch ./site_folder/source/_data/styles.styl</span><br><span class="line"></span><br><span class="line">&quot;old version Next, have custom.styl</span><br><span class="line">&quot;themes\next\source\css\ _custom\custom.styl</span><br><span class="line">&quot;They are same things&quot;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>All same to “custom.styl”, just change all parameter in new <code>styles.styl</code></p>
+</blockquote>
+<br>
+</li>
+<li><h5 id="Then-edit-and-paste-following-command-line-in-your-“styles-styl”"><a href="#Then-edit-and-paste-following-command-line-in-your-“styles-styl”" class="headerlink" title="@Then edit and paste following command line in your “styles.styl” :"></a>@Then edit and paste following command line in your “styles.styl” :</h5></li>
+</ul>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">body</span> &#123;</span><br><span class="line"> 	<span class="string">background:url(/images/lomgmao.jpg);</span> </span><br><span class="line"> 	<span class="attr">background-repeat:</span> <span class="literal">no</span><span class="string">-repeat;</span>  </span><br><span class="line"> 	<span class="string">height:100%;</span>  <span class="string">//no</span> <span class="string">scaling</span></span><br><span class="line">  	<span class="string">width:100%;</span>  <span class="string">//no</span> <span class="string">scaling</span></span><br><span class="line">    <span class="string">background-attachment:fixed;</span>  <span class="string">//</span> <span class="string">Whether</span> <span class="string">the</span> <span class="string">background</span> <span class="string">scrolls</span> <span class="string">up</span> <span class="string">and</span> <span class="string">down</span> <span class="string">with</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">background-size:</span> <span class="string">cover;</span>      <span class="string">//</span> <span class="string">If</span> <span class="string">the</span> <span class="string">background</span> <span class="string">image</span> <span class="string">is</span> <span class="string">not</span> <span class="string">full</span> <span class="string">screen</span>, <span class="string">whether</span> <span class="string">the</span> <span class="string">background</span> <span class="string">forced</span> <span class="string">to</span> <span class="string">be</span> <span class="string">stretched</span> <span class="string">to</span> <span class="string">full</span> <span class="string">screen</span> <span class="string">by</span> <span class="string">stretching.</span></span><br><span class="line">    <span class="string">//</span> <span class="string">background-size:100%</span> <span class="number">100</span><span class="string">%;</span> <span class="string">//It</span> <span class="string">can</span> <span class="string">be</span> <span class="string">scaled</span> <span class="string">in</span> <span class="string">sync</span> <span class="string">with</span> <span class="string">the</span> <span class="string">browser</span> <span class="string">size.</span></span><br><span class="line">    <span class="string">background-position:50%</span> <span class="number">50</span><span class="string">%;</span>      <span class="string">//centering</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>the annotation should follow the “//“</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Saki before the Doomsday Sky</title>
     <url>/2020/08/24/2020-08-24-Saki-portrait-md/</url>
     <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/4483f524gy1gi1jyh7uw1j20w40frtcl.jpg"></p>
@@ -57,79 +106,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ Add local search function</title>
-    <url>/2020/09/01/2020-09-01-Add-local-search-function/</url>
-    <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
-
-<h4 id="2-Open-config-file-and-add-code"><a href="#2-Open-config-file-and-add-code" class="headerlink" title="2. Open config file and add code:"></a>2. Open config file and add code:</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;_config.yml |vi</span><br></pre></td></tr></table></figure>
-
-<p>add the code below after “Extension”:</p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 搜索</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo[Next] @ Custom background image</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</url>
-    <content><![CDATA[<p>*<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong> Based on <code>Next theme</code> <a href="https://github.com/theme-next/hexo-theme-next/commit/f9956802c9cf51ebdb447fb954efa6383fbb2bd6">Release v7.8.0</a></p>
-<h4 id="Define-the-background-image"><a href="#Define-the-background-image" class="headerlink" title="Define the background image"></a>Define the background image</h4><ul>
-<li><h5 id="Locating-to-your-site-config-file"><a href="#Locating-to-your-site-config-file" class="headerlink" title="@Locating to your site config file:"></a>@Locating to your site config file:</h5></li>
-</ul>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<br>
-
-<ul>
-<li><h5 id="Find-the-code-as-below-remove-the-from-last-line-make-it-work"><a href="#Find-the-code-as-below-remove-the-from-last-line-make-it-work" class="headerlink" title="@Find the code as below, remove the # from last line, make it work:"></a>@Find the code as below, remove the <code>#</code> from last line, make it work:</h5></li>
-</ul>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Define custom file paths.</span></span><br><span class="line"><span class="comment"># Create your custom files in site directory `source/_data` and uncomment needed files below.</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.njk</span></span><br><span class="line">  <span class="comment">#header: source/_data/header.njk</span></span><br><span class="line">  <span class="comment">#sidebar: source/_data/sidebar.njk</span></span><br><span class="line">  <span class="comment">#postMeta: source/_data/post-meta.njk</span></span><br><span class="line">  <span class="comment">#postBodyEnd: source/_data/post-body-end.njk</span></span><br><span class="line">  <span class="comment">#footer: source/_data/footer.njk</span></span><br><span class="line">  <span class="comment">#bodyEnd: source/_data/body-end.njk</span></span><br><span class="line">  <span class="comment">#variable: source/_data/variables.styl</span></span><br><span class="line">  <span class="comment">#mixin: source/_data/mixins.styl</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">source/_data/styles.styl</span>    <span class="comment">### here, remove the &quot;#&quot;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<br>
-
-
-
-<ul>
-<li><h5 id="You-next-will-find-that-we’ve-no-folder-“-data”-and-the-file-“styles-styl”-don’t-worry-just-create-them-as-the-path-indicated"><a href="#You-next-will-find-that-we’ve-no-folder-“-data”-and-the-file-“styles-styl”-don’t-worry-just-create-them-as-the-path-indicated" class="headerlink" title="@You next will find that, we’ve no folder “_data” and the file “styles.styl”, don’t worry, just create them as the path indicated."></a>@You next will find that, we’ve no folder “_data” and the file “styles.styl”, don’t worry, just create them as the path indicated.</h5><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">touch ./site_folder/source/_data/styles.styl</span><br><span class="line"></span><br><span class="line">&quot;old version Next, have custom.styl</span><br><span class="line">&quot;themes\next\source\css\ _custom\custom.styl</span><br><span class="line">&quot;They are same things&quot;</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>All same to “custom.styl”, just change all parameter in new <code>styles.styl</code></p>
-</blockquote>
-<br>
-</li>
-<li><h5 id="Then-edit-and-paste-following-command-line-in-your-“styles-styl”"><a href="#Then-edit-and-paste-following-command-line-in-your-“styles-styl”" class="headerlink" title="@Then edit and paste following command line in your “styles.styl” :"></a>@Then edit and paste following command line in your “styles.styl” :</h5></li>
-</ul>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">body</span> &#123;</span><br><span class="line"> 	<span class="string">background:url(/images/lomgmao.jpg);</span> </span><br><span class="line"> 	<span class="attr">background-repeat:</span> <span class="literal">no</span><span class="string">-repeat;</span>  </span><br><span class="line"> 	<span class="string">height:100%;</span>  <span class="string">//no</span> <span class="string">scaling</span></span><br><span class="line">  	<span class="string">width:100%;</span>  <span class="string">//no</span> <span class="string">scaling</span></span><br><span class="line">    <span class="string">background-attachment:fixed;</span>  <span class="string">//</span> <span class="string">Whether</span> <span class="string">the</span> <span class="string">background</span> <span class="string">scrolls</span> <span class="string">up</span> <span class="string">and</span> <span class="string">down</span> <span class="string">with</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">background-size:</span> <span class="string">cover;</span>      <span class="string">//</span> <span class="string">If</span> <span class="string">the</span> <span class="string">background</span> <span class="string">image</span> <span class="string">is</span> <span class="string">not</span> <span class="string">full</span> <span class="string">screen</span>, <span class="string">whether</span> <span class="string">the</span> <span class="string">background</span> <span class="string">forced</span> <span class="string">to</span> <span class="string">be</span> <span class="string">stretched</span> <span class="string">to</span> <span class="string">full</span> <span class="string">screen</span> <span class="string">by</span> <span class="string">stretching.</span></span><br><span class="line">    <span class="string">//</span> <span class="string">background-size:100%</span> <span class="number">100</span><span class="string">%;</span> <span class="string">//It</span> <span class="string">can</span> <span class="string">be</span> <span class="string">scaled</span> <span class="string">in</span> <span class="string">sync</span> <span class="string">with</span> <span class="string">the</span> <span class="string">browser</span> <span class="string">size.</span></span><br><span class="line">    <span class="string">background-position:50%</span> <span class="number">50</span><span class="string">%;</span>      <span class="string">//centering</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>the annotation should follow the “//“</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo[Next] @ Add related post function</title>
     <url>/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</url>
     <content><![CDATA[<p>With the module of <code>hexo-related-popular-posts</code>, hexo can find and match related articles for visitors.</p>
@@ -143,6 +119,30 @@
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="attr">PPMixingRate:</span> <span class="number">0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="attr">isImage:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
 
 
+
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo[Next] @ Add local search function</title>
+    <url>/2020/09/01/2020-09-01-Add-local-search-function/</url>
+    <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-Open-config-file-and-add-code"><a href="#2-Open-config-file-and-add-code" class="headerlink" title="2. Open config file and add code:"></a>2. Open config file and add code:</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;_config.yml |vi</span><br></pre></td></tr></table></figure>
+
+<p>add the code below after “Extension”:</p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 搜索</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
@@ -232,6 +232,44 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo[Next] @ Insert Image Browser for embedded images</title>
+    <url>/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</url>
+    <content><![CDATA[<img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifr5ldjnej30gs0cnn36.jpg" alt="" style="zoom:80%;" />
+
+<a id="more"></a>
+
+<h4 id="1-Install-the-fancyBox3-for-Next"><a href="#1-Install-the-fancyBox3-for-Next" class="headerlink" title="1. Install the fancyBox3 for Next"></a>1. Install the fancyBox3 for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/themes/next/source/lib</span><br><span class="line">cd ./site_folder/themes/next/source/lib</span><br><span class="line">git clone https://github.com/theme-next/theme-next-fancybox3 fancybox</span><br></pre></td></tr></table></figure>
+
+<p>or</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/source/lib</span><br><span class="line"><span class="built_in">cd</span> ./site_folder/source/lib</span><br><span class="line">git clone https://github.com/theme<span class="literal">-next</span>/theme<span class="literal">-next</span><span class="literal">-fancybox3</span> fancybox</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="2-Configure-the-“next-config-yml”-file"><a href="#2-Configure-the-“next-config-yml”-file" class="headerlink" title="2. Configure the “next/_config.yml” file."></a>2. Configure the “next/_config.yml” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml | vi</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="3-Effect-preview"><a href="#3-Effect-preview" class="headerlink" title="3. Effect preview"></a>3. Effect preview</h4><img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifrhfusq8j31h30oq7wh.jpg" alt="" style="zoom: 33%;" />
+
+<p>This setting works globally, all images in your blog.</p>
+<blockquote>
+<p>Ref:</p>
+<p><a href="https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html">https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html</a></p>
+<p><a href="https://github.com/theme-next/theme-next-fancybox3">https://github.com/theme-next/theme-next-fancybox3</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo[Next] @ Post displayed per page in Archive</title>
     <url>/2020/09/05/2020-09-05-Hexo-Next-Post-displayed-per-page-in-Archive/</url>
     <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
@@ -283,44 +321,6 @@
 <p>Ref:</p>
 <p><a href="https://www.jianshu.com/p/44e211829447">https://www.jianshu.com/p/44e211829447</a></p>
 <p><a href="https://github.com/MikeCoder/hexo-blog-encrypt">https://github.com/MikeCoder/hexo-blog-encrypt</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo[Next] @ Insert Image Browser for embedded images</title>
-    <url>/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</url>
-    <content><![CDATA[<img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifr5ldjnej30gs0cnn36.jpg" alt="" style="zoom:80%;" />
-
-<a id="more"></a>
-
-<h4 id="1-Install-the-fancyBox3-for-Next"><a href="#1-Install-the-fancyBox3-for-Next" class="headerlink" title="1. Install the fancyBox3 for Next"></a>1. Install the fancyBox3 for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/themes/next/source/lib</span><br><span class="line">cd ./site_folder/themes/next/source/lib</span><br><span class="line">git clone https://github.com/theme-next/theme-next-fancybox3 fancybox</span><br></pre></td></tr></table></figure>
-
-<p>or</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/source/lib</span><br><span class="line"><span class="built_in">cd</span> ./site_folder/source/lib</span><br><span class="line">git clone https://github.com/theme<span class="literal">-next</span>/theme<span class="literal">-next</span><span class="literal">-fancybox3</span> fancybox</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="2-Configure-the-“next-config-yml”-file"><a href="#2-Configure-the-“next-config-yml”-file" class="headerlink" title="2. Configure the “next/_config.yml” file."></a>2. Configure the “next/_config.yml” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml | vi</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="3-Effect-preview"><a href="#3-Effect-preview" class="headerlink" title="3. Effect preview"></a>3. Effect preview</h4><img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifrhfusq8j31h30oq7wh.jpg" alt="" style="zoom: 33%;" />
-
-<p>This setting works globally, all images in your blog.</p>
-<blockquote>
-<p>Ref:</p>
-<p><a href="https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html">https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html</a></p>
-<p><a href="https://github.com/theme-next/theme-next-fancybox3">https://github.com/theme-next/theme-next-fancybox3</a></p>
 </blockquote>
 ]]></content>
       <categories>
