@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-09-16T10:49:23.000Z</updated>
+  <updated>2020-10-10T09:42:30.271Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo_Adv @ Skip render for given files and folders</title>
+    <link href="http://yoursite.com/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/"/>
+    <id>http://yoursite.com/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</id>
+    <published>2020-10-10T09:31:15.000Z</published>
+    <updated>2020-10-10T09:42:30.271Z</updated>
+    
+    <content type="html"><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p><p>Now in <code>hexo</code>system, you need to configure it in you <code>_ config.yml</code>for achieving it.</p><a id="more"></a><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd .../homepage/</span><br><span class="line">vi ./_config.yml</span><br></pre></td></tr></table></figure><p>you need to locate and find <code>skip_render:</code></p><p>Then modify it as below:</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># The default work directory for &quot;skip_render&quot; is</span></span></span><br><span class="line">cd .../homepage/source/</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip single file, as README.md: </span></span></span><br><span class="line">skip_render: README.md</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip all files in single folder, as test:</span></span></span><br><span class="line">skip_render: test/*</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip several files or folders:</span></span></span><br><span class="line"></span><br><span class="line">skip_render:</span><br><span class="line"> - test.html</span><br><span class="line"> - README.md</span><br><span class="line"> - test/*</span><br><span class="line"> - miao/*</span><br></pre></td></tr></table></figure><p>Finally , clean and reload your new files:</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.&lt;/p&gt;
+&lt;p&gt;Now in &lt;code&gt;hexo&lt;/code&gt;system, you need to configure it in you &lt;code&gt;_ config.yml&lt;/code&gt;for achieving it.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tutorials" scheme="http://yoursite.com/categories/Tutorials/"/>
+    
+    <category term="Hexo" scheme="http://yoursite.com/categories/Tutorials/Hexo/"/>
+    
+    <category term="Adv." scheme="http://yoursite.com/categories/Tutorials/Hexo/Adv/"/>
+    
+    
+    <category term="Hexo_Adv" scheme="http://yoursite.com/tags/Hexo-Adv/"/>
+    
+  </entry>
   
   <entry>
     <title>Zotero @ Citation style custom</title>
