@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/about/animefan/index.html</loc>
     
     <lastmod>2020-10-10</lastmod>
@@ -242,6 +249,13 @@
   </url>
   
   <url>
+    <loc>http://yoursite.com/tags/Hexo-Basic/</loc>
+    <lastmod>2020-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/tags/Page-optimization/</loc>
     <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
@@ -257,13 +271,6 @@
   
   <url>
     <loc>http://yoursite.com/tags/Hexo-Adv/</loc>
-    <lastmod>2020-10-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/tags/Hexo-Basic/</loc>
     <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -321,14 +328,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/Tutorials/Hexo/Theme-Next/</loc>
+    <loc>http://yoursite.com/categories/Tutorials/Hexo/Basic/</loc>
     <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/Tutorials/Hexo/Basic/</loc>
+    <loc>http://yoursite.com/categories/Tutorials/Hexo/Theme-Next/</loc>
     <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
