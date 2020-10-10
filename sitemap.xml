@@ -2,6 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2020/09/05/2020-09-05-Hexo-Adv-blog-post-encrypt/</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/09/01/2020-09-01-Hexo-Adv-add-Comment-system-in-your-site/</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/09/05/2020-09-05-Hexo-Basic-Post-displayed-per-page-in-Archive/</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</loc>
     
     <lastmod>2020-10-10</lastmod>
@@ -107,79 +177,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2020/09/05/2020-09-05-Hexo-Next-Post-displayed-per-page-in-Archive/</loc>
-    
-    <lastmod>2020-09-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/09/05/2020-09-05-Hexo-Next-blog-post-encrypt/</loc>
-    
-    <lastmod>2020-09-05</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2020/09/05/test/</loc>
     
     <lastmod>2020-09-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/08/31/2020-08-31-Post-guide-of-YAML-front-matter/</loc>
-    
-    <lastmod>2020-09-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</loc>
-    
-    <lastmod>2020-09-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/</loc>
-    
-    <lastmod>2020-09-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</loc>
-    
-    <lastmod>2020-09-04</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/09/01/2020-09-01-Add-local-search-function/</loc>
-    
-    <lastmod>2020-09-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</loc>
-    
-    <lastmod>2020-09-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/</loc>
-    
-    <lastmod>2020-09-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/09/01/2020-09-01-Hexo-Next-add-Comment-system-in-your-site/</loc>
-    
-    <lastmod>2020-08-31</lastmod>
     
   </url>
   
@@ -192,13 +192,6 @@
   
   <url>
     <loc>http://yoursite.com/tags/index.html</loc>
-    
-    <lastmod>2020-08-31</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</loc>
     
     <lastmod>2020-08-31</lastmod>
     
@@ -263,7 +256,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/YAML/</loc>
+    <loc>http://yoursite.com/tags/Hexo-Adv/</loc>
+    <lastmod>2020-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/Hexo-Basic/</loc>
     <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -271,13 +271,6 @@
   
   <url>
     <loc>http://yoursite.com/tags/Zotero/</loc>
-    <lastmod>2020-10-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/tags/Hexo-Adv/</loc>
     <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -321,7 +314,21 @@
   </url>
   
   <url>
+    <loc>http://yoursite.com/categories/Tutorials/Hexo/Theme-Next/</loc>
+    <lastmod>2020-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/categories/Tutorials/Hexo/Adv/</loc>
+    <lastmod>2020-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/Tutorials/Hexo/Basic/</loc>
     <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
