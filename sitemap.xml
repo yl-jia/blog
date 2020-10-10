@@ -4,7 +4,7 @@
   <url>
     <loc>http://yoursite.com/gallery/Dearly_beloved/index.html</loc>
     
-    <lastmod>2020-10-08</lastmod>
+    <lastmod>2020-10-10</lastmod>
     
   </url>
   
@@ -221,7 +221,7 @@
 
   <url>
     <loc>http://yoursite.com/</loc>
-    <lastmod>2020-10-08</lastmod>
+    <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -229,35 +229,35 @@
   
   <url>
     <loc>http://yoursite.com/tags/Saki/</loc>
-    <lastmod>2020-10-08</lastmod>
+    <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/tags/Page-optimization/</loc>
-    <lastmod>2020-10-08</lastmod>
+    <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/tags/Hexo-Next/</loc>
-    <lastmod>2020-10-08</lastmod>
+    <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/tags/YAML/</loc>
-    <lastmod>2020-10-08</lastmod>
+    <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/tags/Zotero/</loc>
-    <lastmod>2020-10-08</lastmod>
+    <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -266,35 +266,35 @@
   
   <url>
     <loc>http://yoursite.com/categories/Daily-life/</loc>
-    <lastmod>2020-10-08</lastmod>
+    <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/categories/Tutorials/</loc>
-    <lastmod>2020-10-08</lastmod>
+    <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/categories/Daily-life/Saki-s/</loc>
-    <lastmod>2020-10-08</lastmod>
+    <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/categories/Tutorials/Hexo/</loc>
-    <lastmod>2020-10-08</lastmod>
+    <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/categories/Tutorials/Zotero/</loc>
-    <lastmod>2020-10-08</lastmod>
+    <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

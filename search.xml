@@ -65,25 +65,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Post guide of YAML front matter</title>
-    <url>/2020/08/31/2020-08-31-Post-guide-of-YAML-front-matter/</url>
-    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
-<p>It includes all necessary parameter needed for your article.</p>
-<p>Here is just some of important ones, which should be always considered before your writing: </p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>YAML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo[Next] @ add rounded corners</title>
     <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
     <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
@@ -106,6 +87,25 @@
       </tags>
   </entry>
   <entry>
+    <title>Post guide of YAML front matter</title>
+    <url>/2020/08/31/2020-08-31-Post-guide-of-YAML-front-matter/</url>
+    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
+<p>It includes all necessary parameter needed for your article.</p>
+<p>Here is just some of important ones, which should be always considered before your writing: </p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>YAML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo[Next] @ Add local search function</title>
     <url>/2020/09/01/2020-09-01-Add-local-search-function/</url>
     <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
@@ -119,55 +119,6 @@
 
 <h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
 
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo[Next] @ Add related post function</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</url>
-    <content><![CDATA[<p>With the module of <code>hexo-related-popular-posts</code>, hexo can find and match related articles for visitors.</p>
-<h4 id="1-install-quicklinkmodule-in-git-bash"><a href="#1-install-quicklinkmodule-in-git-bash" class="headerlink" title="1. install quicklinkmodule in git bash:"></a>1. install <code>quicklink</code>module in git bash:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
-
-<h4 id="2-Open-and-modify-the-config-file"><a href="#2-Open-and-modify-the-config-file" class="headerlink" title="2. Open and modify the config file:"></a>2. Open and modify the config file:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<p>Locate to “related_posts” code block, change “enable” as “true”,</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="attr">PPMixingRate:</span> <span class="number">0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="attr">isImage:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo[Next] @ add Comment System in your site</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Next-add-Comment-system-in-your-site/</url>
-    <content><![CDATA[<p>First, go to <code>Disqus</code>website, to sign up for an account,</p>
-<p>Keep in mind your <code>shortname</code>.</p>
-<p>Go to :</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;themes&#x2F;next&#x2F;_config.yml</span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<p>Locate to the code block as below:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Disqus</span></span><br><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">shortname:</span> <span class="string">yl-jia</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<p>Add your own “shortname”, and enable “true”, then the Comment system is working.</p>
 ]]></content>
       <categories>
         <category>Tutorials</category>
@@ -232,33 +183,19 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ Insert Image Browser for embedded images</title>
-    <url>/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</url>
-    <content><![CDATA[<img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifr5ldjnej30gs0cnn36.jpg" alt="" style="zoom:80%;" />
+    <title>Hexo[Next] @ add Comment System in your site</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Next-add-Comment-system-in-your-site/</url>
+    <content><![CDATA[<p>First, go to <code>Disqus</code>website, to sign up for an account,</p>
+<p>Keep in mind your <code>shortname</code>.</p>
+<p>Go to :</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;themes&#x2F;next&#x2F;_config.yml</span><br></pre></td></tr></table></figure>
 
 <a id="more"></a>
 
-<h4 id="1-Install-the-fancyBox3-for-Next"><a href="#1-Install-the-fancyBox3-for-Next" class="headerlink" title="1. Install the fancyBox3 for Next"></a>1. Install the fancyBox3 for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/themes/next/source/lib</span><br><span class="line">cd ./site_folder/themes/next/source/lib</span><br><span class="line">git clone https://github.com/theme-next/theme-next-fancybox3 fancybox</span><br></pre></td></tr></table></figure>
+<p>Locate to the code block as below:</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Disqus</span></span><br><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">shortname:</span> <span class="string">yl-jia</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
-<p>or</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/source/lib</span><br><span class="line"><span class="built_in">cd</span> ./site_folder/source/lib</span><br><span class="line">git clone https://github.com/theme<span class="literal">-next</span>/theme<span class="literal">-next</span><span class="literal">-fancybox3</span> fancybox</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="2-Configure-the-“next-config-yml”-file"><a href="#2-Configure-the-“next-config-yml”-file" class="headerlink" title="2. Configure the “next/_config.yml” file."></a>2. Configure the “next/_config.yml” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml | vi</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="3-Effect-preview"><a href="#3-Effect-preview" class="headerlink" title="3. Effect preview"></a>3. Effect preview</h4><img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifrhfusq8j31h30oq7wh.jpg" alt="" style="zoom: 33%;" />
-
-<p>This setting works globally, all images in your blog.</p>
-<blockquote>
-<p>Ref:</p>
-<p><a href="https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html">https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html</a></p>
-<p><a href="https://github.com/theme-next/theme-next-fancybox3">https://github.com/theme-next/theme-next-fancybox3</a></p>
-</blockquote>
+<p>Add your own “shortname”, and enable “true”, then the Comment system is working.</p>
 ]]></content>
       <categories>
         <category>Tutorials</category>
@@ -297,6 +234,31 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo[Next] @ Add related post function</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</url>
+    <content><![CDATA[<p>With the module of <code>hexo-related-popular-posts</code>, hexo can find and match related articles for visitors.</p>
+<h4 id="1-install-quicklinkmodule-in-git-bash"><a href="#1-install-quicklinkmodule-in-git-bash" class="headerlink" title="1. install quicklinkmodule in git bash:"></a>1. install <code>quicklink</code>module in git bash:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-Open-and-modify-the-config-file"><a href="#2-Open-and-modify-the-config-file" class="headerlink" title="2. Open and modify the config file:"></a>2. Open and modify the config file:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<p>Locate to “related_posts” code block, change “enable” as “true”,</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="attr">PPMixingRate:</span> <span class="number">0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="attr">isImage:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo[Next] @ Blog post encrypt function</title>
     <url>/2020/09/05/2020-09-05-Hexo-Next-blog-post-encrypt/</url>
     <content><![CDATA[<h4 id="1-Install-plugin-“hexo-blog-encrypt”-for-Next"><a href="#1-Install-plugin-“hexo-blog-encrypt”-for-Next" class="headerlink" title="1. Install plugin “hexo-blog-encrypt” for Next"></a>1. Install plugin “hexo-blog-encrypt” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line">npm install --save hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
@@ -321,6 +283,44 @@
 <p>Ref:</p>
 <p><a href="https://www.jianshu.com/p/44e211829447">https://www.jianshu.com/p/44e211829447</a></p>
 <p><a href="https://github.com/MikeCoder/hexo-blog-encrypt">https://github.com/MikeCoder/hexo-blog-encrypt</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo[Next] @ Insert Image Browser for embedded images</title>
+    <url>/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</url>
+    <content><![CDATA[<img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifr5ldjnej30gs0cnn36.jpg" alt="" style="zoom:80%;" />
+
+<a id="more"></a>
+
+<h4 id="1-Install-the-fancyBox3-for-Next"><a href="#1-Install-the-fancyBox3-for-Next" class="headerlink" title="1. Install the fancyBox3 for Next"></a>1. Install the fancyBox3 for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/themes/next/source/lib</span><br><span class="line">cd ./site_folder/themes/next/source/lib</span><br><span class="line">git clone https://github.com/theme-next/theme-next-fancybox3 fancybox</span><br></pre></td></tr></table></figure>
+
+<p>or</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/source/lib</span><br><span class="line"><span class="built_in">cd</span> ./site_folder/source/lib</span><br><span class="line">git clone https://github.com/theme<span class="literal">-next</span>/theme<span class="literal">-next</span><span class="literal">-fancybox3</span> fancybox</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="2-Configure-the-“next-config-yml”-file"><a href="#2-Configure-the-“next-config-yml”-file" class="headerlink" title="2. Configure the “next/_config.yml” file."></a>2. Configure the “next/_config.yml” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml | vi</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="3-Effect-preview"><a href="#3-Effect-preview" class="headerlink" title="3. Effect preview"></a>3. Effect preview</h4><img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifrhfusq8j31h30oq7wh.jpg" alt="" style="zoom: 33%;" />
+
+<p>This setting works globally, all images in your blog.</p>
+<blockquote>
+<p>Ref:</p>
+<p><a href="https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html">https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html</a></p>
+<p><a href="https://github.com/theme-next/theme-next-fancybox3">https://github.com/theme-next/theme-next-fancybox3</a></p>
 </blockquote>
 ]]></content>
       <categories>
