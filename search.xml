@@ -273,45 +273,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ Insert Image Browser for embedded images</title>
-    <url>/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</url>
-    <content><![CDATA[<img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifr5ldjnej30gs0cnn36.jpg" alt="" style="zoom:80%;" />
-
-<a id="more"></a>
-
-<h4 id="1-Install-the-fancyBox3-for-Next"><a href="#1-Install-the-fancyBox3-for-Next" class="headerlink" title="1. Install the fancyBox3 for Next"></a>1. Install the fancyBox3 for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/themes/next/source/lib</span><br><span class="line">cd ./site_folder/themes/next/source/lib</span><br><span class="line">git clone https://github.com/theme-next/theme-next-fancybox3 fancybox</span><br></pre></td></tr></table></figure>
-
-<p>or</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/source/lib</span><br><span class="line"><span class="built_in">cd</span> ./site_folder/source/lib</span><br><span class="line">git clone https://github.com/theme<span class="literal">-next</span>/theme<span class="literal">-next</span><span class="literal">-fancybox3</span> fancybox</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="2-Configure-the-“next-config-yml”-file"><a href="#2-Configure-the-“next-config-yml”-file" class="headerlink" title="2. Configure the “next/_config.yml” file."></a>2. Configure the “next/_config.yml” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml | vi</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="3-Effect-preview"><a href="#3-Effect-preview" class="headerlink" title="3. Effect preview"></a>3. Effect preview</h4><img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifrhfusq8j31h30oq7wh.jpg" alt="" style="zoom: 33%;" />
-
-<p>This setting works globally, all images in your blog.</p>
-<blockquote>
-<p>Ref:</p>
-<p><a href="https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html">https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html</a></p>
-<p><a href="https://github.com/theme-next/theme-next-fancybox3">https://github.com/theme-next/theme-next-fancybox3</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo_Basic @ Post displayed per page in Archive</title>
     <url>/2020/09/05/2020-09-05-Hexo-Basic-Post-displayed-per-page-in-Archive/</url>
     <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
@@ -358,6 +319,45 @@
       </categories>
       <tags>
         <tag>Zotero</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo[Next] @ Insert Image Browser for embedded images</title>
+    <url>/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</url>
+    <content><![CDATA[<img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifr5ldjnej30gs0cnn36.jpg" alt="" style="zoom:80%;" />
+
+<a id="more"></a>
+
+<h4 id="1-Install-the-fancyBox3-for-Next"><a href="#1-Install-the-fancyBox3-for-Next" class="headerlink" title="1. Install the fancyBox3 for Next"></a>1. Install the fancyBox3 for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/themes/next/source/lib</span><br><span class="line">cd ./site_folder/themes/next/source/lib</span><br><span class="line">git clone https://github.com/theme-next/theme-next-fancybox3 fancybox</span><br></pre></td></tr></table></figure>
+
+<p>or</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/source/lib</span><br><span class="line"><span class="built_in">cd</span> ./site_folder/source/lib</span><br><span class="line">git clone https://github.com/theme<span class="literal">-next</span>/theme<span class="literal">-next</span><span class="literal">-fancybox3</span> fancybox</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="2-Configure-the-“next-config-yml”-file"><a href="#2-Configure-the-“next-config-yml”-file" class="headerlink" title="2. Configure the “next/_config.yml” file."></a>2. Configure the “next/_config.yml” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml | vi</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="3-Effect-preview"><a href="#3-Effect-preview" class="headerlink" title="3. Effect preview"></a>3. Effect preview</h4><img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifrhfusq8j31h30oq7wh.jpg" alt="" style="zoom: 33%;" />
+
+<p>This setting works globally, all images in your blog.</p>
+<blockquote>
+<p>Ref:</p>
+<p><a href="https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html">https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html</a></p>
+<p><a href="https://github.com/theme-next/theme-next-fancybox3">https://github.com/theme-next/theme-next-fancybox3</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+        <category>Theme_Next</category>
+      </categories>
+      <tags>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
       </tags>
   </entry>
   <entry>
