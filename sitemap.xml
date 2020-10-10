@@ -235,13 +235,6 @@
 
   
   <url>
-    <loc>http://yoursite.com/tags/Saki/</loc>
-    <lastmod>2020-10-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/tags/Page-optimization/</loc>
     <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
@@ -250,6 +243,13 @@
   
   <url>
     <loc>http://yoursite.com/tags/Hexo-Next/</loc>
+    <lastmod>2020-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/Saki/</loc>
     <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -272,13 +272,6 @@
 
   
   <url>
-    <loc>http://yoursite.com/categories/Daily-life/</loc>
-    <lastmod>2020-10-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/categories/Tutorials/</loc>
     <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
@@ -286,7 +279,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/Daily-life/Saki-s/</loc>
+    <loc>http://yoursite.com/categories/Daily-life/</loc>
     <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -294,6 +287,13 @@
   
   <url>
     <loc>http://yoursite.com/categories/Tutorials/Hexo/</loc>
+    <lastmod>2020-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/Daily-life/Saki-s/</loc>
     <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

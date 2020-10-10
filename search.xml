@@ -1,43 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Saki before the Doomsday Sky</title>
-    <url>/2020/08/24/2020-08-24-Saki-portrait-md/</url>
-    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/4483f524gy1gi1jyh7uw1j20w40frtcl.jpg"></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">I&#39;ve been watching you~</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Daily life</category>
-        <category>Saki&#39;s</category>
-      </categories>
-      <tags>
-        <tag>Saki</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo[Next] @ add rounded corners</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
-    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
-<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
-
-<p>add the follow code should be OK:</p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo[Next] @ Custom background image</title>
     <url>/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</url>
     <content><![CDATA[<p>*<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong> Based on <code>Next theme</code> <a href="https://github.com/theme-next/hexo-theme-next/commit/f9956802c9cf51ebdb447fb954efa6383fbb2bd6">Release v7.8.0</a></p>
@@ -76,6 +39,43 @@
 <blockquote>
 <p>the annotation should follow the “//“</p>
 </blockquote>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Saki before the Doomsday Sky</title>
+    <url>/2020/08/24/2020-08-24-Saki-portrait-md/</url>
+    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/4483f524gy1gi1jyh7uw1j20w40frtcl.jpg"></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">I&#39;ve been watching you~</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Daily life</category>
+        <category>Saki&#39;s</category>
+      </categories>
+      <tags>
+        <tag>Saki</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo[Next] @ add rounded corners</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
+    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
+<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
+
+<p>add the follow code should be OK:</p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>Tutorials</category>
@@ -180,6 +180,30 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo[Next] @ add Comment System in your site</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Next-add-Comment-system-in-your-site/</url>
+    <content><![CDATA[<p>First, go to <code>Disqus</code>website, to sign up for an account,</p>
+<p>Keep in mind your <code>shortname</code>.</p>
+<p>Go to :</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;themes&#x2F;next&#x2F;_config.yml</span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<p>Locate to the code block as below:</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Disqus</span></span><br><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">shortname:</span> <span class="string">yl-jia</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p>Add your own “shortname”, and enable “true”, then the Comment system is working.</p>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo[Next] @ add Tag Cloud Widget</title>
     <url>//2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/</url>
     <content><![CDATA[<h4 id="1-Install-the-plugin-“hexo-tag-cloud”"><a href="#1-Install-the-plugin-“hexo-tag-cloud”" class="headerlink" title="1. Install the plugin “hexo-tag-cloud”"></a>1. Install the plugin “hexo-tag-cloud”</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-tag-cloud@^2.* --save</span><br></pre></td></tr></table></figure>
@@ -246,19 +270,22 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ add Comment System in your site</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Next-add-Comment-system-in-your-site/</url>
-    <content><![CDATA[<p>First, go to <code>Disqus</code>website, to sign up for an account,</p>
-<p>Keep in mind your <code>shortname</code>.</p>
-<p>Go to :</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;themes&#x2F;next&#x2F;_config.yml</span><br></pre></td></tr></table></figure>
+    <title>Hexo[Next] @ Post displayed per page in Archive</title>
+    <url>/2020/09/05/2020-09-05-Hexo-Next-Post-displayed-per-page-in-Archive/</url>
+    <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
 
 <a id="more"></a>
 
-<p>Locate to the code block as below:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Disqus</span></span><br><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">shortname:</span> <span class="string">yl-jia</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<h4 id="2-Configure-the-“-site-config-yml”-file"><a href="#2-Configure-the-“-site-config-yml”-file" class="headerlink" title="2. Configure the “./site/_config.yml” file."></a>2. Configure the “./site/_config.yml” file.</h4><p>add option code：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line">  <span class="attr">enabled:</span> <span class="literal">true</span> <span class="comment"># The default value is true, set to false if you do not want to enable the plugin</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">30</span> <span class="comment"># Posts displayed per page. (0 = disable pagination)</span></span><br><span class="line">  <span class="attr">yearly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">monthly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">daily:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span> <span class="comment"># Posts order. (Order by date descending by default)</span></span><br></pre></td></tr></table></figure>
 
-<p>Add your own “shortname”, and enable “true”, then the Comment system is working.</p>
+
+
+<hr>
+<blockquote>
+<p>Ref:</p>
+<p><a href="https://github.com/hexojs/hexo-generator-archive">https://github.com/hexojs/hexo-generator-archive</a></p>
+</blockquote>
 ]]></content>
       <categories>
         <category>Tutorials</category>
@@ -294,33 +321,6 @@
 <p>Ref:</p>
 <p><a href="https://www.jianshu.com/p/44e211829447">https://www.jianshu.com/p/44e211829447</a></p>
 <p><a href="https://github.com/MikeCoder/hexo-blog-encrypt">https://github.com/MikeCoder/hexo-blog-encrypt</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo[Next] @ Post displayed per page in Archive</title>
-    <url>/2020/09/05/2020-09-05-Hexo-Next-Post-displayed-per-page-in-Archive/</url>
-    <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<h4 id="2-Configure-the-“-site-config-yml”-file"><a href="#2-Configure-the-“-site-config-yml”-file" class="headerlink" title="2. Configure the “./site/_config.yml” file."></a>2. Configure the “./site/_config.yml” file.</h4><p>add option code：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line">  <span class="attr">enabled:</span> <span class="literal">true</span> <span class="comment"># The default value is true, set to false if you do not want to enable the plugin</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">30</span> <span class="comment"># Posts displayed per page. (0 = disable pagination)</span></span><br><span class="line">  <span class="attr">yearly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">monthly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">daily:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span> <span class="comment"># Posts order. (Order by date descending by default)</span></span><br></pre></td></tr></table></figure>
-
-
-
-<hr>
-<blockquote>
-<p>Ref:</p>
-<p><a href="https://github.com/hexojs/hexo-generator-archive">https://github.com/hexojs/hexo-generator-archive</a></p>
 </blockquote>
 ]]></content>
       <categories>
