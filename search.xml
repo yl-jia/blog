@@ -36,29 +36,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ add rounded corners</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
-    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
-<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
-
-<p>add the follow code should be OK:</p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo[Next] @ Custom background image</title>
     <url>/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</url>
     <content><![CDATA[<p>*<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong> Based on <code>Next theme</code> <a href="https://github.com/theme-next/hexo-theme-next/commit/f9956802c9cf51ebdb447fb954efa6383fbb2bd6">Release v7.8.0</a></p>
@@ -109,27 +86,26 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Adv @ add Comment System in your site</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Adv-add-Comment-system-in-your-site/</url>
-    <content><![CDATA[<p>First, go to <code>Disqus</code>website, to sign up for an account,</p>
-<p>Keep in mind your <code>shortname</code>.</p>
-<p>Go to :</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;themes&#x2F;next&#x2F;_config.yml</span><br></pre></td></tr></table></figure>
+    <title>Hexo[Next] @ add rounded corners</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
+    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
+<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
 
+<p>add the follow code should be OK:</p>
 <a id="more"></a>
 
-<p>Locate to the code block as below:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Disqus</span></span><br><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">shortname:</span> <span class="string">yl-jia</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
 
-<p>Add your own “shortname”, and enable “true”, then the Comment system is working.</p>
 ]]></content>
       <categories>
         <category>Tutorials</category>
         <category>Hexo</category>
-        <category>Adv.</category>
+        <category>Theme_Next</category>
       </categories>
       <tags>
-        <tag>Hexo_Adv</tag>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
       </tags>
   </entry>
   <entry>
@@ -146,6 +122,30 @@
 
 <h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
 
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ add Comment System in your site</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Adv-add-Comment-system-in-your-site/</url>
+    <content><![CDATA[<p>First, go to <code>Disqus</code>website, to sign up for an account,</p>
+<p>Keep in mind your <code>shortname</code>.</p>
+<p>Go to :</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;themes&#x2F;next&#x2F;_config.yml</span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<p>Locate to the code block as below:</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Disqus</span></span><br><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">shortname:</span> <span class="string">yl-jia</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p>Add your own “shortname”, and enable “true”, then the Comment system is working.</p>
 ]]></content>
       <categories>
         <category>Tutorials</category>
@@ -386,6 +386,31 @@
       </categories>
       <tags>
         <tag>Hexo_Adv</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Top places to go in China</title>
+    <url>/2020/10/17/2020-10-17-Top-places-to-go-in-China/</url>
+    <content><![CDATA[<h3 id="The-sites-in-UNESCO-World-Heritage-list"><a href="#The-sites-in-UNESCO-World-Heritage-list" class="headerlink" title="The sites in UNESCO World Heritage list"></a>The sites in <code>UNESCO World Heritage list</code></h3><p>China is a big country, so there are many tourist attractions. First of all, these sites are world class, best preserved, and most significant.</p>
+<p>Next, I will show you how to find these sites list and basic information:</p>
+<p>Open <code>Word Heritage List</code>:  <a href="https://whc.unesco.org/en/list/&amp;order=country">https://whc.unesco.org/en/list/&amp;order=country</a></p>
+<p>Ordering the sites by <code>Country</code>;</p>
+<a id="more"></a>
+
+<p>Find out <code>China</code>and all related sites, there are 3 types: Cultural, Natural and Mixed site;</p>
+<p>When you open any of them, you’ll see the relevant basic information, including description, gallery and video.</p>
+<h3 id="AAAAA-Tourist-Attractions-of-China-5A-sites"><a href="#AAAAA-Tourist-Attractions-of-China-5A-sites" class="headerlink" title="AAAAA Tourist Attractions of China [5A sites]"></a>AAAAA Tourist Attractions of China [5A sites]</h3><p><code>5A</code> are the most important and best-maintained <a href="https://en.wikipedia.org/wiki/Tourist_attraction">tourist attractions</a> in the <a href="https://en.wikipedia.org/wiki/People's_Republic_of_China">People’s Republic of China</a>, given the highest level in the <a href="https://en.wikipedia.org/wiki/Tourist_Attraction_Rating_Categories_of_China">rating categories</a> used by the <a href="https://en.wikipedia.org/wiki/Ministry_of_Culture_and_Tourism_of_the_People's_Republic_of_China">Ministry of Culture and Tourism</a>. Generally, World Heritage sites are already included in the 5A list.</p>
+<p>Here is the list: <a href="https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China">https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China</a></p>
+<h3 id="Best-Cities-to-Visit-in-China"><a href="#Best-Cities-to-Visit-in-China" class="headerlink" title="Best Cities to Visit in China"></a>Best Cities to Visit in China</h3><h5 id="amp-Beijing-—-Ancient-and-Modern-Capital"><a href="#amp-Beijing-—-Ancient-and-Modern-Capital" class="headerlink" title="&amp; Beijing — Ancient and Modern Capital"></a>&amp; Beijing — Ancient and Modern Capital</h5><h5 id="amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization"><a href="#amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization" class="headerlink" title="&amp; Xi’an — a Window on China’s Ancient Civilization"></a>&amp; Xi’an — a Window on China’s Ancient Civilization</h5><h5 id="amp-Shanghai-—-China’s-Prosperous-Largest-City"><a href="#amp-Shanghai-—-China’s-Prosperous-Largest-City" class="headerlink" title="&amp; Shanghai — China’s Prosperous Largest City"></a>&amp; Shanghai — China’s Prosperous Largest City</h5><h5 id="amp-Guilin-—-China’s-Top-Karst-Landscape"><a href="#amp-Guilin-—-China’s-Top-Karst-Landscape" class="headerlink" title="&amp; Guilin — China’s Top Karst Landscape"></a>&amp; Guilin — China’s Top Karst Landscape</h5><h5 id="amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth"><a href="#amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth" class="headerlink" title="&amp; Hong Kong — Like Nowhere Else on Earth"></a>&amp; Hong Kong — Like Nowhere Else on Earth</h5><h5 id="amp-Hangzhou-—-Next-Best-Place-to-Heaven"><a href="#amp-Hangzhou-—-Next-Best-Place-to-Heaven" class="headerlink" title="&amp; Hangzhou — Next Best Place to Heaven"></a>&amp; Hangzhou — Next Best Place to Heaven</h5><h5 id="amp-Chengdu-—-Hometown-of-Giant-Pandas"><a href="#amp-Chengdu-—-Hometown-of-Giant-Pandas" class="headerlink" title="&amp; Chengdu — Hometown of Giant Pandas"></a>&amp; Chengdu — Hometown of Giant Pandas</h5><h5 id="amp-Lhasa-—-Gateway-to-Transcendent-Tibet"><a href="#amp-Lhasa-—-Gateway-to-Transcendent-Tibet" class="headerlink" title="&amp; Lhasa — Gateway to Transcendent Tibet"></a>&amp; Lhasa — Gateway to Transcendent Tibet</h5><h5 id="amp-Suzhou-—-Elegant-Water-Towns-and-Gardens"><a href="#amp-Suzhou-—-Elegant-Water-Towns-and-Gardens" class="headerlink" title="&amp; Suzhou — Elegant Water Towns and Gardens"></a>&amp; Suzhou — Elegant Water Towns and Gardens</h5><blockquote>
+<p><a href="https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/">https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/</a></p>
+</blockquote>
+<p>Finally, for more information, please refer to site China Travel Guide: <a href="https://www.chinahighlights.com/">https://www.chinahighlights.com/</a></p>
+]]></content>
+      <categories>
+        <category>China</category>
+      </categories>
+      <tags>
+        <tag>China</tag>
       </tags>
   </entry>
   <entry>
