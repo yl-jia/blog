@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/Lifelong_learning/index.html</loc>
+    
+    <lastmod>2020-10-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/animefan/index.html</loc>
+    
+    <lastmod>2020-10-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/researcher/index.html</loc>
+    
+    <lastmod>2020-10-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/about/bioinformatician/index.html</loc>
     
     <lastmod>2020-10-11</lastmod>
@@ -9,21 +30,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/Lifelong_learning/index.html</loc>
-    
-    <lastmod>2020-10-11</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/gallery/Dearly_beloved/index.html</loc>
-    
-    <lastmod>2020-10-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/animefan/index.html</loc>
     
     <lastmod>2020-10-11</lastmod>
     
@@ -135,20 +142,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/about/scientist/index.html</loc>
-    
-    <lastmod>2020-09-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/projects/index.html</loc>
-    
-    <lastmod>2020-09-20</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/gallery/index.html</loc>
     
     <lastmod>2020-09-20</lastmod>
@@ -235,7 +228,7 @@
 
   <url>
     <loc>http://yoursite.com/</loc>
-    <lastmod>2020-10-11</lastmod>
+    <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -243,42 +236,42 @@
   
   <url>
     <loc>http://yoursite.com/tags/Saki/</loc>
-    <lastmod>2020-10-11</lastmod>
+    <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/tags/Hexo-Basic/</loc>
-    <lastmod>2020-10-11</lastmod>
+    <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/tags/Page-optimization/</loc>
-    <lastmod>2020-10-11</lastmod>
+    <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/tags/Hexo-Next/</loc>
-    <lastmod>2020-10-11</lastmod>
+    <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/tags/Hexo-Adv/</loc>
-    <lastmod>2020-10-11</lastmod>
+    <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/tags/Zotero/</loc>
-    <lastmod>2020-10-11</lastmod>
+    <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -287,56 +280,56 @@
   
   <url>
     <loc>http://yoursite.com/categories/Daily-life/</loc>
-    <lastmod>2020-10-11</lastmod>
+    <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/categories/Tutorials/</loc>
-    <lastmod>2020-10-11</lastmod>
+    <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/categories/Daily-life/Saki-s/</loc>
-    <lastmod>2020-10-11</lastmod>
+    <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/categories/Tutorials/Hexo/</loc>
-    <lastmod>2020-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/categories/Tutorials/Zotero/</loc>
-    <lastmod>2020-10-11</lastmod>
+    <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/categories/Tutorials/Hexo/Adv/</loc>
-    <lastmod>2020-10-11</lastmod>
+    <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/categories/Tutorials/Hexo/Basic/</loc>
-    <lastmod>2020-10-11</lastmod>
+    <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/categories/Tutorials/Hexo/Theme-Next/</loc>
-    <lastmod>2020-10-11</lastmod>
+    <lastmod>2020-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/Tutorials/Zotero/</loc>
+    <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
