@@ -36,56 +36,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ Custom background image</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</url>
-    <content><![CDATA[<p>*<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong> Based on <code>Next theme</code> <a href="https://github.com/theme-next/hexo-theme-next/commit/f9956802c9cf51ebdb447fb954efa6383fbb2bd6">Release v7.8.0</a></p>
-<h4 id="Define-the-background-image"><a href="#Define-the-background-image" class="headerlink" title="Define the background image"></a>Define the background image</h4><ul>
-<li><h5 id="Locating-to-your-site-config-file"><a href="#Locating-to-your-site-config-file" class="headerlink" title="@Locating to your site config file:"></a>@Locating to your site config file:</h5></li>
-</ul>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<br>
-
-<ul>
-<li><h5 id="Find-the-code-as-below-remove-the-from-last-line-make-it-work"><a href="#Find-the-code-as-below-remove-the-from-last-line-make-it-work" class="headerlink" title="@Find the code as below, remove the # from last line, make it work:"></a>@Find the code as below, remove the <code>#</code> from last line, make it work:</h5></li>
-</ul>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Define custom file paths.</span></span><br><span class="line"><span class="comment"># Create your custom files in site directory `source/_data` and uncomment needed files below.</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.njk</span></span><br><span class="line">  <span class="comment">#header: source/_data/header.njk</span></span><br><span class="line">  <span class="comment">#sidebar: source/_data/sidebar.njk</span></span><br><span class="line">  <span class="comment">#postMeta: source/_data/post-meta.njk</span></span><br><span class="line">  <span class="comment">#postBodyEnd: source/_data/post-body-end.njk</span></span><br><span class="line">  <span class="comment">#footer: source/_data/footer.njk</span></span><br><span class="line">  <span class="comment">#bodyEnd: source/_data/body-end.njk</span></span><br><span class="line">  <span class="comment">#variable: source/_data/variables.styl</span></span><br><span class="line">  <span class="comment">#mixin: source/_data/mixins.styl</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">source/_data/styles.styl</span>    <span class="comment">### here, remove the &quot;#&quot;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<br>
-
-
-
-<ul>
-<li><h5 id="You-next-will-find-that-we’ve-no-folder-“-data”-and-the-file-“styles-styl”-don’t-worry-just-create-them-as-the-path-indicated"><a href="#You-next-will-find-that-we’ve-no-folder-“-data”-and-the-file-“styles-styl”-don’t-worry-just-create-them-as-the-path-indicated" class="headerlink" title="@You next will find that, we’ve no folder “_data” and the file “styles.styl”, don’t worry, just create them as the path indicated."></a>@You next will find that, we’ve no folder “_data” and the file “styles.styl”, don’t worry, just create them as the path indicated.</h5><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">touch ./site_folder/source/_data/styles.styl</span><br><span class="line"></span><br><span class="line">&quot;old version Next, have custom.styl</span><br><span class="line">&quot;themes\next\source\css\ _custom\custom.styl</span><br><span class="line">&quot;They are same things&quot;</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>All same to “custom.styl”, just change all parameter in new <code>styles.styl</code></p>
-</blockquote>
-<br>
-</li>
-<li><h5 id="Then-edit-and-paste-following-command-line-in-your-“styles-styl”"><a href="#Then-edit-and-paste-following-command-line-in-your-“styles-styl”" class="headerlink" title="@Then edit and paste following command line in your “styles.styl” :"></a>@Then edit and paste following command line in your “styles.styl” :</h5></li>
-</ul>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">body</span> &#123;</span><br><span class="line"> 	<span class="string">background:url(/images/lomgmao.jpg);</span> </span><br><span class="line"> 	<span class="attr">background-repeat:</span> <span class="literal">no</span><span class="string">-repeat;</span>  </span><br><span class="line"> 	<span class="string">height:100%;</span>  <span class="string">//no</span> <span class="string">scaling</span></span><br><span class="line">  	<span class="string">width:100%;</span>  <span class="string">//no</span> <span class="string">scaling</span></span><br><span class="line">    <span class="string">background-attachment:fixed;</span>  <span class="string">//</span> <span class="string">Whether</span> <span class="string">the</span> <span class="string">background</span> <span class="string">scrolls</span> <span class="string">up</span> <span class="string">and</span> <span class="string">down</span> <span class="string">with</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">background-size:</span> <span class="string">cover;</span>      <span class="string">//</span> <span class="string">If</span> <span class="string">the</span> <span class="string">background</span> <span class="string">image</span> <span class="string">is</span> <span class="string">not</span> <span class="string">full</span> <span class="string">screen</span>, <span class="string">whether</span> <span class="string">the</span> <span class="string">background</span> <span class="string">forced</span> <span class="string">to</span> <span class="string">be</span> <span class="string">stretched</span> <span class="string">to</span> <span class="string">full</span> <span class="string">screen</span> <span class="string">by</span> <span class="string">stretching.</span></span><br><span class="line">    <span class="string">//</span> <span class="string">background-size:100%</span> <span class="number">100</span><span class="string">%;</span> <span class="string">//It</span> <span class="string">can</span> <span class="string">be</span> <span class="string">scaled</span> <span class="string">in</span> <span class="string">sync</span> <span class="string">with</span> <span class="string">the</span> <span class="string">browser</span> <span class="string">size.</span></span><br><span class="line">    <span class="string">background-position:50%</span> <span class="number">50</span><span class="string">%;</span>      <span class="string">//centering</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>the annotation should follow the “//“</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo[Next] @ add rounded corners</title>
     <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
     <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
@@ -420,6 +370,56 @@
       <categories>
         <category>Tutorials</category>
         <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo[Next] @ Custom background image</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</url>
+    <content><![CDATA[<p>*<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong> Based on <code>Next theme</code> <a href="https://github.com/theme-next/hexo-theme-next/commit/f9956802c9cf51ebdb447fb954efa6383fbb2bd6">Release v7.8.0</a></p>
+<h4 id="Define-the-background-image"><a href="#Define-the-background-image" class="headerlink" title="Define the background image"></a>Define the background image</h4><ul>
+<li><h5 id="Locating-to-your-site-config-file"><a href="#Locating-to-your-site-config-file" class="headerlink" title="@Locating to your site config file:"></a>@Locating to your site config file:</h5></li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<br>
+
+<ul>
+<li><h5 id="Find-the-code-as-below-remove-the-from-last-line-make-it-work"><a href="#Find-the-code-as-below-remove-the-from-last-line-make-it-work" class="headerlink" title="@Find the code as below, remove the # from last line, make it work:"></a>@Find the code as below, remove the <code>#</code> from last line, make it work:</h5></li>
+</ul>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Define custom file paths.</span></span><br><span class="line"><span class="comment"># Create your custom files in site directory `source/_data` and uncomment needed files below.</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.njk</span></span><br><span class="line">  <span class="comment">#header: source/_data/header.njk</span></span><br><span class="line">  <span class="comment">#sidebar: source/_data/sidebar.njk</span></span><br><span class="line">  <span class="comment">#postMeta: source/_data/post-meta.njk</span></span><br><span class="line">  <span class="comment">#postBodyEnd: source/_data/post-body-end.njk</span></span><br><span class="line">  <span class="comment">#footer: source/_data/footer.njk</span></span><br><span class="line">  <span class="comment">#bodyEnd: source/_data/body-end.njk</span></span><br><span class="line">  <span class="comment">#variable: source/_data/variables.styl</span></span><br><span class="line">  <span class="comment">#mixin: source/_data/mixins.styl</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">source/_data/styles.styl</span>    <span class="comment">### here, remove the &quot;#&quot;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<br>
+
+
+
+<ul>
+<li><h5 id="You-next-will-find-that-we’ve-no-folder-“-data”-and-the-file-“styles-styl”-don’t-worry-just-create-them-as-the-path-indicated"><a href="#You-next-will-find-that-we’ve-no-folder-“-data”-and-the-file-“styles-styl”-don’t-worry-just-create-them-as-the-path-indicated" class="headerlink" title="@You next will find that, we’ve no folder “_data” and the file “styles.styl”, don’t worry, just create them as the path indicated."></a>@You next will find that, we’ve no folder “_data” and the file “styles.styl”, don’t worry, just create them as the path indicated.</h5><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">touch ./site_folder/source/_data/styles.styl</span><br><span class="line"></span><br><span class="line">&quot;old version Next, have custom.styl</span><br><span class="line">&quot;themes\next\source\css\ _custom\custom.styl</span><br><span class="line">&quot;They are same things&quot;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>All same to “custom.styl”, just change all parameter in new <code>styles.styl</code></p>
+</blockquote>
+<br>
+</li>
+<li><h5 id="Then-edit-and-paste-following-command-line-in-your-“styles-styl”"><a href="#Then-edit-and-paste-following-command-line-in-your-“styles-styl”" class="headerlink" title="@Then edit and paste following command line in your “styles.styl” :"></a>@Then edit and paste following command line in your “styles.styl” :</h5></li>
+</ul>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">body</span> &#123;</span><br><span class="line"> 	<span class="string">background:url(/images/lomgmao.jpg);</span> </span><br><span class="line"> 	<span class="attr">background-repeat:</span> <span class="literal">no</span><span class="string">-repeat;</span>  </span><br><span class="line"> 	<span class="string">height:100%;</span>  <span class="string">//no</span> <span class="string">scaling</span></span><br><span class="line">  	<span class="string">width:100%;</span>  <span class="string">//no</span> <span class="string">scaling</span></span><br><span class="line">    <span class="string">background-attachment:fixed;</span>  <span class="string">//</span> <span class="string">Whether</span> <span class="string">the</span> <span class="string">background</span> <span class="string">scrolls</span> <span class="string">up</span> <span class="string">and</span> <span class="string">down</span> <span class="string">with</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">background-size:</span> <span class="string">cover;</span>      <span class="string">//</span> <span class="string">If</span> <span class="string">the</span> <span class="string">background</span> <span class="string">image</span> <span class="string">is</span> <span class="string">not</span> <span class="string">full</span> <span class="string">screen</span>, <span class="string">whether</span> <span class="string">the</span> <span class="string">background</span> <span class="string">forced</span> <span class="string">to</span> <span class="string">be</span> <span class="string">stretched</span> <span class="string">to</span> <span class="string">full</span> <span class="string">screen</span> <span class="string">by</span> <span class="string">stretching.</span></span><br><span class="line">    <span class="string">//</span> <span class="string">background-size:100%</span> <span class="number">100</span><span class="string">%;</span> <span class="string">//It</span> <span class="string">can</span> <span class="string">be</span> <span class="string">scaled</span> <span class="string">in</span> <span class="string">sync</span> <span class="string">with</span> <span class="string">the</span> <span class="string">browser</span> <span class="string">size.</span></span><br><span class="line">    <span class="string">background-position:50%</span> <span class="number">50</span><span class="string">%;</span>      <span class="string">//centering</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>the annotation should follow the “//“</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+        <category>Theme_Next</category>
       </categories>
       <tags>
         <tag>Page optimization</tag>
