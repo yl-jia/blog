@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yunlong-jia.com/2020/10/17/2020-10-17-Not-speaking-or-saying-things-people-dont-understand/</loc>
+    
+    <lastmod>2020-10-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/about/animefan/index.html</loc>
+    
+    <lastmod>2020-10-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/about/bioinformatician/index.html</loc>
+    
+    <lastmod>2020-10-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/gallery/Dearly_beloved/index.html</loc>
+    
+    <lastmod>2020-10-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yunlong-jia.com/2020/10/17/2020-10-17-Top-places-to-go-in-China/</loc>
     
     <lastmod>2020-10-17</lastmod>
@@ -16,30 +44,9 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/about/animefan/index.html</loc>
-    
-    <lastmod>2020-10-17</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yunlong-jia.com/about/researcher/index.html</loc>
     
     <lastmod>2020-10-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/about/bioinformatician/index.html</loc>
-    
-    <lastmod>2020-10-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/gallery/Dearly_beloved/index.html</loc>
-    
-    <lastmod>2020-10-11</lastmod>
     
   </url>
   
@@ -335,13 +342,6 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/Tutorials/Hexo/Theme-Next/</loc>
-    <lastmod>2020-10-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yunlong-jia.com/categories/Tutorials/Hexo/Adv/</loc>
     <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
@@ -350,6 +350,13 @@
   
   <url>
     <loc>http://yunlong-jia.com/categories/Tutorials/Hexo/Basic/</loc>
+    <lastmod>2020-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/categories/Tutorials/Hexo/Theme-Next/</loc>
     <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
