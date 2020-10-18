@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yunlong-jia.com/2020/10/17/2020-10-17-Not-speaking-or-saying-things-people-dont-understand/</loc>
+    
+    <lastmod>2020-10-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/2020/09/05/2020-09-05-Hexo-Adv-blog-post-encrypt/</loc>
+    
+    <lastmod>2020-10-18</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yunlong-jia.com/about/index.html</loc>
     
     <lastmod>2020-10-18</lastmod>
@@ -79,13 +93,6 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/2020/10/17/2020-10-17-Not-speaking-or-saying-things-people-dont-understand/</loc>
-    
-    <lastmod>2020-10-18</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yunlong-jia.com/2020/10/18/2020-10-18-Chinese-culture-12-zodiac-signs/</loc>
     
     <lastmod>2020-10-18</lastmod>
@@ -122,13 +129,6 @@
   
   <url>
     <loc>http://yunlong-jia.com/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</loc>
-    
-    <lastmod>2020-10-10</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/2020/09/05/2020-09-05-Hexo-Adv-blog-post-encrypt/</loc>
     
     <lastmod>2020-10-10</lastmod>
     
@@ -347,14 +347,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/Chinese-culture/</loc>
+    <loc>http://yunlong-jia.com/tags/Good-places/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/Good-places/</loc>
+    <loc>http://yunlong-jia.com/tags/Chinese-culture/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -433,14 +433,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/China/Perception/</loc>
+    <loc>http://yunlong-jia.com/categories/Tutorials/Picbed/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/China/Culture/</loc>
+    <loc>http://yunlong-jia.com/categories/China/Perception/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -454,7 +454,7 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/Tutorials/Picbed/</loc>
+    <loc>http://yunlong-jia.com/categories/China/Culture/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
