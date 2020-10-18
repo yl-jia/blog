@@ -9,21 +9,7 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</loc>
-    
-    <lastmod>2020-10-18</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yunlong-jia.com/2020/10/18/2020-10-18-Chinese-culture-traditional-chinese-medicine/</loc>
-    
-    <lastmod>2020-10-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/2020/10/18/2020-10-18-Chinese-culture-five-elements-theory/</loc>
     
     <lastmod>2020-10-18</lastmod>
     
@@ -37,7 +23,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/2020/10/18/2020-10-18-Chinese-culture-12-zodiac-signs/</loc>
+    <loc>http://yunlong-jia.com/2020/10/18/2020-10-18-Chinese-culture-five-elements-theory/</loc>
+    
+    <lastmod>2020-10-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</loc>
     
     <lastmod>2020-10-18</lastmod>
     
@@ -51,7 +44,21 @@
   </url>
   
   <url>
+    <loc>http://yunlong-jia.com/2020/10/17/2020-10-17-Top-places-to-go-in-China/</loc>
+    
+    <lastmod>2020-10-18</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yunlong-jia.com/2020/10/17/2020-10-17-Not-speaking-or-saying-things-people-dont-understand/</loc>
+    
+    <lastmod>2020-10-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/2020/10/18/2020-10-18-Chinese-culture-12-zodiac-signs/</loc>
     
     <lastmod>2020-10-18</lastmod>
     
@@ -80,13 +87,6 @@
   
   <url>
     <loc>http://yunlong-jia.com/gallery/Dearly_beloved/index.html</loc>
-    
-    <lastmod>2020-10-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/2020/10/17/2020-10-17-Top-places-to-go-in-China/</loc>
     
     <lastmod>2020-10-17</lastmod>
     
@@ -340,7 +340,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/China/</loc>
+    <loc>http://yunlong-jia.com/tags/Opinion/</loc>
+    <lastmod>2020-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/tags/Good-places/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -413,6 +420,27 @@
   
   <url>
     <loc>http://yunlong-jia.com/categories/Tutorials/Hexo/Theme-Next/</loc>
+    <lastmod>2020-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/categories/China/Perception/</loc>
+    <lastmod>2020-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/categories/China/Tour/</loc>
+    <lastmod>2020-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/categories/China/Culture/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
