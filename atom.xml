@@ -6,7 +6,7 @@
   <link href="http://yunlong-jia.com/atom.xml" rel="self"/>
   
   <link href="http://yunlong-jia.com/"/>
-  <updated>2020-10-18T13:18:39.531Z</updated>
+  <updated>2020-10-18T15:06:01.065Z</updated>
   <id>http://yunlong-jia.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Picture bed building by GitHub + PicGo</title>
+    <link href="http://yunlong-jia.com/2020/10/18/2020-10-18-Picturebed-using-PicGo-and-Github/"/>
+    <id>http://yunlong-jia.com/2020/10/18/2020-10-18-Picturebed-using-PicGo-and-Github/</id>
+    <published>2020-10-18T14:44:15.000Z</published>
+    <updated>2020-10-18T15:06:01.065Z</updated>
+    
+    <content type="html"><![CDATA[<p>This article describes how to use your own GitHub as a picture bed and use the open source software PicGo to upload pictures to GitHub.</p><blockquote><p>We need a free Tu-bed to store the pictures online, for saving limited space of Github repo [1G].</p></blockquote><a id="more"></a><h4 id="1-Download-PicGo"><a href="#1-Download-PicGo" class="headerlink" title="1.Download PicGo"></a>1.Download PicGo</h4><p><a href="https://molunerfinn.com/PicGo/">https://molunerfinn.com/PicGo/</a></p><h4 id="2-Create-a-Github-repo-to-store-pictures"><a href="#2-Create-a-Github-repo-to-store-pictures" class="headerlink" title="2.Create a Github repo to store pictures"></a>2.Create a Github repo to store pictures</h4><p>Github –&gt; New Repo. –&gt; Create</p><h4 id="3-Make-token"><a href="#3-Make-token" class="headerlink" title="3.Make token"></a>3.Make token</h4><p>Personal <code>Settings</code> –&gt; <code>Developer Settings</code> –&gt; <code>Personal access tokens</code></p><p>–&gt; <code>Generate new token</code>–&gt; Give a <code>note</code> for token –&gt; select <code>repo</code>to define the access</p><p>–&gt; <code>Generate token</code>–&gt; copy the token down and use it later.</p><h4 id="4-Set-up-PicGO-for-GitHub-tu-bed"><a href="#4-Set-up-PicGO-for-GitHub-tu-bed" class="headerlink" title="4.Set up PicGO for GitHub tu-bed"></a>4.Set up PicGO for GitHub tu-bed</h4><p><code>Tu-bed setting</code>–&gt; <code>GitHub tu-bed</code></p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201018170000.png" style="zoom: 80%;" /><p>@ <code>Warehouse name:</code> it is your <strong>[GitHub name ]/[warehouse name]</strong></p><p>@  <code>Branch name:</code> <strong>master</strong> or <strong>main</strong> [check in your repo]</p><p>@ <code>Token:</code> fill in the token just generated</p><p>@ <code>Specify the storage path:</code> write it as <strong>img/</strong>, the future pictures will be stored in the<code> img</code> folder [auto-generating a new folder named <code>img</code>]</p><p>@ <code>Set a custom domain name: </code>this is a fixed format,<strong><a href="https://raw.githubusercontent.com/[your_username]/[">https://raw.githubusercontent.com/[your_username]/[</a> repo_name]/[branch]</strong></p><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><blockquote><p><a href="https://www.programmersought.com/article/26103992840/">https://www.programmersought.com/article/26103992840/</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;This article describes how to use your own GitHub as a picture bed and use the open source software PicGo to upload pictures to GitHub.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We need a free Tu-bed to store the pictures online, for saving limited space of Github repo [1G].&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Tutorials" scheme="http://yunlong-jia.com/categories/Tutorials/"/>
+    
+    <category term="Picbed" scheme="http://yunlong-jia.com/categories/Tutorials/Picbed/"/>
+    
+    
+    <category term="Picbed" scheme="http://yunlong-jia.com/tags/Picbed/"/>
+    
+  </entry>
   
   <entry>
     <title>Chinese culture @ Traditional herbal medicine [中药]</title>
@@ -496,34 +522,6 @@
     <category term="Page optimization" scheme="http://yunlong-jia.com/tags/Page-optimization/"/>
     
     <category term="Hexo[Next]" scheme="http://yunlong-jia.com/tags/Hexo-Next/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo_Adv @ add Comment System in your site</title>
-    <link href="http://yunlong-jia.com/2020/09/01/2020-09-01-Hexo-Adv-add-Comment-system-in-your-site/"/>
-    <id>http://yunlong-jia.com/2020/09/01/2020-09-01-Hexo-Adv-add-Comment-system-in-your-site/</id>
-    <published>2020-08-31T22:34:49.000Z</published>
-    <updated>2020-10-10T10:05:15.601Z</updated>
-    
-    <content type="html"><![CDATA[<p>First, go to <code>Disqus</code>website, to sign up for an account,</p><p>Keep in mind your <code>shortname</code>.</p><p>Go to :</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;themes&#x2F;next&#x2F;_config.yml</span><br></pre></td></tr></table></figure><a id="more"></a><p>Locate to the code block as below:</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Disqus</span></span><br><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">shortname:</span> <span class="string">yl-jia</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>Add your own “shortname”, and enable “true”, then the Comment system is working.</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;First, go to &lt;code&gt;Disqus&lt;/code&gt;website, to sign up for an account,&lt;/p&gt;
-&lt;p&gt;Keep in mind your &lt;code&gt;shortname&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Go to :&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;cd .&amp;#x2F;site_folder&amp;#x2F;themes&amp;#x2F;next&amp;#x2F;_config.yml&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="Tutorials" scheme="http://yunlong-jia.com/categories/Tutorials/"/>
-    
-    <category term="Hexo" scheme="http://yunlong-jia.com/categories/Tutorials/Hexo/"/>
-    
-    <category term="Adv." scheme="http://yunlong-jia.com/categories/Tutorials/Hexo/Adv/"/>
-    
-    
-    <category term="Hexo_Adv" scheme="http://yunlong-jia.com/tags/Hexo-Adv/"/>
     
   </entry>
   

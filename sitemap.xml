@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yunlong-jia.com/gallery/photos/index.html</loc>
+    
+    <lastmod>2020-10-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/2020/10/18/2020-10-18-Picturebed-using-PicGo-and-Github/</loc>
+    
+    <lastmod>2020-10-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/gallery/Dearly_beloved/index.html</loc>
+    
+    <lastmod>2020-10-18</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yunlong-jia.com/2020/10/18/2020-10-18-Chinese-culture-traditional-herbal-medicine/</loc>
     
     <lastmod>2020-10-18</lastmod>
@@ -80,13 +101,6 @@
   
   <url>
     <loc>http://yunlong-jia.com/about/bioinformatician/index.html</loc>
-    
-    <lastmod>2020-10-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/gallery/Dearly_beloved/index.html</loc>
     
     <lastmod>2020-10-17</lastmod>
     
@@ -219,13 +233,6 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/gallery/photos/index.html</loc>
-    
-    <lastmod>2020-09-19</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yunlong-jia.com/gallery/alumni/index.html</loc>
     
     <lastmod>2020-09-17</lastmod>
@@ -271,13 +278,6 @@
     <loc>http://yunlong-jia.com/alumni/index.html</loc>
     
     <lastmod>2020-08-31</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/photos/index.html</loc>
-    
-    <lastmod>2020-08-30</lastmod>
     
   </url>
   
@@ -360,6 +360,13 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>http://yunlong-jia.com/tags/Picbed/</loc>
+    <lastmod>2020-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
@@ -420,6 +427,13 @@
   
   <url>
     <loc>http://yunlong-jia.com/categories/Tutorials/Hexo/Theme-Next/</loc>
+    <lastmod>2020-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/categories/Tutorials/Picbed/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
