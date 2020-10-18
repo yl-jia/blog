@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yunlong-jia.com/about/index.html</loc>
+    
+    <lastmod>2020-10-18</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yunlong-jia.com/gallery/photos/index.html</loc>
     
     <lastmod>2020-10-18</lastmod>
@@ -226,13 +233,6 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/about/index.html</loc>
-    
-    <lastmod>2020-09-20</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yunlong-jia.com/gallery/alumni/index.html</loc>
     
     <lastmod>2020-09-17</lastmod>
@@ -347,14 +347,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/Good-places/</loc>
+    <loc>http://yunlong-jia.com/tags/Chinese-culture/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/Chinese-culture/</loc>
+    <loc>http://yunlong-jia.com/tags/Good-places/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -433,14 +433,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/Tutorials/Picbed/</loc>
+    <loc>http://yunlong-jia.com/categories/China/Perception/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/China/Perception/</loc>
+    <loc>http://yunlong-jia.com/categories/China/Culture/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -454,7 +454,7 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/China/Culture/</loc>
+    <loc>http://yunlong-jia.com/categories/Tutorials/Picbed/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
