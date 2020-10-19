@@ -312,6 +312,13 @@
   </url>
   
   <url>
+    <loc>http://yunlong-jia.com/tags/Hexo-Basic/</loc>
+    <lastmod>2020-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yunlong-jia.com/tags/Page-optimization/</loc>
     <lastmod>2020-10-19</lastmod>
     <changefreq>daily</changefreq>
@@ -320,13 +327,6 @@
   
   <url>
     <loc>http://yunlong-jia.com/tags/Hexo-Next/</loc>
-    <lastmod>2020-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/tags/Hexo-Basic/</loc>
     <lastmod>2020-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -433,6 +433,13 @@
   </url>
   
   <url>
+    <loc>http://yunlong-jia.com/categories/Tutorials/Hexo/Basic/</loc>
+    <lastmod>2020-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yunlong-jia.com/categories/Tutorials/Hexo/Theme-Next/</loc>
     <lastmod>2020-10-19</lastmod>
     <changefreq>daily</changefreq>
@@ -448,13 +455,6 @@
   
   <url>
     <loc>http://yunlong-jia.com/categories/Daily-life/Mine/</loc>
-    <lastmod>2020-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/categories/Tutorials/Hexo/Basic/</loc>
     <lastmod>2020-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

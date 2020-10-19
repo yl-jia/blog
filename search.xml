@@ -16,6 +16,26 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo_Basic @ Post guide of YAML front matter</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</url>
+    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
+<p>It includes all necessary parameter needed for your article.</p>
+<p>Here is just some of important ones, which should be always considered before your writing: </p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+        <category>Basic</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Basic</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo[Next] @ add rounded corners</title>
     <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
     <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
@@ -89,26 +109,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Basic @ Post guide of YAML front matter</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</url>
-    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
-<p>It includes all necessary parameter needed for your article.</p>
-<p>Here is just some of important ones, which should be always considered before your writing: </p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-        <category>Basic</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Basic</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo_Adv @ Add local search function</title>
     <url>/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</url>
     <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
@@ -121,31 +121,6 @@
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 搜索</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
 
 <h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Adv @ Add related post function</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</url>
-    <content><![CDATA[<p>With the module of <code>hexo-related-popular-posts</code>, hexo can find and match related articles for visitors.</p>
-<h4 id="1-install-quicklinkmodule-in-git-bash"><a href="#1-install-quicklinkmodule-in-git-bash" class="headerlink" title="1. install quicklinkmodule in git bash:"></a>1. install <code>quicklink</code>module in git bash:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
-
-<h4 id="2-Open-and-modify-the-config-file"><a href="#2-Open-and-modify-the-config-file" class="headerlink" title="2. Open and modify the config file:"></a>2. Open and modify the config file:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<p>Locate to “related_posts” code block, change “enable” as “true”,</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="attr">PPMixingRate:</span> <span class="number">0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="attr">isImage:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
-
-
 
 ]]></content>
       <categories>
@@ -182,29 +157,28 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ Set transparency and margins</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/</url>
-    <content><![CDATA[<p>Go to the custom style file:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/source/_data/styles.styl | vi</span><br></pre></td></tr></table></figure>
+    <title>Hexo_Adv @ Add related post function</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</url>
+    <content><![CDATA[<p>With the module of <code>hexo-related-popular-posts</code>, hexo can find and match related articles for visitors.</p>
+<h4 id="1-install-quicklinkmodule-in-git-bash"><a href="#1-install-quicklinkmodule-in-git-bash" class="headerlink" title="1. install quicklinkmodule in git bash:"></a>1. install <code>quicklink</code>module in git bash:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
 
+<h4 id="2-Open-and-modify-the-config-file"><a href="#2-Open-and-modify-the-config-file" class="headerlink" title="2. Open and modify the config file:"></a>2. Open and modify the config file:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
 
-
-<p>Add the code as below:</p>
 <a id="more"></a>
 
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">//1_The</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="string">rgba(255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.7</span><span class="string">);</span> <span class="string">//from</span> <span class="number">0</span><span class="number">-1</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//2_Avatar</span> <span class="string">info</span> <span class="string">bar</span></span><br><span class="line"><span class="string">.sidebar</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.85</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//3_local-search</span> <span class="string">box</span></span><br><span class="line"><span class="string">.popup</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.9</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//4_post</span> <span class="string">tranparency</span> <span class="string">and</span> <span class="string">middle</span> <span class="string">body</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.main-inner</span> &#123; </span><br><span class="line">    <span class="attr">margin-top:</span> <span class="string">20px;</span>  <span class="string">//Margin</span> <span class="string">from</span> <span class="string">the</span> <span class="string">top</span> <span class="string">of</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">padding:</span> <span class="string">20px</span> <span class="string">40px</span> <span class="string">20px</span> <span class="string">40px;</span> <span class="string">//</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">for</span> <span class="string">up</span>,<span class="string">right</span>,<span class="string">down</span>,<span class="string">and</span> <span class="string">left.</span></span><br><span class="line">    <span class="attr">background:</span> <span class="string">none;</span> <span class="string">//The</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">color</span>, <span class="comment">#fff [white] is default. //&quot;none&quot; is transparent</span></span><br><span class="line">    <span class="attr">opacity:</span> <span class="number">0.90</span><span class="string">;</span>     </span><br><span class="line">    <span class="attr">min-height:</span> <span class="string">500px;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>Locate to “related_posts” code block, change “enable” as “true”,</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="attr">PPMixingRate:</span> <span class="number">0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="attr">isImage:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
 
-<p>You can now customize all the transparency of your site and margins.</p>
-<p>Good luck！</p>
+
+
 ]]></content>
       <categories>
         <category>Tutorials</category>
         <category>Hexo</category>
-        <category>Theme_Next</category>
+        <category>Adv.</category>
       </categories>
       <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
+        <tag>Hexo_Adv</tag>
       </tags>
   </entry>
   <entry>
@@ -225,6 +199,32 @@
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">&#123;%- if theme.back2top.enable and theme.back2top.sidebar %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;back-to-top animated&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;fa fa-arrow-up&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">span</span>&gt;</span>0%<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;%- endif %&#125;</span><br><span class="line"></span><br><span class="line">      <span class="comment">&lt;!-- location for tag cloud--&gt;</span></span><br><span class="line"> 	  &#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcloud.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcanvas.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width=100%&quot;</span>&gt;</span></span><br><span class="line">                    &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">                <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;% endif %&#125;</span><br><span class="line">      <span class="comment">&lt;!-- end for tag cloud--&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;sidebar-dimmer&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">&#123;% endmacro %&#125;</span><br></pre></td></tr></table></figure>
 
 <p>Reload page, the 3D cloud-tag will appear.</p>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+        <category>Theme_Next</category>
+      </categories>
+      <tags>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo[Next] @ Set transparency and margins</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/</url>
+    <content><![CDATA[<p>Go to the custom style file:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/source/_data/styles.styl | vi</span><br></pre></td></tr></table></figure>
+
+
+
+<p>Add the code as below:</p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">//1_The</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="string">rgba(255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.7</span><span class="string">);</span> <span class="string">//from</span> <span class="number">0</span><span class="number">-1</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//2_Avatar</span> <span class="string">info</span> <span class="string">bar</span></span><br><span class="line"><span class="string">.sidebar</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.85</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//3_local-search</span> <span class="string">box</span></span><br><span class="line"><span class="string">.popup</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.9</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//4_post</span> <span class="string">tranparency</span> <span class="string">and</span> <span class="string">middle</span> <span class="string">body</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.main-inner</span> &#123; </span><br><span class="line">    <span class="attr">margin-top:</span> <span class="string">20px;</span>  <span class="string">//Margin</span> <span class="string">from</span> <span class="string">the</span> <span class="string">top</span> <span class="string">of</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">padding:</span> <span class="string">20px</span> <span class="string">40px</span> <span class="string">20px</span> <span class="string">40px;</span> <span class="string">//</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">for</span> <span class="string">up</span>,<span class="string">right</span>,<span class="string">down</span>,<span class="string">and</span> <span class="string">left.</span></span><br><span class="line">    <span class="attr">background:</span> <span class="string">none;</span> <span class="string">//The</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">color</span>, <span class="comment">#fff [white] is default. //&quot;none&quot; is transparent</span></span><br><span class="line">    <span class="attr">opacity:</span> <span class="number">0.90</span><span class="string">;</span>     </span><br><span class="line">    <span class="attr">min-height:</span> <span class="string">500px;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>You can now customize all the transparency of your site and margins.</p>
+<p>Good luck！</p>
 ]]></content>
       <categories>
         <category>Tutorials</category>
@@ -296,8 +296,8 @@
         <category>Basic</category>
       </categories>
       <tags>
-        <tag>Page optimization</tag>
         <tag>Hexo_Basic</tag>
+        <tag>Page optimization</tag>
       </tags>
   </entry>
   <entry>
@@ -738,6 +738,8 @@
     <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201019223443.png" style="zoom: 80%;" />
 
 
+
+<a id="more"></a>
 
 <br>
 
