@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Saki before the Doomsday Sky</title>
-    <url>/2020/08/24/2020-08-24-Saki-portrait-md/</url>
+    <url>/2020/08/24/2020-08-24-Saki-portrait/</url>
     <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/4483f524gy1gi1jyh7uw1j20w40frtcl.jpg"></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">I&#39;ve been watching you~</span><br></pre></td></tr></table></figure>
 
@@ -16,23 +16,26 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Basic @ Post guide of YAML front matter</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</url>
-    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
-<p>It includes all necessary parameter needed for your article.</p>
-<p>Here is just some of important ones, which should be always considered before your writing: </p>
+    <title>Hexo[Next] @ add rounded corners</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
+    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
+<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
+
+<p>add the follow code should be OK:</p>
 <a id="more"></a>
 
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
         <category>Tutorials</category>
         <category>Hexo</category>
-        <category>Basic</category>
+        <category>Theme_Next</category>
       </categories>
       <tags>
-        <tag>Hexo_Basic</tag>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
       </tags>
   </entry>
   <entry>
@@ -86,6 +89,26 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo_Basic @ Post guide of YAML front matter</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</url>
+    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
+<p>It includes all necessary parameter needed for your article.</p>
+<p>Here is just some of important ones, which should be always considered before your writing: </p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+        <category>Basic</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Basic</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo_Adv @ Add local search function</title>
     <url>/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</url>
     <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
@@ -99,53 +122,6 @@
 
 <h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
 
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo[Next] @ add rounded corners</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
-    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
-<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
-
-<p>add the follow code should be OK:</p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Adv @ add Comment System in your site</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Adv-add-Comment-system-in-your-site/</url>
-    <content><![CDATA[<p>First, go to <code>Disqus</code>website, to sign up for an account,</p>
-<p>Keep in mind your <code>shortname</code>.</p>
-<p>Go to :</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;themes&#x2F;next&#x2F;_config.yml</span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<p>Locate to the code block as below:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Disqus</span></span><br><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">shortname:</span> <span class="string">yl-jia</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<p>Add your own “shortname”, and enable “true”, then the Comment system is working.</p>
 ]]></content>
       <categories>
         <category>Tutorials</category>
@@ -171,6 +147,30 @@
 
 
 
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ add Comment System in your site</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Adv-add-Comment-system-in-your-site/</url>
+    <content><![CDATA[<p>First, go to <code>Disqus</code>website, to sign up for an account,</p>
+<p>Keep in mind your <code>shortname</code>.</p>
+<p>Go to :</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;themes&#x2F;next&#x2F;_config.yml</span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<p>Locate to the code block as below:</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Disqus</span></span><br><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">shortname:</span> <span class="string">yl-jia</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p>Add your own “shortname”, and enable “true”, then the Comment system is working.</p>
 ]]></content>
       <categories>
         <category>Tutorials</category>
@@ -296,8 +296,8 @@
         <category>Basic</category>
       </categories>
       <tags>
-        <tag>Hexo_Basic</tag>
         <tag>Page optimization</tag>
+        <tag>Hexo_Basic</tag>
       </tags>
   </entry>
   <entry>
@@ -424,23 +424,6 @@
       </categories>
       <tags>
         <tag>Good places</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Chinese culture @ Calendar</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
-    <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
-]]></content>
-      <categories>
-        <category>China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
       </tags>
   </entry>
   <entry>
@@ -614,6 +597,40 @@
       </tags>
   </entry>
   <entry>
+    <title>Chinese culture @ Calendar</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
+    <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
+]]></content>
+      <categories>
+        <category>China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chinese culture @ China’s religious beliefs</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
+    <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/travelguide/religion.htm">https://www.chinahighlights.com/travelguide/religion.htm</a></p>
+]]></content>
+      <categories>
+        <category>China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Chinese culture @ Five Elements Theory [五行]</title>
     <url>/2020/10/18/2020-10-18-Chinese-culture-five-elements-theory/</url>
     <content><![CDATA[<img src="/beauty/wuxing.png" style="zoom:70%;" />
@@ -665,23 +682,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Traditional herbal medicine [中药]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-herbal-medicine/</url>
-    <content><![CDATA[<img src="/beauty/zy.png" style="zoom:70%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm">https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm</a></p>
-]]></content>
-      <categories>
-        <category>China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Picture bed building by GitHub + PicGo</title>
     <url>/2020/10/18/2020-10-18-Picturebed-using-PicGo-and-Github/</url>
     <content><![CDATA[<p>This article describes how to use your own GitHub as a picture bed and use the open source software PicGo to upload pictures to GitHub.</p>
@@ -716,6 +716,76 @@
       </tags>
   </entry>
   <entry>
+    <title>Chinese culture @ Traditional herbal medicine [中药]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-herbal-medicine/</url>
+    <content><![CDATA[<img src="/beauty/zy.png" style="zoom:70%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm">https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm</a></p>
+]]></content>
+      <categories>
+        <category>China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2nd Wedding Anniversary</title>
+    <url>/2020/10/19/2020-10-19-wedding-anniversary/</url>
+    <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201019223443.png" style="zoom: 80%;" />
+
+
+
+<br>
+
+<p>秋风起，天渐凉，</p>
+<p>不免惆怅，四顾无人，唯有守空床,</p>
+<p>天涯不远隔，但总归是无手可执，泪成行。</p>
+<br>
+
+<p>你若我归心似切，却不免再生情愫，无可避，</p>
+<p>我若你思前想后，陪儿起早贪黑，能问谁？</p>
+<br>
+
+<p>秋风起，天渐凉，</p>
+<p>心若比邻遥无期，</p>
+<p>何时再聚首, 当以命相许, 在一起。</p>
+<br>
+
+<p>秋风起，天渐凉，</p>
+<p>在家多穿衣，夫远鞭莫及，</p>
+<p>多吃东西，为我少生气。</p>
+<p>笨嘴没时间，一身傻，就会想自己，</p>
+<p>哪有斯如此，我生只为你做衣。</p>
+<br>
+
+<p>秋风起，天渐凉，</p>
+<p>结婚两载已。</p>
+<p>白头携子手，永生不相离。</p>
+<br>
+
+<p>秋风起，天渐凉，</p>
+<p>叶落黄，月高挂，喵睡床，</p>
+<p>罐罐哭，妈妈起，我思量。</p>
+<br>
+
+<blockquote>
+<p>—致喵喵</p>
+<p>2020-10-19 夜</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Daily life</category>
+        <category>Mine</category>
+      </categories>
+      <tags>
+        <tag>anniversary</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Encrypt test</title>
     <url>/2020/09/05/test/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="ed8ea9f959d26034b0310137a7ed7b395bcb2757afdf4d9eeb12cb78f8ba9687">5300e48635ea839002cc0a52b513a87a9ab18eb68cdf6cdd386fe70f98163f2d2f609a276893e15f73f76b6669904bec3227d0b701e1f2d4a41f4642967fa73269fe0a6f060609accc1e9a14332c9d231af5db80878e088a01c833c0a309f22041e6e0e4df4fd099afd92fefbd6182c7330a0cdc661f6a2729e2824ffb90007aa180b959a6b2c51698098638d16afbbfccdc04f934240f75629983587be4556c7f93c30e9effcbcc1b93ac6c291f1e0cfd2f9c6ca966c7e5fe4a958fa077b20b</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
@@ -726,23 +796,6 @@
       <tags>
         <tag>Page optimization</tag>
         <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Chinese culture @ China’s religious beliefs</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
-    <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/travelguide/religion.htm">https://www.chinahighlights.com/travelguide/religion.htm</a></p>
-]]></content>
-      <categories>
-        <category>China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
       </tags>
   </entry>
 </search>

@@ -6,7 +6,7 @@
   <link href="http://yunlong-jia.com/atom.xml" rel="self"/>
   
   <link href="http://yunlong-jia.com/"/>
-  <updated>2020-10-18T15:06:01.065Z</updated>
+  <updated>2020-10-19T21:29:31.462Z</updated>
   <id>http://yunlong-jia.com/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2nd Wedding Anniversary</title>
+    <link href="http://yunlong-jia.com/2020/10/19/2020-10-19-wedding-anniversary/"/>
+    <id>http://yunlong-jia.com/2020/10/19/2020-10-19-wedding-anniversary/</id>
+    <published>2020-10-19T21:27:15.000Z</published>
+    <updated>2020-10-19T21:29:31.462Z</updated>
+    
+    <content type="html"><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201019223443.png" style="zoom: 80%;" /><br><p>秋风起，天渐凉，</p><p>不免惆怅，四顾无人，唯有守空床,</p><p>天涯不远隔，但总归是无手可执，泪成行。</p><br><p>你若我归心似切，却不免再生情愫，无可避，</p><p>我若你思前想后，陪儿起早贪黑，能问谁？</p><br><p>秋风起，天渐凉，</p><p>心若比邻遥无期，</p><p>何时再聚首, 当以命相许, 在一起。</p><br><p>秋风起，天渐凉，</p><p>在家多穿衣，夫远鞭莫及，</p><p>多吃东西，为我少生气。</p><p>笨嘴没时间，一身傻，就会想自己，</p><p>哪有斯如此，我生只为你做衣。</p><br><p>秋风起，天渐凉，</p><p>结婚两载已。</p><p>白头携子手，永生不相离。</p><br><p>秋风起，天渐凉，</p><p>叶落黄，月高挂，喵睡床，</p><p>罐罐哭，妈妈起，我思量。</p><br><blockquote><p>—致喵喵</p><p>2020-10-19 夜</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;img src=&quot;https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201019223443.png&quot; style=&quot;zoom: 80%;&quot; /&gt;
+
+
+
+&lt;br&gt;
+
+&lt;p&gt;秋风起，天渐凉，&lt;/p&gt;
+&lt;p&gt;不免惆</summary>
+      
+    
+    
+    
+    <category term="Daily life" scheme="http://yunlong-jia.com/categories/Daily-life/"/>
+    
+    <category term="Mine" scheme="http://yunlong-jia.com/categories/Daily-life/Mine/"/>
+    
+    
+    <category term="anniversary" scheme="http://yunlong-jia.com/tags/anniversary/"/>
+    
+  </entry>
   
   <entry>
     <title>Picture bed building by GitHub + PicGo</title>
@@ -320,9 +353,9 @@
     <category term="Basic" scheme="http://yunlong-jia.com/categories/Tutorials/Hexo/Basic/"/>
     
     
-    <category term="Hexo_Basic" scheme="http://yunlong-jia.com/tags/Hexo-Basic/"/>
-    
     <category term="Page optimization" scheme="http://yunlong-jia.com/tags/Page-optimization/"/>
+    
+    <category term="Hexo_Basic" scheme="http://yunlong-jia.com/tags/Hexo-Basic/"/>
     
   </entry>
   
@@ -490,38 +523,6 @@
     
     
     <category term="Hexo_Adv" scheme="http://yunlong-jia.com/tags/Hexo-Adv/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo[Next] @ Set transparency and margins</title>
-    <link href="http://yunlong-jia.com/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/"/>
-    <id>http://yunlong-jia.com/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/</id>
-    <published>2020-08-31T22:53:18.000Z</published>
-    <updated>2020-10-10T09:56:48.850Z</updated>
-    
-    <content type="html"><![CDATA[<p>Go to the custom style file:</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ./site_folder/source/_data/styles.styl | vi</span><br></pre></td></tr></table></figure><p>Add the code as below:</p><a id="more"></a><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">//1_The</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="string">rgba(255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.7</span><span class="string">);</span> <span class="string">//from</span> <span class="number">0</span><span class="number">-1</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//2_Avatar</span> <span class="string">info</span> <span class="string">bar</span></span><br><span class="line"><span class="string">.sidebar</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.85</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//3_local-search</span> <span class="string">box</span></span><br><span class="line"><span class="string">.popup</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.9</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//4_post</span> <span class="string">tranparency</span> <span class="string">and</span> <span class="string">middle</span> <span class="string">body</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.main-inner</span> &#123; </span><br><span class="line">    <span class="attr">margin-top:</span> <span class="string">20px;</span>  <span class="string">//Margin</span> <span class="string">from</span> <span class="string">the</span> <span class="string">top</span> <span class="string">of</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">padding:</span> <span class="string">20px</span> <span class="string">40px</span> <span class="string">20px</span> <span class="string">40px;</span> <span class="string">//</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">for</span> <span class="string">up</span>,<span class="string">right</span>,<span class="string">down</span>,<span class="string">and</span> <span class="string">left.</span></span><br><span class="line">    <span class="attr">background:</span> <span class="string">none;</span> <span class="string">//The</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">color</span>, <span class="comment">#fff [white] is default. //&quot;none&quot; is transparent</span></span><br><span class="line">    <span class="attr">opacity:</span> <span class="number">0.90</span><span class="string">;</span>     </span><br><span class="line">    <span class="attr">min-height:</span> <span class="string">500px;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>You can now customize all the transparency of your site and margins.</p><p>Good luck！</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Go to the custom style file:&lt;/p&gt;
-&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;cd ./site_folder/source/_data/styles.styl | vi&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Add the code as below:&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Tutorials" scheme="http://yunlong-jia.com/categories/Tutorials/"/>
-    
-    <category term="Hexo" scheme="http://yunlong-jia.com/categories/Tutorials/Hexo/"/>
-    
-    <category term="Theme_Next" scheme="http://yunlong-jia.com/categories/Tutorials/Hexo/Theme-Next/"/>
-    
-    
-    <category term="Page optimization" scheme="http://yunlong-jia.com/tags/Page-optimization/"/>
-    
-    <category term="Hexo[Next]" scheme="http://yunlong-jia.com/tags/Hexo-Next/"/>
     
   </entry>
   
