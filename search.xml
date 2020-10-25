@@ -16,26 +16,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Basic @ Post guide of YAML front matter</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</url>
-    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
-<p>It includes all necessary parameter needed for your article.</p>
-<p>Here is just some of important ones, which should be always considered before your writing: </p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-        <category>Basic</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Basic</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo[Next] @ Custom background image</title>
     <url>/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</url>
     <content><![CDATA[<p>*<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong> Based on <code>Next theme</code> <a href="https://github.com/theme-next/hexo-theme-next/commit/f9956802c9cf51ebdb447fb954efa6383fbb2bd6">Release v7.8.0</a></p>
@@ -86,6 +66,26 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo_Basic @ Post guide of YAML front matter</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</url>
+    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
+<p>It includes all necessary parameter needed for your article.</p>
+<p>Here is just some of important ones, which should be always considered before your writing: </p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+        <category>Basic</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Basic</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo[Next] @ add rounded corners</title>
     <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
     <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
@@ -109,30 +109,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Adv @ Add local search function</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</url>
-    <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
-
-<h4 id="2-Open-config-file-and-add-code"><a href="#2-Open-config-file-and-add-code" class="headerlink" title="2. Open config file and add code:"></a>2. Open config file and add code:</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;_config.yml |vi</span><br></pre></td></tr></table></figure>
-
-<p>add the code below after “Extension”:</p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 搜索</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo_Adv @ add Comment System in your site</title>
     <url>/2020/09/01/2020-09-01-Hexo-Adv-add-Comment-system-in-your-site/</url>
     <content><![CDATA[<p>First, go to <code>Disqus</code>website, to sign up for an account,</p>
@@ -146,6 +122,30 @@
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Disqus</span></span><br><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">shortname:</span> <span class="string">yl-jia</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
 <p>Add your own “shortname”, and enable “true”, then the Comment system is working.</p>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ Add local search function</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</url>
+    <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-Open-config-file-and-add-code"><a href="#2-Open-config-file-and-add-code" class="headerlink" title="2. Open config file and add code:"></a>2. Open config file and add code:</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;_config.yml |vi</span><br></pre></td></tr></table></figure>
+
+<p>add the code below after “Extension”:</p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 搜索</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>Tutorials</category>
@@ -296,8 +296,29 @@
         <category>Basic</category>
       </categories>
       <tags>
-        <tag>Hexo_Basic</tag>
         <tag>Page optimization</tag>
+        <tag>Hexo_Basic</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Zotero @ Citation style custom</title>
+    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
+    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
+<a id="more"></a>
+
+<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
+<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
+<blockquote>
+<p>ref:</p>
+<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Zotero</category>
+      </categories>
+      <tags>
+        <tag>Zotero</tag>
       </tags>
   </entry>
   <entry>
@@ -337,27 +358,6 @@
       <tags>
         <tag>Page optimization</tag>
         <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Zotero @ Citation style custom</title>
-    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
-    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
-<a id="more"></a>
-
-<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
-<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
-<blockquote>
-<p>ref:</p>
-<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Zotero</category>
-      </categories>
-      <tags>
-        <tag>Zotero</tag>
       </tags>
   </entry>
   <entry>
@@ -745,37 +745,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Arab @ Traditional dress</title>
-    <url>/2020/10/24/Arab-traditional-dress/</url>
-    <content><![CDATA[<h4 id="Hijab"><a href="#Hijab" class="headerlink" title="Hijab"></a>Hijab</h4><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022071306.png"></p>
-<a id="more"></a>
-
-<p>A <strong><em>hijab</em></strong>  is a <a href="https://en.wikipedia.org/wiki/Veil">veil</a> worn by some <a href="https://en.wikipedia.org/wiki/Muslim">Muslim</a> women in the presence of any male outside of their immediate family, which usually covers the head and chest. The term can refer to any head, face, or body covering worn by Muslim women that conforms to <a href="https://en.wikipedia.org/wiki/Haya_(Islam)">Islamic standards of modesty</a>. </p>
-<p><em>Hijab</em> can also refer to the <a href="https://en.wikipedia.org/wiki/Seclusion">seclusion</a> of women from men in the <a href="https://en.wikipedia.org/wiki/Public_sphere">public sphere</a>, or it may denote a metaphysical dimension, for example referring to “the veil which separates man or the world from God.” <a href="https://en.wikipedia.org/wiki/Hijab#cite_note-Glasse,_Cyril_2001,_p.179-180-5">[5]</a></p>
-<h5 id="amp-Niqab"><a href="#amp-Niqab" class="headerlink" title="&amp; Niqāb"></a>&amp; Niqāb</h5><p>A <strong>niqāb</strong> or <strong>niqaab</strong>, also called a <strong>ruband</strong>, is a garment of clothing that covers the face, worn by some <a href="https://en.wikipedia.org/wiki/Muslim_women">Muslim women</a> as a part of a particular interpretation of <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a> (modest dress). </p>
-<p> It properly refers to a garment that covers a woman’s upper body and face, except for her eyes.[<a href="https://en.wikipedia.org/wiki/Hijab#cite_note-channel4-68">68]</a> It is particularly associated with the style traditionally worn in the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, where the veil is attached by one side and covers the face only below the eyes, thereby allowing the eyes to be seen.</p>
-<p>According to the majority of Muslim scholars and <a href="https://en.wikipedia.org/wiki/Islamic_schools_of_thought">Islamic schools of thought</a>, <code>face veiling</code> is not a requirement of <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>; however a minority of Muslim scholars, particularly among the <a href="https://en.wikipedia.org/wiki/Salafi">Salafi</a> movement, assert that women are required to cover their faces in public. Those Muslim women who wear the niqab do so in places where they may encounter non-<a href="https://en.wikipedia.org/wiki/Mahram">mahram</a> (non-related) men.</p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201024175433.png"></p>
-<h5 id="amp-Burqa"><a href="#amp-Burqa" class="headerlink" title="&amp; Burqa"></a>&amp; Burqa</h5><p>A <strong>burqa</strong> or <strong>burka</strong> in Afghanistan or a <strong><a href="https://en.wikipedia.org/wiki/Paranja">paranja</a></strong> in <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, is an enveloping outer garment which covers the body and the face that is worn by women in some <a href="https://en.wikipedia.org/wiki/Islamic">Islamic</a> traditions. The Arab version of the <code>burqa</code> is called the <strong><a href="https://en.wikipedia.org/wiki/Boshiya">boshiya</a></strong>, and is usually black in color.</p>
-<p>The term <em>burqa</em> is sometimes conflated with <em><a href="https://en.wikipedia.org/wiki/Niq%C4%81b">niqāb</a></em>. In more precise usage, niqab is a face veil that leaves the eyes uncovered, while a burqa covers the entire body from the top of the head to the ground, with only a mesh screen allowing the wearer to see in front of her. The burqa is also not to be confused with the <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>, a garment which covers the hair, neck and all or part of the chest, but not the face.[<a href="https://en.wikipedia.org/wiki/Burqa#cite_note-3">3]</a></p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074229.png"></p>
-<h5 id="amp-Tudong"><a href="#amp-Tudong" class="headerlink" title="&amp; Tudong"></a>&amp; Tudong</h5><p><strong>Tudong</strong> (also spelled <strong>tudung</strong>) is a <a href="https://en.wikipedia.org/wiki/Malay_language">Malay</a> word, literally meaning the noun “cover”, which is commonly translated/referred to as <a href="https://en.wikipedia.org/wiki/Veil">veil</a> or <a href="https://en.wikipedia.org/wiki/Headscarf">headscarf</a> in <a href="https://en.wikipedia.org/wiki/English_language">English</a>.</p>
-<p>In <a href="https://en.wikipedia.org/wiki/Brunei">Brunei</a>, <a href="https://en.wikipedia.org/wiki/Malaysia">Malaysia</a> and <a href="https://en.wikipedia.org/wiki/Singapore">Singapore</a>, the tudong is worn in accordance to <a href="https://en.wikipedia.org/wiki/Islam">Islam’s</a> <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>. Usually, the tudong covers the hair, ears, neck while <code>leaving only the face exposed</code>. It is part of the standard <a href="https://en.wikipedia.org/wiki/Dress_code">dress code</a> for offices, such as school uniforms and formal occasions.</p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022072037.png"></p>
-<h5 id="amp-Turban"><a href="#amp-Turban" class="headerlink" title="&amp; Türban"></a>&amp; Türban</h5><p>Some fashion-conscious women have been turning to non-traditional forms of hijab such as turbans.[<a href="https://en.wikipedia.org/wiki/Hijab#cite_note-turban-55">55]</a>[<a href="https://en.wikipedia.org/wiki/Hijab#cite_note-56">56]</a> While some regard turbans as a proper head cover, others argue that it cannot be considered a proper Islamic veil if it leaves the neck exposed.</p>
-<p>A <strong>turban</strong> (from <a href="https://en.wikipedia.org/wiki/Persian_language">Persian</a> دولبند‌, <em>dulband</em>; via <a href="https://en.wikipedia.org/wiki/Middle_French">Middle French</a> <em>turbant</em>) is a type of <a href="https://en.wikipedia.org/wiki/Headwear">headwear</a> based on cloth winding. Featuring many variations, it is worn as customary headwear by people of various cultures.[<a href="https://en.wikipedia.org/wiki/Turban#cite_note-1">1]</a> Communities with prominent turban-wearing traditions can be found in the <a href="https://en.wikipedia.org/wiki/Indian_subcontinent">Indian subcontinent</a>, <a href="https://en.wikipedia.org/wiki/Southeast_Asia">Southeast Asia</a>, the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, the <a href="https://en.wikipedia.org/wiki/Middle_East">Middle East</a>, <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, <a href="https://en.wikipedia.org/wiki/North_Africa">North Africa</a>, <a href="https://en.wikipedia.org/wiki/West_Africa">West Africa</a>, and East Africa.</p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074749.png"></p>
-<h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Hijab">https://en.wikipedia.org/wiki/Hijab</a></p>
-]]></content>
-      <categories>
-        <category>Others</category>
-        <category>Arab</category>
-      </categories>
-      <tags>
-        <tag>culture</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Politics of China</title>
     <url>/2020/10/24/China-politics/</url>
     <content><![CDATA[<h3 id="※1949-Present"><a href="#※1949-Present" class="headerlink" title="※1949 - Present"></a>※1949 - Present</h3><h4 id="amp-Prime-Minister-Liu-Luoguo-宰相劉羅鍋"><a href="#amp-Prime-Minister-Liu-Luoguo-宰相劉羅鍋" class="headerlink" title="&amp; Prime Minister Liu Luoguo [宰相劉羅鍋]"></a>&amp; Prime Minister Liu Luoguo [宰相劉羅鍋]</h4><p><strong>Production company:</strong> 北京文化艺术音像出版社</p>
@@ -793,8 +762,25 @@
       </tags>
   </entry>
   <entry>
+    <title>Think about Youtube Channel</title>
+    <url>/2020/10/25/Daily-life-Business-Think-about-Youtube-channel/</url>
+    <content><![CDATA[<p>Always think about some profit models in Youtube,</p>
+<a id="more"></a>
+
+<h4 id="Original-program"><a href="#Original-program" class="headerlink" title="Original program"></a>Original program</h4><h4 id="Non-original-program"><a href="#Non-original-program" class="headerlink" title="Non-original program"></a>Non-original program</h4><h5 id="amp-Splicing-and-reassembling-the-songs"><a href="#amp-Splicing-and-reassembling-the-songs" class="headerlink" title="&amp; Splicing and reassembling the songs."></a>&amp; Splicing and reassembling the songs.</h5><p>KKBOX 華語新歌 2019: <a href="https://www.youtube.com/channel/UCDPPzF8eZMwukVDO3olTyZQ">https://www.youtube.com/channel/UCDPPzF8eZMwukVDO3olTyZQ</a></p>
+<h5 id="amp-Splicing-and-reassembling-pure-music-as-BGM"><a href="#amp-Splicing-and-reassembling-pure-music-as-BGM" class="headerlink" title="&amp; Splicing and reassembling pure music as BGM."></a>&amp; Splicing and reassembling pure music as BGM.</h5><p>kucuk adamlar:<a href="https://www.youtube.com/channel/UCOrIhEGml5lPbO0zdNTkDlg">https://www.youtube.com/channel/UCOrIhEGml5lPbO0zdNTkDlg</a></p>
+]]></content>
+      <categories>
+        <category>Daily life</category>
+        <category>Business</category>
+      </categories>
+      <tags>
+        <tag>business</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Cooking @ Snack making</title>
-    <url>/2020/10/22/Cooking-Snack-making/</url>
+    <url>/2020/10/22/Daily-life-Cooking-Snack-making/</url>
     <content><![CDATA[<h3 id="amp-Sesame-chips"><a href="#amp-Sesame-chips" class="headerlink" title="&amp; Sesame chips"></a>&amp; Sesame chips</h3><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201024175209.png" style="zoom:67%;" />
 
 <a id="more"></a>
@@ -823,8 +809,8 @@
   </entry>
   <entry>
     <title>Major religions</title>
-    <url>/2020/10/24/Major-religions/</url>
-    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies,[<a href="https://en.wikipedia.org/wiki/Major_religious_groups#cite_note-2">2]</a> which in many modern cultures is considered offensive.</p>
+    <url>/2020/10/24/Others-Major-religions/</url>
+    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
 <a id="more"></a>
 
 <img src = "https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022075814.png"> 
@@ -840,6 +826,60 @@
       </categories>
       <tags>
         <tag>religion</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Arab @ Traditional dress</title>
+    <url>/2020/10/24/Others-Arab-traditional-dress/</url>
+    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022071306.png"></p>
+<a id="more"></a>
+
+<h4 id="Hijab"><a href="#Hijab" class="headerlink" title="Hijab"></a>Hijab</h4><p>A <strong><em>hijab</em></strong>  is a <a href="https://en.wikipedia.org/wiki/Veil">veil</a> worn by some <a href="https://en.wikipedia.org/wiki/Muslim">Muslim</a> women in the presence of any male outside of their immediate family, which usually covers the head and chest. The term can refer to any head, face, or body covering worn by Muslim women that conforms to <a href="https://en.wikipedia.org/wiki/Haya_(Islam)">Islamic standards of modesty</a>. </p>
+<p><em>Hijab</em> can also refer to the <a href="https://en.wikipedia.org/wiki/Seclusion">seclusion</a> of women from men in the <a href="https://en.wikipedia.org/wiki/Public_sphere">public sphere</a>, or it may denote a metaphysical dimension, for example referring to “the veil which separates man or the world from God.” <a href="https://en.wikipedia.org/wiki/Hijab#cite_note-Glasse,_Cyril_2001,_p.179-180-5">[5]</a></p>
+<h5 id="amp-Niqab"><a href="#amp-Niqab" class="headerlink" title="&amp; Niqāb"></a>&amp; Niqāb</h5><p>A <strong>niqāb</strong> or <strong>niqaab</strong>, also called a <strong>ruband</strong>, is a garment of clothing that covers the face, worn by some <a href="https://en.wikipedia.org/wiki/Muslim_women">Muslim women</a> as a part of a particular interpretation of <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a> (modest dress). </p>
+<p> It properly refers to a garment that covers a woman’s upper body and face, except for her eyes.[<a href="https://en.wikipedia.org/wiki/Hijab#cite_note-channel4-68">68]</a> It is particularly associated with the style traditionally worn in the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, where the veil is attached by one side and covers the face only below the eyes, thereby allowing the eyes to be seen.</p>
+<p>According to the majority of Muslim scholars and <a href="https://en.wikipedia.org/wiki/Islamic_schools_of_thought">Islamic schools of thought</a>, <code>face veiling</code> is not a requirement of <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>; however a minority of Muslim scholars, particularly among the <a href="https://en.wikipedia.org/wiki/Salafi">Salafi</a> movement, assert that women are required to cover their faces in public. Those Muslim women who wear the niqab do so in places where they may encounter non-<a href="https://en.wikipedia.org/wiki/Mahram">mahram</a> (non-related) men.</p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201024175433.png"></p>
+<h5 id="amp-Burqa"><a href="#amp-Burqa" class="headerlink" title="&amp; Burqa"></a>&amp; Burqa</h5><p>A <strong>burqa</strong> or <strong>burka</strong> in Afghanistan or a <strong><a href="https://en.wikipedia.org/wiki/Paranja">paranja</a></strong> in <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, is an enveloping outer garment which covers the body and the face that is worn by women in some <a href="https://en.wikipedia.org/wiki/Islamic">Islamic</a> traditions. The Arab version of the <code>burqa</code> is called the <strong><a href="https://en.wikipedia.org/wiki/Boshiya">boshiya</a></strong>, and is usually black in color.</p>
+<p>The term <em>burqa</em> is sometimes conflated with <em><a href="https://en.wikipedia.org/wiki/Niq%C4%81b">niqāb</a></em>. In more precise usage, niqab is a face veil that leaves the eyes uncovered, while a burqa covers the entire body from the top of the head to the ground, with only a mesh screen allowing the wearer to see in front of her. The burqa is also not to be confused with the <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>, a garment which covers the hair, neck and all or part of the chest, but not the face.[<a href="https://en.wikipedia.org/wiki/Burqa#cite_note-3">3]</a></p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074229.png"></p>
+<h5 id="amp-Tudong"><a href="#amp-Tudong" class="headerlink" title="&amp; Tudong"></a>&amp; Tudong</h5><p><strong>Tudong</strong> (also spelled <strong>tudung</strong>) is a <a href="https://en.wikipedia.org/wiki/Malay_language">Malay</a> word, literally meaning the noun “cover”, which is commonly translated/referred to as <a href="https://en.wikipedia.org/wiki/Veil">veil</a> or <a href="https://en.wikipedia.org/wiki/Headscarf">headscarf</a> in <a href="https://en.wikipedia.org/wiki/English_language">English</a>.</p>
+<p>In <a href="https://en.wikipedia.org/wiki/Brunei">Brunei</a>, <a href="https://en.wikipedia.org/wiki/Malaysia">Malaysia</a> and <a href="https://en.wikipedia.org/wiki/Singapore">Singapore</a>, the tudong is worn in accordance to <a href="https://en.wikipedia.org/wiki/Islam">Islam’s</a> <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>. Usually, the tudong covers the hair, ears, neck while <code>leaving only the face exposed</code>. It is part of the standard <a href="https://en.wikipedia.org/wiki/Dress_code">dress code</a> for offices, such as school uniforms and formal occasions.</p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022072037.png"></p>
+<h5 id="amp-Turban"><a href="#amp-Turban" class="headerlink" title="&amp; Türban"></a>&amp; Türban</h5><p>Some fashion-conscious women have been turning to non-traditional forms of hijab such as turbans.[<a href="https://en.wikipedia.org/wiki/Hijab#cite_note-turban-55">55]</a>[<a href="https://en.wikipedia.org/wiki/Hijab#cite_note-56">56]</a> While some regard turbans as a proper head cover, others argue that it cannot be considered a proper Islamic veil if it leaves the neck exposed.</p>
+<p>A <strong>turban</strong> (from <a href="https://en.wikipedia.org/wiki/Persian_language">Persian</a> دولبند‌, <em>dulband</em>; via <a href="https://en.wikipedia.org/wiki/Middle_French">Middle French</a> <em>turbant</em>) is a type of <a href="https://en.wikipedia.org/wiki/Headwear">headwear</a> based on cloth winding. Featuring many variations, it is worn as customary headwear by people of various cultures.[<a href="https://en.wikipedia.org/wiki/Turban#cite_note-1">1]</a> Communities with prominent turban-wearing traditions can be found in the <a href="https://en.wikipedia.org/wiki/Indian_subcontinent">Indian subcontinent</a>, <a href="https://en.wikipedia.org/wiki/Southeast_Asia">Southeast Asia</a>, the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, the <a href="https://en.wikipedia.org/wiki/Middle_East">Middle East</a>, <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, <a href="https://en.wikipedia.org/wiki/North_Africa">North Africa</a>, <a href="https://en.wikipedia.org/wiki/West_Africa">West Africa</a>, and East Africa.</p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074749.png"></p>
+<h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Hijab">https://en.wikipedia.org/wiki/Hijab</a></p>
+]]></content>
+      <categories>
+        <category>Others</category>
+        <category>Arab</category>
+      </categories>
+      <tags>
+        <tag>culture</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Nice Songs</title>
+    <url>/2020/08/31/Others-Nice-songs/</url>
+    <content><![CDATA[<h4 id="Chinese-Songs"><a href="#Chinese-Songs" class="headerlink" title="Chinese Songs:"></a>Chinese Songs:</h4><p>后来(Later) - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
+<p>童话(Fairy Tale) - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
+<p>老男孩 - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
+<p>那些年(Those Bygone Years) - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
+<p>少年 - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
+<h4 id="Japanese-Songs"><a href="#Japanese-Songs" class="headerlink" title="Japanese Songs:"></a>Japanese Songs:</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
+
+<p>SAKURA - 2006 - @Memory  @Love</p>
+<p>YELL - 2009 - @Courage</p>
+<p>ありがとう(Arigatou = Thank you) - 2010 - @Love @Regret </p>
+<h4 id="Songs-from-Annual-GRAMMY-Awards"><a href="#Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="Songs from Annual GRAMMY Awards:"></a>Songs from <u>Annual GRAMMY Awards</u>:</h4><p><a href="https://www.grammy.com/grammys/awards">https://www.grammy.com/grammys/awards</a></p>
+]]></content>
+      <categories>
+        <category>Others</category>
+        <category>Music</category>
+      </categories>
+      <tags>
+        <tag>music</tag>
       </tags>
   </entry>
   <entry>
