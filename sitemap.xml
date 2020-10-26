@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yunlong-jia.com/Lifelong_learning_and_collections/Charcuterie/index.html</loc>
+    
+    <lastmod>2020-10-26</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yunlong-jia.com/2020/10/19/Daily%20life-Mine-2nd-Wedding-Anniversary/</loc>
     
     <lastmod>2020-10-26</lastmod>
@@ -17,13 +24,6 @@
   
   <url>
     <loc>http://yunlong-jia.com/about/animefan/index.html</loc>
-    
-    <lastmod>2020-10-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/Lifelong_learning_and_collections/Sausages_and_Jambons/index.html</loc>
     
     <lastmod>2020-10-25</lastmod>
     
@@ -424,14 +424,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/Good-places/</loc>
+    <loc>http://yunlong-jia.com/tags/Chinese-culture/</loc>
     <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/Chinese-culture/</loc>
+    <loc>http://yunlong-jia.com/tags/Good-places/</loc>
     <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -445,14 +445,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/anniversary/</loc>
+    <loc>http://yunlong-jia.com/tags/Politics/</loc>
     <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/Politics/</loc>
+    <loc>http://yunlong-jia.com/tags/anniversary/</loc>
     <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -480,14 +480,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/religion/</loc>
+    <loc>http://yunlong-jia.com/tags/music/</loc>
     <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/music/</loc>
+    <loc>http://yunlong-jia.com/tags/religion/</loc>
     <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -559,27 +559,6 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/China/Perception/</loc>
-    <lastmod>2020-10-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/categories/China/Tour/</loc>
-    <lastmod>2020-10-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/categories/China/Culture/</loc>
-    <lastmod>2020-10-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yunlong-jia.com/categories/Tutorials/Picbed/</loc>
     <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
@@ -588,13 +567,6 @@
   
   <url>
     <loc>http://yunlong-jia.com/categories/Daily-life/Mine/</loc>
-    <lastmod>2020-10-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/categories/China/Politics/</loc>
     <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -622,6 +594,34 @@
   </url>
   
   <url>
+    <loc>http://yunlong-jia.com/categories/China/Perception/</loc>
+    <lastmod>2020-10-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/categories/China/Culture/</loc>
+    <lastmod>2020-10-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/categories/China/Tour/</loc>
+    <lastmod>2020-10-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/categories/China/Politics/</loc>
+    <lastmod>2020-10-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yunlong-jia.com/categories/Others/Arab/</loc>
     <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
@@ -629,14 +629,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/Others/Culture/</loc>
+    <loc>http://yunlong-jia.com/categories/Others/Music/</loc>
     <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/Others/Music/</loc>
+    <loc>http://yunlong-jia.com/categories/Others/Culture/</loc>
     <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
