@@ -86,29 +86,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ add rounded corners</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
-    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
-<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
-
-<p>add the follow code should be OK:</p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo_Adv @ Add local search function</title>
     <url>/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</url>
     <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
@@ -130,6 +107,29 @@
       </categories>
       <tags>
         <tag>Hexo_Adv</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo[Next] @ add rounded corners</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
+    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
+<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
+
+<p>add the follow code should be OK:</p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+        <category>Theme_Next</category>
+      </categories>
+      <tags>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
       </tags>
   </entry>
   <entry>
@@ -648,13 +648,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ The 24 Solar Terms [24节气]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-the-24-solar-terms/</url>
-    <content><![CDATA[<img src="/beauty/24st.png" style="zoom:70%;" />
+    <title>Chinese culture @ Traditional Chinese Medicine [中医]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-chinese-medicine/</url>
+    <content><![CDATA[<img src="/beauty/zhongyi.png" style="zoom:70%;" />
 
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/festivals/the-24-solar-terms.htm">https://www.chinahighlights.com/festivals/the-24-solar-terms.htm</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm">https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm</a></p>
 ]]></content>
       <categories>
         <category>China</category>
@@ -665,13 +665,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Traditional Chinese Medicine [中医]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-chinese-medicine/</url>
-    <content><![CDATA[<img src="/beauty/zhongyi.png" style="zoom:70%;" />
+    <title>Chinese culture @ The 24 Solar Terms [24节气]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-the-24-solar-terms/</url>
+    <content><![CDATA[<img src="/beauty/24st.png" style="zoom:70%;" />
 
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm">https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm</a></p>
+<p><a href="https://www.chinahighlights.com/festivals/the-24-solar-terms.htm">https://www.chinahighlights.com/festivals/the-24-solar-terms.htm</a></p>
 ]]></content>
       <categories>
         <category>China</category>
@@ -771,6 +771,18 @@
       </categories>
       <tags>
         <tag>Politics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo[Next] @ Custom background image of your blog</title>
+    <url>/2020/08/31/Cover/</url>
+    <content><![CDATA[<p>haha </p>
+]]></content>
+      <categories>
+        <category>Cover</category>
+      </categories>
+      <tags>
+        <tag>images</tag>
       </tags>
   </entry>
   <entry>
@@ -886,17 +898,21 @@
   <entry>
     <title>Nice Songs</title>
     <url>/2020/08/31/Others-Nice-songs/</url>
-    <content><![CDATA[<h4 id="Chinese-Songs"><a href="#Chinese-Songs" class="headerlink" title="Chinese Songs:"></a>Chinese Songs:</h4><p>后来(Later) - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
+    <content><![CDATA[<h4 id="※-Chinese-Songs-※"><a href="#※-Chinese-Songs-※" class="headerlink" title="※ Chinese Songs ※"></a>※ Chinese Songs ※</h4><h5 id="amp-Singles"><a href="#amp-Singles" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p>后来(Later) - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
 <p>童话(Fairy Tale) - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
 <p>老男孩 - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
 <p>那些年(Those Bygone Years) - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
 <p>少年 - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
-<h4 id="Japanese-Songs"><a href="#Japanese-Songs" class="headerlink" title="Japanese Songs:"></a>Japanese Songs:</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
+<h4 id="※-Japanese-Songs-※"><a href="#※-Japanese-Songs-※" class="headerlink" title="※ Japanese Songs ※"></a>※ Japanese Songs ※</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
 
-<p>SAKURA - 2006 - @Memory  @Love</p>
-<p>YELL - 2009 - @Courage</p>
-<p>ありがとう(Arigatou = Thank you) - 2010 - @Love @Regret </p>
-<h4 id="Songs-from-Annual-GRAMMY-Awards"><a href="#Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="Songs from Annual GRAMMY Awards:"></a>Songs from <u>Annual GRAMMY Awards</u>:</h4><p><a href="https://www.grammy.com/grammys/awards">https://www.grammy.com/grammys/awards</a></p>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201028082408.png" style="zoom: 80%;" />
+
+<hr>
+<p><strong>SAKURA</strong> - 2006 - @Memory  @Love @Sadness</p>
+<p><strong>YELL</strong> - 2009 - @Courage</p>
+<p><strong>ありがとう</strong>(Arigatou = Thank you) - 2010 - @Love @Regret </p>
+<h4 id="※-English-Songs-※"><a href="#※-English-Songs-※" class="headerlink" title="※ English Songs ※"></a>※ English Songs ※</h4><h5 id="amp-Singles-1"><a href="#amp-Singles-1" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah"><strong>Monsters</strong></a> - 2014 - Katie Sky - @Courage</p>
+<h5 id="amp-Songs-from-Annual-GRAMMY-Awards"><a href="#amp-Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="&amp; Songs from Annual GRAMMY Awards"></a>&amp; Songs from <a href="https://www.grammy.com/grammys/awards">Annual GRAMMY Awards</a></h5><h4 id="REF-gt-gt"><a href="#REF-gt-gt" class="headerlink" title="REF&gt;&gt;"></a>REF&gt;&gt;</h4><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah">https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah</a></p>
 ]]></content>
       <categories>
         <category>Others</category>
