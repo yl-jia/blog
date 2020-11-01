@@ -6,7 +6,7 @@
   <link href="http://yunlong-jia.com/atom.xml" rel="self"/>
   
   <link href="http://yunlong-jia.com/"/>
-  <updated>2020-10-25T12:26:55.270Z</updated>
+  <updated>2020-11-01T07:19:48.016Z</updated>
   <id>http://yunlong-jia.com/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Think about TV drama and film productions</title>
-    <link href="http://yunlong-jia.com/2020/10/25/China-perception-Think-about-TV-drama-and-film-productions/"/>
-    <id>http://yunlong-jia.com/2020/10/25/China-perception-Think-about-TV-drama-and-film-productions/</id>
+    <title>Hexo_Adv @ Set top posts</title>
+    <link href="http://yunlong-jia.com/2020/11/01/Hexo-Adv-Set-top-posts/"/>
+    <id>http://yunlong-jia.com/2020/11/01/Hexo-Adv-Set-top-posts/</id>
+    <published>2020-11-01T09:37:51.000Z</published>
+    <updated>2020-11-01T07:19:48.016Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="1-Install-hexo-generator-topindex-plugin"><a href="#1-Install-hexo-generator-topindex-plugin" class="headerlink" title="1. Install hexo-generator-topindex plugin."></a>1. Install <a href="https://github.com/amlove2/hexo-generator-topindex">hexo-generator-topindex</a> plugin.</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-topindex --save</span><br></pre></td></tr></table></figure><a id="more"></a><h4 id="2-Open-config-file-and-add-code"><a href="#2-Open-config-file-and-add-code" class="headerlink" title="2. Open config file and add code:"></a>2. Open config file and add code:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;_config.yml |vi</span><br></pre></td></tr></table></figure><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">topindex_generator:</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">10</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br></pre></td></tr></table></figure><h4 id="3-Post-set"><a href="#3-Post-set" class="headerlink" title="3. Post set"></a>3. Post set</h4><p>You can set property <code>top</code> to finish top, the higher the priority</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">date: 2017-03-12 19:45:02</span><br><span class="line">top: 5</span><br><span class="line">categories: &quot;Hexo Guid&quot; </span><br><span class="line">tags: [Hexo]</span><br><span class="line">description: Hello world on hexo!</span><br><span class="line">---</span><br><span class="line">Welcome to [<span class="string">Hexo</span>](<span class="link">https://hexo.io/</span>)! This is your very first post. Check [<span class="string">documentation</span>](<span class="link">https://hexo.io/docs/</span>) for more info. If you get any problems when using Hexo, you can find the answer in [<span class="string">troubleshooting</span>](<span class="link">https://hexo.io/docs/troubleshooting.html</span>) or you can ask me on [<span class="string">GitHub</span>](<span class="link">https://github.com/hexojs/hexo/issues</span>).</span><br></pre></td></tr></table></figure><p>top 5&gt; top4&gt; top3&gt; top2&gt; top1</p><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h4><p><a href="https://github.com/amlove2/hexo-generator-topindex">https://github.com/amlove2/hexo-generator-topindex</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;h4 id=&quot;1-Install-hexo-generator-topindex-plugin&quot;&gt;&lt;a href=&quot;#1-Install-hexo-generator-topindex-plugin&quot; class=&quot;headerlink&quot; title=&quot;1. Install hexo-generator-topindex plugin.&quot;&gt;&lt;/a&gt;1. Install &lt;a href=&quot;https://github.com/amlove2/hexo-generator-topindex&quot;&gt;hexo-generator-topindex&lt;/a&gt; plugin.&lt;/h4&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-generator-topindex --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="Tutorials" scheme="http://yunlong-jia.com/categories/Tutorials/"/>
+    
+    <category term="Hexo" scheme="http://yunlong-jia.com/categories/Tutorials/Hexo/"/>
+    
+    <category term="Adv." scheme="http://yunlong-jia.com/categories/Tutorials/Hexo/Adv/"/>
+    
+    
+    <category term="Hexo_Adv" scheme="http://yunlong-jia.com/tags/Hexo-Adv/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Think about Film and Television Production</title>
+    <link href="http://yunlong-jia.com/2020/10/25/China-perception-Think-about-Film-and-television-Production/"/>
+    <id>http://yunlong-jia.com/2020/10/25/China-perception-Think-about-Film-and-television-Production/</id>
     <published>2020-10-25T12:11:15.000Z</published>
-    <updated>2020-10-25T12:26:55.270Z</updated>
+    <updated>2020-11-01T07:03:36.168Z</updated>
     
     <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="60f2596ce6723de6af77d504221fcf905b703f569408c7824d858efe13cc4b69">8b99030997d9e294e22d169f14a9b9af30076946d2e16ff2003e748bfa20774718e7eb4c449d12c407648717416cd24c6c5afe0d5a5abc1b186122fba0801dc54dd8356b33f5d024bbb55c3b04fa03f0f0d102f01c1d8591329662b03faa5b49be8262c42da0bde783dc561c7cc46e92496eb7a9762d621693371735636029a1ac2bb1dd1974f462aa3d5ba12445ed2dcd598a4b6216f0ea8833980ab1c0e09f78e348e231b43087370273e723e425d9500d657af02c6b7e4dd7ad9dfd4f7df3127319535f0e9d0fb1fe4256788736ed9328f01f20e07b2b86daf38c9630ea7c9eb66a7e941df294c9e885da4add10eb9c6cc8ffe5a57fe1346c288b89ecb760fe3a93ccaf9416071245aaf85ba6f55ba26586e3123fc424494f9831ea22d5990d863596032c72d3c7be3362061c4f939258b1c1f16640bb906d31bf48870838ab0c63430db3454f55b762a21a72ce0a5d4e47fefe6d36652886b95c28e968c9417b5a8f62d232137529201fa0cb6ef0bb1a52732878200dba7195a4912f2834f9d1f0602fb43eaa058ae79150ef81360d22e4eaf8171f6c8ff276eff4f8ba5414cca25114f22079d3a9c481b675086516bbd428e65447ffc1ab9a894c1140acd579b43a704c4acbe460bdbc261ff18483106f47f7f34fc69e204eb5a77855d08abec39f6257b1a73ea8653b3c908e92d96130bd71f390830e41c5391fc7187b36f0aaedd6ae58745b6967b6ddbcd0acce540c434713d14303d5425ed443e704710771f6189c26f00c39295c5d757f393b670058c3f9f46f6a1ee8bc1af75a31bb2ed3ba734ca63d521ac9d8e4973c97a2355c33372bcc2a717810bfd4a078cd182528a00b3eaa599acc5886e3fb02f3b986536e687e1fe74589d60d4ebf4739e7c5b90c15986eb2fdaca09c1861b8c8d0aed5151bd768c9befc9e35e5baef6006e891653aa2413c54536b132be2d2a0e575637267b8b3bd8e39114e5545f7fe9104c6d1dffe16a54e29c1e4bfb4f6dd4b336e3e63a15e56b7f69f1675504ad3a022c657fb461fd6cea5badc1ebb67cbbf255f191b82a729a964e7a77d24490d3a9be774c40745f643204f9fff2f14abc9bfc6cf68a408a7a3f1c72e257466bdc94c699dc70f9d291b2728cebcb5b3c8d8b4a4f8c1fa7b4b8d59845aeaeda309522a476e57c69d8ec686ccc5c70ebbf3e1a7e83be8c9b3930505f31c804a5f4b91663120e753d1ba45cb59f709abdbc1d3f67bf812d9ea3123e0ad08bb73938a5a4f57079e8fa3c6653ab094ed3035f751ac4bf211161ed40b3ab72e16d7bef28fdf5fde40af515420547753cf2d4c8e8a90fe28ddff591aaee8f213bb415d6fdcee0fd65761c03267136b1cfceadf8426a6f9b0d68083d53d0b5cf271d40809ae68e4f86ad540bb1f5fd4af140960cad936e930e1dcbd359cd99838494e9d8ff356b53726bf25822ac8045238c40ebeeb57322dd63d73aee42d6681b08d51148fe2655a44c75bb33f8f6154fac067dd77508c5d71f13fdf5b3a786d25ece909</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
@@ -44,12 +69,12 @@
     <link href="http://yunlong-jia.com/2020/10/25/Daily-life-Business-Think-about-Youtube-channel/"/>
     <id>http://yunlong-jia.com/2020/10/25/Daily-life-Business-Think-about-Youtube-channel/</id>
     <published>2020-10-25T08:56:15.000Z</published>
-    <updated>2020-10-25T09:06:34.139Z</updated>
+    <updated>2020-11-01T08:05:31.567Z</updated>
     
-    <content type="html"><![CDATA[<p>Always think about some profit models in Youtube,</p><a id="more"></a><h4 id="Original-program"><a href="#Original-program" class="headerlink" title="Original program"></a>Original program</h4><h4 id="Non-original-program"><a href="#Non-original-program" class="headerlink" title="Non-original program"></a>Non-original program</h4><h5 id="amp-Splicing-and-reassembling-the-songs"><a href="#amp-Splicing-and-reassembling-the-songs" class="headerlink" title="&amp; Splicing and reassembling the songs."></a>&amp; Splicing and reassembling the songs.</h5><p>KKBOX 華語新歌 2019: <a href="https://www.youtube.com/channel/UCDPPzF8eZMwukVDO3olTyZQ">https://www.youtube.com/channel/UCDPPzF8eZMwukVDO3olTyZQ</a></p><h5 id="amp-Splicing-and-reassembling-pure-music-as-BGM"><a href="#amp-Splicing-and-reassembling-pure-music-as-BGM" class="headerlink" title="&amp; Splicing and reassembling pure music as BGM."></a>&amp; Splicing and reassembling pure music as BGM.</h5><p>kucuk adamlar:<a href="https://www.youtube.com/channel/UCOrIhEGml5lPbO0zdNTkDlg">https://www.youtube.com/channel/UCOrIhEGml5lPbO0zdNTkDlg</a></p>]]></content>
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="353d9cfa4a84f9dbb7c846c9de51a20335645d9a9637f5c094f786852d0f3862">ccda2e5871b7609edf409b04d54f58e731d6db04b30bd723f92be1295858dacd1f12df5aa03101a18b82aa910f59b7c3452fd8f482757d3c31268ff77bc68d1265a89737437b87bf9d5aa3b5d6d2114a2d8fac9cf24302a6afa22aa36a68ac84167bf4f6fbeb0138294c91604c97395f53999d34dc456f75014b7ff9b43d6ec1a5a37388aaa1aa5d0d3ed5ef092888747d91250ad3cbe46b0534240c31a667f84d4e21e9a9fd9a171def2781689ef80f0d7e4781d56e76c3dae9c67e2f2392e5da2982226a2b10d3a88086ca6d3cfcaa588c49620a59fec1bc80905b573a5a6d66cf6dd5d446671bbcca7838f354124d83e5ef5136aaeeb27319bee4b83a16946fa5c08443467336da17c16ca260b4afa0fbe4ea51ed2965c7af6ab6553260743f0017805db47c0c0be34ca5040db9c88a184af81f7b29cc3ad39d0e519b311bd8480ad5192ec270e24df98d71bdd50c986c4ffe50b9ddd55758f6d7f03276b15093ecde0158f60deb80eb8568b3fcbf7b6aa25e60669431115661db4f63ce7026b2994631de0dd87b7c301070682333e15ac76be74902c9f69e2382c49bc645c180339a91956dd548b9b061a8b920bbfcc6a39070767adc8dcffba639d8ba6ca46af779e691fc142d7c8dd2a1aac621ea792e691cc779a970f7eda4f2332353ef5e6fe64a6d09a137226ca38692ea38f5eb5e44bcec9d02a6b104257ecc49c4e9979dfab1d5136f12b3fa74b6d2599aa45e2ae91bcb609bcb1bc4dec2bf283c4d4e06b7d560260f583b537264717ecc12a429a31cdd6a81598c93cb11c4485e0d42e4c871de68044bfc5e1828fc826606cdac5cd4d30f5ae1341cca77249e85d882e74cb9d73b62fa2037fd2a9089f797b148e4c5c2d7a4b1ae225e8b66a18a282d7d1cc9ae082c42a300850a8206dd758917b258a46e18fc9438c7c2a5855aee65cfaad40032e2f0181a8b0b58768823fd53f9e7ed551f3d7ebcd4383d39615cc19958c3d543a82d5b33d445a3dd96ede50bb6238207cac4c9b35d1d39ccd8ea2493ce1001b754cf8da125822490e2c1d5ccb84ad9d449b6a6abce66918fc01fd5876e1f2152383851e4039bc7682003d21edc609d0e56dd5880bbacecae732b942df616b238c118f510c252a6a8b290ba345311db2f9190d97217b9280a3ff8f28af205a960572cde17b3d715c7caec0b7c718a93f801ec7d5bfac2f37a19225bfcb6e880cf0af0d6969f34adeac5e2f46f3fa9b431d5060a259ed10ec94666cad4246ef4bf85ae29a9547314ff13fd90bf0fae0fc3cf21faf464745bf6dee27903a0d31e414d4962944b1bcc3dc569e0bfb059eadfea0412c6b71a57b9324887a1b43b86b3a181ba4a9072bbfec040792707adc57ea4522923a78896c60a459016b12b3d0876f1ea3387656fb70c7e29d7caf72dfbf8973fee2c39b1bedf38a3e7e2dc74b176d076166c03ce3a54211a7197f48b99f6f9a7e0fd5aa0d0dcebd1ddd81cceb11bbf76086568768367c7f6413e3749d75e553337a8b2861165fb559553115a559cfd3fe6fa1e26ba4ef8a075954800dc659da863191184702164a9d211cb843479443d53a67effa70c</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     
-    <summary type="html">&lt;p&gt;Always think about some profit models in Youtube,&lt;/p&gt;</summary>
+    <summary type="html">&lt;strong&gt;&lt;center&gt;&lt;font color=blue &gt;This is an encrypted post, password is required to continue reading.&lt;/font&gt;&lt;/strong&gt;</summary>
     
     
     
@@ -459,29 +484,6 @@
     
     
     <category term="Hexo_Adv" scheme="http://yunlong-jia.com/tags/Hexo-Adv/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Zotero @ Citation style custom</title>
-    <link href="http://yunlong-jia.com/2020/09/16/2020-09-16-Zotero-citation-style-custom/"/>
-    <id>http://yunlong-jia.com/2020/09/16/2020-09-16-Zotero-citation-style-custom/</id>
-    <published>2020-09-16T10:30:15.000Z</published>
-    <updated>2020-09-16T10:49:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p><a id="more"></a><p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p><p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p><blockquote><p>ref:</p><p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Tutorials" scheme="http://yunlong-jia.com/categories/Tutorials/"/>
-    
-    <category term="Zotero" scheme="http://yunlong-jia.com/categories/Tutorials/Zotero/"/>
-    
-    
-    <category term="Zotero" scheme="http://yunlong-jia.com/tags/Zotero/"/>
     
   </entry>
   
