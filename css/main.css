@@ -3016,6 +3016,11 @@ body {
 .sidebar {
   opacity: 0.85;
 }
+.sidebar p,
+.sidebar span,
+.sidebar a {
+  color: #000;
+}
 .popup {
   opacity: 0.9;
 }
@@ -3025,4 +3030,7 @@ body {
   background: none;
   opacity: 0.9;
   min-height: 500px;
+}
+.footer-inner {
+  color: #ffb6c1;
 }

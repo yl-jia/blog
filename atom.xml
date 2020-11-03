@@ -6,7 +6,7 @@
   <link href="http://yunlong-jia.com/atom.xml" rel="self"/>
   
   <link href="http://yunlong-jia.com/"/>
-  <updated>2020-11-01T07:19:48.016Z</updated>
+  <updated>2020-11-03T08:03:19.506Z</updated>
   <id>http://yunlong-jia.com/</id>
   
   <author>
@@ -17,9 +17,160 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Western Blot @ Loading control</title>
+    <link href="http://yunlong-jia.com/2020/11/03/Biology-WB-loading-control/"/>
+    <id>http://yunlong-jia.com/2020/11/03/Biology-WB-loading-control/</id>
+    <published>2020-11-03T06:22:15.000Z</published>
+    <updated>2020-11-03T08:03:19.506Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="amp-Common-Loading-Control-Proteins-for-Western-Blot"><a href="#amp-Common-Loading-Control-Proteins-for-Western-Blot" class="headerlink" title="&amp; Common Loading Control Proteins for Western Blot"></a>&amp; Common Loading Control Proteins for Western Blot</h4><table><thead><tr><th>kDa</th><th>Whole cell</th><th>Cytoskeletal</th><th>Motichondrial</th><th>Nuclear</th><th>Serum</th></tr></thead><tbody><tr><td>120</td><td>Vinculin</td><td></td><td></td><td></td><td></td></tr><tr><td>75</td><td></td><td></td><td></td><td></td><td>Transferrin</td></tr><tr><td>65</td><td></td><td></td><td></td><td>Lamin B1</td><td></td></tr><tr><td>60</td><td></td><td></td><td>HSP60</td><td></td><td></td></tr><tr><td>50</td><td>α-tubulin</td><td>α-tubulin</td><td></td><td>HDAC1</td><td></td></tr><tr><td>55</td><td>β-tubulin</td><td>β-tubulin</td><td></td><td></td><td></td></tr><tr><td>40</td><td><font color=red>β-actin</font></td><td><font color=red>β-actin</font></td><td></td><td></td><td></td></tr><tr><td>35</td><td><font color=red>GAPDH</font></td><td></td><td></td><td></td><td></td></tr><tr><td>30</td><td></td><td></td><td>VDCA1/porin</td><td>PCNA</td><td></td></tr><tr><td>20</td><td>Cyclophilin B</td><td>Cofilin</td><td></td><td></td><td></td></tr><tr><td>15</td><td></td><td></td><td>COX IV</td><td>Histine H3</td><td></td></tr></tbody></table><a id="more"></a><hr><h4 id="amp-A-Loading-Control-is-Important-for-Data-Normalization"><a href="#amp-A-Loading-Control-is-Important-for-Data-Normalization" class="headerlink" title="&amp; A Loading Control is Important for Data Normalization"></a>&amp; A Loading Control is Important for Data Normalization</h4><p><code>Loading controls</code> serve as a vital method of verifying the results acquired through western blotting. Loading controls are antibodies that are used to detect proteins within samples. When western blots are used to determine the levels of protein expression in a sample, loading controls <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3758299/">ensure that the results aren’t due to loading or protein transfer errors</a>. When using a loading control, the right type of control must first be identified. </p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201103075438.png" style="zoom:80%;" /><!-- more --><p>Western blotting is a common laboratory technique used to detect and quantify target protein expression in a complex cell or tissue lysate. This technique provides a <strong>semi-quantitative method</strong> for the comparison of relative target protein levels across multiple samples. To generate accurate expression data by Western blot analysis, a loading control protein is required. Loading controls provide a means to ensure equal protein loading across wells, as well as a reference point for <code>data normalization</code>.</p><hr><h4 id="amp-Normalizing-Western-Blot-Data"><a href="#amp-Normalizing-Western-Blot-Data" class="headerlink" title="&amp; Normalizing Western Blot Data"></a>&amp; Normalizing Western Blot Data</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201103075845.png"  /><hr><h4 id="amp-Loading-control-linear-response-and-gel-overloading"><a href="#amp-Loading-control-linear-response-and-gel-overloading" class="headerlink" title="&amp;  Loading control linear response and gel overloading"></a>&amp;  Loading control linear response and gel overloading</h4><p>An ideal loading control demonstrates a linear response over a wide range of sample concentrations. This means the intensity of the loading control protein should increase in equal proportion with sample concentration. </p><p>Deceivingly, <strong>overloaded gels</strong> often give the appearance of uniform loading control band densities across all lanes. However, this uniformity is not due to equal protein loading, but rather samples exceeding the transfer capacity of the membrane or falling outside the linear range of detection. </p><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201103082943.png"></p><blockquote><p>Comparison of the densitometry readings of each sample to the linear response indicates the signal becomes saturated above <strong>4.0 ng</strong>. </p></blockquote><hr><h4 id="※-Tips-for-Choosing-the-Best-Loading-Control"><a href="#※-Tips-for-Choosing-the-Best-Loading-Control" class="headerlink" title="※ Tips for Choosing the Best Loading Control"></a>※ Tips for Choosing the Best Loading Control</h4><h5 id="amp-Expression-Consistency"><a href="#amp-Expression-Consistency" class="headerlink" title="&amp; Expression Consistency"></a>&amp; Expression Consistency</h5><p> it is crucial to choose a loading control protein with ubiquitous and unchanging expression. </p><ul><li><strong>GAPDH</strong> is not recommended as a loading control protein in <strong>oxygen related studies</strong> since its expression is subject to change as a result of experimental conditions. </li><li><strong>HSP60</strong> should be avoided as a control in <strong>cellular stress studies</strong>, as its expression may differ in stressed versus control samples. </li></ul><h5 id="amp-Detection-Size"><a href="#amp-Detection-Size" class="headerlink" title="&amp; Detection Size"></a>&amp; Detection Size</h5><p>Choose a loading control that can be distinguished in MW from your protein of interest. [±10]</p><h5 id="amp-Expression-Level"><a href="#amp-Expression-Level" class="headerlink" title="&amp; Expression Level"></a>&amp; Expression Level</h5><p>Choose a loading control that is highly expressed in your sample. Common loading controls are highly expressed genes required for basic cellular processes and vitality, also known as housekeeping genes.</p><ul><li><strong>PCNA</strong>, is expressed during DNA S phase. Thus, it is not recommended as a control for non-proliferating cells as its expression is down-regulated in non-proliferating cells. </li></ul><hr><h4 id="※-Determine-expression-of-a-loading-control-protein"><a href="#※-Determine-expression-of-a-loading-control-protein" class="headerlink" title="※ Determine expression of a loading control protein"></a>※ Determine expression of a loading control protein</h4><p>A common method to determine expression of a loading control protein is stripping and reprobing. [Inconvenient to operate].</p><p>Another common method to probe loading control expression is to <strong>cut the membrane horizontally following transfer</strong>. Using this method, protein of interest and loading control proteins can be separated and probed independently with different antibodies. </p><p>The method requires a <strong>significant difference in size</strong> (kDa) between the protein of interest and loading control. </p><p><strong>Prestained markers</strong> should be used to determine molecular weight and the right location to cut the membrane. </p><h5 id="amp-Protocol-amp"><a href="#amp-Protocol-amp" class="headerlink" title="&amp; Protocol &amp;"></a><u>&amp; Protocol &amp;</u></h5><p>Cutting the membrane to probe the expression of two proteins at the same time </p><ol><li>After transfer from gel to membrane, carefully disassemble the transfer stack and rinse the membrane briefly in distilled water or 1X TBST. </li><li>Gently mark the molecular weight ladder bands for size detection. </li><li>Following membrane blocking, use scissors or a sharp scalpel to horizontally cut the membrane taking care to avoid cutting too close to the proteins of interest. Use rounded tweezers when handling the membrane. </li></ol><p><strong>Considerations:</strong></p><blockquote><p>This method requires a significant difference in size (kDa) between the protein of interest and loading control protein to ensure clean separation. </p></blockquote><blockquote><p>A prestained marker or ladder should be used to determine the molecular weight and correct location to cut the membrane. </p></blockquote><blockquote><p>Prior to using this method, every antibody should be tested on the whole blot to determine antibody specificity.</p></blockquote><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201103090258.png"></p></br><h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><blockquote><p> <a href="https://images.novusbio.com/design/BR_loadingcontrolsguide_101416.pdf">https://images.novusbio.com/design/BR_loadingcontrolsguide_101416.pdf</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;h4 id=&quot;amp-Common-Loading-Control-Proteins-for-Western-Blot&quot;&gt;&lt;a href=&quot;#amp-Common-Loading-Control-Proteins-for-Western-Blot&quot; class=&quot;headerlink&quot; title=&quot;&amp;amp; Common Loading Control Proteins for Western Blot&quot;&gt;&lt;/a&gt;&amp;amp; Common Loading Control Proteins for Western Blot&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;kDa&lt;/th&gt;
+&lt;th&gt;Whole cell&lt;/th&gt;
+&lt;th&gt;Cytoskeletal&lt;/th&gt;
+&lt;th&gt;Motichondrial&lt;/th&gt;
+&lt;th&gt;Nuclear&lt;/th&gt;
+&lt;th&gt;Serum&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;120&lt;/td&gt;
+&lt;td&gt;Vinculin&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;75&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Transferrin&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;65&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Lamin B1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;60&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;HSP60&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;50&lt;/td&gt;
+&lt;td&gt;α-tubulin&lt;/td&gt;
+&lt;td&gt;α-tubulin&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;HDAC1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;55&lt;/td&gt;
+&lt;td&gt;β-tubulin&lt;/td&gt;
+&lt;td&gt;β-tubulin&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;&lt;font color=red&gt;β-actin&lt;/font&gt;&lt;/td&gt;
+&lt;td&gt;&lt;font color=red&gt;β-actin&lt;/font&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;td&gt;&lt;font color=red&gt;GAPDH&lt;/font&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;VDCA1/porin&lt;/td&gt;
+&lt;td&gt;PCNA&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;Cyclophilin B&lt;/td&gt;
+&lt;td&gt;Cofilin&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;COX IV&lt;/td&gt;
+&lt;td&gt;Histine H3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</summary>
+    
+    
+    
+    <category term="Biology" scheme="http://yunlong-jia.com/categories/Biology/"/>
+    
+    <category term="Protein identification" scheme="http://yunlong-jia.com/categories/Biology/Protein-identification/"/>
+    
+    <category term="WB" scheme="http://yunlong-jia.com/categories/Biology/Protein-identification/WB/"/>
+    
+    
+    <category term="loading control" scheme="http://yunlong-jia.com/tags/loading-control/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Corpus @ Make your own corpus</title>
+    <link href="http://yunlong-jia.com/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/"/>
+    <id>http://yunlong-jia.com/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</id>
+    <published>2020-11-01T18:22:15.000Z</published>
+    <updated>2020-11-01T18:09:18.556Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/29283677&quot;&gt;https://www.zhihu.com/question/29283677&lt;/a&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="Tutorials" scheme="http://yunlong-jia.com/categories/Tutorials/"/>
+    
+    <category term="Corpus" scheme="http://yunlong-jia.com/categories/Tutorials/Corpus/"/>
+    
+    
+    <category term="corpus" scheme="http://yunlong-jia.com/tags/corpus/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo_Adv @ Set top posts</title>
-    <link href="http://yunlong-jia.com/2020/11/01/Hexo-Adv-Set-top-posts/"/>
-    <id>http://yunlong-jia.com/2020/11/01/Hexo-Adv-Set-top-posts/</id>
+    <link href="http://yunlong-jia.com/2020/11/01/Tutorials-Hexo-Adv-Set-top-posts/"/>
+    <id>http://yunlong-jia.com/2020/11/01/Tutorials-Hexo-Adv-Set-top-posts/</id>
     <published>2020-11-01T09:37:51.000Z</published>
     <updated>2020-11-01T07:19:48.016Z</updated>
     
@@ -140,9 +291,9 @@
     <link href="http://yunlong-jia.com/2020/10/24/Others-Arab-traditional-dress/"/>
     <id>http://yunlong-jia.com/2020/10/24/Others-Arab-traditional-dress/</id>
     <published>2020-10-24T09:22:15.000Z</published>
-    <updated>2020-10-25T09:11:13.433Z</updated>
+    <updated>2020-11-03T12:47:54.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022071306.png"></p><a id="more"></a><h4 id="Hijab"><a href="#Hijab" class="headerlink" title="Hijab"></a>Hijab</h4><p>A <strong><em>hijab</em></strong>  is a <a href="https://en.wikipedia.org/wiki/Veil">veil</a> worn by some <a href="https://en.wikipedia.org/wiki/Muslim">Muslim</a> women in the presence of any male outside of their immediate family, which usually covers the head and chest. The term can refer to any head, face, or body covering worn by Muslim women that conforms to <a href="https://en.wikipedia.org/wiki/Haya_(Islam)">Islamic standards of modesty</a>. </p><p><em>Hijab</em> can also refer to the <a href="https://en.wikipedia.org/wiki/Seclusion">seclusion</a> of women from men in the <a href="https://en.wikipedia.org/wiki/Public_sphere">public sphere</a>, or it may denote a metaphysical dimension, for example referring to “the veil which separates man or the world from God.” <a href="https://en.wikipedia.org/wiki/Hijab#cite_note-Glasse,_Cyril_2001,_p.179-180-5">[5]</a></p><h5 id="amp-Niqab"><a href="#amp-Niqab" class="headerlink" title="&amp; Niqāb"></a>&amp; Niqāb</h5><p>A <strong>niqāb</strong> or <strong>niqaab</strong>, also called a <strong>ruband</strong>, is a garment of clothing that covers the face, worn by some <a href="https://en.wikipedia.org/wiki/Muslim_women">Muslim women</a> as a part of a particular interpretation of <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a> (modest dress). </p><p> It properly refers to a garment that covers a woman’s upper body and face, except for her eyes.[<a href="https://en.wikipedia.org/wiki/Hijab#cite_note-channel4-68">68]</a> It is particularly associated with the style traditionally worn in the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, where the veil is attached by one side and covers the face only below the eyes, thereby allowing the eyes to be seen.</p><p>According to the majority of Muslim scholars and <a href="https://en.wikipedia.org/wiki/Islamic_schools_of_thought">Islamic schools of thought</a>, <code>face veiling</code> is not a requirement of <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>; however a minority of Muslim scholars, particularly among the <a href="https://en.wikipedia.org/wiki/Salafi">Salafi</a> movement, assert that women are required to cover their faces in public. Those Muslim women who wear the niqab do so in places where they may encounter non-<a href="https://en.wikipedia.org/wiki/Mahram">mahram</a> (non-related) men.</p><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201024175433.png"></p><h5 id="amp-Burqa"><a href="#amp-Burqa" class="headerlink" title="&amp; Burqa"></a>&amp; Burqa</h5><p>A <strong>burqa</strong> or <strong>burka</strong> in Afghanistan or a <strong><a href="https://en.wikipedia.org/wiki/Paranja">paranja</a></strong> in <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, is an enveloping outer garment which covers the body and the face that is worn by women in some <a href="https://en.wikipedia.org/wiki/Islamic">Islamic</a> traditions. The Arab version of the <code>burqa</code> is called the <strong><a href="https://en.wikipedia.org/wiki/Boshiya">boshiya</a></strong>, and is usually black in color.</p><p>The term <em>burqa</em> is sometimes conflated with <em><a href="https://en.wikipedia.org/wiki/Niq%C4%81b">niqāb</a></em>. In more precise usage, niqab is a face veil that leaves the eyes uncovered, while a burqa covers the entire body from the top of the head to the ground, with only a mesh screen allowing the wearer to see in front of her. The burqa is also not to be confused with the <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>, a garment which covers the hair, neck and all or part of the chest, but not the face.[<a href="https://en.wikipedia.org/wiki/Burqa#cite_note-3">3]</a></p><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074229.png"></p><h5 id="amp-Tudong"><a href="#amp-Tudong" class="headerlink" title="&amp; Tudong"></a>&amp; Tudong</h5><p><strong>Tudong</strong> (also spelled <strong>tudung</strong>) is a <a href="https://en.wikipedia.org/wiki/Malay_language">Malay</a> word, literally meaning the noun “cover”, which is commonly translated/referred to as <a href="https://en.wikipedia.org/wiki/Veil">veil</a> or <a href="https://en.wikipedia.org/wiki/Headscarf">headscarf</a> in <a href="https://en.wikipedia.org/wiki/English_language">English</a>.</p><p>In <a href="https://en.wikipedia.org/wiki/Brunei">Brunei</a>, <a href="https://en.wikipedia.org/wiki/Malaysia">Malaysia</a> and <a href="https://en.wikipedia.org/wiki/Singapore">Singapore</a>, the tudong is worn in accordance to <a href="https://en.wikipedia.org/wiki/Islam">Islam’s</a> <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>. Usually, the tudong covers the hair, ears, neck while <code>leaving only the face exposed</code>. It is part of the standard <a href="https://en.wikipedia.org/wiki/Dress_code">dress code</a> for offices, such as school uniforms and formal occasions.</p><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022072037.png"></p><h5 id="amp-Turban"><a href="#amp-Turban" class="headerlink" title="&amp; Türban"></a>&amp; Türban</h5><p>Some fashion-conscious women have been turning to non-traditional forms of hijab such as turbans.[<a href="https://en.wikipedia.org/wiki/Hijab#cite_note-turban-55">55]</a>[<a href="https://en.wikipedia.org/wiki/Hijab#cite_note-56">56]</a> While some regard turbans as a proper head cover, others argue that it cannot be considered a proper Islamic veil if it leaves the neck exposed.</p><p>A <strong>turban</strong> (from <a href="https://en.wikipedia.org/wiki/Persian_language">Persian</a> دولبند‌, <em>dulband</em>; via <a href="https://en.wikipedia.org/wiki/Middle_French">Middle French</a> <em>turbant</em>) is a type of <a href="https://en.wikipedia.org/wiki/Headwear">headwear</a> based on cloth winding. Featuring many variations, it is worn as customary headwear by people of various cultures.[<a href="https://en.wikipedia.org/wiki/Turban#cite_note-1">1]</a> Communities with prominent turban-wearing traditions can be found in the <a href="https://en.wikipedia.org/wiki/Indian_subcontinent">Indian subcontinent</a>, <a href="https://en.wikipedia.org/wiki/Southeast_Asia">Southeast Asia</a>, the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, the <a href="https://en.wikipedia.org/wiki/Middle_East">Middle East</a>, <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, <a href="https://en.wikipedia.org/wiki/North_Africa">North Africa</a>, <a href="https://en.wikipedia.org/wiki/West_Africa">West Africa</a>, and East Africa.</p><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074749.png"></p><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Hijab">https://en.wikipedia.org/wiki/Hijab</a></p>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022071306.png"></p><a id="more"></a><h4 id="Hijab"><a href="#Hijab" class="headerlink" title="Hijab"></a>Hijab</h4><p>A <strong><em>hijab</em></strong>  is a veil worn by some <a href="https://en.wikipedia.org/wiki/Muslim">Muslim</a> women in the presence of any male outside of their immediate family, which usually covers the head and chest. The term can refer to any head, face, or body covering worn by Muslim women that conforms to <a href="https://en.wikipedia.org/wiki/Haya_(Islam)">Islamic standards of modesty</a>. </p><p><em>Hijab</em> can also refer to the <a href="https://en.wikipedia.org/wiki/Seclusion">seclusion</a> of women from men in the <a href="https://en.wikipedia.org/wiki/Public_sphere">public sphere</a>, or it may denote a metaphysical dimension, for example referring to “the veil which separates man or the world from God.” </p><h5 id="amp-Niqab"><a href="#amp-Niqab" class="headerlink" title="&amp; Niqāb"></a>&amp; Niqāb</h5><p>A <strong>niqāb</strong> or <strong>niqaab</strong>, also called a <strong>ruband</strong>, is a garment of clothing that covers the face, worn by some <a href="https://en.wikipedia.org/wiki/Muslim_women">Muslim women</a> as a part of a particular interpretation of <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a> (modest dress). </p><p> It properly refers to a garment that covers a woman’s upper body and face, except for her eyes. It is particularly associated with the style traditionally worn in the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, where the veil is attached by one side and covers the face only below the eyes, thereby allowing the eyes to be seen.</p><p>According to the majority of Muslim scholars and <a href="https://en.wikipedia.org/wiki/Islamic_schools_of_thought">Islamic schools of thought</a>, <strong>face veiling</strong> is not a requirement of <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>; however a minority of Muslim scholars, particularly among the <a href="https://en.wikipedia.org/wiki/Salafi">Salafi</a> movement, assert that women are required to cover their faces in public. Those Muslim women who wear the niqab do so in places where they may encounter non-<a href="https://en.wikipedia.org/wiki/Mahram">mahram</a> (non-related) men.</p><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201024175433.png"></p><h5 id="amp-Burqa"><a href="#amp-Burqa" class="headerlink" title="&amp; Burqa"></a>&amp; Burqa</h5><p>A <strong>burqa</strong> or <strong>burka</strong> in Afghanistan or a <strong><a href="https://en.wikipedia.org/wiki/Paranja">paranja</a></strong> in <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, is an enveloping outer garment which covers the body and the face that is worn by women in some <a href="https://en.wikipedia.org/wiki/Islamic">Islamic</a> traditions. The Arab version of the <strong>burqa</strong> is called the <strong><a href="https://en.wikipedia.org/wiki/Boshiya">boshiya</a></strong>, and is usually black in color.</p><p>The term <em>burqa</em> is sometimes conflated with <em><a href="https://en.wikipedia.org/wiki/Niq%C4%81b">niqāb</a></em>. In more precise usage, niqab is a face veil that leaves the eyes uncovered, while a burqa covers the entire body from the top of the head to the ground, with only a mesh screen allowing the wearer to see in front of her. The burqa is also not to be confused with the <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>, a garment which covers the hair, neck and all or part of the chest, but not the face.</p><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074229.png"></p><h5 id="amp-Tudong"><a href="#amp-Tudong" class="headerlink" title="&amp; Tudong"></a>&amp; Tudong</h5><p><strong>Tudong</strong> (also spelled <strong>tudung</strong>) is a <a href="https://en.wikipedia.org/wiki/Malay_language">Malay</a> word, literally meaning the noun “cover”, which is commonly translated/referred to as <a href="https://en.wikipedia.org/wiki/Veil">veil</a> or <a href="https://en.wikipedia.org/wiki/Headscarf">headscarf</a> in <a href="https://en.wikipedia.org/wiki/English_language">English</a>.</p><p>In <a href="https://en.wikipedia.org/wiki/Brunei">Brunei</a>, <a href="https://en.wikipedia.org/wiki/Malaysia">Malaysia</a> and <a href="https://en.wikipedia.org/wiki/Singapore">Singapore</a>, the tudong is worn in accordance to <a href="https://en.wikipedia.org/wiki/Islam">Islam’s</a> <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>. Usually, the tudong covers the hair, ears, neck while <code>leaving only the face exposed</code>. It is part of the standard <a href="https://en.wikipedia.org/wiki/Dress_code">dress code</a> for offices, such as school uniforms and formal occasions.</p><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022072037.png"></p><h5 id="amp-Turban"><a href="#amp-Turban" class="headerlink" title="&amp; Türban"></a>&amp; Türban</h5><p>Some fashion-conscious women have been turning to non-traditional forms of hijab such as turbans. While some regard turbans as a proper head cover, others argue that it cannot be considered a proper Islamic veil if it leaves the neck exposed.</p><p>A <strong>turban</strong> (from <a href="https://en.wikipedia.org/wiki/Persian_language">Persian</a> دولبند‌, <em>dulband</em>; via <a href="https://en.wikipedia.org/wiki/Middle_French">Middle French</a> <em>turbant</em>) is a type of <a href="https://en.wikipedia.org/wiki/Headwear">headwear</a> based on cloth winding. Featuring many variations, it is worn as customary headwear by people of various cultures. Communities with prominent turban-wearing traditions can be found in the <a href="https://en.wikipedia.org/wiki/Indian_subcontinent">Indian subcontinent</a>, <a href="https://en.wikipedia.org/wiki/Southeast_Asia">Southeast Asia</a>, the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, the <a href="https://en.wikipedia.org/wiki/Middle_East">Middle East</a>, <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, <a href="https://en.wikipedia.org/wiki/North_Africa">North Africa</a>, <a href="https://en.wikipedia.org/wiki/West_Africa">West Africa</a>, and East Africa.</p><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074749.png"></p><h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><blockquote><p><a href="https://en.wikipedia.org/wiki/Hijab">https://en.wikipedia.org/wiki/Hijab</a></p></blockquote>]]></content>
     
     
     <summary type="html">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022071306.png&quot;&gt;&lt;/p&gt;</summary>
@@ -432,58 +583,6 @@
     
     
     <category term="Opinion" scheme="http://yunlong-jia.com/tags/Opinion/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Top places to go in China</title>
-    <link href="http://yunlong-jia.com/2020/10/17/2020-10-17-Top-places-to-go-in-China/"/>
-    <id>http://yunlong-jia.com/2020/10/17/2020-10-17-Top-places-to-go-in-China/</id>
-    <published>2020-10-17T19:53:15.000Z</published>
-    <updated>2020-10-18T13:16:41.787Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="The-sites-in-UNESCO-World-Heritage-list"><a href="#The-sites-in-UNESCO-World-Heritage-list" class="headerlink" title="The sites in UNESCO World Heritage list"></a>The sites in <code>UNESCO World Heritage list</code></h3><p>China is a big country, so there are many tourist attractions. First of all, these sites are world class, best preserved, and most significant.</p><p>Next, I will show you how to find these sites list and basic information:</p><p>Open <code>Word Heritage List</code>:  <a href="https://whc.unesco.org/en/list/&amp;order=country">https://whc.unesco.org/en/list/&amp;order=country</a></p><p>Ordering the sites by <code>Country</code>;</p><a id="more"></a><p>Find out <code>China</code>and all related sites, there are 3 types: Cultural, Natural and Mixed site;</p><p>When you open any of them, you’ll see the relevant basic information, including description, gallery and video.</p><h3 id="AAAAA-Tourist-Attractions-of-China-5A-sites"><a href="#AAAAA-Tourist-Attractions-of-China-5A-sites" class="headerlink" title="AAAAA Tourist Attractions of China [5A sites]"></a>AAAAA Tourist Attractions of China [5A sites]</h3><p><code>5A</code> are the most important and best-maintained <a href="https://en.wikipedia.org/wiki/Tourist_attraction">tourist attractions</a> in the <a href="https://en.wikipedia.org/wiki/People's_Republic_of_China">People’s Republic of China</a>, given the highest level in the <a href="https://en.wikipedia.org/wiki/Tourist_Attraction_Rating_Categories_of_China">rating categories</a> used by the <a href="https://en.wikipedia.org/wiki/Ministry_of_Culture_and_Tourism_of_the_People's_Republic_of_China">Ministry of Culture and Tourism</a>. Generally, World Heritage sites are already included in the 5A list.</p><p>Here is the list: <a href="https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China">https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China</a></p><h3 id="Best-Cities-to-Visit-in-China"><a href="#Best-Cities-to-Visit-in-China" class="headerlink" title="Best Cities to Visit in China"></a>Best Cities to Visit in China</h3><h5 id="amp-Beijing-—-Ancient-and-Modern-Capital"><a href="#amp-Beijing-—-Ancient-and-Modern-Capital" class="headerlink" title="&amp; Beijing — Ancient and Modern Capital"></a>&amp; Beijing — Ancient and Modern Capital</h5><h5 id="amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization"><a href="#amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization" class="headerlink" title="&amp; Xi’an — a Window on China’s Ancient Civilization"></a>&amp; Xi’an — a Window on China’s Ancient Civilization</h5><h5 id="amp-Shanghai-—-China’s-Prosperous-Largest-City"><a href="#amp-Shanghai-—-China’s-Prosperous-Largest-City" class="headerlink" title="&amp; Shanghai — China’s Prosperous Largest City"></a>&amp; Shanghai — China’s Prosperous Largest City</h5><h5 id="amp-Guilin-—-China’s-Top-Karst-Landscape"><a href="#amp-Guilin-—-China’s-Top-Karst-Landscape" class="headerlink" title="&amp; Guilin — China’s Top Karst Landscape"></a>&amp; Guilin — China’s Top Karst Landscape</h5><h5 id="amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth"><a href="#amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth" class="headerlink" title="&amp; Hong Kong — Like Nowhere Else on Earth"></a>&amp; Hong Kong — Like Nowhere Else on Earth</h5><h5 id="amp-Hangzhou-—-Next-Best-Place-to-Heaven"><a href="#amp-Hangzhou-—-Next-Best-Place-to-Heaven" class="headerlink" title="&amp; Hangzhou — Next Best Place to Heaven"></a>&amp; Hangzhou — Next Best Place to Heaven</h5><h5 id="amp-Chengdu-—-Hometown-of-Giant-Pandas"><a href="#amp-Chengdu-—-Hometown-of-Giant-Pandas" class="headerlink" title="&amp; Chengdu — Hometown of Giant Pandas"></a>&amp; Chengdu — Hometown of Giant Pandas</h5><h5 id="amp-Lhasa-—-Gateway-to-Transcendent-Tibet"><a href="#amp-Lhasa-—-Gateway-to-Transcendent-Tibet" class="headerlink" title="&amp; Lhasa — Gateway to Transcendent Tibet"></a>&amp; Lhasa — Gateway to Transcendent Tibet</h5><h5 id="amp-Suzhou-—-Elegant-Water-Towns-and-Gardens"><a href="#amp-Suzhou-—-Elegant-Water-Towns-and-Gardens" class="headerlink" title="&amp; Suzhou — Elegant Water Towns and Gardens"></a>&amp; Suzhou — Elegant Water Towns and Gardens</h5><blockquote><p><a href="https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/">https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/</a></p></blockquote><p>Finally, for more information, please refer to site China Travel Guide: <a href="https://www.chinahighlights.com/">https://www.chinahighlights.com/</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;h3 id=&quot;The-sites-in-UNESCO-World-Heritage-list&quot;&gt;&lt;a href=&quot;#The-sites-in-UNESCO-World-Heritage-list&quot; class=&quot;headerlink&quot; title=&quot;The sites in UNESCO World Heritage list&quot;&gt;&lt;/a&gt;The sites in &lt;code&gt;UNESCO World Heritage list&lt;/code&gt;&lt;/h3&gt;&lt;p&gt;China is a big country, so there are many tourist attractions. First of all, these sites are world class, best preserved, and most significant.&lt;/p&gt;
-&lt;p&gt;Next, I will show you how to find these sites list and basic information:&lt;/p&gt;
-&lt;p&gt;Open &lt;code&gt;Word Heritage List&lt;/code&gt;:  &lt;a href=&quot;https://whc.unesco.org/en/list/&amp;amp;order=country&quot;&gt;https://whc.unesco.org/en/list/&amp;amp;order=country&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Ordering the sites by &lt;code&gt;Country&lt;/code&gt;;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="China" scheme="http://yunlong-jia.com/categories/China/"/>
-    
-    <category term="Tour" scheme="http://yunlong-jia.com/categories/China/Tour/"/>
-    
-    
-    <category term="Good places" scheme="http://yunlong-jia.com/tags/Good-places/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo_Adv @ Skip render for given files and folders</title>
-    <link href="http://yunlong-jia.com/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/"/>
-    <id>http://yunlong-jia.com/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</id>
-    <published>2020-10-10T09:31:15.000Z</published>
-    <updated>2020-10-10T09:42:30.271Z</updated>
-    
-    <content type="html"><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p><p>Now in <code>hexo</code>system, you need to configure it in you <code>_ config.yml</code>for achieving it.</p><a id="more"></a><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd .../homepage/</span><br><span class="line">vi ./_config.yml</span><br></pre></td></tr></table></figure><p>you need to locate and find <code>skip_render:</code></p><p>Then modify it as below:</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># The default work directory for &quot;skip_render&quot; is</span></span></span><br><span class="line">cd .../homepage/source/</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip single file, as README.md: </span></span></span><br><span class="line">skip_render: README.md</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip all files in single folder, as test:</span></span></span><br><span class="line">skip_render: test/*</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip several files or folders:</span></span></span><br><span class="line"></span><br><span class="line">skip_render:</span><br><span class="line"> - test.html</span><br><span class="line"> - README.md</span><br><span class="line"> - test/*</span><br><span class="line"> - miao/*</span><br></pre></td></tr></table></figure><p>Finally , clean and reload your new files:</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.&lt;/p&gt;
-&lt;p&gt;Now in &lt;code&gt;hexo&lt;/code&gt;system, you need to configure it in you &lt;code&gt;_ config.yml&lt;/code&gt;for achieving it.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Tutorials" scheme="http://yunlong-jia.com/categories/Tutorials/"/>
-    
-    <category term="Hexo" scheme="http://yunlong-jia.com/categories/Tutorials/Hexo/"/>
-    
-    <category term="Adv." scheme="http://yunlong-jia.com/categories/Tutorials/Hexo/Adv/"/>
-    
-    
-    <category term="Hexo_Adv" scheme="http://yunlong-jia.com/tags/Hexo-Adv/"/>
     
   </entry>
   
