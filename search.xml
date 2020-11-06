@@ -36,29 +36,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ add rounded corners</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
-    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
-<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
-
-<p>add the follow code should be OK:</p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo[Next] @ Custom background image</title>
     <url>/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</url>
     <content><![CDATA[<p>*<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong> Based on <code>Next theme</code> <a href="https://github.com/theme-next/hexo-theme-next/commit/f9956802c9cf51ebdb447fb954efa6383fbb2bd6">Release v7.8.0</a></p>
@@ -133,6 +110,29 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo[Next] @ add rounded corners</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
+    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
+<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
+
+<p>add the follow code should be OK:</p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+        <category>Theme_Next</category>
+      </categories>
+      <tags>
+        <tag>Page optimization</tag>
+        <tag>Hexo[Next]</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo_Adv @ add Comment System in your site</title>
     <url>/2020/09/01/2020-09-01-Hexo-Adv-add-Comment-system-in-your-site/</url>
     <content><![CDATA[<p>First, go to <code>Disqus</code>website, to sign up for an account,</p>
@@ -146,31 +146,6 @@
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Disqus</span></span><br><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">shortname:</span> <span class="string">yl-jia</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
 <p>Add your own “shortname”, and enable “true”, then the Comment system is working.</p>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Adv @ Add related post function</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</url>
-    <content><![CDATA[<p>With the module of <code>hexo-related-popular-posts</code>, hexo can find and match related articles for visitors.</p>
-<h4 id="1-install-quicklinkmodule-in-git-bash"><a href="#1-install-quicklinkmodule-in-git-bash" class="headerlink" title="1. install quicklinkmodule in git bash:"></a>1. install <code>quicklink</code>module in git bash:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
-
-<h4 id="2-Open-and-modify-the-config-file"><a href="#2-Open-and-modify-the-config-file" class="headerlink" title="2. Open and modify the config file:"></a>2. Open and modify the config file:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<p>Locate to “related_posts” code block, change “enable” as “true”,</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="attr">PPMixingRate:</span> <span class="number">0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="attr">isImage:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
-
-
-
 ]]></content>
       <categories>
         <category>Tutorials</category>
@@ -234,6 +209,31 @@
       <tags>
         <tag>Page optimization</tag>
         <tag>Hexo[Next]</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ Add related post function</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</url>
+    <content><![CDATA[<p>With the module of <code>hexo-related-popular-posts</code>, hexo can find and match related articles for visitors.</p>
+<h4 id="1-install-quicklinkmodule-in-git-bash"><a href="#1-install-quicklinkmodule-in-git-bash" class="headerlink" title="1. install quicklinkmodule in git bash:"></a>1. install <code>quicklink</code>module in git bash:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-Open-and-modify-the-config-file"><a href="#2-Open-and-modify-the-config-file" class="headerlink" title="2. Open and modify the config file:"></a>2. Open and modify the config file:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<p>Locate to “related_posts” code block, change “enable” as “true”,</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="attr">PPMixingRate:</span> <span class="number">0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="attr">isImage:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv</tag>
       </tags>
   </entry>
   <entry>
@@ -340,6 +340,27 @@
       </tags>
   </entry>
   <entry>
+    <title>Zotero @ Citation style custom</title>
+    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
+    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
+<a id="more"></a>
+
+<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
+<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
+<blockquote>
+<p>ref:</p>
+<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+        <category>Zotero</category>
+      </categories>
+      <tags>
+        <tag>Zotero</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo_Adv @ Skip render for given files and folders</title>
     <url>/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</url>
     <content><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p>
@@ -365,27 +386,6 @@
       </categories>
       <tags>
         <tag>Hexo_Adv</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Zotero @ Citation style custom</title>
-    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
-    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
-<a id="more"></a>
-
-<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
-<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
-<blockquote>
-<p>ref:</p>
-<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-        <category>Zotero</category>
-      </categories>
-      <tags>
-        <tag>Zotero</tag>
       </tags>
   </entry>
   <entry>
@@ -682,6 +682,23 @@
       </tags>
   </entry>
   <entry>
+    <title>Chinese culture @ Traditional herbal medicine [中药]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-herbal-medicine/</url>
+    <content><![CDATA[<img src="/beauty/zy.png" style="zoom:70%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm">https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm</a></p>
+]]></content>
+      <categories>
+        <category>China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Picture bed building by GitHub + PicGo</title>
     <url>/2020/10/18/2020-10-18-Picturebed-using-PicGo-and-Github/</url>
     <content><![CDATA[<p>This article describes how to use your own GitHub as a picture bed and use the open source software PicGo to upload pictures to GitHub.</p>
@@ -713,23 +730,6 @@
       </categories>
       <tags>
         <tag>Picbed</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Chinese culture @ Traditional herbal medicine [中药]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-herbal-medicine/</url>
-    <content><![CDATA[<img src="/beauty/zy.png" style="zoom:70%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm">https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm</a></p>
-]]></content>
-      <categories>
-        <category>China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
       </tags>
   </entry>
   <entry>
@@ -958,30 +958,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2nd Wedding Anniversary-Letter</title>
-    <url>/2020/10/19/Daily%20life-Mine-2nd-Wedding-Anniversary/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="1a7f1deecd30d13fb30cbe9075b261b2e51399572971b71504cf4272a66b4126">8b21cc1568dfca721c188826f7384bc493252b7561d71b218cd027d0b87c1853374c8c986dd196c9ec8f84e7e1bd1c584360bca66c8b741339bbbb3a5f392387950174ff40041da3bb3685da5c2ed38a849f379a3eb7997cc4ba1a7aca22846e364757fa795e1f6487d3bc0a0a9e1abb53b93c79903e56b5c2ee4b421c7c068c1ec1129c40cfc830fb78c1f0bb7c66186c52407eecac6f38295e71be88e8fa3a1d959b9c3cc322e305435a2cf19340a273499f92d25d80266414c96ed8d9d11ded0b0eac1031845bfb9dff79abe558aa8e5725726397e61b4cfd3e5187292748b04b48d85a5b6abab03ff80918d126cc41ebd45fde2db41c423a5fa3450c8c4f673705a795ec1683c412be8d2414f225f908693c8ac43f6b52e465f9743ee5fb1d9c5edce0773b85221330f7d4f7a4d4142591269a0a39669fb6cd0d81b96274ba7df60a14ea394f0e4efb5c01207fd6e580207c4e8ad615b921dd8929302da7e4eb260c823eb0c71e03abd5d34bb4d11089572fdb8546044214b69ae4bcf901c193ad883616a845ce41d6e2825ca1b40af8a2a77946077e6a66ad5291ee444ca2a3436c46a5d7647ee2151b5764c9ffb28bbf9b2f93471d37a7e758261d39d1d801f526b5e5674ee2c4d17de0f0896b3a255e167a1f25f9f08d07912bf9296f3c55e23eb36eea9031e7f34d0592155fe3530678d0836f9eed0b32504367eac697ac6879a121b979da8a30d0718f6bc065652dfacd4a2cefb204ad7223d61e50ae22f910e488efc096e2a6678c993a979d28bba0e8ddcd90ab11ba0c256767194a9f0e205b2d06bafc2083585497f3aa603137b01d58326e57940282ad7042eec7c784e77b3a1b27eb6ecafa54edb9dc84b3bbfe044962e305f4318abb5994487ebbd031b131a1172ad7a9b224efb5cba7f2cbd15b8ed1836a8eee1625cfd952e5166c64008c5737e56c595066bb14e3</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>Daily life</category>
-        <category>Mine</category>
-      </categories>
-      <tags>
-        <tag>anniversary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Think about Youtube Channel</title>
-    <url>/2020/10/25/Daily-life-Business-Think-about-Youtube-channel/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="353d9cfa4a84f9dbb7c846c9de51a20335645d9a9637f5c094f786852d0f3862">ccda2e5871b7609edf409b04d54f58e731d6db04b30bd723f92be1295858dacd1f12df5aa03101a18b82aa910f59b7c3452fd8f482757d3c31268ff77bc68d1265a89737437b87bf9d5aa3b5d6d2114a2d8fac9cf24302a6afa22aa36a68ac84167bf4f6fbeb0138294c91604c97395f53999d34dc456f75014b7ff9b43d6ec1a5a37388aaa1aa5d0d3ed5ef092888747d91250ad3cbe46b0534240c31a667f84d4e21e9a9fd9a171def2781689ef80f0d7e4781d56e76c3dae9c67e2f2392e5da2982226a2b10d3a88086ca6d3cfcaa588c49620a59fec1bc80905b573a5a6d66cf6dd5d446671bbcca7838f354124d83e5ef5136aaeeb27319bee4b83a16946fa5c08443467336da17c16ca260b4afa0fbe4ea51ed2965c7af6ab6553260743f0017805db47c0c0be34ca5040db9c88a184af81f7b29cc3ad39d0e519b311bd8480ad5192ec270e24df98d71bdd50c986c4ffe50b9ddd55758f6d7f03276b15093ecde0158f60deb80eb8568b3fcbf7b6aa25e60669431115661db4f63ce7026b2994631de0dd87b7c301070682333e15ac76be74902c9f69e2382c49bc645c180339a91956dd548b9b061a8b920bbfcc6a39070767adc8dcffba639d8ba6ca46af779e691fc142d7c8dd2a1aac621ea792e691cc779a970f7eda4f2332353ef5e6fe64a6d09a137226ca38692ea38f5eb5e44bcec9d02a6b104257ecc49c4e9979dfab1d5136f12b3fa74b6d2599aa45e2ae91bcb609bcb1bc4dec2bf283c4d4e06b7d560260f583b537264717ecc12a429a31cdd6a81598c93cb11c4485e0d42e4c871de68044bfc5e1828fc826606cdac5cd4d30f5ae1341cca77249e85d882e74cb9d73b62fa2037fd2a9089f797b148e4c5c2d7a4b1ae225e8b66a18a282d7d1cc9ae082c42a300850a8206dd758917b258a46e18fc9438c7c2a5855aee65cfaad40032e2f0181a8b0b58768823fd53f9e7ed551f3d7ebcd4383d39615cc19958c3d543a82d5b33d445a3dd96ede50bb6238207cac4c9b35d1d39ccd8ea2493ce1001b754cf8da125822490e2c1d5ccb84ad9d449b6a6abce66918fc01fd5876e1f2152383851e4039bc7682003d21edc609d0e56dd5880bbacecae732b942df616b238c118f510c252a6a8b290ba345311db2f9190d97217b9280a3ff8f28af205a960572cde17b3d715c7caec0b7c718a93f801ec7d5bfac2f37a19225bfcb6e880cf0af0d6969f34adeac5e2f46f3fa9b431d5060a259ed10ec94666cad4246ef4bf85ae29a9547314ff13fd90bf0fae0fc3cf21faf464745bf6dee27903a0d31e414d4962944b1bcc3dc569e0bfb059eadfea0412c6b71a57b9324887a1b43b86b3a181ba4a9072bbfec040792707adc57ea4522923a78896c60a459016b12b3d0876f1ea3387656fb70c7e29d7caf72dfbf8973fee2c39b1bedf38a3e7e2dc74b176d076166c03ce3a54211a7197f48b99f6f9a7e0fd5aa0d0dcebd1ddd81cceb11bbf76086568768367c7f6413e3749d75e553337a8b2861165fb559553115a559cfd3fe6fa1e26ba4ef8a075954800dc659da863191184702164a9d211cb843479443d53a67effa70c</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>Daily life</category>
-        <category>Business</category>
-      </categories>
-      <tags>
-        <tag>business</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Cooking @ Snack making</title>
     <url>/2020/10/22/Daily-life-Cooking-Snack-making/</url>
     <content><![CDATA[<h3 id="amp-Sesame-chips"><a href="#amp-Sesame-chips" class="headerlink" title="&amp; Sesame chips"></a>&amp; Sesame chips</h3><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201024175209.png" style="zoom:67%;" />
@@ -1008,6 +984,18 @@
       </categories>
       <tags>
         <tag>cooking</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Think about Youtube Channel</title>
+    <url>/2020/10/25/Daily-life-Business-Think-about-Youtube-channel/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="353d9cfa4a84f9dbb7c846c9de51a20335645d9a9637f5c094f786852d0f3862">ccda2e5871b7609edf409b04d54f58e731d6db04b30bd723f92be1295858dacd1f12df5aa03101a18b82aa910f59b7c3452fd8f482757d3c31268ff77bc68d1265a89737437b87bf9d5aa3b5d6d2114a2d8fac9cf24302a6afa22aa36a68ac84167bf4f6fbeb0138294c91604c97395f53999d34dc456f75014b7ff9b43d6ec1a5a37388aaa1aa5d0d3ed5ef092888747d91250ad3cbe46b0534240c31a667f84d4e21e9a9fd9a171def2781689ef80f0d7e4781d56e76c3dae9c67e2f2392e5da2982226a2b10d3a88086ca6d3cfcaa588c49620a59fec1bc80905b573a5a6d66cf6dd5d446671bbcca7838f354124d83e5ef5136aaeeb27319bee4b83a16946fa5c08443467336da17c16ca260b4afa0fbe4ea51ed2965c7af6ab6553260743f0017805db47c0c0be34ca5040db9c88a184af81f7b29cc3ad39d0e519b311bd8480ad5192ec270e24df98d71bdd50c986c4ffe50b9ddd55758f6d7f03276b15093ecde0158f60deb80eb8568b3fcbf7b6aa25e60669431115661db4f63ce7026b2994631de0dd87b7c301070682333e15ac76be74902c9f69e2382c49bc645c180339a91956dd548b9b061a8b920bbfcc6a39070767adc8dcffba639d8ba6ca46af779e691fc142d7c8dd2a1aac621ea792e691cc779a970f7eda4f2332353ef5e6fe64a6d09a137226ca38692ea38f5eb5e44bcec9d02a6b104257ecc49c4e9979dfab1d5136f12b3fa74b6d2599aa45e2ae91bcb609bcb1bc4dec2bf283c4d4e06b7d560260f583b537264717ecc12a429a31cdd6a81598c93cb11c4485e0d42e4c871de68044bfc5e1828fc826606cdac5cd4d30f5ae1341cca77249e85d882e74cb9d73b62fa2037fd2a9089f797b148e4c5c2d7a4b1ae225e8b66a18a282d7d1cc9ae082c42a300850a8206dd758917b258a46e18fc9438c7c2a5855aee65cfaad40032e2f0181a8b0b58768823fd53f9e7ed551f3d7ebcd4383d39615cc19958c3d543a82d5b33d445a3dd96ede50bb6238207cac4c9b35d1d39ccd8ea2493ce1001b754cf8da125822490e2c1d5ccb84ad9d449b6a6abce66918fc01fd5876e1f2152383851e4039bc7682003d21edc609d0e56dd5880bbacecae732b942df616b238c118f510c252a6a8b290ba345311db2f9190d97217b9280a3ff8f28af205a960572cde17b3d715c7caec0b7c718a93f801ec7d5bfac2f37a19225bfcb6e880cf0af0d6969f34adeac5e2f46f3fa9b431d5060a259ed10ec94666cad4246ef4bf85ae29a9547314ff13fd90bf0fae0fc3cf21faf464745bf6dee27903a0d31e414d4962944b1bcc3dc569e0bfb059eadfea0412c6b71a57b9324887a1b43b86b3a181ba4a9072bbfec040792707adc57ea4522923a78896c60a459016b12b3d0876f1ea3387656fb70c7e29d7caf72dfbf8973fee2c39b1bedf38a3e7e2dc74b176d076166c03ce3a54211a7197f48b99f6f9a7e0fd5aa0d0dcebd1ddd81cceb11bbf76086568768367c7f6413e3749d75e553337a8b2861165fb559553115a559cfd3fe6fa1e26ba4ef8a075954800dc659da863191184702164a9d211cb843479443d53a67effa70c</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Daily life</category>
+        <category>Business</category>
+      </categories>
+      <tags>
+        <tag>business</tag>
       </tags>
   </entry>
   <entry>
@@ -1108,16 +1096,15 @@
       </tags>
   </entry>
   <entry>
-    <title>Corpus @ Make your own corpus</title>
-    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
-    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
-]]></content>
+    <title>2nd Wedding Anniversary-Letter</title>
+    <url>/2020/10/19/Daily%20life-Mine-2nd-Wedding-Anniversary/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="1a7f1deecd30d13fb30cbe9075b261b2e51399572971b71504cf4272a66b4126">8b21cc1568dfca721c188826f7384bc493252b7561d71b218cd027d0b87c1853374c8c986dd196c9ec8f84e7e1bd1c584360bca66c8b741339bbbb3a5f392387950174ff40041da3bb3685da5c2ed38a849f379a3eb7997cc4ba1a7aca22846e364757fa795e1f6487d3bc0a0a9e1abb53b93c79903e56b5c2ee4b421c7c068c1ec1129c40cfc830fb78c1f0bb7c66186c52407eecac6f38295e71be88e8fa3a1d959b9c3cc322e305435a2cf19340a273499f92d25d80266414c96ed8d9d11ded0b0eac1031845bfb9dff79abe558aa8e5725726397e61b4cfd3e5187292748b04b48d85a5b6abab03ff80918d126cc41ebd45fde2db41c423a5fa3450c8c4f673705a795ec1683c412be8d2414f225f908693c8ac43f6b52e465f9743ee5fb1d9c5edce0773b85221330f7d4f7a4d4142591269a0a39669fb6cd0d81b96274ba7df60a14ea394f0e4efb5c01207fd6e580207c4e8ad615b921dd8929302da7e4eb260c823eb0c71e03abd5d34bb4d11089572fdb8546044214b69ae4bcf901c193ad883616a845ce41d6e2825ca1b40af8a2a77946077e6a66ad5291ee444ca2a3436c46a5d7647ee2151b5764c9ffb28bbf9b2f93471d37a7e758261d39d1d801f526b5e5674ee2c4d17de0f0896b3a255e167a1f25f9f08d07912bf9296f3c55e23eb36eea9031e7f34d0592155fe3530678d0836f9eed0b32504367eac697ac6879a121b979da8a30d0718f6bc065652dfacd4a2cefb204ad7223d61e50ae22f910e488efc096e2a6678c993a979d28bba0e8ddcd90ab11ba0c256767194a9f0e205b2d06bafc2083585497f3aa603137b01d58326e57940282ad7042eec7c784e77b3a1b27eb6ecafa54edb9dc84b3bbfe044962e305f4318abb5994487ebbd031b131a1172ad7a9b224efb5cba7f2cbd15b8ed1836a8eee1625cfd952e5166c64008c5737e56c595066bb14e3</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>Tutorials</category>
-        <category>Corpus</category>
+        <category>Daily life</category>
+        <category>Mine</category>
       </categories>
       <tags>
-        <tag>corpus</tag>
+        <tag>anniversary</tag>
       </tags>
   </entry>
   <entry>
@@ -1147,16 +1134,16 @@
       </tags>
   </entry>
   <entry>
-    <title>Encrypt test</title>
-    <url>/2020/09/05/test/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="ed8ea9f959d26034b0310137a7ed7b395bcb2757afdf4d9eeb12cb78f8ba9687">5300e48635ea839002cc0a52b513a87a9ab18eb68cdf6cdd386fe70f98163f2d2f609a276893e15f73f76b6669904bec3227d0b701e1f2d4a41f4642967fa73269fe0a6f060609accc1e9a14332c9d231af5db80878e088a01c833c0a309f22041e6e0e4df4fd099afd92fefbd6182c7330a0cdc661f6a2729e2824ffb90007aa180b959a6b2c51698098638d16afbbfccdc04f934240f75629983587be4556c7f93c30e9effcbcc1b93ac6c291f1e0cfd2f9c6ca966c7e5fe4a958fa077b20b</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <title>Corpus @ Make your own corpus</title>
+    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
+    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
+]]></content>
       <categories>
         <category>Tutorials</category>
-        <category>Hexo</category>
+        <category>Corpus</category>
       </categories>
       <tags>
-        <tag>Page optimization</tag>
-        <tag>Hexo[Next]</tag>
+        <tag>corpus</tag>
       </tags>
   </entry>
 </search>
