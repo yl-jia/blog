@@ -6,7 +6,7 @@
   <link href="http://yunlong-jia.com/atom.xml" rel="self"/>
   
   <link href="http://yunlong-jia.com/"/>
-  <updated>2020-11-07T11:58:41.954Z</updated>
+  <updated>2020-11-07T19:40:48.240Z</updated>
   <id>http://yunlong-jia.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo_Adv @ Font color changing</title>
+    <link href="http://yunlong-jia.com/2020/11/07/Tutorials-Hexo-Adv-Font-color/"/>
+    <id>http://yunlong-jia.com/2020/11/07/Tutorials-Hexo-Adv-Font-color/</id>
+    <published>2020-11-07T19:50:49.000Z</published>
+    <updated>2020-11-07T19:40:48.240Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="🎆-Font-color-change"><a href="#🎆-Font-color-change" class="headerlink" title="🎆    Font color change"></a>🎆    Font color change</h3><h4 id="1-Open-the-parameter-file"><a href="#1-Open-the-parameter-file" class="headerlink" title="1. Open the parameter file."></a>1. Open the parameter file.</h4><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">cd</span> <span class="string">./homepage/themes/next/source/css/_variables</span></span><br><span class="line"><span class="string">vi</span> <span class="string">./base.styl</span></span><br></pre></td></tr></table></figure><a id="more"></a><h4 id="2-Find-out-the-color-parameter-check-them-one-by-one"><a href="#2-Find-out-the-color-parameter-check-them-one-by-one" class="headerlink" title="2. Find out the color parameter, check them one by one."></a>2. Find out the color parameter, check them one by one.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203713.png"  /><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203750.png"/><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203823.png"/><hr><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h4><blockquote><p><a href="https://asymptotic-freedom.xyz/posts/f4345ea0/">https://asymptotic-freedom.xyz/posts/f4345ea0/</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;🎆-Font-color-change&quot;&gt;&lt;a href=&quot;#🎆-Font-color-change&quot; class=&quot;headerlink&quot; title=&quot;🎆    Font color change&quot;&gt;&lt;/a&gt;🎆    Font color change&lt;/h3&gt;&lt;h4 id=&quot;1-Open-the-parameter-file&quot;&gt;&lt;a href=&quot;#1-Open-the-parameter-file&quot; class=&quot;headerlink&quot; title=&quot;1. Open the parameter file.&quot;&gt;&lt;/a&gt;1. Open the parameter file.&lt;/h4&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;./homepage/themes/next/source/css/_variables&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;vi&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;./base.styl&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="📘 Tutorials" scheme="http://yunlong-jia.com/categories/%F0%9F%93%98-Tutorials/"/>
+    
+    <category term="Hexo" scheme="http://yunlong-jia.com/categories/%F0%9F%93%98-Tutorials/Hexo/"/>
+    
+    <category term="Adv." scheme="http://yunlong-jia.com/categories/%F0%9F%93%98-Tutorials/Hexo/Adv/"/>
+    
+    
+    <category term="Hexo_Adv🕸️" scheme="http://yunlong-jia.com/tags/Hexo-Adv%F0%9F%95%B8%EF%B8%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>Time Zone</title>
@@ -553,29 +578,6 @@
     
     
     <summary type="html">&lt;img src=&quot;/beauty/24st.png&quot; style=&quot;zoom:70%;&quot; /&gt;</summary>
-    
-    
-    
-    <category term="🐉 China" scheme="http://yunlong-jia.com/categories/%F0%9F%90%89-China/"/>
-    
-    <category term="Culture" scheme="http://yunlong-jia.com/categories/%F0%9F%90%89-China/Culture/"/>
-    
-    
-    <category term="Chinese culture" scheme="http://yunlong-jia.com/tags/Chinese-culture/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Chinese culture @ Calendar</title>
-    <link href="http://yunlong-jia.com/2020/10/18/2020-10-18-Chinese-culture-Calendar/"/>
-    <id>http://yunlong-jia.com/2020/10/18/2020-10-18-Chinese-culture-Calendar/</id>
-    <published>2020-10-18T10:20:15.000Z</published>
-    <updated>2020-11-07T11:49:34.152Z</updated>
-    
-    <content type="html"><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" /><a id="more"></a><p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;img src=&quot;/beauty/calendar.png&quot; style=&quot;zoom:80%;&quot; /&gt;</summary>
     
     
     

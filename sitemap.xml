@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yunlong-jia.com/2020/11/07/Tutorials-Hexo-Adv-Font-color/</loc>
+    
+    <lastmod>2020-11-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/2020/08/31/Cover-Chongqing/</loc>
+    
+    <lastmod>2020-11-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/Lifelong_learning_and_collections/index.html</loc>
+    
+    <lastmod>2020-11-07</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yunlong-jia.com/about/index.html</loc>
     
     <lastmod>2020-11-07</lastmod>
@@ -73,13 +94,6 @@
   
   <url>
     <loc>http://yunlong-jia.com/2020/10/19/Daily%20life-Mine-2nd-Wedding-Anniversary/</loc>
-    
-    <lastmod>2020-11-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/2020/08/31/Cover-Chongqing/</loc>
     
     <lastmod>2020-11-07</lastmod>
     
@@ -276,13 +290,6 @@
   
   <url>
     <loc>http://yunlong-jia.com/2020/08/24/2020-08-24-Saki-portrait/</loc>
-    
-    <lastmod>2020-11-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/Lifelong_learning_and_collections/index.html</loc>
     
     <lastmod>2020-11-07</lastmod>
     
@@ -501,14 +508,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/Politics/</loc>
+    <loc>http://yunlong-jia.com/tags/images%F0%9F%96%BC%EF%B8%8F/</loc>
     <lastmod>2020-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/images%F0%9F%96%BC%EF%B8%8F/</loc>
+    <loc>http://yunlong-jia.com/tags/Politics/</loc>
     <lastmod>2020-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -522,7 +529,7 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/cooking%F0%9F%8D%B3/</loc>
+    <loc>http://yunlong-jia.com/tags/religion%E2%98%AF/</loc>
     <lastmod>2020-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -536,7 +543,7 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/religion%E2%98%AF/</loc>
+    <loc>http://yunlong-jia.com/tags/cooking%F0%9F%8D%B3/</loc>
     <lastmod>2020-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -671,14 +678,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/%E2%98%80%EF%B8%8F-Daily-life/Cooking/</loc>
+    <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/</loc>
     <lastmod>2020-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/</loc>
+    <loc>http://yunlong-jia.com/categories/%E2%98%80%EF%B8%8F-Daily-life/Cooking/</loc>
     <lastmod>2020-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -727,14 +734,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Arab/</loc>
+    <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Culture/</loc>
     <lastmod>2020-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Culture/</loc>
+    <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Arab/</loc>
     <lastmod>2020-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
