@@ -182,6 +182,32 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo[Next] @ Set transparency and margins</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/</url>
+    <content><![CDATA[<p>Go to the custom style file:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/source/_data/styles.styl | vi</span><br></pre></td></tr></table></figure>
+
+
+
+<p>Add the code as below:</p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">//1_The</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="string">rgba(255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.7</span><span class="string">);</span> <span class="string">//from</span> <span class="number">0</span><span class="number">-1</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//2_Avatar</span> <span class="string">info</span> <span class="string">bar</span></span><br><span class="line"><span class="string">.sidebar</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.85</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//3_local-search</span> <span class="string">box</span></span><br><span class="line"><span class="string">.popup</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.9</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//4_post</span> <span class="string">tranparency</span> <span class="string">and</span> <span class="string">middle</span> <span class="string">body</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.main-inner</span> &#123; </span><br><span class="line">    <span class="attr">margin-top:</span> <span class="string">20px;</span>  <span class="string">//Margin</span> <span class="string">from</span> <span class="string">the</span> <span class="string">top</span> <span class="string">of</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">padding:</span> <span class="string">20px</span> <span class="string">40px</span> <span class="string">20px</span> <span class="string">40px;</span> <span class="string">//</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">for</span> <span class="string">up</span>,<span class="string">right</span>,<span class="string">down</span>,<span class="string">and</span> <span class="string">left.</span></span><br><span class="line">    <span class="attr">background:</span> <span class="string">none;</span> <span class="string">//The</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">color</span>, <span class="comment">#fff [white] is default. //&quot;none&quot; is transparent</span></span><br><span class="line">    <span class="attr">opacity:</span> <span class="number">0.90</span><span class="string">;</span>     </span><br><span class="line">    <span class="attr">min-height:</span> <span class="string">500px;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>You can now customize all the transparency of your site and margins.</p>
+<p>Good luck！</p>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Theme_Next</category>
+      </categories>
+      <tags>
+        <tag>Page optimization📄</tag>
+        <tag>Hexo[Next]🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo_Adv @ Blog post encrypt function</title>
     <url>/2020/09/05/2020-09-05-Hexo-Adv-blog-post-encrypt/</url>
     <content><![CDATA[<h4 id="1-Install-plugin-“hexo-blog-encrypt”-for-Next"><a href="#1-Install-plugin-“hexo-blog-encrypt”-for-Next" class="headerlink" title="1. Install plugin “hexo-blog-encrypt” for Next"></a>1. Install plugin “hexo-blog-encrypt” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line">npm install --save hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
@@ -247,32 +273,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ Set transparency and margins</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/</url>
-    <content><![CDATA[<p>Go to the custom style file:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/source/_data/styles.styl | vi</span><br></pre></td></tr></table></figure>
-
-
-
-<p>Add the code as below:</p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">//1_The</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="string">rgba(255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.7</span><span class="string">);</span> <span class="string">//from</span> <span class="number">0</span><span class="number">-1</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//2_Avatar</span> <span class="string">info</span> <span class="string">bar</span></span><br><span class="line"><span class="string">.sidebar</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.85</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//3_local-search</span> <span class="string">box</span></span><br><span class="line"><span class="string">.popup</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.9</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//4_post</span> <span class="string">tranparency</span> <span class="string">and</span> <span class="string">middle</span> <span class="string">body</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.main-inner</span> &#123; </span><br><span class="line">    <span class="attr">margin-top:</span> <span class="string">20px;</span>  <span class="string">//Margin</span> <span class="string">from</span> <span class="string">the</span> <span class="string">top</span> <span class="string">of</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">padding:</span> <span class="string">20px</span> <span class="string">40px</span> <span class="string">20px</span> <span class="string">40px;</span> <span class="string">//</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">for</span> <span class="string">up</span>,<span class="string">right</span>,<span class="string">down</span>,<span class="string">and</span> <span class="string">left.</span></span><br><span class="line">    <span class="attr">background:</span> <span class="string">none;</span> <span class="string">//The</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">color</span>, <span class="comment">#fff [white] is default. //&quot;none&quot; is transparent</span></span><br><span class="line">    <span class="attr">opacity:</span> <span class="number">0.90</span><span class="string">;</span>     </span><br><span class="line">    <span class="attr">min-height:</span> <span class="string">500px;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>You can now customize all the transparency of your site and margins.</p>
-<p>Good luck！</p>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization📄</tag>
-        <tag>Hexo[Next]🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo_Basic @ Post displayed per page in Archive</title>
     <url>/2020/09/05/2020-09-05-Hexo-Basic-Post-displayed-per-page-in-Archive/</url>
     <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
@@ -298,27 +298,6 @@
       <tags>
         <tag>Hexo_Basic🕸️</tag>
         <tag>Page optimization📄</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Zotero @ Citation style custom</title>
-    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
-    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
-<a id="more"></a>
-
-<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
-<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
-<blockquote>
-<p>ref:</p>
-<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Zotero</category>
-      </categories>
-      <tags>
-        <tag>Zotero📑</tag>
       </tags>
   </entry>
   <entry>
@@ -358,6 +337,27 @@
       <tags>
         <tag>Page optimization📄</tag>
         <tag>Hexo[Next]🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Zotero @ Citation style custom</title>
+    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
+    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
+<a id="more"></a>
+
+<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
+<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
+<blockquote>
+<p>ref:</p>
+<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Zotero</category>
+      </categories>
+      <tags>
+        <tag>Zotero📑</tag>
       </tags>
   </entry>
   <entry>
@@ -424,40 +424,6 @@
       </categories>
       <tags>
         <tag>Good places✈️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Chinese culture @ Calendar</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
-    <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Chinese culture @ China’s religious beliefs</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
-    <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/travelguide/religion.htm">https://www.chinahighlights.com/travelguide/religion.htm</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
       </tags>
   </entry>
   <entry>
@@ -632,6 +598,40 @@
       </tags>
   </entry>
   <entry>
+    <title>Chinese culture @ Calendar</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
+    <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
+]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chinese culture @ China’s religious beliefs</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
+    <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/travelguide/religion.htm">https://www.chinahighlights.com/travelguide/religion.htm</a></p>
+]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Chinese culture @ Five Elements Theory [五行]</title>
     <url>/2020/10/18/2020-10-18-Chinese-culture-five-elements-theory/</url>
     <content><![CDATA[<img src="/beauty/wuxing.png" style="zoom:70%;" />
@@ -639,6 +639,23 @@
 <a id="more"></a>
 
 <p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm">https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm</a></p>
+]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chinese culture @ The 24 Solar Terms [24节气]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-the-24-solar-terms/</url>
+    <content><![CDATA[<img src="/beauty/24st.png" style="zoom:70%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/festivals/the-24-solar-terms.htm">https://www.chinahighlights.com/festivals/the-24-solar-terms.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -673,23 +690,6 @@
 <a id="more"></a>
 
 <p><a href="https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm">https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Chinese culture @ The 24 Solar Terms [24节气]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-the-24-solar-terms/</url>
-    <content><![CDATA[<img src="/beauty/24st.png" style="zoom:70%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/festivals/the-24-solar-terms.htm">https://www.chinahighlights.com/festivals/the-24-solar-terms.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -916,20 +916,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Chong_Qing</title>
-    <url>/2020/08/31/Cover-Chongqing/</url>
-    <content><![CDATA[<h4 id="🌁-Fog-city"><a href="#🌁-Fog-city" class="headerlink" title="🌁 Fog city"></a>🌁 Fog city</h4><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/chognqing1.jpg"></p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/rtry.jpg"></p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/chognqing3.jpg"></p>
-]]></content>
-      <categories>
-        <category>📸 Cover</category>
-      </categories>
-      <tags>
-        <tag>images🖼️</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Think about Film and Television Production</title>
     <url>/2020/10/25/China-perception-Think-about-Film-and-television-Production/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="60f2596ce6723de6af77d504221fcf905b703f569408c7824d858efe13cc4b69">8b99030997d9e294e22d169f14a9b9af30076946d2e16ff2003e748bfa20774718e7eb4c449d12c407648717416cd24c6c5afe0d5a5abc1b186122fba0801dc54dd8356b33f5d024bbb55c3b04fa03f0f0d102f01c1d8591329662b03faa5b49be8262c42da0bde783dc561c7cc46e92496eb7a9762d621693371735636029a1ac2bb1dd1974f462aa3d5ba12445ed2dcd598a4b6216f0ea8833980ab1c0e09f78e348e231b43087370273e723e425d9500d657af02c6b7e4dd7ad9dfd4f7df3127319535f0e9d0fb1fe4256788736ed9328f01f20e07b2b86daf38c9630ea7c9eb66a7e941df294c9e885da4add10eb9c6cc8ffe5a57fe1346c288b89ecb760fe3a93ccaf9416071245aaf85ba6f55ba26586e3123fc424494f9831ea22d5990d863596032c72d3c7be3362061c4f939258b1c1f16640bb906d31bf48870838ab0c63430db3454f55b762a21a72ce0a5d4e47fefe6d36652886b95c28e968c9417b5a8f62d232137529201fa0cb6ef0bb1a52732878200dba7195a4912f2834f9d1f0602fb43eaa058ae79150ef81360d22e4eaf8171f6c8ff276eff4f8ba5414cca25114f22079d3a9c481b675086516bbd428e65447ffc1ab9a894c1140acd579b43a704c4acbe460bdbc261ff18483106f47f7f34fc69e204eb5a77855d08abec39f6257b1a73ea8653b3c908e92d96130bd71f390830e41c5391fc7187b36f0aaedd6ae58745b6967b6ddbcd0acce540c434713d14303d5425ed443e704710771f6189c26f00c39295c5d757f393b670058c3f9f46f6a1ee8bc1af75a31bb2ed3ba734ca63d521ac9d8e4973c97a2355c33372bcc2a717810bfd4a078cd182528a00b3eaa599acc5886e3fb02f3b986536e687e1fe74589d60d4ebf4739e7c5b90c15986eb2fdaca09c1861b8c8d0aed5151bd768c9befc9e35e5baef6006e891653aa2413c54536b132be2d2a0e575637267b8b3bd8e39114e5545f7fe9104c6d1dffe16a54e29c1e4bfb4f6dd4b336e3e63a15e56b7f69f1675504ad3a022c657fb461fd6cea5badc1ebb67cbbf255f191b82a729a964e7a77d24490d3a9be774c40745f643204f9fff2f14abc9bfc6cf68a408a7a3f1c72e257466bdc94c699dc70f9d291b2728cebcb5b3c8d8b4a4f8c1fa7b4b8d59845aeaeda309522a476e57c69d8ec686ccc5c70ebbf3e1a7e83be8c9b3930505f31c804a5f4b91663120e753d1ba45cb59f709abdbc1d3f67bf812d9ea3123e0ad08bb73938a5a4f57079e8fa3c6653ab094ed3035f751ac4bf211161ed40b3ab72e16d7bef28fdf5fde40af515420547753cf2d4c8e8a90fe28ddff591aaee8f213bb415d6fdcee0fd65761c03267136b1cfceadf8426a6f9b0d68083d53d0b5cf271d40809ae68e4f86ad540bb1f5fd4af140960cad936e930e1dcbd359cd99838494e9d8ff356b53726bf25822ac8045238c40ebeeb57322dd63d73aee42d6681b08d51148fe2655a44c75bb33f8f6154fac067dd77508c5d71f13fdf5b3a786d25ece909</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
@@ -959,6 +945,20 @@
       </tags>
   </entry>
   <entry>
+    <title>Chong_Qing</title>
+    <url>/2020/08/31/Cover-Chongqing/</url>
+    <content><![CDATA[<h4 id="🌁-Fog-city"><a href="#🌁-Fog-city" class="headerlink" title="🌁 Fog city"></a>🌁 Fog city</h4><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/chognqing1.jpg"></p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/rtry.jpg"></p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/chognqing3.jpg"></p>
+]]></content>
+      <categories>
+        <category>📸 Cover</category>
+      </categories>
+      <tags>
+        <tag>images🖼️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2nd Wedding Anniversary-Letter</title>
     <url>/2020/10/19/Daily%20life-Mine-2nd-Wedding-Anniversary/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="1a7f1deecd30d13fb30cbe9075b261b2e51399572971b71504cf4272a66b4126">8b21cc1568dfca721c188826f7384bc493252b7561d71b218cd027d0b87c1853374c8c986dd196c9ec8f84e7e1bd1c584360bca66c8b741339bbbb3a5f392387950174ff40041da3bb3685da5c2ed38a849f379a3eb7997cc4ba1a7aca22846e364757fa795e1f6487d3bc0a0a9e1abb53b93c79903e56b5c2ee4b421c7c068c1ec1129c40cfc830fb78c1f0bb7c66186c52407eecac6f38295e71be88e8fa3a1d959b9c3cc322e305435a2cf19340a273499f92d25d80266414c96ed8d9d11ded0b0eac1031845bfb9dff79abe558aa8e5725726397e61b4cfd3e5187292748b04b48d85a5b6abab03ff80918d126cc41ebd45fde2db41c423a5fa3450c8c4f673705a795ec1683c412be8d2414f225f908693c8ac43f6b52e465f9743ee5fb1d9c5edce0773b85221330f7d4f7a4d4142591269a0a39669fb6cd0d81b96274ba7df60a14ea394f0e4efb5c01207fd6e580207c4e8ad615b921dd8929302da7e4eb260c823eb0c71e03abd5d34bb4d11089572fdb8546044214b69ae4bcf901c193ad883616a845ce41d6e2825ca1b40af8a2a77946077e6a66ad5291ee444ca2a3436c46a5d7647ee2151b5764c9ffb28bbf9b2f93471d37a7e758261d39d1d801f526b5e5674ee2c4d17de0f0896b3a255e167a1f25f9f08d07912bf9296f3c55e23eb36eea9031e7f34d0592155fe3530678d0836f9eed0b32504367eac697ac6879a121b979da8a30d0718f6bc065652dfacd4a2cefb204ad7223d61e50ae22f910e488efc096e2a6678c993a979d28bba0e8ddcd90ab11ba0c256767194a9f0e205b2d06bafc2083585497f3aa603137b01d58326e57940282ad7042eec7c784e77b3a1b27eb6ecafa54edb9dc84b3bbfe044962e305f4318abb5994487ebbd031b131a1172ad7a9b224efb5cba7f2cbd15b8ed1836a8eee1625cfd952e5166c64008c5737e56c595066bb14e3</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
@@ -983,24 +983,32 @@
       </tags>
   </entry>
   <entry>
-    <title>Major religions</title>
-    <url>/2020/10/24/Others-Major-religions/</url>
-    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
+    <title>Cooking @ Snack making</title>
+    <url>/2020/10/22/Daily-life-Cooking-Snack-making/</url>
+    <content><![CDATA[<h3 id="amp-Sesame-chips"><a href="#amp-Sesame-chips" class="headerlink" title="&amp; Sesame chips"></a>&amp; Sesame chips</h3><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201024175209.png" style="zoom:67%;" />
+
 <a id="more"></a>
 
-<img src = "https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022075814.png"> 
-
-
-
-<h3 id="History-of-religious-categories"><a href="#History-of-religious-categories" class="headerlink" title="History of religious categories"></a>History of religious categories</h3><h4 id="World-categorizations"><a href="#World-categorizations" class="headerlink" title="@ World categorizations"></a>@ World categorizations</h4><p>In world cultures, there have traditionally been many different groupings of religious belief. In <a href="https://en.wikipedia.org/wiki/Culture_of_India">Indian culture</a>, different religious philosophies were traditionally respected as academic differences in pursuit of the same truth. In <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>, the <a href="https://en.wikipedia.org/wiki/Quran">Quran</a> mentions three different categories: <a href="https://en.wikipedia.org/wiki/Muslims">Muslims</a>, the <a href="https://en.wikipedia.org/wiki/People_of_the_Book">People of the Book</a>, and <a href="https://en.wikipedia.org/wiki/Idolatry">idol worshipers</a>.</p>
-<h4 id="Christian-categorizations"><a href="#Christian-categorizations" class="headerlink" title="@ Christian categorizations"></a>@ Christian categorizations</h4><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups">https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups</a></p>
+<h4 id="Ingredients"><a href="#Ingredients" class="headerlink" title="Ingredients:"></a>Ingredients:</h4><p>125g <a href="https://www.bbcgoodfood.com/glossary/flour-glossary">plain flour</a> [Type 55]</p>
+<p>30g white  sesame seeds</p>
+<p>5g black sesame seeds</p>
+<p>2g salt</p>
+<p>15g Corn oil</p>
+<p>70g Water</p>
+<h4 id="Method"><a href="#Method" class="headerlink" title="Method:"></a>Method:</h4><p>Mix all above to make a smooth, soft dough.</p>
+<p>Ferment for 30 minutes, sealing with <code>cling film</code>.</p>
+<p>Re-<code>knead the dough</code> and press it flat.</p>
+<p>Use a <code>rolling pin</code> to roll out a large, thin sheet of dough.</p>
+<p>Use the <code>mold</code> to make the shape you like.</p>
+<p>Lift onto a non-stick <code>baking tray</code>.</p>
+<h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://www.bbcgoodfood.com/recipes/chilli-crowd">https://www.bbcgoodfood.com/recipes/chilli-crowd</a></p>
 ]]></content>
       <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Culture</category>
+        <category>☀️ Daily life</category>
+        <category>Cooking</category>
       </categories>
       <tags>
-        <tag>religion☯</tag>
+        <tag>cooking🍳</tag>
       </tags>
   </entry>
   <entry>
@@ -1037,32 +1045,24 @@
       </tags>
   </entry>
   <entry>
-    <title>Cooking @ Snack making</title>
-    <url>/2020/10/22/Daily-life-Cooking-Snack-making/</url>
-    <content><![CDATA[<h3 id="amp-Sesame-chips"><a href="#amp-Sesame-chips" class="headerlink" title="&amp; Sesame chips"></a>&amp; Sesame chips</h3><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201024175209.png" style="zoom:67%;" />
-
+    <title>Major religions</title>
+    <url>/2020/10/24/Others-Major-religions/</url>
+    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
 <a id="more"></a>
 
-<h4 id="Ingredients"><a href="#Ingredients" class="headerlink" title="Ingredients:"></a>Ingredients:</h4><p>125g <a href="https://www.bbcgoodfood.com/glossary/flour-glossary">plain flour</a> [Type 55]</p>
-<p>30g white  sesame seeds</p>
-<p>5g black sesame seeds</p>
-<p>2g salt</p>
-<p>15g Corn oil</p>
-<p>70g Water</p>
-<h4 id="Method"><a href="#Method" class="headerlink" title="Method:"></a>Method:</h4><p>Mix all above to make a smooth, soft dough.</p>
-<p>Ferment for 30 minutes, sealing with <code>cling film</code>.</p>
-<p>Re-<code>knead the dough</code> and press it flat.</p>
-<p>Use a <code>rolling pin</code> to roll out a large, thin sheet of dough.</p>
-<p>Use the <code>mold</code> to make the shape you like.</p>
-<p>Lift onto a non-stick <code>baking tray</code>.</p>
-<h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://www.bbcgoodfood.com/recipes/chilli-crowd">https://www.bbcgoodfood.com/recipes/chilli-crowd</a></p>
+<img src = "https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022075814.png"> 
+
+
+
+<h3 id="History-of-religious-categories"><a href="#History-of-religious-categories" class="headerlink" title="History of religious categories"></a>History of religious categories</h3><h4 id="World-categorizations"><a href="#World-categorizations" class="headerlink" title="@ World categorizations"></a>@ World categorizations</h4><p>In world cultures, there have traditionally been many different groupings of religious belief. In <a href="https://en.wikipedia.org/wiki/Culture_of_India">Indian culture</a>, different religious philosophies were traditionally respected as academic differences in pursuit of the same truth. In <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>, the <a href="https://en.wikipedia.org/wiki/Quran">Quran</a> mentions three different categories: <a href="https://en.wikipedia.org/wiki/Muslims">Muslims</a>, the <a href="https://en.wikipedia.org/wiki/People_of_the_Book">People of the Book</a>, and <a href="https://en.wikipedia.org/wiki/Idolatry">idol worshipers</a>.</p>
+<h4 id="Christian-categorizations"><a href="#Christian-categorizations" class="headerlink" title="@ Christian categorizations"></a>@ Christian categorizations</h4><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups">https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups</a></p>
 ]]></content>
       <categories>
-        <category>☀️ Daily life</category>
-        <category>Cooking</category>
+        <category>🏳️‍🌈 Others</category>
+        <category>Culture</category>
       </categories>
       <tags>
-        <tag>cooking🍳</tag>
+        <tag>religion☯</tag>
       </tags>
   </entry>
   <entry>
@@ -1097,15 +1097,95 @@
       </tags>
   </entry>
   <entry>
-    <title>Account and password</title>
-    <url>/2020/10/22/Others-Practical-info-Password/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="322e4e9fdd58600abb0fb7546051d2ade940c1d2efb14e13077e2cd71421f4d6">8732f4be449ce79ab294b66edbb143ede968390e65c689b785f1dde9e55d1f8c3e7a898886732a87b3da97605ab98f988126e2e0dffc80255d94fc7f8fccd62b644c3f478d1874378b0e07fafee24d35d786e8f71cb98995f6761f3af524825207c5fbabe07d5f4b8bdbf417886149a08b6fccffcf70237952619572f406110903f9ee57748ba90a5d324b5783224fa511ef2273cdad1634c42ee7449ecd3107a082cc863cd663dcf11d2a4bfd605aecf7c40fef726815829f8b7402f5d906a06d770939fe1bcd37809c01a27749559d</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <title>Useful info for BMIC days 2020</title>
+    <url>/2020/11/08/Others-Practical-info-BMIC-day/</url>
+    <content><![CDATA[<h4 id="※-Time-and-location"><a href="#※-Time-and-location" class="headerlink" title="※ Time and location"></a>※ Time and location</h4><ul>
+<li><strong>Rockefeller University</strong> from 8h30 am to 1pm</li>
+<li><strong>Yasmine</strong>: <u>0663445790</u> [when arrived for info]</li>
+</ul>
+</br>
+
+<h4 id="※-Virtual-meeting-access-Webex"><a href="#※-Virtual-meeting-access-Webex" class="headerlink" title="※ Virtual meeting access [Webex]"></a>※ Virtual meeting access [Webex]</h4><p><a href="https://univ-lyon1.webex.com/webappng/sites/univ-lyon1/meeting/download/002b7b2dd0dd4f59a245e1f894f1ac96?siteurl=univ-lyon1&amp;MTID=ma80f1b9491bbde9f16a34aff34f57dc6">https://univ-lyon1.webex.com/webappng/sites/univ-lyon1/meeting/download/002b7b2dd0dd4f59a245e1f894f1ac96?siteurl=univ-lyon1&amp;MTID=ma80f1b9491bbde9f16a34aff34f57dc6</a></p>
+<p><strong>Meeting ID number</strong>:     <u>1219708951</u></p>
+<p><strong>Password</strong>:    <u>RQqXxKmF325</u></p>
+</br>
+
+
+
+<h4 id="※-Program"><a href="#※-Program" class="headerlink" title="※ Program"></a>※ Program</h4><h5 id="amp-Day-1-Monday-09-Nov"><a href="#amp-Day-1-Monday-09-Nov" class="headerlink" title="&amp; Day_1 [Monday, 09 Nov.]"></a><font color=blue size=4>&amp; Day_1 [Monday, 09 Nov.]</font></h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201109001432.png"/>
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201109001456.png"/>
+
+
+
+<h5 id="amp-Day-2-Tuesday-10-Nov"><a href="#amp-Day-2-Tuesday-10-Nov" class="headerlink" title="&amp; Day_2 [Tuesday, 10 Nov.]"></a><font color=blue size=4>&amp; Day_2 [Tuesday, 10 Nov.]</font></h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201109001730.png"/>
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201109001805.png"/>
+
+</br>
+
+
+
+<h4 id="※-Judging-committee-Jury-members"><a href="#※-Judging-committee-Jury-members" class="headerlink" title="※ Judging committee / Jury members"></a>※ Judging committee / Jury members</h4><h5 id="amp-Talks-Morning-9-12h"><a href="#amp-Talks-Morning-9-12h" class="headerlink" title="&amp; Talks [Morning 9-12h]"></a><font color=blue size=4>&amp; Talks [Morning 9-12h]</font></h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201109002611.png" style="zoom:80%;" />
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201109002639.png" style="zoom:80%;" />
+
+<h5 id="amp-Flash-talks-Afternoon-13h-14h"><a href="#amp-Flash-talks-Afternoon-13h-14h" class="headerlink" title="&amp; Flash talks [Afternoon 13h-14h]"></a><font color=blue size=4>&amp; Flash talks [Afternoon 13h-14h]</font></h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201109002819.png" style="zoom:80%;" />
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201109002842.png" style="zoom:80%;" />
+
+<h4 id="※-Reminder"><a href="#※-Reminder" class="headerlink" title="※ Reminder"></a>※ Reminder</h4><ul>
+<li><p>All PhD students are <strong>obligated</strong> to follow the wholesome of BMIC days.(Checked by answering the Quiz during sessions). </p>
+</li>
+<li><p><strong>Talks</strong> = 10 min presentation + 5 min question <strong>[Jury members + Audience]</strong></p>
+<p><strong>Flash talks</strong> = 3min presentation + 5min question <strong>[Only Jury members]</strong></p>
+</li>
+<li><p><strong>External guests [career]</strong> = 15-20min + 15-20min question  [Q&amp;A then we ask  for u ]</p>
+<p><strong>Postdoc express</strong> = 10min question [Q&amp;A then we ask  for u]</p>
+</li>
+<li><p><strong>Quiz session</strong>: just relax and think about the presentations !  The answers are hidden in there! [*<a href="javascript:;">choice</a> <a href="javascript:;">question</a>*] Answer as much you can increase your chance to be one of our lucky 12 winners ! [Prizes worth 50€ - Kadeoo gift card]</p>
+</li>
+</ul>
+</br>
+
+
+
+<h4 id="※-Organizers"><a href="#※-Organizers" class="headerlink" title="※ Organizers"></a>※ Organizers</h4><h5 id="amp-Your-BMIC-representatives"><a href="#amp-Your-BMIC-representatives" class="headerlink" title="&amp; Your BMIC representatives:"></a>&amp; Your BMIC representatives:</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201109004628.png"/>
+
+<h5 id="amp-Moderators-during-BMIC-days"><a href="#amp-Moderators-during-BMIC-days" class="headerlink" title="&amp; Moderators during BMIC days:"></a>&amp; Moderators during BMIC days:</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201109004727.png"/>
+
+<p><u>We need you for morning sessions to introduce speakers and also transmit questions from the chat to the students presenting their project.</u> </p>
+</br>
+
+<h4 id="⚓-Anchor-moderator-English"><a href="#⚓-Anchor-moderator-English" class="headerlink" title="⚓ Anchor/moderator English"></a>⚓ Anchor/moderator English</h4><p>During the epidemic, …</p>
+<p>During the presentation, to ensure a better audio quality , everyone, please turn off your microphones.</p>
+<p>We’re in charge of delivering questions to speaker.</p>
+<ul>
+<li><p>At this special time of …, our respectable guests are here getting together.</p>
+</li>
+<li><p>On behalf of the organizing committee and the program committee, I am happy to welcome your participation in…</p>
+</li>
+<li><p>Now, first of all, please allow me to give our hearty welcome to  all of you present, </p>
+</li>
+<li><p>In addition, we are also honored to invite experts and scholars from various fields. Thank you for coming. Here, let’s welcome the chairman of this conference deliver her opening speech.</p>
+</li>
+<li><p>Thanks for the chairman’s speech,now let’s go on our conference.</p>
+<hr>
+</li>
+<li><p>Thank you very much, …, for your excellent lecture. </p>
+<p>Time for discussion, do you have any question? </p>
+<p>Any more questions or comments for …. ?</p>
+</li>
+<li><p>It’s time for us to close this meeting and say goodbye. Thank you for your attention. Thank you.</p>
+</li>
+</ul>
+]]></content>
       <categories>
         <category>🏳️‍🌈 Others</category>
         <category>Practical info</category>
       </categories>
       <tags>
-        <tag>password🔐</tag>
+        <tag>BMIC day</tag>
       </tags>
   </entry>
   <entry>
@@ -1153,6 +1233,18 @@
       </categories>
       <tags>
         <tag>time zone🕜</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Account and password</title>
+    <url>/2020/10/22/Others-Practical-info-Password/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="322e4e9fdd58600abb0fb7546051d2ade940c1d2efb14e13077e2cd71421f4d6">8732f4be449ce79ab294b66edbb143ede968390e65c689b785f1dde9e55d1f8c3e7a898886732a87b3da97605ab98f988126e2e0dffc80255d94fc7f8fccd62b644c3f478d1874378b0e07fafee24d35d786e8f71cb98995f6761f3af524825207c5fbabe07d5f4b8bdbf417886149a08b6fccffcf70237952619572f406110903f9ee57748ba90a5d324b5783224fa511ef2273cdad1634c42ee7449ecd3107a082cc863cd663dcf11d2a4bfd605aecf7c40fef726815829f8b7402f5d906a06d770939fe1bcd37809c01a27749559d</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Practical info</category>
+      </categories>
+      <tags>
+        <tag>password🔐</tag>
       </tags>
   </entry>
   <entry>
