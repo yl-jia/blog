@@ -157,32 +157,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ Set transparency and margins</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/</url>
-    <content><![CDATA[<p>Go to the custom style file:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/source/_data/styles.styl | vi</span><br></pre></td></tr></table></figure>
-
-
-
-<p>Add the code as below:</p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">//1_The</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="string">rgba(255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.7</span><span class="string">);</span> <span class="string">//from</span> <span class="number">0</span><span class="number">-1</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//2_Avatar</span> <span class="string">info</span> <span class="string">bar</span></span><br><span class="line"><span class="string">.sidebar</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.85</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//3_local-search</span> <span class="string">box</span></span><br><span class="line"><span class="string">.popup</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.9</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//4_post</span> <span class="string">tranparency</span> <span class="string">and</span> <span class="string">middle</span> <span class="string">body</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.main-inner</span> &#123; </span><br><span class="line">    <span class="attr">margin-top:</span> <span class="string">20px;</span>  <span class="string">//Margin</span> <span class="string">from</span> <span class="string">the</span> <span class="string">top</span> <span class="string">of</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">padding:</span> <span class="string">20px</span> <span class="string">40px</span> <span class="string">20px</span> <span class="string">40px;</span> <span class="string">//</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">for</span> <span class="string">up</span>,<span class="string">right</span>,<span class="string">down</span>,<span class="string">and</span> <span class="string">left.</span></span><br><span class="line">    <span class="attr">background:</span> <span class="string">none;</span> <span class="string">//The</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">color</span>, <span class="comment">#fff [white] is default. //&quot;none&quot; is transparent</span></span><br><span class="line">    <span class="attr">opacity:</span> <span class="number">0.90</span><span class="string">;</span>     </span><br><span class="line">    <span class="attr">min-height:</span> <span class="string">500px;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>You can now customize all the transparency of your site and margins.</p>
-<p>Good luck！</p>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization📄</tag>
-        <tag>Hexo[Next]🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo_Adv @ Add related post function</title>
     <url>/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</url>
     <content><![CDATA[<p>With the module of <code>hexo-related-popular-posts</code>, hexo can find and match related articles for visitors.</p>
@@ -208,23 +182,20 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ add Tag Cloud Widget</title>
-    <url>/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/</url>
-    <content><![CDATA[<h4 id="1-Install-the-plugin-“hexo-tag-cloud”"><a href="#1-Install-the-plugin-“hexo-tag-cloud”" class="headerlink" title="1. Install the plugin “hexo-tag-cloud”"></a>1. Install the plugin “hexo-tag-cloud”</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-tag-cloud@^2.* --save</span><br></pre></td></tr></table></figure>
+    <title>Hexo[Next] @ Set transparency and margins</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/</url>
+    <content><![CDATA[<p>Go to the custom style file:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/source/_data/styles.styl | vi</span><br></pre></td></tr></table></figure>
 
 
 
-<h4 id="2-Configure-the-“sidebar-njk”-file"><a href="#2-Configure-the-“sidebar-njk”-file" class="headerlink" title="2. Configure the “sidebar.njk” file."></a>2. Configure the “sidebar.njk” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/layout/_macro/sidebar.njk |vi</span><br></pre></td></tr></table></figure>
-
-<p>Add the code block:</p>
+<p>Add the code as below:</p>
 <a id="more"></a>
 
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcloud.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcanvas.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width=100%&quot;</span>&gt;</span></span><br><span class="line">                    &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">                <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">//1_The</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="string">rgba(255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.7</span><span class="string">);</span> <span class="string">//from</span> <span class="number">0</span><span class="number">-1</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//2_Avatar</span> <span class="string">info</span> <span class="string">bar</span></span><br><span class="line"><span class="string">.sidebar</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.85</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//3_local-search</span> <span class="string">box</span></span><br><span class="line"><span class="string">.popup</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.9</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//4_post</span> <span class="string">tranparency</span> <span class="string">and</span> <span class="string">middle</span> <span class="string">body</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.main-inner</span> &#123; </span><br><span class="line">    <span class="attr">margin-top:</span> <span class="string">20px;</span>  <span class="string">//Margin</span> <span class="string">from</span> <span class="string">the</span> <span class="string">top</span> <span class="string">of</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">padding:</span> <span class="string">20px</span> <span class="string">40px</span> <span class="string">20px</span> <span class="string">40px;</span> <span class="string">//</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">for</span> <span class="string">up</span>,<span class="string">right</span>,<span class="string">down</span>,<span class="string">and</span> <span class="string">left.</span></span><br><span class="line">    <span class="attr">background:</span> <span class="string">none;</span> <span class="string">//The</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">color</span>, <span class="comment">#fff [white] is default. //&quot;none&quot; is transparent</span></span><br><span class="line">    <span class="attr">opacity:</span> <span class="number">0.90</span><span class="string">;</span>     </span><br><span class="line">    <span class="attr">min-height:</span> <span class="string">500px;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<p>To the next location:</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">&#123;%- if theme.back2top.enable and theme.back2top.sidebar %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;back-to-top animated&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;fa fa-arrow-up&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">span</span>&gt;</span>0%<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;%- endif %&#125;</span><br><span class="line"></span><br><span class="line">      <span class="comment">&lt;!-- location for tag cloud--&gt;</span></span><br><span class="line"> 	  &#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcloud.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcanvas.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width=100%&quot;</span>&gt;</span></span><br><span class="line">                    &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">                <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;% endif %&#125;</span><br><span class="line">      <span class="comment">&lt;!-- end for tag cloud--&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;sidebar-dimmer&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">&#123;% endmacro %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>Reload page, the 3D cloud-tag will appear.</p>
+<p>You can now customize all the transparency of your site and margins.</p>
+<p>Good luck！</p>
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>
@@ -273,6 +244,35 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo[Next] @ add Tag Cloud Widget</title>
+    <url>/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/</url>
+    <content><![CDATA[<h4 id="1-Install-the-plugin-“hexo-tag-cloud”"><a href="#1-Install-the-plugin-“hexo-tag-cloud”" class="headerlink" title="1. Install the plugin “hexo-tag-cloud”"></a>1. Install the plugin “hexo-tag-cloud”</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-tag-cloud@^2.* --save</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="2-Configure-the-“sidebar-njk”-file"><a href="#2-Configure-the-“sidebar-njk”-file" class="headerlink" title="2. Configure the “sidebar.njk” file."></a>2. Configure the “sidebar.njk” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/layout/_macro/sidebar.njk |vi</span><br></pre></td></tr></table></figure>
+
+<p>Add the code block:</p>
+<a id="more"></a>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcloud.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcanvas.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width=100%&quot;</span>&gt;</span></span><br><span class="line">                    &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">                <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>To the next location:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">&#123;%- if theme.back2top.enable and theme.back2top.sidebar %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;back-to-top animated&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;fa fa-arrow-up&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">span</span>&gt;</span>0%<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;%- endif %&#125;</span><br><span class="line"></span><br><span class="line">      <span class="comment">&lt;!-- location for tag cloud--&gt;</span></span><br><span class="line"> 	  &#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcloud.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcanvas.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width=100%&quot;</span>&gt;</span></span><br><span class="line">                    &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">                <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;% endif %&#125;</span><br><span class="line">      <span class="comment">&lt;!-- end for tag cloud--&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;sidebar-dimmer&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">&#123;% endmacro %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Reload page, the 3D cloud-tag will appear.</p>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Theme_Next</category>
+      </categories>
+      <tags>
+        <tag>Page optimization📄</tag>
+        <tag>Hexo[Next]🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo_Basic @ Post displayed per page in Archive</title>
     <url>/2020/09/05/2020-09-05-Hexo-Basic-Post-displayed-per-page-in-Archive/</url>
     <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
@@ -298,6 +298,27 @@
       <tags>
         <tag>Hexo_Basic🕸️</tag>
         <tag>Page optimization📄</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Zotero @ Citation style custom</title>
+    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
+    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
+<a id="more"></a>
+
+<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
+<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
+<blockquote>
+<p>ref:</p>
+<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Zotero</category>
+      </categories>
+      <tags>
+        <tag>Zotero📑</tag>
       </tags>
   </entry>
   <entry>
@@ -340,27 +361,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Zotero @ Citation style custom</title>
-    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
-    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
-<a id="more"></a>
-
-<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
-<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
-<blockquote>
-<p>ref:</p>
-<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Zotero</category>
-      </categories>
-      <tags>
-        <tag>Zotero📑</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo_Adv @ Skip render for given files and folders</title>
     <url>/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</url>
     <content><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p>
@@ -398,32 +398,6 @@
       </categories>
       <tags>
         <tag>Opinion💭</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Top places to go in China</title>
-    <url>/2020/10/17/2020-10-17-Top-places-to-go-in-China/</url>
-    <content><![CDATA[<h3 id="The-sites-in-UNESCO-World-Heritage-list"><a href="#The-sites-in-UNESCO-World-Heritage-list" class="headerlink" title="The sites in UNESCO World Heritage list"></a>The sites in <code>UNESCO World Heritage list</code></h3><p>China is a big country, so there are many tourist attractions. First of all, these sites are world class, best preserved, and most significant.</p>
-<p>Next, I will show you how to find these sites list and basic information:</p>
-<p>Open <code>Word Heritage List</code>:  <a href="https://whc.unesco.org/en/list/&amp;order=country">https://whc.unesco.org/en/list/&amp;order=country</a></p>
-<p>Ordering the sites by <code>Country</code>;</p>
-<a id="more"></a>
-
-<p>Find out <code>China</code>and all related sites, there are 3 types: Cultural, Natural and Mixed site;</p>
-<p>When you open any of them, you’ll see the relevant basic information, including description, gallery and video.</p>
-<h3 id="AAAAA-Tourist-Attractions-of-China-5A-sites"><a href="#AAAAA-Tourist-Attractions-of-China-5A-sites" class="headerlink" title="AAAAA Tourist Attractions of China [5A sites]"></a>AAAAA Tourist Attractions of China [5A sites]</h3><p><code>5A</code> are the most important and best-maintained <a href="https://en.wikipedia.org/wiki/Tourist_attraction">tourist attractions</a> in the <a href="https://en.wikipedia.org/wiki/People's_Republic_of_China">People’s Republic of China</a>, given the highest level in the <a href="https://en.wikipedia.org/wiki/Tourist_Attraction_Rating_Categories_of_China">rating categories</a> used by the <a href="https://en.wikipedia.org/wiki/Ministry_of_Culture_and_Tourism_of_the_People's_Republic_of_China">Ministry of Culture and Tourism</a>. Generally, World Heritage sites are already included in the 5A list.</p>
-<p>Here is the list: <a href="https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China">https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China</a></p>
-<h3 id="Best-Cities-to-Visit-in-China"><a href="#Best-Cities-to-Visit-in-China" class="headerlink" title="Best Cities to Visit in China"></a>Best Cities to Visit in China</h3><h5 id="amp-Beijing-—-Ancient-and-Modern-Capital"><a href="#amp-Beijing-—-Ancient-and-Modern-Capital" class="headerlink" title="&amp; Beijing — Ancient and Modern Capital"></a>&amp; Beijing — Ancient and Modern Capital</h5><h5 id="amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization"><a href="#amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization" class="headerlink" title="&amp; Xi’an — a Window on China’s Ancient Civilization"></a>&amp; Xi’an — a Window on China’s Ancient Civilization</h5><h5 id="amp-Shanghai-—-China’s-Prosperous-Largest-City"><a href="#amp-Shanghai-—-China’s-Prosperous-Largest-City" class="headerlink" title="&amp; Shanghai — China’s Prosperous Largest City"></a>&amp; Shanghai — China’s Prosperous Largest City</h5><h5 id="amp-Guilin-—-China’s-Top-Karst-Landscape"><a href="#amp-Guilin-—-China’s-Top-Karst-Landscape" class="headerlink" title="&amp; Guilin — China’s Top Karst Landscape"></a>&amp; Guilin — China’s Top Karst Landscape</h5><h5 id="amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth"><a href="#amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth" class="headerlink" title="&amp; Hong Kong — Like Nowhere Else on Earth"></a>&amp; Hong Kong — Like Nowhere Else on Earth</h5><h5 id="amp-Hangzhou-—-Next-Best-Place-to-Heaven"><a href="#amp-Hangzhou-—-Next-Best-Place-to-Heaven" class="headerlink" title="&amp; Hangzhou — Next Best Place to Heaven"></a>&amp; Hangzhou — Next Best Place to Heaven</h5><h5 id="amp-Chengdu-—-Hometown-of-Giant-Pandas"><a href="#amp-Chengdu-—-Hometown-of-Giant-Pandas" class="headerlink" title="&amp; Chengdu — Hometown of Giant Pandas"></a>&amp; Chengdu — Hometown of Giant Pandas</h5><h5 id="amp-Lhasa-—-Gateway-to-Transcendent-Tibet"><a href="#amp-Lhasa-—-Gateway-to-Transcendent-Tibet" class="headerlink" title="&amp; Lhasa — Gateway to Transcendent Tibet"></a>&amp; Lhasa — Gateway to Transcendent Tibet</h5><h5 id="amp-Suzhou-—-Elegant-Water-Towns-and-Gardens"><a href="#amp-Suzhou-—-Elegant-Water-Towns-and-Gardens" class="headerlink" title="&amp; Suzhou — Elegant Water Towns and Gardens"></a>&amp; Suzhou — Elegant Water Towns and Gardens</h5><blockquote>
-<p><a href="https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/">https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/</a></p>
-</blockquote>
-<p>Finally, for more information, please refer to site China Travel Guide: <a href="https://www.chinahighlights.com/">https://www.chinahighlights.com/</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Tour</category>
-      </categories>
-      <tags>
-        <tag>Good places✈️</tag>
       </tags>
   </entry>
   <entry>
@@ -598,6 +572,32 @@
       </tags>
   </entry>
   <entry>
+    <title>Top places to go in China</title>
+    <url>/2020/10/17/2020-10-17-Top-places-to-go-in-China/</url>
+    <content><![CDATA[<h3 id="The-sites-in-UNESCO-World-Heritage-list"><a href="#The-sites-in-UNESCO-World-Heritage-list" class="headerlink" title="The sites in UNESCO World Heritage list"></a>The sites in <code>UNESCO World Heritage list</code></h3><p>China is a big country, so there are many tourist attractions. First of all, these sites are world class, best preserved, and most significant.</p>
+<p>Next, I will show you how to find these sites list and basic information:</p>
+<p>Open <code>Word Heritage List</code>:  <a href="https://whc.unesco.org/en/list/&amp;order=country">https://whc.unesco.org/en/list/&amp;order=country</a></p>
+<p>Ordering the sites by <code>Country</code>;</p>
+<a id="more"></a>
+
+<p>Find out <code>China</code>and all related sites, there are 3 types: Cultural, Natural and Mixed site;</p>
+<p>When you open any of them, you’ll see the relevant basic information, including description, gallery and video.</p>
+<h3 id="AAAAA-Tourist-Attractions-of-China-5A-sites"><a href="#AAAAA-Tourist-Attractions-of-China-5A-sites" class="headerlink" title="AAAAA Tourist Attractions of China [5A sites]"></a>AAAAA Tourist Attractions of China [5A sites]</h3><p><code>5A</code> are the most important and best-maintained <a href="https://en.wikipedia.org/wiki/Tourist_attraction">tourist attractions</a> in the <a href="https://en.wikipedia.org/wiki/People's_Republic_of_China">People’s Republic of China</a>, given the highest level in the <a href="https://en.wikipedia.org/wiki/Tourist_Attraction_Rating_Categories_of_China">rating categories</a> used by the <a href="https://en.wikipedia.org/wiki/Ministry_of_Culture_and_Tourism_of_the_People's_Republic_of_China">Ministry of Culture and Tourism</a>. Generally, World Heritage sites are already included in the 5A list.</p>
+<p>Here is the list: <a href="https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China">https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China</a></p>
+<h3 id="Best-Cities-to-Visit-in-China"><a href="#Best-Cities-to-Visit-in-China" class="headerlink" title="Best Cities to Visit in China"></a>Best Cities to Visit in China</h3><h5 id="amp-Beijing-—-Ancient-and-Modern-Capital"><a href="#amp-Beijing-—-Ancient-and-Modern-Capital" class="headerlink" title="&amp; Beijing — Ancient and Modern Capital"></a>&amp; Beijing — Ancient and Modern Capital</h5><h5 id="amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization"><a href="#amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization" class="headerlink" title="&amp; Xi’an — a Window on China’s Ancient Civilization"></a>&amp; Xi’an — a Window on China’s Ancient Civilization</h5><h5 id="amp-Shanghai-—-China’s-Prosperous-Largest-City"><a href="#amp-Shanghai-—-China’s-Prosperous-Largest-City" class="headerlink" title="&amp; Shanghai — China’s Prosperous Largest City"></a>&amp; Shanghai — China’s Prosperous Largest City</h5><h5 id="amp-Guilin-—-China’s-Top-Karst-Landscape"><a href="#amp-Guilin-—-China’s-Top-Karst-Landscape" class="headerlink" title="&amp; Guilin — China’s Top Karst Landscape"></a>&amp; Guilin — China’s Top Karst Landscape</h5><h5 id="amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth"><a href="#amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth" class="headerlink" title="&amp; Hong Kong — Like Nowhere Else on Earth"></a>&amp; Hong Kong — Like Nowhere Else on Earth</h5><h5 id="amp-Hangzhou-—-Next-Best-Place-to-Heaven"><a href="#amp-Hangzhou-—-Next-Best-Place-to-Heaven" class="headerlink" title="&amp; Hangzhou — Next Best Place to Heaven"></a>&amp; Hangzhou — Next Best Place to Heaven</h5><h5 id="amp-Chengdu-—-Hometown-of-Giant-Pandas"><a href="#amp-Chengdu-—-Hometown-of-Giant-Pandas" class="headerlink" title="&amp; Chengdu — Hometown of Giant Pandas"></a>&amp; Chengdu — Hometown of Giant Pandas</h5><h5 id="amp-Lhasa-—-Gateway-to-Transcendent-Tibet"><a href="#amp-Lhasa-—-Gateway-to-Transcendent-Tibet" class="headerlink" title="&amp; Lhasa — Gateway to Transcendent Tibet"></a>&amp; Lhasa — Gateway to Transcendent Tibet</h5><h5 id="amp-Suzhou-—-Elegant-Water-Towns-and-Gardens"><a href="#amp-Suzhou-—-Elegant-Water-Towns-and-Gardens" class="headerlink" title="&amp; Suzhou — Elegant Water Towns and Gardens"></a>&amp; Suzhou — Elegant Water Towns and Gardens</h5><blockquote>
+<p><a href="https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/">https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/</a></p>
+</blockquote>
+<p>Finally, for more information, please refer to site China Travel Guide: <a href="https://www.chinahighlights.com/">https://www.chinahighlights.com/</a></p>
+]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Tour</category>
+      </categories>
+      <tags>
+        <tag>Good places✈️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Chinese culture @ Calendar</title>
     <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
     <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
@@ -615,13 +615,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ China’s religious beliefs</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
-    <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
+    <title>Chinese culture @ Five Elements Theory [五行]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-five-elements-theory/</url>
+    <content><![CDATA[<img src="/beauty/wuxing.png" style="zoom:70%;" />
 
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/travelguide/religion.htm">https://www.chinahighlights.com/travelguide/religion.htm</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm">https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -632,13 +632,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Five Elements Theory [五行]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-five-elements-theory/</url>
-    <content><![CDATA[<img src="/beauty/wuxing.png" style="zoom:70%;" />
+    <title>Chinese culture @ China’s religious beliefs</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
+    <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
 
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm">https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/religion.htm">https://www.chinahighlights.com/travelguide/religion.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -700,18 +700,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2nd Wedding Anniversary</title>
-    <url>/2020/10/19/2020-10-19-wedding-anniversary/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="9bf7095c605dcde7d87ae33a681717371aec8867a991bb62cbf367366e62812c">ccaa9cb1d60be991ee03bc7daedf2a98436daecb4dd45de12ee244fbc39d88ae786534317c636e1eb992dd205c04fb0510cd019c295da83f0cd261cce11a3f7e188e62c29329f6771456ab246a9d25f5419fc4a0813ca946af8dea9eea1d1dbbc8cd1692bcb7f6ee8a53578f9ae6426c5ba19b53dbee1cc8e37d0d5408dac0ee0bffdef0848bb07fe47c88c33911d9b45be97ef6ac5aa23fccb97a6ae13fab6b6a5a36bd28934aa06949f6545535a77beda9a66ea580e16304d1b0fd3bd40439df93cf139e88118fb4c7bcfea80db0b82e6d317673eb69bdf82d9b0aa246b8eaf68b2ddb3e55b4d32997b6f913da78e663454f4cf889a8210b348cd3b48f1de315de6577563bb47d475c7fca68e68422a83d441f92db2b72f8e4048fc0a956180f3fb3675a12e83638444bf0debfc67c270f066ba38e4151322b2f634c31b6152ac6b96d8f3bfe29b5bd0532291716df0ee3c31803b245c35abd85b67543bc562410c644083c502de5f660b839e8c9cff67984cb350e8adcaf4a4431aa135bd72a31db0df31bffcc2926e572ec4bbcfe584c56748f17976f980e9d78dbbd3c6de1a7cb62b7cafef9bbbccd01af6f6eb999077bccc1c121a9c6cb1fd031d4d7bc046970ee94ad1b2a08b46e79805599efafc34800b8e5ded6cb035a9a9b99b3bd4809e56e918cfd64c7cf0bd591f4df9a548b2a57524e0298d0327bbd8ab88153e572a94aef50099fd648560a57bb1c19175c976d8225bee7e6bf5e80e44a3014dee3811f0ab85ef37c94248a3f0d600f928ea579cfd4f1cffa035f1dbf825c597b709cb07ddd526f1aa21d5a61ee3f9ee2e7bff9af57e605235847ed7f1d030764479a3421b4b09a794fe14b72f023cdb6cc3e44c14839552dcc2aed333ec335d55c32c81f669b31221fbf1cfeeba538bf3fb30a8d175170fecf38f130eea63bcd82920937701e39b45b356fc05ee5400a42eea0c610ebd6fb0371247c1d8b5fe9d9527bcb592b17b6ea5292083956b5c05970ad1d8d82c59ef9a65f757b6b8b10fd5c7823240f9c9e3bdfef46dd596a57cc67964184698a291f27d6bb6cf0b20496159796851a3223aad712d46fc659b95683a05cea7fbf9cde7794c46b6a637ab976e636b269403b506bc3f2b217b7e1c814e5d09752878bd323ced2469cea65dae0a84d7f6502358ab79e8df369d50e5ec749a4e9c05f82855cf4b264e6f0e350c4c25e316d4012fd966338d0579be7b17d35ac5ecc1ae797b18f1f93743b7068d27cc3dbe1a7244c95d7aa9b4b328ad7a996c23c37f9bf541aa97ff3127661212713ea976814faa51214f82b36a731c4fd06e176c523c9c8bfbeab6c96ec8981f9da2ed82a88391435ed9c263203b65eb29bb2f39c78d9f50bdeabed24c511ad1403d8e4771d434bfb6fd5ca05868357befb9b8f92f9d915b97367723b156d4d24df00620b5926b59dda03c1e24ca04e87a1e20dbcfe55a1c0b3ccd915345e0f872d950e38c1a9dd596adff3abdce0ed31ea3a4ef6fa711b8c41fbcdf9aa1e5e9cb4d3bb21aac70558c57316c945</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>☀️ Daily life</category>
-        <category>Mine</category>
-      </categories>
-      <tags>
-        <tag>anniversary🎉</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Picture bed building by GitHub + PicGo</title>
     <url>/2020/10/18/2020-10-18-Picturebed-using-PicGo-and-Github/</url>
     <content><![CDATA[<p>This article describes how to use your own GitHub as a picture bed and use the open source software PicGo to upload pictures to GitHub.</p>
@@ -743,6 +731,18 @@
       </categories>
       <tags>
         <tag>Picbed🖼️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2nd Wedding Anniversary</title>
+    <url>/2020/10/19/2020-10-19-wedding-anniversary/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="9bf7095c605dcde7d87ae33a681717371aec8867a991bb62cbf367366e62812c">ccaa9cb1d60be991ee03bc7daedf2a98436daecb4dd45de12ee244fbc39d88ae786534317c636e1eb992dd205c04fb0510cd019c295da83f0cd261cce11a3f7e188e62c29329f6771456ab246a9d25f5419fc4a0813ca946af8dea9eea1d1dbbc8cd1692bcb7f6ee8a53578f9ae6426c5ba19b53dbee1cc8e37d0d5408dac0ee0bffdef0848bb07fe47c88c33911d9b45be97ef6ac5aa23fccb97a6ae13fab6b6a5a36bd28934aa06949f6545535a77beda9a66ea580e16304d1b0fd3bd40439df93cf139e88118fb4c7bcfea80db0b82e6d317673eb69bdf82d9b0aa246b8eaf68b2ddb3e55b4d32997b6f913da78e663454f4cf889a8210b348cd3b48f1de315de6577563bb47d475c7fca68e68422a83d441f92db2b72f8e4048fc0a956180f3fb3675a12e83638444bf0debfc67c270f066ba38e4151322b2f634c31b6152ac6b96d8f3bfe29b5bd0532291716df0ee3c31803b245c35abd85b67543bc562410c644083c502de5f660b839e8c9cff67984cb350e8adcaf4a4431aa135bd72a31db0df31bffcc2926e572ec4bbcfe584c56748f17976f980e9d78dbbd3c6de1a7cb62b7cafef9bbbccd01af6f6eb999077bccc1c121a9c6cb1fd031d4d7bc046970ee94ad1b2a08b46e79805599efafc34800b8e5ded6cb035a9a9b99b3bd4809e56e918cfd64c7cf0bd591f4df9a548b2a57524e0298d0327bbd8ab88153e572a94aef50099fd648560a57bb1c19175c976d8225bee7e6bf5e80e44a3014dee3811f0ab85ef37c94248a3f0d600f928ea579cfd4f1cffa035f1dbf825c597b709cb07ddd526f1aa21d5a61ee3f9ee2e7bff9af57e605235847ed7f1d030764479a3421b4b09a794fe14b72f023cdb6cc3e44c14839552dcc2aed333ec335d55c32c81f669b31221fbf1cfeeba538bf3fb30a8d175170fecf38f130eea63bcd82920937701e39b45b356fc05ee5400a42eea0c610ebd6fb0371247c1d8b5fe9d9527bcb592b17b6ea5292083956b5c05970ad1d8d82c59ef9a65f757b6b8b10fd5c7823240f9c9e3bdfef46dd596a57cc67964184698a291f27d6bb6cf0b20496159796851a3223aad712d46fc659b95683a05cea7fbf9cde7794c46b6a637ab976e636b269403b506bc3f2b217b7e1c814e5d09752878bd323ced2469cea65dae0a84d7f6502358ab79e8df369d50e5ec749a4e9c05f82855cf4b264e6f0e350c4c25e316d4012fd966338d0579be7b17d35ac5ecc1ae797b18f1f93743b7068d27cc3dbe1a7244c95d7aa9b4b328ad7a996c23c37f9bf541aa97ff3127661212713ea976814faa51214f82b36a731c4fd06e176c523c9c8bfbeab6c96ec8981f9da2ed82a88391435ed9c263203b65eb29bb2f39c78d9f50bdeabed24c511ad1403d8e4771d434bfb6fd5ca05868357befb9b8f92f9d915b97367723b156d4d24df00620b5926b59dda03c1e24ca04e87a1e20dbcfe55a1c0b3ccd915345e0f872d950e38c1a9dd596adff3abdce0ed31ea3a4ef6fa711b8c41fbcdf9aa1e5e9cb4d3bb21aac70558c57316c945</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>☀️ Daily life</category>
+        <category>Mine</category>
+      </categories>
+      <tags>
+        <tag>anniversary🎉</tag>
       </tags>
   </entry>
   <entry>
@@ -916,18 +916,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Think about Film and Television Production</title>
-    <url>/2020/10/25/China-perception-Think-about-Film-and-television-Production/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="60f2596ce6723de6af77d504221fcf905b703f569408c7824d858efe13cc4b69">8b99030997d9e294e22d169f14a9b9af30076946d2e16ff2003e748bfa20774718e7eb4c449d12c407648717416cd24c6c5afe0d5a5abc1b186122fba0801dc54dd8356b33f5d024bbb55c3b04fa03f0f0d102f01c1d8591329662b03faa5b49be8262c42da0bde783dc561c7cc46e92496eb7a9762d621693371735636029a1ac2bb1dd1974f462aa3d5ba12445ed2dcd598a4b6216f0ea8833980ab1c0e09f78e348e231b43087370273e723e425d9500d657af02c6b7e4dd7ad9dfd4f7df3127319535f0e9d0fb1fe4256788736ed9328f01f20e07b2b86daf38c9630ea7c9eb66a7e941df294c9e885da4add10eb9c6cc8ffe5a57fe1346c288b89ecb760fe3a93ccaf9416071245aaf85ba6f55ba26586e3123fc424494f9831ea22d5990d863596032c72d3c7be3362061c4f939258b1c1f16640bb906d31bf48870838ab0c63430db3454f55b762a21a72ce0a5d4e47fefe6d36652886b95c28e968c9417b5a8f62d232137529201fa0cb6ef0bb1a52732878200dba7195a4912f2834f9d1f0602fb43eaa058ae79150ef81360d22e4eaf8171f6c8ff276eff4f8ba5414cca25114f22079d3a9c481b675086516bbd428e65447ffc1ab9a894c1140acd579b43a704c4acbe460bdbc261ff18483106f47f7f34fc69e204eb5a77855d08abec39f6257b1a73ea8653b3c908e92d96130bd71f390830e41c5391fc7187b36f0aaedd6ae58745b6967b6ddbcd0acce540c434713d14303d5425ed443e704710771f6189c26f00c39295c5d757f393b670058c3f9f46f6a1ee8bc1af75a31bb2ed3ba734ca63d521ac9d8e4973c97a2355c33372bcc2a717810bfd4a078cd182528a00b3eaa599acc5886e3fb02f3b986536e687e1fe74589d60d4ebf4739e7c5b90c15986eb2fdaca09c1861b8c8d0aed5151bd768c9befc9e35e5baef6006e891653aa2413c54536b132be2d2a0e575637267b8b3bd8e39114e5545f7fe9104c6d1dffe16a54e29c1e4bfb4f6dd4b336e3e63a15e56b7f69f1675504ad3a022c657fb461fd6cea5badc1ebb67cbbf255f191b82a729a964e7a77d24490d3a9be774c40745f643204f9fff2f14abc9bfc6cf68a408a7a3f1c72e257466bdc94c699dc70f9d291b2728cebcb5b3c8d8b4a4f8c1fa7b4b8d59845aeaeda309522a476e57c69d8ec686ccc5c70ebbf3e1a7e83be8c9b3930505f31c804a5f4b91663120e753d1ba45cb59f709abdbc1d3f67bf812d9ea3123e0ad08bb73938a5a4f57079e8fa3c6653ab094ed3035f751ac4bf211161ed40b3ab72e16d7bef28fdf5fde40af515420547753cf2d4c8e8a90fe28ddff591aaee8f213bb415d6fdcee0fd65761c03267136b1cfceadf8426a6f9b0d68083d53d0b5cf271d40809ae68e4f86ad540bb1f5fd4af140960cad936e930e1dcbd359cd99838494e9d8ff356b53726bf25822ac8045238c40ebeeb57322dd63d73aee42d6681b08d51148fe2655a44c75bb33f8f6154fac067dd77508c5d71f13fdf5b3a786d25ece909</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Perception</category>
-      </categories>
-      <tags>
-        <tag>Opinion💭</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Politics of China</title>
     <url>/2020/10/24/China-politics/</url>
     <content><![CDATA[<h3 id="※1949-Present"><a href="#※1949-Present" class="headerlink" title="※1949 - Present"></a>※1949 - Present</h3><h4 id="amp-Prime-Minister-Liu-Luoguo-宰相劉羅鍋"><a href="#amp-Prime-Minister-Liu-Luoguo-宰相劉羅鍋" class="headerlink" title="&amp; Prime Minister Liu Luoguo [宰相劉羅鍋]"></a>&amp; Prime Minister Liu Luoguo [宰相劉羅鍋]</h4><p><strong>Production company:</strong> 北京文化艺术音像出版社</p>
@@ -942,6 +930,18 @@
       </categories>
       <tags>
         <tag>Politics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Think about Film and Television Production</title>
+    <url>/2020/10/25/China-perception-Think-about-Film-and-television-Production/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="60f2596ce6723de6af77d504221fcf905b703f569408c7824d858efe13cc4b69">8b99030997d9e294e22d169f14a9b9af30076946d2e16ff2003e748bfa20774718e7eb4c449d12c407648717416cd24c6c5afe0d5a5abc1b186122fba0801dc54dd8356b33f5d024bbb55c3b04fa03f0f0d102f01c1d8591329662b03faa5b49be8262c42da0bde783dc561c7cc46e92496eb7a9762d621693371735636029a1ac2bb1dd1974f462aa3d5ba12445ed2dcd598a4b6216f0ea8833980ab1c0e09f78e348e231b43087370273e723e425d9500d657af02c6b7e4dd7ad9dfd4f7df3127319535f0e9d0fb1fe4256788736ed9328f01f20e07b2b86daf38c9630ea7c9eb66a7e941df294c9e885da4add10eb9c6cc8ffe5a57fe1346c288b89ecb760fe3a93ccaf9416071245aaf85ba6f55ba26586e3123fc424494f9831ea22d5990d863596032c72d3c7be3362061c4f939258b1c1f16640bb906d31bf48870838ab0c63430db3454f55b762a21a72ce0a5d4e47fefe6d36652886b95c28e968c9417b5a8f62d232137529201fa0cb6ef0bb1a52732878200dba7195a4912f2834f9d1f0602fb43eaa058ae79150ef81360d22e4eaf8171f6c8ff276eff4f8ba5414cca25114f22079d3a9c481b675086516bbd428e65447ffc1ab9a894c1140acd579b43a704c4acbe460bdbc261ff18483106f47f7f34fc69e204eb5a77855d08abec39f6257b1a73ea8653b3c908e92d96130bd71f390830e41c5391fc7187b36f0aaedd6ae58745b6967b6ddbcd0acce540c434713d14303d5425ed443e704710771f6189c26f00c39295c5d757f393b670058c3f9f46f6a1ee8bc1af75a31bb2ed3ba734ca63d521ac9d8e4973c97a2355c33372bcc2a717810bfd4a078cd182528a00b3eaa599acc5886e3fb02f3b986536e687e1fe74589d60d4ebf4739e7c5b90c15986eb2fdaca09c1861b8c8d0aed5151bd768c9befc9e35e5baef6006e891653aa2413c54536b132be2d2a0e575637267b8b3bd8e39114e5545f7fe9104c6d1dffe16a54e29c1e4bfb4f6dd4b336e3e63a15e56b7f69f1675504ad3a022c657fb461fd6cea5badc1ebb67cbbf255f191b82a729a964e7a77d24490d3a9be774c40745f643204f9fff2f14abc9bfc6cf68a408a7a3f1c72e257466bdc94c699dc70f9d291b2728cebcb5b3c8d8b4a4f8c1fa7b4b8d59845aeaeda309522a476e57c69d8ec686ccc5c70ebbf3e1a7e83be8c9b3930505f31c804a5f4b91663120e753d1ba45cb59f709abdbc1d3f67bf812d9ea3123e0ad08bb73938a5a4f57079e8fa3c6653ab094ed3035f751ac4bf211161ed40b3ab72e16d7bef28fdf5fde40af515420547753cf2d4c8e8a90fe28ddff591aaee8f213bb415d6fdcee0fd65761c03267136b1cfceadf8426a6f9b0d68083d53d0b5cf271d40809ae68e4f86ad540bb1f5fd4af140960cad936e930e1dcbd359cd99838494e9d8ff356b53726bf25822ac8045238c40ebeeb57322dd63d73aee42d6681b08d51148fe2655a44c75bb33f8f6154fac067dd77508c5d71f13fdf5b3a786d25ece909</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Perception</category>
+      </categories>
+      <tags>
+        <tag>Opinion💭</tag>
       </tags>
   </entry>
   <entry>
@@ -1012,27 +1012,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Major religions</title>
-    <url>/2020/10/24/Others-Major-religions/</url>
-    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
-<a id="more"></a>
-
-<img src = "https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022075814.png"> 
-
-
-
-<h3 id="History-of-religious-categories"><a href="#History-of-religious-categories" class="headerlink" title="History of religious categories"></a>History of religious categories</h3><h4 id="World-categorizations"><a href="#World-categorizations" class="headerlink" title="@ World categorizations"></a>@ World categorizations</h4><p>In world cultures, there have traditionally been many different groupings of religious belief. In <a href="https://en.wikipedia.org/wiki/Culture_of_India">Indian culture</a>, different religious philosophies were traditionally respected as academic differences in pursuit of the same truth. In <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>, the <a href="https://en.wikipedia.org/wiki/Quran">Quran</a> mentions three different categories: <a href="https://en.wikipedia.org/wiki/Muslims">Muslims</a>, the <a href="https://en.wikipedia.org/wiki/People_of_the_Book">People of the Book</a>, and <a href="https://en.wikipedia.org/wiki/Idolatry">idol worshipers</a>.</p>
-<h4 id="Christian-categorizations"><a href="#Christian-categorizations" class="headerlink" title="@ Christian categorizations"></a>@ Christian categorizations</h4><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups">https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups</a></p>
-]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>religion☯</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Arab @ Traditional dress</title>
     <url>/2020/10/24/Others-Arab-traditional-dress/</url>
     <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022071306.png"></p>
@@ -1063,6 +1042,27 @@
       </categories>
       <tags>
         <tag>culture</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Major religions</title>
+    <url>/2020/10/24/Others-Major-religions/</url>
+    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
+<a id="more"></a>
+
+<img src = "https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022075814.png"> 
+
+
+
+<h3 id="History-of-religious-categories"><a href="#History-of-religious-categories" class="headerlink" title="History of religious categories"></a>History of religious categories</h3><h4 id="World-categorizations"><a href="#World-categorizations" class="headerlink" title="@ World categorizations"></a>@ World categorizations</h4><p>In world cultures, there have traditionally been many different groupings of religious belief. In <a href="https://en.wikipedia.org/wiki/Culture_of_India">Indian culture</a>, different religious philosophies were traditionally respected as academic differences in pursuit of the same truth. In <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>, the <a href="https://en.wikipedia.org/wiki/Quran">Quran</a> mentions three different categories: <a href="https://en.wikipedia.org/wiki/Muslims">Muslims</a>, the <a href="https://en.wikipedia.org/wiki/People_of_the_Book">People of the Book</a>, and <a href="https://en.wikipedia.org/wiki/Idolatry">idol worshipers</a>.</p>
+<h4 id="Christian-categorizations"><a href="#Christian-categorizations" class="headerlink" title="@ Christian categorizations"></a>@ Christian categorizations</h4><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups">https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups</a></p>
+]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>religion☯</tag>
       </tags>
   </entry>
   <entry>
@@ -1099,10 +1099,12 @@
   <entry>
     <title>Useful info for BMIC days 2020</title>
     <url>/2020/11/08/Others-Practical-info-BMIC-day/</url>
-    <content><![CDATA[<h4 id="※-Time-and-location"><a href="#※-Time-and-location" class="headerlink" title="※ Time and location"></a>※ Time and location</h4><ul>
+    <content><![CDATA[<h4 id="🕗-Time-and-location"><a href="#🕗-Time-and-location" class="headerlink" title="🕗 Time and location"></a>🕗 Time and location</h4><ul>
 <li><strong>Rockefeller University</strong> from 8h30 am to 1pm</li>
 <li><strong>Yasmine</strong>: <u>0663445790</u> [when arrived for info]</li>
 </ul>
+<a id="more"></a>
+
 </br>
 
 <h4 id="※-Virtual-meeting-access-Webex"><a href="#※-Virtual-meeting-access-Webex" class="headerlink" title="※ Virtual meeting access [Webex]"></a>※ Virtual meeting access [Webex]</h4><p><a href="https://univ-lyon1.webex.com/webappng/sites/univ-lyon1/meeting/download/002b7b2dd0dd4f59a245e1f894f1ac96?siteurl=univ-lyon1&amp;MTID=ma80f1b9491bbde9f16a34aff34f57dc6">https://univ-lyon1.webex.com/webappng/sites/univ-lyon1/meeting/download/002b7b2dd0dd4f59a245e1f894f1ac96?siteurl=univ-lyon1&amp;MTID=ma80f1b9491bbde9f16a34aff34f57dc6</a></p>
@@ -1178,7 +1180,11 @@
 <p><u>We need you for morning sessions to introduce speakers and also transmit questions from the chat to the students presenting their project.</u> </p>
 </br>
 
-<h4 id="⚓-Anchor-moderator-English"><a href="#⚓-Anchor-moderator-English" class="headerlink" title="⚓ Anchor/moderator English"></a>⚓ Anchor/moderator English</h4><p>During the epidemic, …</p>
+<h4 id="⚓-Anchor-moderator-English"><a href="#⚓-Anchor-moderator-English" class="headerlink" title="⚓ Anchor/moderator English"></a>⚓ Anchor/moderator English</h4><p>Let me introduce our first speaker XXX, ….,…. Let’s welcome xxxxx.</p>
+<p>Let me introduce the next speaker xxxx from ….</p>
+<p>Next speaker, please get ready.</p>
+<hr>
+<p>During the epidemic, …</p>
 <p>During the presentation, to ensure a better audio quality , everyone, please turn off your microphones.</p>
 <p>We’re in charge of delivering questions to speaker.</p>
 <ul>
@@ -1207,6 +1213,18 @@
       </categories>
       <tags>
         <tag>BMIC day</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Account and password</title>
+    <url>/2020/10/22/Others-Practical-info-Password/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="322e4e9fdd58600abb0fb7546051d2ade940c1d2efb14e13077e2cd71421f4d6">8732f4be449ce79ab294b66edbb143ede968390e65c689b785f1dde9e55d1f8c3e7a898886732a87b3da97605ab98f988126e2e0dffc80255d94fc7f8fccd62b644c3f478d1874378b0e07fafee24d35d786e8f71cb98995f6761f3af524825207c5fbabe07d5f4b8bdbf417886149a08b6fccffcf70237952619572f406110903f9ee57748ba90a5d324b5783224fa511ef2273cdad1634c42ee7449ecd3107a082cc863cd663dcf11d2a4bfd605aecf7c40fef726815829f8b7402f5d906a06d770939fe1bcd37809c01a27749559d</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Practical info</category>
+      </categories>
+      <tags>
+        <tag>password🔐</tag>
       </tags>
   </entry>
   <entry>
@@ -1254,18 +1272,6 @@
       </categories>
       <tags>
         <tag>time zone🕜</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Account and password</title>
-    <url>/2020/10/22/Others-Practical-info-Password/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="322e4e9fdd58600abb0fb7546051d2ade940c1d2efb14e13077e2cd71421f4d6">8732f4be449ce79ab294b66edbb143ede968390e65c689b785f1dde9e55d1f8c3e7a898886732a87b3da97605ab98f988126e2e0dffc80255d94fc7f8fccd62b644c3f478d1874378b0e07fafee24d35d786e8f71cb98995f6761f3af524825207c5fbabe07d5f4b8bdbf417886149a08b6fccffcf70237952619572f406110903f9ee57748ba90a5d324b5783224fa511ef2273cdad1634c42ee7449ecd3107a082cc863cd663dcf11d2a4bfd605aecf7c40fef726815829f8b7402f5d906a06d770939fe1bcd37809c01a27749559d</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Practical info</category>
-      </categories>
-      <tags>
-        <tag>password🔐</tag>
       </tags>
   </entry>
   <entry>
