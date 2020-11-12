@@ -16,6 +16,49 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo_Basic @ Post guide of YAML front matter</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</url>
+    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
+<p>It includes all necessary parameter needed for your article.</p>
+<p>Here is just some of important ones, which should be always considered before your writing: </p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Basic</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Basic🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo[Next] @ add rounded corners</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
+    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
+<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
+
+<p>add the follow code should be OK:</p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Theme_Next</category>
+      </categories>
+      <tags>
+        <tag>Page optimization📄</tag>
+        <tag>Hexo[Next]🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo[Next] @ Custom background image</title>
     <url>/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</url>
     <content><![CDATA[<p>*<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong> Based on <code>Next theme</code> <a href="https://github.com/theme-next/hexo-theme-next/commit/f9956802c9cf51ebdb447fb954efa6383fbb2bd6">Release v7.8.0</a></p>
@@ -63,50 +106,6 @@
       <tags>
         <tag>Page optimization📄</tag>
         <tag>Hexo[Next]🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Basic @ Post guide of YAML front matter</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</url>
-    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
-<p>It includes all necessary parameter needed for your article.</p>
-<p>Here is just some of important ones, which should be always considered before your writing: </p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Basic</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Basic🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Adv @ Add local search function</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</url>
-    <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
-
-<h4 id="2-Open-config-file-and-add-code"><a href="#2-Open-config-file-and-add-code" class="headerlink" title="2. Open config file and add code:"></a>2. Open config file and add code:</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;_config.yml |vi</span><br></pre></td></tr></table></figure>
-
-<p>add the code below after “Extension”:</p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 搜索</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -159,55 +158,27 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ add Tag Cloud Widget</title>
-    <url>/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/</url>
-    <content><![CDATA[<h4 id="1-Install-the-plugin-“hexo-tag-cloud”"><a href="#1-Install-the-plugin-“hexo-tag-cloud”" class="headerlink" title="1. Install the plugin “hexo-tag-cloud”"></a>1. Install the plugin “hexo-tag-cloud”</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-tag-cloud@^2.* --save</span><br></pre></td></tr></table></figure>
+    <title>Hexo_Adv @ Add local search function</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</url>
+    <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
 
+<h4 id="2-Open-config-file-and-add-code"><a href="#2-Open-config-file-and-add-code" class="headerlink" title="2. Open config file and add code:"></a>2. Open config file and add code:</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;_config.yml |vi</span><br></pre></td></tr></table></figure>
 
-
-<h4 id="2-Configure-the-“sidebar-njk”-file"><a href="#2-Configure-the-“sidebar-njk”-file" class="headerlink" title="2. Configure the “sidebar.njk” file."></a>2. Configure the “sidebar.njk” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/layout/_macro/sidebar.njk |vi</span><br></pre></td></tr></table></figure>
-
-<p>Add the code block:</p>
+<p>add the code below after “Extension”:</p>
 <a id="more"></a>
 
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcloud.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcanvas.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width=100%&quot;</span>&gt;</span></span><br><span class="line">                    &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">                <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 搜索</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
 
-<p>To the next location:</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">&#123;%- if theme.back2top.enable and theme.back2top.sidebar %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;back-to-top animated&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;fa fa-arrow-up&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">span</span>&gt;</span>0%<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;%- endif %&#125;</span><br><span class="line"></span><br><span class="line">      <span class="comment">&lt;!-- location for tag cloud--&gt;</span></span><br><span class="line"> 	  &#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcloud.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcanvas.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width=100%&quot;</span>&gt;</span></span><br><span class="line">                    &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">                <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;% endif %&#125;</span><br><span class="line">      <span class="comment">&lt;!-- end for tag cloud--&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;sidebar-dimmer&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">&#123;% endmacro %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>Reload page, the 3D cloud-tag will appear.</p>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization📄</tag>
-        <tag>Hexo[Next]🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo[Next] @ add rounded corners</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
-    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
-<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
-
-<p>add the follow code should be OK:</p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
+<h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>
         <category>Hexo</category>
-        <category>Theme_Next</category>
+        <category>Adv.</category>
       </categories>
       <tags>
-        <tag>Page optimization📄</tag>
-        <tag>Hexo[Next]🕸️</tag>
+        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -237,39 +208,32 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Adv @ Blog post encrypt function</title>
-    <url>/2020/09/05/2020-09-05-Hexo-Adv-blog-post-encrypt/</url>
-    <content><![CDATA[<h4 id="1-Install-plugin-“hexo-blog-encrypt”-for-Next"><a href="#1-Install-plugin-“hexo-blog-encrypt”-for-Next" class="headerlink" title="1. Install plugin “hexo-blog-encrypt” for Next"></a>1. Install plugin “hexo-blog-encrypt” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line">npm install --save hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
+    <title>Hexo[Next] @ add Tag Cloud Widget</title>
+    <url>/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/</url>
+    <content><![CDATA[<h4 id="1-Install-the-plugin-“hexo-tag-cloud”"><a href="#1-Install-the-plugin-“hexo-tag-cloud”" class="headerlink" title="1. Install the plugin “hexo-tag-cloud”"></a>1. Install the plugin “hexo-tag-cloud”</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-tag-cloud@^2.* --save</span><br></pre></td></tr></table></figure>
 
+
+
+<h4 id="2-Configure-the-“sidebar-njk”-file"><a href="#2-Configure-the-“sidebar-njk”-file" class="headerlink" title="2. Configure the “sidebar.njk” file."></a>2. Configure the “sidebar.njk” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/layout/_macro/sidebar.njk |vi</span><br></pre></td></tr></table></figure>
+
+<p>Add the code block:</p>
 <a id="more"></a>
 
-<h4 id="2-Configure-the-“-site-config-yml”-file"><a href="#2-Configure-the-“-site-config-yml”-file" class="headerlink" title="2. Configure the “./site/_config.yml” file."></a>2. Configure the “./site/_config.yml” file.</h4><p>add encrypt option code, then define the default <code>abstract</code> and <code>message</code>.</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Security</span></span><br><span class="line"><span class="attr">encrypt:</span> <span class="comment"># hexo-blog-encrypt</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment">## true or false</span></span><br><span class="line">  <span class="attr">abstract:</span> <span class="string">&lt;strong&gt;&lt;center&gt;&lt;font</span> <span class="string">color=blue</span> <span class="string">&gt;This</span> <span class="string">is</span> <span class="string">an</span> <span class="string">encrypted</span> <span class="string">post,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.&lt;/font&gt;&lt;/strong&gt;</span> <span class="comment">## here, the test supports the html syntax, you can change the color or text alignment.</span></span><br><span class="line">  <span class="attr">message:</span> <span class="string">&quot;&lt;font color=red&gt;Please enter your password:&lt;/font&gt;&quot;</span> <span class="comment">##</span></span><br><span class="line">  </span><br><span class="line">  <span class="attr">tags:</span></span><br><span class="line">  <span class="bullet">-</span> &#123;<span class="attr">name:</span> <span class="string">encryptAsDiary</span>, <span class="attr">password:</span> <span class="string">passwordA</span>&#125;</span><br><span class="line">  <span class="bullet">-</span> &#123;<span class="attr">name:</span> <span class="string">encryptAsTips</span>, <span class="attr">password:</span> <span class="string">passwordB</span>&#125;</span><br><span class="line">  <span class="attr">template:</span> <span class="string">&lt;div</span> <span class="string">id=&quot;hexo-blog-encrypt&quot;</span> <span class="string">data-wpm=&quot;&#123;&#123;hbeWrongPassMessage&#125;&#125;&quot;</span> <span class="string">data-whm=&quot;&#123;&#123;hbeWrongHashMessage&#125;&#125;&quot;&gt;&lt;div</span> <span class="string">class=&quot;hbe-input-container&quot;&gt;&lt;input</span> <span class="string">type=&quot;password&quot;</span> <span class="string">id=&quot;hbePass&quot;</span> <span class="string">placeholder=&quot;&#123;&#123;hbeMessage&#125;&#125;&quot;</span> <span class="string">/&gt;&lt;label&gt;&#123;&#123;hbeMessage&#125;&#125;&lt;/label&gt;&lt;div</span> <span class="string">class=&quot;bottom-line&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script</span> <span class="string">id=&quot;hbeData&quot;</span> <span class="string">type=&quot;hbeData&quot;</span> <span class="string">data-hmacdigest=&quot;&#123;&#123;hbeHmacDigest&#125;&#125;&quot;&gt;&#123;&#123;hbeEncryptedData&#125;&#125;&lt;/script&gt;&lt;/div&gt;</span></span><br><span class="line">  <span class="attr">wrong_pass_message:</span> <span class="string">Oh,</span> <span class="string">this</span> <span class="string">is</span> <span class="string">an</span> <span class="string">invalid</span> <span class="string">password.</span> <span class="string">Check</span> <span class="string">and</span> <span class="string">try</span> <span class="string">again,</span> <span class="string">please.</span></span><br><span class="line">  <span class="attr">wrong_hash_message:</span> <span class="string">Oh,</span> <span class="string">these</span> <span class="string">decrypted</span> <span class="string">content</span> <span class="string">cannot</span> <span class="string">be</span> <span class="string">verified,</span> <span class="string">but</span> <span class="string">you</span> <span class="string">can</span> <span class="string">still</span> <span class="string">have</span> <span class="string">a</span> <span class="string">look.</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcloud.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcanvas.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width=100%&quot;</span>&gt;</span></span><br><span class="line">                    &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">                <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
 
+<p>To the next location:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">&#123;%- if theme.back2top.enable and theme.back2top.sidebar %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;back-to-top animated&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;fa fa-arrow-up&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">span</span>&gt;</span>0%<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;%- endif %&#125;</span><br><span class="line"></span><br><span class="line">      <span class="comment">&lt;!-- location for tag cloud--&gt;</span></span><br><span class="line"> 	  &#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcloud.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcanvas.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width=100%&quot;</span>&gt;</span></span><br><span class="line">                    &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">                <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;% endif %&#125;</span><br><span class="line">      <span class="comment">&lt;!-- end for tag cloud--&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;sidebar-dimmer&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">&#123;% endmacro %&#125;</span><br></pre></td></tr></table></figure>
 
-
-<h4 id="4-Add-the-“password”-value-to-your-post’s-front-matter-like"><a href="#4-Add-the-“password”-value-to-your-post’s-front-matter-like" class="headerlink" title="4. Add the “password” value to your post’s front matter like:"></a>4. Add the “password” value to your post’s front matter like:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">Hello</span> <span class="string">World</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2016-03-30 21:18:02</span></span><br><span class="line"><span class="attr">password:</span> <span class="string">lalalal</span></span><br><span class="line"></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">this</span> <span class="string">article</span> <span class="string">is</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">needed.</span> <span class="comment">## not necessary</span></span><br><span class="line"><span class="attr">message:</span>  <span class="string">enter</span> <span class="string">your</span> <span class="string">password.</span> <span class="comment">## not necessary</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>post’s front matter &gt; <code>_config.yml</code> (in the root directory) &gt; default</p>
-<p>If you want custom your “abstract” and “message”, write them in the post front matter.</p>
-</blockquote>
-<h4 id="5-Effect-preview"><a href="#5-Effect-preview" class="headerlink" title="5. Effect preview"></a>5. Effect preview</h4><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/4.jpg"></p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/5.jpg"></p>
-<hr>
-<blockquote>
-<p>Ref:</p>
-<p><a href="https://www.jianshu.com/p/44e211829447">https://www.jianshu.com/p/44e211829447</a></p>
-<p><a href="https://github.com/MikeCoder/hexo-blog-encrypt">https://github.com/MikeCoder/hexo-blog-encrypt</a></p>
-</blockquote>
+<p>Reload page, the 3D cloud-tag will appear.</p>
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>
         <category>Hexo</category>
-        <category>Adv.</category>
+        <category>Theme_Next</category>
       </categories>
       <tags>
-        <tag>Hexo_Adv🕸️</tag>
+        <tag>Page optimization📄</tag>
+        <tag>Hexo[Next]🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -296,8 +260,57 @@
         <category>Basic</category>
       </categories>
       <tags>
-        <tag>Page optimization📄</tag>
         <tag>Hexo_Basic🕸️</tag>
+        <tag>Page optimization📄</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Zotero @ Citation style custom</title>
+    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
+    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
+<a id="more"></a>
+
+<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
+<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
+<blockquote>
+<p>ref:</p>
+<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Zotero</category>
+      </categories>
+      <tags>
+        <tag>Zotero📑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ Skip render for given files and folders</title>
+    <url>/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</url>
+    <content><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p>
+<p>Now in <code>hexo</code>system, you need to configure it in you <code>_ config.yml</code>for achieving it.</p>
+<a id="more"></a>
+
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd .../homepage/</span><br><span class="line">vi ./_config.yml</span><br></pre></td></tr></table></figure>
+
+<p>you need to locate and find <code>skip_render:</code></p>
+<p>Then modify it as below:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># The default work directory for &quot;skip_render&quot; is</span></span></span><br><span class="line">cd .../homepage/source/</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip single file, as README.md: </span></span></span><br><span class="line">skip_render: README.md</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip all files in single folder, as test:</span></span></span><br><span class="line">skip_render: test/*</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip several files or folders:</span></span></span><br><span class="line"></span><br><span class="line">skip_render:</span><br><span class="line"> - test.html</span><br><span class="line"> - README.md</span><br><span class="line"> - test/*</span><br><span class="line"> - miao/*</span><br></pre></td></tr></table></figure>
+
+
+
+<p>Finally , clean and reload your new files:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -340,44 +353,31 @@
       </tags>
   </entry>
   <entry>
-    <title>Zotero @ Citation style custom</title>
-    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
-    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
+    <title>Hexo_Adv @ Blog post encrypt function</title>
+    <url>/2020/09/05/2020-09-05-Hexo-Adv-blog-post-encrypt/</url>
+    <content><![CDATA[<h4 id="1-Install-plugin-“hexo-blog-encrypt”-for-Next"><a href="#1-Install-plugin-“hexo-blog-encrypt”-for-Next" class="headerlink" title="1. Install plugin “hexo-blog-encrypt” for Next"></a>1. Install plugin “hexo-blog-encrypt” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line">npm install --save hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
+
 <a id="more"></a>
 
-<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
-<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
+<h4 id="2-Configure-the-“-site-config-yml”-file"><a href="#2-Configure-the-“-site-config-yml”-file" class="headerlink" title="2. Configure the “./site/_config.yml” file."></a>2. Configure the “./site/_config.yml” file.</h4><p>add encrypt option code, then define the default <code>abstract</code> and <code>message</code>.</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Security</span></span><br><span class="line"><span class="attr">encrypt:</span> <span class="comment"># hexo-blog-encrypt</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment">## true or false</span></span><br><span class="line">  <span class="attr">abstract:</span> <span class="string">&lt;strong&gt;&lt;center&gt;&lt;font</span> <span class="string">color=blue</span> <span class="string">&gt;This</span> <span class="string">is</span> <span class="string">an</span> <span class="string">encrypted</span> <span class="string">post,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.&lt;/font&gt;&lt;/strong&gt;</span> <span class="comment">## here, the test supports the html syntax, you can change the color or text alignment.</span></span><br><span class="line">  <span class="attr">message:</span> <span class="string">&quot;&lt;font color=red&gt;Please enter your password:&lt;/font&gt;&quot;</span> <span class="comment">##</span></span><br><span class="line">  </span><br><span class="line">  <span class="attr">tags:</span></span><br><span class="line">  <span class="bullet">-</span> &#123;<span class="attr">name:</span> <span class="string">encryptAsDiary</span>, <span class="attr">password:</span> <span class="string">passwordA</span>&#125;</span><br><span class="line">  <span class="bullet">-</span> &#123;<span class="attr">name:</span> <span class="string">encryptAsTips</span>, <span class="attr">password:</span> <span class="string">passwordB</span>&#125;</span><br><span class="line">  <span class="attr">template:</span> <span class="string">&lt;div</span> <span class="string">id=&quot;hexo-blog-encrypt&quot;</span> <span class="string">data-wpm=&quot;&#123;&#123;hbeWrongPassMessage&#125;&#125;&quot;</span> <span class="string">data-whm=&quot;&#123;&#123;hbeWrongHashMessage&#125;&#125;&quot;&gt;&lt;div</span> <span class="string">class=&quot;hbe-input-container&quot;&gt;&lt;input</span> <span class="string">type=&quot;password&quot;</span> <span class="string">id=&quot;hbePass&quot;</span> <span class="string">placeholder=&quot;&#123;&#123;hbeMessage&#125;&#125;&quot;</span> <span class="string">/&gt;&lt;label&gt;&#123;&#123;hbeMessage&#125;&#125;&lt;/label&gt;&lt;div</span> <span class="string">class=&quot;bottom-line&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script</span> <span class="string">id=&quot;hbeData&quot;</span> <span class="string">type=&quot;hbeData&quot;</span> <span class="string">data-hmacdigest=&quot;&#123;&#123;hbeHmacDigest&#125;&#125;&quot;&gt;&#123;&#123;hbeEncryptedData&#125;&#125;&lt;/script&gt;&lt;/div&gt;</span></span><br><span class="line">  <span class="attr">wrong_pass_message:</span> <span class="string">Oh,</span> <span class="string">this</span> <span class="string">is</span> <span class="string">an</span> <span class="string">invalid</span> <span class="string">password.</span> <span class="string">Check</span> <span class="string">and</span> <span class="string">try</span> <span class="string">again,</span> <span class="string">please.</span></span><br><span class="line">  <span class="attr">wrong_hash_message:</span> <span class="string">Oh,</span> <span class="string">these</span> <span class="string">decrypted</span> <span class="string">content</span> <span class="string">cannot</span> <span class="string">be</span> <span class="string">verified,</span> <span class="string">but</span> <span class="string">you</span> <span class="string">can</span> <span class="string">still</span> <span class="string">have</span> <span class="string">a</span> <span class="string">look.</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="4-Add-the-“password”-value-to-your-post’s-front-matter-like"><a href="#4-Add-the-“password”-value-to-your-post’s-front-matter-like" class="headerlink" title="4. Add the “password” value to your post’s front matter like:"></a>4. Add the “password” value to your post’s front matter like:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">Hello</span> <span class="string">World</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2016-03-30 21:18:02</span></span><br><span class="line"><span class="attr">password:</span> <span class="string">lalalal</span></span><br><span class="line"></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">this</span> <span class="string">article</span> <span class="string">is</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">needed.</span> <span class="comment">## not necessary</span></span><br><span class="line"><span class="attr">message:</span>  <span class="string">enter</span> <span class="string">your</span> <span class="string">password.</span> <span class="comment">## not necessary</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+
 <blockquote>
-<p>ref:</p>
-<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
+<p>post’s front matter &gt; <code>_config.yml</code> (in the root directory) &gt; default</p>
+<p>If you want custom your “abstract” and “message”, write them in the post front matter.</p>
 </blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Zotero</category>
-      </categories>
-      <tags>
-        <tag>Zotero📑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Adv @ Skip render for given files and folders</title>
-    <url>/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</url>
-    <content><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p>
-<p>Now in <code>hexo</code>system, you need to configure it in you <code>_ config.yml</code>for achieving it.</p>
-<a id="more"></a>
-
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd .../homepage/</span><br><span class="line">vi ./_config.yml</span><br></pre></td></tr></table></figure>
-
-<p>you need to locate and find <code>skip_render:</code></p>
-<p>Then modify it as below:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># The default work directory for &quot;skip_render&quot; is</span></span></span><br><span class="line">cd .../homepage/source/</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip single file, as README.md: </span></span></span><br><span class="line">skip_render: README.md</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip all files in single folder, as test:</span></span></span><br><span class="line">skip_render: test/*</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip several files or folders:</span></span></span><br><span class="line"></span><br><span class="line">skip_render:</span><br><span class="line"> - test.html</span><br><span class="line"> - README.md</span><br><span class="line"> - test/*</span><br><span class="line"> - miao/*</span><br></pre></td></tr></table></figure>
-
-
-
-<p>Finally , clean and reload your new files:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
-
+<h4 id="5-Effect-preview"><a href="#5-Effect-preview" class="headerlink" title="5. Effect preview"></a>5. Effect preview</h4><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/4.jpg"></p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/5.jpg"></p>
+<hr>
+<blockquote>
+<p>Ref:</p>
+<p><a href="https://www.jianshu.com/p/44e211829447">https://www.jianshu.com/p/44e211829447</a></p>
+<p><a href="https://github.com/MikeCoder/hexo-blog-encrypt">https://github.com/MikeCoder/hexo-blog-encrypt</a></p>
+</blockquote>
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>
@@ -615,6 +615,23 @@
       </tags>
   </entry>
   <entry>
+    <title>Chinese culture @ The 24 Solar Terms [24节气]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-the-24-solar-terms/</url>
+    <content><![CDATA[<img src="/beauty/24st.png" style="zoom:70%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/festivals/the-24-solar-terms.htm">https://www.chinahighlights.com/festivals/the-24-solar-terms.htm</a></p>
+]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Chinese culture @ Five Elements Theory [五行]</title>
     <url>/2020/10/18/2020-10-18-Chinese-culture-five-elements-theory/</url>
     <content><![CDATA[<img src="/beauty/wuxing.png" style="zoom:70%;" />
@@ -649,52 +666,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Traditional Chinese Medicine [中医]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-chinese-medicine/</url>
-    <content><![CDATA[<img src="/beauty/zhongyi.png" style="zoom:70%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm">https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Chinese culture @ The 24 Solar Terms [24节气]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-the-24-solar-terms/</url>
-    <content><![CDATA[<img src="/beauty/24st.png" style="zoom:70%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/festivals/the-24-solar-terms.htm">https://www.chinahighlights.com/festivals/the-24-solar-terms.htm</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2nd Wedding Anniversary</title>
-    <url>/2020/10/19/2020-10-19-wedding-anniversary/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="9bf7095c605dcde7d87ae33a681717371aec8867a991bb62cbf367366e62812c">ccaa9cb1d60be991ee03bc7daedf2a98436daecb4dd45de12ee244fbc39d88ae786534317c636e1eb992dd205c04fb0510cd019c295da83f0cd261cce11a3f7e188e62c29329f6771456ab246a9d25f5419fc4a0813ca946af8dea9eea1d1dbbc8cd1692bcb7f6ee8a53578f9ae6426c5ba19b53dbee1cc8e37d0d5408dac0ee0bffdef0848bb07fe47c88c33911d9b45be97ef6ac5aa23fccb97a6ae13fab6b6a5a36bd28934aa06949f6545535a77beda9a66ea580e16304d1b0fd3bd40439df93cf139e88118fb4c7bcfea80db0b82e6d317673eb69bdf82d9b0aa246b8eaf68b2ddb3e55b4d32997b6f913da78e663454f4cf889a8210b348cd3b48f1de315de6577563bb47d475c7fca68e68422a83d441f92db2b72f8e4048fc0a956180f3fb3675a12e83638444bf0debfc67c270f066ba38e4151322b2f634c31b6152ac6b96d8f3bfe29b5bd0532291716df0ee3c31803b245c35abd85b67543bc562410c644083c502de5f660b839e8c9cff67984cb350e8adcaf4a4431aa135bd72a31db0df31bffcc2926e572ec4bbcfe584c56748f17976f980e9d78dbbd3c6de1a7cb62b7cafef9bbbccd01af6f6eb999077bccc1c121a9c6cb1fd031d4d7bc046970ee94ad1b2a08b46e79805599efafc34800b8e5ded6cb035a9a9b99b3bd4809e56e918cfd64c7cf0bd591f4df9a548b2a57524e0298d0327bbd8ab88153e572a94aef50099fd648560a57bb1c19175c976d8225bee7e6bf5e80e44a3014dee3811f0ab85ef37c94248a3f0d600f928ea579cfd4f1cffa035f1dbf825c597b709cb07ddd526f1aa21d5a61ee3f9ee2e7bff9af57e605235847ed7f1d030764479a3421b4b09a794fe14b72f023cdb6cc3e44c14839552dcc2aed333ec335d55c32c81f669b31221fbf1cfeeba538bf3fb30a8d175170fecf38f130eea63bcd82920937701e39b45b356fc05ee5400a42eea0c610ebd6fb0371247c1d8b5fe9d9527bcb592b17b6ea5292083956b5c05970ad1d8d82c59ef9a65f757b6b8b10fd5c7823240f9c9e3bdfef46dd596a57cc67964184698a291f27d6bb6cf0b20496159796851a3223aad712d46fc659b95683a05cea7fbf9cde7794c46b6a637ab976e636b269403b506bc3f2b217b7e1c814e5d09752878bd323ced2469cea65dae0a84d7f6502358ab79e8df369d50e5ec749a4e9c05f82855cf4b264e6f0e350c4c25e316d4012fd966338d0579be7b17d35ac5ecc1ae797b18f1f93743b7068d27cc3dbe1a7244c95d7aa9b4b328ad7a996c23c37f9bf541aa97ff3127661212713ea976814faa51214f82b36a731c4fd06e176c523c9c8bfbeab6c96ec8981f9da2ed82a88391435ed9c263203b65eb29bb2f39c78d9f50bdeabed24c511ad1403d8e4771d434bfb6fd5ca05868357befb9b8f92f9d915b97367723b156d4d24df00620b5926b59dda03c1e24ca04e87a1e20dbcfe55a1c0b3ccd915345e0f872d950e38c1a9dd596adff3abdce0ed31ea3a4ef6fa711b8c41fbcdf9aa1e5e9cb4d3bb21aac70558c57316c945</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>☀️ Daily life</category>
-        <category>Mine</category>
-      </categories>
-      <tags>
-        <tag>anniversary🎉</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Picture bed building by GitHub + PicGo</title>
     <url>/2020/10/18/2020-10-18-Picturebed-using-PicGo-and-Github/</url>
     <content><![CDATA[<p>This article describes how to use your own GitHub as a picture bed and use the open source software PicGo to upload pictures to GitHub.</p>
@@ -726,6 +697,52 @@
       </categories>
       <tags>
         <tag>Picbed🖼️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chinese culture @ Traditional Chinese Medicine [中医]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-chinese-medicine/</url>
+    <content><![CDATA[<img src="/beauty/zhongyi.png" style="zoom:70%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm">https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm</a></p>
+]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chinese culture @ Traditional herbal medicine [中药]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-herbal-medicine/</url>
+    <content><![CDATA[<img src="/beauty/zy.png" style="zoom:70%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm">https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm</a></p>
+]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2nd Wedding Anniversary</title>
+    <url>/2020/10/19/2020-10-19-wedding-anniversary/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="9bf7095c605dcde7d87ae33a681717371aec8867a991bb62cbf367366e62812c">ccaa9cb1d60be991ee03bc7daedf2a98436daecb4dd45de12ee244fbc39d88ae786534317c636e1eb992dd205c04fb0510cd019c295da83f0cd261cce11a3f7e188e62c29329f6771456ab246a9d25f5419fc4a0813ca946af8dea9eea1d1dbbc8cd1692bcb7f6ee8a53578f9ae6426c5ba19b53dbee1cc8e37d0d5408dac0ee0bffdef0848bb07fe47c88c33911d9b45be97ef6ac5aa23fccb97a6ae13fab6b6a5a36bd28934aa06949f6545535a77beda9a66ea580e16304d1b0fd3bd40439df93cf139e88118fb4c7bcfea80db0b82e6d317673eb69bdf82d9b0aa246b8eaf68b2ddb3e55b4d32997b6f913da78e663454f4cf889a8210b348cd3b48f1de315de6577563bb47d475c7fca68e68422a83d441f92db2b72f8e4048fc0a956180f3fb3675a12e83638444bf0debfc67c270f066ba38e4151322b2f634c31b6152ac6b96d8f3bfe29b5bd0532291716df0ee3c31803b245c35abd85b67543bc562410c644083c502de5f660b839e8c9cff67984cb350e8adcaf4a4431aa135bd72a31db0df31bffcc2926e572ec4bbcfe584c56748f17976f980e9d78dbbd3c6de1a7cb62b7cafef9bbbccd01af6f6eb999077bccc1c121a9c6cb1fd031d4d7bc046970ee94ad1b2a08b46e79805599efafc34800b8e5ded6cb035a9a9b99b3bd4809e56e918cfd64c7cf0bd591f4df9a548b2a57524e0298d0327bbd8ab88153e572a94aef50099fd648560a57bb1c19175c976d8225bee7e6bf5e80e44a3014dee3811f0ab85ef37c94248a3f0d600f928ea579cfd4f1cffa035f1dbf825c597b709cb07ddd526f1aa21d5a61ee3f9ee2e7bff9af57e605235847ed7f1d030764479a3421b4b09a794fe14b72f023cdb6cc3e44c14839552dcc2aed333ec335d55c32c81f669b31221fbf1cfeeba538bf3fb30a8d175170fecf38f130eea63bcd82920937701e39b45b356fc05ee5400a42eea0c610ebd6fb0371247c1d8b5fe9d9527bcb592b17b6ea5292083956b5c05970ad1d8d82c59ef9a65f757b6b8b10fd5c7823240f9c9e3bdfef46dd596a57cc67964184698a291f27d6bb6cf0b20496159796851a3223aad712d46fc659b95683a05cea7fbf9cde7794c46b6a637ab976e636b269403b506bc3f2b217b7e1c814e5d09752878bd323ced2469cea65dae0a84d7f6502358ab79e8df369d50e5ec749a4e9c05f82855cf4b264e6f0e350c4c25e316d4012fd966338d0579be7b17d35ac5ecc1ae797b18f1f93743b7068d27cc3dbe1a7244c95d7aa9b4b328ad7a996c23c37f9bf541aa97ff3127661212713ea976814faa51214f82b36a731c4fd06e176c523c9c8bfbeab6c96ec8981f9da2ed82a88391435ed9c263203b65eb29bb2f39c78d9f50bdeabed24c511ad1403d8e4771d434bfb6fd5ca05868357befb9b8f92f9d915b97367723b156d4d24df00620b5926b59dda03c1e24ca04e87a1e20dbcfe55a1c0b3ccd915345e0f872d950e38c1a9dd596adff3abdce0ed31ea3a4ef6fa711b8c41fbcdf9aa1e5e9cb4d3bb21aac70558c57316c945</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>☀️ Daily life</category>
+        <category>Mine</category>
+      </categories>
+      <tags>
+        <tag>anniversary🎉</tag>
       </tags>
   </entry>
   <entry>
@@ -899,18 +916,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Think about Film and Television Production</title>
-    <url>/2020/10/25/China-perception-Think-about-Film-and-television-Production/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="60f2596ce6723de6af77d504221fcf905b703f569408c7824d858efe13cc4b69">8b99030997d9e294e22d169f14a9b9af30076946d2e16ff2003e748bfa20774718e7eb4c449d12c407648717416cd24c6c5afe0d5a5abc1b186122fba0801dc54dd8356b33f5d024bbb55c3b04fa03f0f0d102f01c1d8591329662b03faa5b49be8262c42da0bde783dc561c7cc46e92496eb7a9762d621693371735636029a1ac2bb1dd1974f462aa3d5ba12445ed2dcd598a4b6216f0ea8833980ab1c0e09f78e348e231b43087370273e723e425d9500d657af02c6b7e4dd7ad9dfd4f7df3127319535f0e9d0fb1fe4256788736ed9328f01f20e07b2b86daf38c9630ea7c9eb66a7e941df294c9e885da4add10eb9c6cc8ffe5a57fe1346c288b89ecb760fe3a93ccaf9416071245aaf85ba6f55ba26586e3123fc424494f9831ea22d5990d863596032c72d3c7be3362061c4f939258b1c1f16640bb906d31bf48870838ab0c63430db3454f55b762a21a72ce0a5d4e47fefe6d36652886b95c28e968c9417b5a8f62d232137529201fa0cb6ef0bb1a52732878200dba7195a4912f2834f9d1f0602fb43eaa058ae79150ef81360d22e4eaf8171f6c8ff276eff4f8ba5414cca25114f22079d3a9c481b675086516bbd428e65447ffc1ab9a894c1140acd579b43a704c4acbe460bdbc261ff18483106f47f7f34fc69e204eb5a77855d08abec39f6257b1a73ea8653b3c908e92d96130bd71f390830e41c5391fc7187b36f0aaedd6ae58745b6967b6ddbcd0acce540c434713d14303d5425ed443e704710771f6189c26f00c39295c5d757f393b670058c3f9f46f6a1ee8bc1af75a31bb2ed3ba734ca63d521ac9d8e4973c97a2355c33372bcc2a717810bfd4a078cd182528a00b3eaa599acc5886e3fb02f3b986536e687e1fe74589d60d4ebf4739e7c5b90c15986eb2fdaca09c1861b8c8d0aed5151bd768c9befc9e35e5baef6006e891653aa2413c54536b132be2d2a0e575637267b8b3bd8e39114e5545f7fe9104c6d1dffe16a54e29c1e4bfb4f6dd4b336e3e63a15e56b7f69f1675504ad3a022c657fb461fd6cea5badc1ebb67cbbf255f191b82a729a964e7a77d24490d3a9be774c40745f643204f9fff2f14abc9bfc6cf68a408a7a3f1c72e257466bdc94c699dc70f9d291b2728cebcb5b3c8d8b4a4f8c1fa7b4b8d59845aeaeda309522a476e57c69d8ec686ccc5c70ebbf3e1a7e83be8c9b3930505f31c804a5f4b91663120e753d1ba45cb59f709abdbc1d3f67bf812d9ea3123e0ad08bb73938a5a4f57079e8fa3c6653ab094ed3035f751ac4bf211161ed40b3ab72e16d7bef28fdf5fde40af515420547753cf2d4c8e8a90fe28ddff591aaee8f213bb415d6fdcee0fd65761c03267136b1cfceadf8426a6f9b0d68083d53d0b5cf271d40809ae68e4f86ad540bb1f5fd4af140960cad936e930e1dcbd359cd99838494e9d8ff356b53726bf25822ac8045238c40ebeeb57322dd63d73aee42d6681b08d51148fe2655a44c75bb33f8f6154fac067dd77508c5d71f13fdf5b3a786d25ece909</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Perception</category>
-      </categories>
-      <tags>
-        <tag>Opinion💭</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Politics of China</title>
     <url>/2020/10/24/China-politics/</url>
     <content><![CDATA[<h3 id="※1949-Present"><a href="#※1949-Present" class="headerlink" title="※1949 - Present"></a>※1949 - Present</h3><h4 id="amp-Prime-Minister-Liu-Luoguo-宰相劉羅鍋"><a href="#amp-Prime-Minister-Liu-Luoguo-宰相劉羅鍋" class="headerlink" title="&amp; Prime Minister Liu Luoguo [宰相劉羅鍋]"></a>&amp; Prime Minister Liu Luoguo [宰相劉羅鍋]</h4><p><strong>Production company:</strong> 北京文化艺术音像出版社</p>
@@ -928,9 +933,23 @@
       </tags>
   </entry>
   <entry>
-    <title>Chong_Qing</title>
+    <title>Think about Film and Television Production</title>
+    <url>/2020/10/25/China-perception-Think-about-Film-and-television-Production/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="60f2596ce6723de6af77d504221fcf905b703f569408c7824d858efe13cc4b69">8b99030997d9e294e22d169f14a9b9af30076946d2e16ff2003e748bfa20774718e7eb4c449d12c407648717416cd24c6c5afe0d5a5abc1b186122fba0801dc54dd8356b33f5d024bbb55c3b04fa03f0f0d102f01c1d8591329662b03faa5b49be8262c42da0bde783dc561c7cc46e92496eb7a9762d621693371735636029a1ac2bb1dd1974f462aa3d5ba12445ed2dcd598a4b6216f0ea8833980ab1c0e09f78e348e231b43087370273e723e425d9500d657af02c6b7e4dd7ad9dfd4f7df3127319535f0e9d0fb1fe4256788736ed9328f01f20e07b2b86daf38c9630ea7c9eb66a7e941df294c9e885da4add10eb9c6cc8ffe5a57fe1346c288b89ecb760fe3a93ccaf9416071245aaf85ba6f55ba26586e3123fc424494f9831ea22d5990d863596032c72d3c7be3362061c4f939258b1c1f16640bb906d31bf48870838ab0c63430db3454f55b762a21a72ce0a5d4e47fefe6d36652886b95c28e968c9417b5a8f62d232137529201fa0cb6ef0bb1a52732878200dba7195a4912f2834f9d1f0602fb43eaa058ae79150ef81360d22e4eaf8171f6c8ff276eff4f8ba5414cca25114f22079d3a9c481b675086516bbd428e65447ffc1ab9a894c1140acd579b43a704c4acbe460bdbc261ff18483106f47f7f34fc69e204eb5a77855d08abec39f6257b1a73ea8653b3c908e92d96130bd71f390830e41c5391fc7187b36f0aaedd6ae58745b6967b6ddbcd0acce540c434713d14303d5425ed443e704710771f6189c26f00c39295c5d757f393b670058c3f9f46f6a1ee8bc1af75a31bb2ed3ba734ca63d521ac9d8e4973c97a2355c33372bcc2a717810bfd4a078cd182528a00b3eaa599acc5886e3fb02f3b986536e687e1fe74589d60d4ebf4739e7c5b90c15986eb2fdaca09c1861b8c8d0aed5151bd768c9befc9e35e5baef6006e891653aa2413c54536b132be2d2a0e575637267b8b3bd8e39114e5545f7fe9104c6d1dffe16a54e29c1e4bfb4f6dd4b336e3e63a15e56b7f69f1675504ad3a022c657fb461fd6cea5badc1ebb67cbbf255f191b82a729a964e7a77d24490d3a9be774c40745f643204f9fff2f14abc9bfc6cf68a408a7a3f1c72e257466bdc94c699dc70f9d291b2728cebcb5b3c8d8b4a4f8c1fa7b4b8d59845aeaeda309522a476e57c69d8ec686ccc5c70ebbf3e1a7e83be8c9b3930505f31c804a5f4b91663120e753d1ba45cb59f709abdbc1d3f67bf812d9ea3123e0ad08bb73938a5a4f57079e8fa3c6653ab094ed3035f751ac4bf211161ed40b3ab72e16d7bef28fdf5fde40af515420547753cf2d4c8e8a90fe28ddff591aaee8f213bb415d6fdcee0fd65761c03267136b1cfceadf8426a6f9b0d68083d53d0b5cf271d40809ae68e4f86ad540bb1f5fd4af140960cad936e930e1dcbd359cd99838494e9d8ff356b53726bf25822ac8045238c40ebeeb57322dd63d73aee42d6681b08d51148fe2655a44c75bb33f8f6154fac067dd77508c5d71f13fdf5b3a786d25ece909</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Perception</category>
+      </categories>
+      <tags>
+        <tag>Opinion💭</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chong-Qing</title>
     <url>/2020/08/31/Cover-Chongqing/</url>
-    <content><![CDATA[<h4 id="🌁-Fog-city"><a href="#🌁-Fog-city" class="headerlink" title="🌁 Fog city"></a>🌁 Fog city</h4><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/chognqing1.jpg"></p>
+    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/chognqing1.jpg"></p>
+<a id="more"></a>
+
 <p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/rtry.jpg"></p>
 <p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/chognqing3.jpg"></p>
 ]]></content>
@@ -954,23 +973,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Traditional herbal medicine [中药]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-herbal-medicine/</url>
-    <content><![CDATA[<img src="/beauty/zy.png" style="zoom:70%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm">https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Think about part-time business</title>
     <url>/2020/10/25/Daily-life-Business-Think-about-part-time-business-/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="497f7592e2b7cda3bc211a4315d514dee5f97a914ee01aafaede83185b8635a7">06a3258ad59e4eff6dd45a2f0021519577bbd42bf5306d0c2f5166ba922f9120123120914cda524a2cd9fa6e0a9a1081130ad6a00339f2c95777a1dad931d9a563f1686403de37ec68c3f8c14994a5570071fb37f0cda93e87d0129ffea27da7071996e2b036b5c5775a53b88d623ed6e6e3bc0eec40decc44ab24f36cf3b0dafbea500964234e4859e7b7b99e59c113019e9218d048f182fbfd4c982686c2a76d3337ab4207d003b5863ccac1ed7a010f44bd3d9f97fa4a881c8be80340ce3838404d6beb0e2e31b25fd6e2878d85b09598f11160501d38f0286b13e5c5b6e7d3e547430aec3abb3616f5dc061a3395fceadc53e85e04af051292fcbea9a97ac67e81003afc9d3c1f1f4fa4116315f8319dcc87a302d83a8220af0e6998e79fd2b9d6c8d0e03d78d8cc57a67bb38cd2978355bd1f7a5f9cf568d34c9a91498f4d651f303ab3aeeeb0925b04f91ce481288f940b6822172865f8b90f530c02490158c3471020e36c7c12bfef7734b95371db9e59222e8af41c7643c79250e65a090d683a76064d2e1f84a5e95f4489a0d9ce00871de197434119b6036ae7f11ca9d615a4e2aeddea6458b9da1575681a9c54861c4a3d0e370c7d3a143e60527f0d7be7406217bae24d7bef1264c37cd356dec2edc3394ed2e70013945258c2b9bb90d952fec213fbafe3178aefa208ae62e5f1aadedc13021b1f5aaeb2395f1201ddc09e3e85686d35922cb33178cb333bab530867fb67009c1e205995c9efaaaff209f8e47258b7f50428cd38e3fcad7c1cd72507d7f4f7c2b9e49f85bb001f3e54c2552864098e7355f4843c190b0fbf0a96120a705e0f0327b918351de79e2acee7d2396b377a14b18d02aefee1eafd5338f0000dafde4545055004677d6c7d27a82db82688d9fb6e41ed45d79aea94b2f5696d5f0b2f3eca81aad59f1cd64b960a65aecc8447bacf5f9a860c895ce42411ce350aba8a317341201e4036d389d72d8dbea6d6689bcfea307222b227a61599f4ae3de31306a794d775e957b96ce8c1bc9b7d6f58df923b498429f8504c4533d5efe4046161cacc1534b8a2acd36e10e10461b9718e5f1451b8bbc1327fd59adf1177443bf9b75c83f80fe802eaae8943c27bdaf7744062adcbae2eca39b7ced5756d4705e7ecf41be6ff9c9018bc94b680e3275f2bd1c768aaf627f59c6535e7e7523915f03484afae2be61c6a2c1034df246bb99fa36df01e90c0554bd1f26fe7a3be900765df86f0b71cc1009a7d01dbefbda84a2a473258572c222860e552692d5d68ae5b22ad6943674f8d664543953f7d6bb4abd4036b4151762ffe02527702ff30ef11c4fa1e15131add78b93afbf6841f608a7705860ef2427220a735275555dac90d9e5874ac654d2378472521cf46b5d7a8dd45c19603b4b9c90e48fb491808e9dc32b53b9505d391e1784926528879fffd866e66472336f27193f38138dff7e7118770c7d98a49caac04361d714e919fcbeb90907f25fa094dec9764b87380b53271d5dc03aea34f0a4f7fb678692dc4a48c5ca8919eae20625cd5437e8367a224545d59735ab8be2ce7f044018bac8ab6f8aef138e5152f12a86e392040a7332847624910625c38fdfd3ac09557dda250c8635923bd4d223064df7be1d83044103c4ca409414a0606c5095a200fe450c8bca841c5a50d266c2c2baac111e844b92d4fb7ba817ad92fab9777da803b9f89aca96fad0c5b70bc1f889b9107c341a0de7cde37c027425c40e42b740fae2e6727bc67623298e2865c3c1ce910a244f65116ab7159dafd8d3114d9c83d2fcbc220d6249607a9e744374751c70a099b9c2d5bc1120d31b3d7048de6d3475c7f17e08b89897656be3399827c47c66e701f5b6f4e9802f59c67e26d301fdd5c7e1b1b2702cfee001debddd517a9a1c89e6495141774079a8a25661a2bb8ccca790cc2d50a2f4f44a3ad0bf64bb15af7ca6717037ac972ae24999464e93cf5e400c6209531c40f105ab94d6e261924a8697b7e8a308af60fedc5a7e2abed583caefbc7ba1ea188208fe6befc2e36c07c1c8bd8f4b7efa2c47c10dfb909da2d1a18318a3de3ea719f78359298d1e345ce13397c587fd0a635f1a492080c633201393bef1307382afa04e99f335c37cfcd799eb7aa9f3797d3a39f08bc1961649900aeedcf140df01ac35e0606930eaec435db9c3f8a263d2a8d1d72a27abfef7fab1b1aad7a8398156d26a608bffa3775024af93560fcb87d2521403835ea7fe2c34e43ca21439de24af9e75e93e2632f56215eae78c9b4f946fc920eb610369eb03ba9ad53578d12db589a7f4e17f1165ea8927329fc6d0e1dc8a69f4139450f6bcd96b0942e0e79743adcd8b7ee2db4c3c4c689f703b8d0a63b4b9b642dd6f4e0445ab9fe7ea60179d9b760fe01b8049142a0af2c0b2abb1af7749ed9eca78764748242e88083c177fc7b50580cbd247cb096686897bb4418552585cba62b4687ed668c2970bce1340951587b3ac142c11d06d2294ca4fe26e30f7f20f2cc19f792e3bb6c901f2c0fff8f403cdc648381a195d0032d52614184e2eb9c697c8b9077cdf265fdc73de94c14fe6e8935ea08825e8b2507de410768220ddd6f46a2f90fa7d094524907ae81ff731b367762ecfe77f5d9a8e0f5a54135c105dc9687f75eb3fa8284c433315612596eb3e883b9cae89f1fda91f0abfd42dd4dee71569576ec83cd646afd0818c6b7e286a7e56e642df1067bc93be18adec0cf2df2f39ddb999079f206d5efc0653f562fe48dcd35d66516c1078de7b45654ad8c5d93dedb48c2384d0c2fb6e0002a017336148a6f230953f6ba1e66ccaf385514eb91aa5c2e5fea4caa56</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
@@ -980,6 +982,27 @@
       </categories>
       <tags>
         <tag>business💼</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Major religions</title>
+    <url>/2020/10/24/Others-Major-religions/</url>
+    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
+<a id="more"></a>
+
+<img src = "https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022075814.png"> 
+
+
+
+<h3 id="History-of-religious-categories"><a href="#History-of-religious-categories" class="headerlink" title="History of religious categories"></a>History of religious categories</h3><h4 id="World-categorizations"><a href="#World-categorizations" class="headerlink" title="@ World categorizations"></a>@ World categorizations</h4><p>In world cultures, there have traditionally been many different groupings of religious belief. In <a href="https://en.wikipedia.org/wiki/Culture_of_India">Indian culture</a>, different religious philosophies were traditionally respected as academic differences in pursuit of the same truth. In <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>, the <a href="https://en.wikipedia.org/wiki/Quran">Quran</a> mentions three different categories: <a href="https://en.wikipedia.org/wiki/Muslims">Muslims</a>, the <a href="https://en.wikipedia.org/wiki/People_of_the_Book">People of the Book</a>, and <a href="https://en.wikipedia.org/wiki/Idolatry">idol worshipers</a>.</p>
+<h4 id="Christian-categorizations"><a href="#Christian-categorizations" class="headerlink" title="@ Christian categorizations"></a>@ Christian categorizations</h4><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups">https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups</a></p>
+]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>religion☯</tag>
       </tags>
   </entry>
   <entry>
@@ -1009,27 +1032,6 @@
       </categories>
       <tags>
         <tag>cooking🍳</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Major religions</title>
-    <url>/2020/10/24/Others-Major-religions/</url>
-    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
-<a id="more"></a>
-
-<img src = "https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022075814.png"> 
-
-
-
-<h3 id="History-of-religious-categories"><a href="#History-of-religious-categories" class="headerlink" title="History of religious categories"></a>History of religious categories</h3><h4 id="World-categorizations"><a href="#World-categorizations" class="headerlink" title="@ World categorizations"></a>@ World categorizations</h4><p>In world cultures, there have traditionally been many different groupings of religious belief. In <a href="https://en.wikipedia.org/wiki/Culture_of_India">Indian culture</a>, different religious philosophies were traditionally respected as academic differences in pursuit of the same truth. In <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>, the <a href="https://en.wikipedia.org/wiki/Quran">Quran</a> mentions three different categories: <a href="https://en.wikipedia.org/wiki/Muslims">Muslims</a>, the <a href="https://en.wikipedia.org/wiki/People_of_the_Book">People of the Book</a>, and <a href="https://en.wikipedia.org/wiki/Idolatry">idol worshipers</a>.</p>
-<h4 id="Christian-categorizations"><a href="#Christian-categorizations" class="headerlink" title="@ Christian categorizations"></a>@ Christian categorizations</h4><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups">https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups</a></p>
-]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>religion☯</tag>
       </tags>
   </entry>
   <entry>
@@ -1228,6 +1230,19 @@
       </tags>
   </entry>
   <entry>
+    <title>Corpus @ Make your own corpus</title>
+    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
+    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Corpus</category>
+      </categories>
+      <tags>
+        <tag>corpus📖</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Time Zone</title>
     <url>/2020/11/04/Others-Practical-info-Time-zones/</url>
     <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201104124526.png" style="zoom: 50%;" />
@@ -1275,19 +1290,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Corpus @ Make your own corpus</title>
-    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
-    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Corpus</category>
-      </categories>
-      <tags>
-        <tag>corpus📖</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo_Adv @ Font color changing</title>
     <url>/2020/11/07/Tutorials-Hexo-Adv-Font-color/</url>
     <content><![CDATA[<h3 id="🎆-Font-color-change"><a href="#🎆-Font-color-change" class="headerlink" title="🎆    Font color change"></a>🎆    Font color change</h3><h4 id="1-Open-the-parameter-file"><a href="#1-Open-the-parameter-file" class="headerlink" title="1. Open the parameter file."></a>1. Open the parameter file.</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">cd</span> <span class="string">./homepage/themes/next/source/css/_variables</span></span><br><span class="line"><span class="string">vi</span> <span class="string">./base.styl</span></span><br></pre></td></tr></table></figure>
@@ -1330,6 +1332,32 @@
 
 <p>top 5&gt; top4&gt; top3&gt; top2&gt; top1</p>
 <h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h4><p><a href="https://github.com/amlove2/hexo-generator-topindex">https://github.com/amlove2/hexo-generator-topindex</a></p>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ Header BG color changing</title>
+    <url>/2020/11/13/Tutorials-Hexo-Adv-Header-background-color/</url>
+    <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201113003643.png"/>
+
+<a id="more"></a>
+
+<h4 id="1-Using-the-color-picker-find-out-background-color-number"><a href="#1-Using-the-color-picker-find-out-background-color-number" class="headerlink" title="1. Using the color_picker find out background color number."></a>1. Using the color_picker find out background color number.</h4><h4 id="2-Open-the-folder-“-homepage-themes-next-source-css-“-by-VSC"><a href="#2-Open-the-folder-“-homepage-themes-next-source-css-“-by-VSC" class="headerlink" title="2. Open the folder “/homepage/themes/next/source/css/“ by VSC"></a>2. Open the folder “/homepage/themes/next/source/css/“ by VSC</h4><h4 id="3-Find-out-all-files-containing-the-related-color-number"><a href="#3-Find-out-all-files-containing-the-related-color-number" class="headerlink" title="3. Find out all files containing the related color number"></a>3. Find out all files containing the related color number</h4><h4 id="4-Locate-in-parameter-file"><a href="#4-Locate-in-parameter-file" class="headerlink" title="4. Locate in parameter file:"></a>4. Locate in parameter file:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">C:\Users\Administrator\Mega_sync\My_site\homepage\themes\next\source\css\_schemes\Pisces\_header.styl</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="5-Find-out-the-color-parameter-change-it-by-your-preferred-color"><a href="#5-Find-out-the-color-parameter-change-it-by-your-preferred-color" class="headerlink" title="5. Find out the color parameter, change it by your preferred color."></a>5. Find out the color parameter, change it by your preferred color.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201113004356.png"/>
+
+
+
+<hr>
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>

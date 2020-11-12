@@ -1174,7 +1174,7 @@ pre code {
   padding-top: 0;
 }
 .headband {
-  background: #000 x0000000;
+  background: #ccc;
   height: 3px;
 }
 @media (max-width: 991px) {
@@ -2734,7 +2734,7 @@ mark.search-keyword {
   }
 }
 .site-brand-container {
-  background: #222;
+  background: #333;
 }
 @media (max-width: 991px) {
   .site-nav-on .site-brand-container {
