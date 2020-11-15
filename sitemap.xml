@@ -2,7 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yunlong-jia.com/2020/11/03/Biology-WB-loading-control/</loc>
+    
+    <lastmod>2020-11-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/2020/08/31/Cover-Chongqing/</loc>
+    
+    <lastmod>2020-11-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/gallery/Real_female/index.html</loc>
+    
+    <lastmod>2020-11-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yunlong-jia.com/2020/11/15/Others-Baby-feeding/</loc>
+    
+    <lastmod>2020-11-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/Lifelong_learning_and_collections/Vins_de_France/index.html</loc>
     
     <lastmod>2020-11-15</lastmod>
     
@@ -44,21 +72,7 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/2020/11/03/Biology-WB-loading-control/</loc>
-    
-    <lastmod>2020-11-12</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yunlong-jia.com/2020/11/08/Others-Practical-info-BMIC-day/</loc>
-    
-    <lastmod>2020-11-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/2020/08/31/Cover-Chongqing/</loc>
     
     <lastmod>2020-11-12</lastmod>
     
@@ -68,13 +82,6 @@
     <loc>http://yunlong-jia.com/2020/11/13/Tutorials-Hexo-Adv-Header-background-color/</loc>
     
     <lastmod>2020-11-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/gallery/Real_female/index.html</loc>
-    
-    <lastmod>2020-11-11</lastmod>
     
   </url>
   
@@ -352,13 +359,6 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/Lifelong_learning_and_collections/Vins_de_France/index.html</loc>
-    
-    <lastmod>2020-10-25</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yunlong-jia.com/Lifelong_learning_and_collections/Fromage/index.html</loc>
     
     <lastmod>2020-10-25</lastmod>
@@ -599,14 +599,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/corpus%F0%9F%93%96/</loc>
+    <loc>http://yunlong-jia.com/tags/time-zone%F0%9F%95%9C/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/time-zone%F0%9F%95%9C/</loc>
+    <loc>http://yunlong-jia.com/tags/corpus%F0%9F%93%96/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -741,14 +741,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/Culture/</loc>
+    <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/Tour/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/Tour/</loc>
+    <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/Culture/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

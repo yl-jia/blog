@@ -109,6 +109,30 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo_Adv @ Add local search function</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</url>
+    <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-Open-config-file-and-add-code"><a href="#2-Open-config-file-and-add-code" class="headerlink" title="2. Open config file and add code:"></a>2. Open config file and add code:</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;_config.yml |vi</span><br></pre></td></tr></table></figure>
+
+<p>add the code below after “Extension”:</p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 搜索</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo_Adv @ add Comment System in your site</title>
     <url>/2020/09/01/2020-09-01-Hexo-Adv-add-Comment-system-in-your-site/</url>
     <content><![CDATA[<p>First, go to <code>Disqus</code>website, to sign up for an account,</p>
@@ -184,27 +208,32 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Adv @ Add local search function</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</url>
-    <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+    <title>Hexo[Next] @ add Tag Cloud Widget</title>
+    <url>/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/</url>
+    <content><![CDATA[<h4 id="1-Install-the-plugin-“hexo-tag-cloud”"><a href="#1-Install-the-plugin-“hexo-tag-cloud”" class="headerlink" title="1. Install the plugin “hexo-tag-cloud”"></a>1. Install the plugin “hexo-tag-cloud”</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-tag-cloud@^2.* --save</span><br></pre></td></tr></table></figure>
 
-<h4 id="2-Open-config-file-and-add-code"><a href="#2-Open-config-file-and-add-code" class="headerlink" title="2. Open config file and add code:"></a>2. Open config file and add code:</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;_config.yml |vi</span><br></pre></td></tr></table></figure>
 
-<p>add the code below after “Extension”:</p>
+
+<h4 id="2-Configure-the-“sidebar-njk”-file"><a href="#2-Configure-the-“sidebar-njk”-file" class="headerlink" title="2. Configure the “sidebar.njk” file."></a>2. Configure the “sidebar.njk” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/layout/_macro/sidebar.njk |vi</span><br></pre></td></tr></table></figure>
+
+<p>Add the code block:</p>
 <a id="more"></a>
 
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 搜索</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcloud.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcanvas.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width=100%&quot;</span>&gt;</span></span><br><span class="line">                    &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">                <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
 
-<h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
+<p>To the next location:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">&#123;%- if theme.back2top.enable and theme.back2top.sidebar %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;back-to-top animated&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;fa fa-arrow-up&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">span</span>&gt;</span>0%<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;%- endif %&#125;</span><br><span class="line"></span><br><span class="line">      <span class="comment">&lt;!-- location for tag cloud--&gt;</span></span><br><span class="line"> 	  &#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcloud.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcanvas.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width=100%&quot;</span>&gt;</span></span><br><span class="line">                    &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">                <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;% endif %&#125;</span><br><span class="line">      <span class="comment">&lt;!-- end for tag cloud--&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;sidebar-dimmer&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">&#123;% endmacro %&#125;</span><br></pre></td></tr></table></figure>
 
+<p>Reload page, the 3D cloud-tag will appear.</p>
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>
         <category>Hexo</category>
-        <category>Adv.</category>
+        <category>Theme_Next</category>
       </categories>
       <tags>
-        <tag>Hexo_Adv🕸️</tag>
+        <tag>Page optimization📄</tag>
+        <tag>Hexo[Next]🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -311,6 +340,27 @@
       </tags>
   </entry>
   <entry>
+    <title>Zotero @ Citation style custom</title>
+    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
+    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
+<a id="more"></a>
+
+<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
+<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
+<blockquote>
+<p>ref:</p>
+<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Zotero</category>
+      </categories>
+      <tags>
+        <tag>Zotero📑</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo_Adv @ Skip render for given files and folders</title>
     <url>/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</url>
     <content><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p>
@@ -336,27 +386,6 @@
       </categories>
       <tags>
         <tag>Hexo_Adv🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Zotero @ Citation style custom</title>
-    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
-    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
-<a id="more"></a>
-
-<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
-<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
-<blockquote>
-<p>ref:</p>
-<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Zotero</category>
-      </categories>
-      <tags>
-        <tag>Zotero📑</tag>
       </tags>
   </entry>
   <entry>
@@ -395,6 +424,177 @@
       </categories>
       <tags>
         <tag>Good places✈️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chinese culture @ 12 Zodiac Signs [12生肖]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-12-zodiac-signs/</url>
+    <content><![CDATA[<img src="/beauty/12signs.png" style="zoom:80%;" />
+
+<a id="more"></a>
+
+<p>The Chinese zodiac, or <em>shengxiao</em> <code>生肖</code> (born resembling), is a repeating cycle of 12 years, with each year being represented by an animal and its reputed attributes.</p>
+<p>In order, the 12 Chinese horoscope animals are: Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, Pig. </p>
+<p>2020 is a year of the Rat.</p>
+<ol>
+<li><strong><a href="https://en.wikipedia.org/wiki/Rat_(zodiac)">Rat</a></strong> – <a href="https://en.wiktionary.org/wiki/%E9%BC%A0">鼠</a>, shǔ (<a href="https://en.wiktionary.org/wiki/%E5%AD%90">子</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yang</a>, 1st <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Water_(Wu_Xing)">Water</a>)</li>
+<li><strong><a href="https://en.wikipedia.org/wiki/Ox_(zodiac)">Ox</a></strong> – <a href="https://en.wiktionary.org/wiki/%E7%89%9B">牛</a>, niú (<a href="https://en.wiktionary.org/wiki/%E4%B8%91">丑</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yin</a>, 2nd <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Earth_(Wu_Xing)">Earth</a>)</li>
+<li><strong><a href="https://en.wikipedia.org/wiki/Tiger_(zodiac)">Tiger</a></strong> – <a href="https://en.wiktionary.org/wiki/%E8%99%8E">虎</a>, hǔ (<a href="https://en.wiktionary.org/wiki/%E5%AF%85">寅</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yang</a>, 3rd <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Wood_(Wu_Xing)">Wood</a>)</li>
+<li><strong><a href="https://en.wikipedia.org/wiki/Rabbit_(zodiac)">Rabbit</a></strong> – <a href="https://en.wiktionary.org/wiki/%E5%85%94">兔</a>, tù (<a href="https://en.wiktionary.org/wiki/%E5%8D%AF">卯</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yin</a>, 4th <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Wood_(Wu_Xing)">Wood</a>)</li>
+<li><strong><a href="https://en.wikipedia.org/wiki/Dragon_(zodiac)">Dragon</a></strong> – <a href="https://en.wiktionary.org/wiki/%E9%BE%99">龙</a>/<a href="https://en.wiktionary.org/wiki/%E9%BE%8D">龍</a>, lóng (<a href="https://en.wiktionary.org/wiki/%E8%BE%B0">辰</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yang</a>, 1st <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Earth_(Wu_Xing)">Earth</a>)</li>
+<li><strong><a href="https://en.wikipedia.org/wiki/Snake_(zodiac)">Snake</a></strong> – <a href="https://en.wiktionary.org/wiki/%E8%9B%87">蛇</a>, shé (<a href="https://en.wiktionary.org/wiki/%E5%B7%B3">巳</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yin</a>, 2nd <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Fire_(Wu_Xing)">Fire</a>)</li>
+<li><strong><a href="https://en.wikipedia.org/wiki/Horse_(zodiac)">Horse</a></strong> – <a href="https://en.wiktionary.org/wiki/%E9%A9%AC">马</a>/<a href="https://en.wiktionary.org/wiki/%E9%A6%AC">馬</a>, mǎ (<a href="https://en.wiktionary.org/wiki/%E5%8D%88">午</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yang</a>, 3rd <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Fire_(Wu_Xing)">Fire</a>)</li>
+<li><strong><a href="https://en.wikipedia.org/wiki/Goat_(zodiac)">Goat</a></strong> – <a href="https://en.wiktionary.org/wiki/%E7%BE%8A">羊</a>, yáng (<a href="https://en.wiktionary.org/wiki/%E6%9C%AA">未</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yin</a>, 4th <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Earth_(Wu_Xing)">Earth</a>)</li>
+<li><strong><a href="https://en.wikipedia.org/wiki/Monkey_(zodiac)">Monkey</a></strong> – <a href="https://en.wiktionary.org/wiki/%E7%8C%B4">猴</a>, hóu (<a href="https://en.wiktionary.org/wiki/%E7%94%B3">申</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yang</a>, 1st <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Metal_(Wu_Xing)">Metal</a>)</li>
+<li><strong><a href="https://en.wikipedia.org/wiki/Rooster_(zodiac)">Rooster</a></strong> – <a href="https://en.wiktionary.org/wiki/%E9%B8%A1">鸡</a>/<a href="https://en.wiktionary.org/wiki/%E9%9B%9E">雞</a>, jī (<a href="https://en.wiktionary.org/wiki/%E9%85%89">酉</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yin</a>, 2nd <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Metal_(Wu_Xing)">Metal</a>)</li>
+<li><strong><a href="https://en.wikipedia.org/wiki/Dog_(zodiac)">Dog</a></strong> – <a href="https://en.wiktionary.org/wiki/%E7%8B%97">狗</a>, gǒu (<a href="https://en.wiktionary.org/wiki/%E6%88%8C">戌</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yang</a>, 3rd <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Earth_(Wu_Xing)">Earth</a>)</li>
+<li><strong><a href="https://en.wikipedia.org/wiki/Pig_(zodiac)">Pig</a></strong> – <a href="https://en.wiktionary.org/wiki/%E7%8C%AA">猪</a>/<a href="https://en.wiktionary.org/wiki/%E8%B1%AC">豬</a>, zhū (<a href="https://en.wiktionary.org/wiki/%E4%BA%A5">亥</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yin</a>, 4th <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Water_(Wu_Xing)">Water</a>)</li>
+</ol>
+</br>
+
+<h4 id="amp-Chinese-Zodiac-Origins-—-Why-12-Animals"><a href="#amp-Chinese-Zodiac-Origins-—-Why-12-Animals" class="headerlink" title="&amp; Chinese Zodiac Origins — Why 12 Animals"></a>&amp; Chinese Zodiac Origins — Why 12 Animals</h4><p>The Chinese Zodiac Story - The Zodiac Rankings Race</p>
+<p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/story.htm">https://www.chinahighlights.com/travelguide/chinese-zodiac/story.htm</a></p>
+<h4 id="amp-Chinese-Zodiac-Years-are-based-on-Chinese-lunar-calendar"><a href="#amp-Chinese-Zodiac-Years-are-based-on-Chinese-lunar-calendar" class="headerlink" title="&amp; Chinese Zodiac Years are based on Chinese lunar calendar"></a>&amp; Chinese Zodiac Years are based on Chinese lunar calendar</h4><p>There are two dates a Chinese zodiac year could be said to start on:</p>
+<ul>
+<li>Chinese New Year (day 1 of the lunar year), which is somewhere in the period January 21 to February 20</li>
+<li>Start of Spring (day 1 of the solar year), the first day of the first <a href="https://www.chinahighlights.com/festivals/the-24-solar-terms.htm">solar term</a> in the traditional Chinese solar calendar, which falls in the period February 3–5.</li>
+</ul>
+<p>Most Chinese people use lunar new year as the start of the zodiac year. But for professional fortune telling, Chinese astrologers use ‘Start of Spring’ or solar new year as the beginning of the zodiac year.</p>
+<blockquote>
+<p>As far as I know, concerning Zodiac Animal signs, we use only the lunar year. </p>
+</blockquote>
+<p>The Chinese Calendar: <a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
+<p>CHINESE CALENDAR CONVERTOR: <a href="https://www.chinesecalendaronline.com/">https://www.chinesecalendaronline.com/</a></p>
+<h4 id="amp-Ben-Ming-Nian-Zodiac-Year-of-Birth"><a href="#amp-Ben-Ming-Nian-Zodiac-Year-of-Birth" class="headerlink" title="&amp; Ben Ming Nian (Zodiac Year of Birth)"></a>&amp; Ben Ming Nian (Zodiac Year of Birth)</h4><p>As the Chinese zodiac recurs every 12 years, your animal year will come around when you are 12, 24, 36, 48, 60, 72, etc. According to ancient Chinese superstition, in your birth sign year, you will offend the God of Age, and will have bad luck during that year. </p>
+<p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/how-to-bring-yourself-good-luck-on-ben-ming-nian.htm">How to Make Good Luck in Your Zodiac Year Easily?</a></p>
+<h4 id="amp-Chinese-Zodiac-Hours"><a href="#amp-Chinese-Zodiac-Hours" class="headerlink" title="&amp; Chinese Zodiac Hours"></a>&amp; Chinese Zodiac Hours</h4><p><strong>Every hour has an animal</strong></p>
+<p>It is widely known that each year is associated with a Chinese zodiac animal, but the animal signs are also assigned to months, days of the week, and hours.</p>
+<p>According to <strong>professional Chinese astrology</strong>, a person’s personality and life is more decided by his/her birth hour than year. Zodiac hours, days, months, and years are used together for in-depth character and destiny analysis. In popular astrology, by contrast, only the birth year is used.</p>
+<p>In ancient times, <strong>in order to tell the time,</strong> people divided a day into twelve 2-hour periods, and designated an animal to represent each period, according to each animal’s “special time, according to an ancient mnemonic and common observations.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Zodiac animal</th>
+<th align="left">Hours</th>
+<th align="left">Mnemonic</th>
+<th align="left">Observation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">Rat</td>
+<td align="left">11pm-1am [子]</td>
+<td align="left">Rats forage most actively.</td>
+<td align="left">The ancients heard them at this hour.</td>
+</tr>
+<tr>
+<td align="left">Ox</td>
+<td align="left">1-3am [丑]</td>
+<td align="left">Oxen chew the cud most comfortably.</td>
+<td align="left">People of old would get up and feed them at this time.</td>
+</tr>
+<tr>
+<td align="left">Tiger</td>
+<td align="left">3-5am [寅]</td>
+<td align="left">Tigers hunt most ferociously.</td>
+<td align="left">Chinese people long ago often hear them roaring at this time.</td>
+</tr>
+<tr>
+<td align="left">Rabbit</td>
+<td align="left">5-7am [卯]</td>
+<td align="left">Rabbits pound the ground most fervently.</td>
+<td align="left">Rabbits were seen to come out of their holes to eat grass with dew at dawn.</td>
+</tr>
+<tr>
+<td align="left">Dragon</td>
+<td align="left">7-9am [辰]</td>
+<td align="left">Dragons hover most thickly.</td>
+<td align="left">Morning mists, particularly coils around hills, made people think of dragons.</td>
+</tr>
+<tr>
+<td align="left">Snake</td>
+<td align="left">9-11am [巳]</td>
+<td align="left">Snakes emerge most readily.</td>
+<td align="left">Snakes come out to sun themselves as the morning sun warms the ground.</td>
+</tr>
+<tr>
+<td align="left">Horse</td>
+<td align="left">11am-1pm [午]</td>
+<td align="left">Horses stand most impressively.</td>
+<td align="left">When the sun is strongest, only horses were seen standing, while most other animals would lie down to rest.</td>
+</tr>
+<tr>
+<td align="left">Goat</td>
+<td align="left">1-3pm [未]</td>
+<td align="left">Goats eat and urinate most frequently.</td>
+<td align="left">This was reputedly the best time to herd goats, when the sun had dried the dew on the undergrowth.</td>
+</tr>
+<tr>
+<td align="left">Monkey</td>
+<td align="left">3-5pm [申]</td>
+<td align="left">Monkeys play most vigorously.</td>
+<td align="left">Monkeys were seen and heard playing and calling in the trees at this time.</td>
+</tr>
+<tr>
+<td align="left">Rooster</td>
+<td align="left">5-7pm [酉]</td>
+<td align="left">Roosters return to their coops most routinely.</td>
+<td align="left">Roosters are routinely led back to their henhouses before sunset.</td>
+</tr>
+<tr>
+<td align="left">Dog</td>
+<td align="left">7-9pm [戌]</td>
+<td align="left">Dogs guard most dutifully.</td>
+<td align="left">People would take their dogs out to keep a watch at night before sleep.</td>
+</tr>
+<tr>
+<td align="left">Pig</td>
+<td align="left">9-11pm [亥]</td>
+<td align="left">Pigs snuffle most sweetly.</td>
+<td align="left">As they settled down to sleep, people heard pigs snouting their troughs.</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>It is also used to indicate directions. We’ll often see Japanese ninja seal casting used as well. There are also phalanxes and boundaries that are often used in some oriental films to indicate bearings and stars, thus creating some sort of mystical power. </p>
+<p>It is also often used to indicate the five elements, thus acting like alchemy.</p>
+</blockquote>
+<h4 id="amp-What’s-Your-Zodiac-Animal"><a href="#amp-What’s-Your-Zodiac-Animal" class="headerlink" title="&amp; What’s Your Zodiac Animal?"></a>&amp; What’s Your Zodiac Animal?</h4><p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/chinese-zodiac-calculator.htm">Chinese Animal Zodiac Sign Calculator</a></p>
+<blockquote>
+<p>Based on Chinese lunar calendar.</p>
+</blockquote>
+<h4 id="amp-Chinese-Zodiac-Love-Compatibility-test"><a href="#amp-Chinese-Zodiac-Love-Compatibility-test" class="headerlink" title="&amp; Chinese Zodiac Love Compatibility test"></a>&amp; Chinese Zodiac Love Compatibility test</h4><p>Is he/she right for you?</p>
+<p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/compatibility.htm">https://www.chinahighlights.com/travelguide/chinese-zodiac/compatibility.htm</a></p>
+<p><strong>Best Matches for 12 Signs:</strong></p>
+<ul>
+<li><strong>Rat</strong>: Ox, Dragon, Rabbit</li>
+<li>Ox: Rat, Monkey, or Rooster</li>
+<li>Tiger: Dragon, Horse, or Pig</li>
+<li>Rabbit: Rat, Goat, Monkey, Dog, Pig</li>
+<li>Dragon: Rat, Tiger or Snake</li>
+<li>Snake: Dragon, Rooster</li>
+<li>Horse: Goat, Tiger</li>
+<li>Goat: Rabbit, Horse, Pig</li>
+<li>Monkey: Ox, Rabbit</li>
+<li>Rooster: Ox, Snake</li>
+<li>Dog: Rabbit</li>
+<li>Pig: Goat, Tiger, Rabbit</li>
+</ul>
+<h4 id="amp-Chinese-Zodiac-is-Used-to-Predict-People’s-Fortune"><a href="#amp-Chinese-Zodiac-is-Used-to-Predict-People’s-Fortune" class="headerlink" title="&amp; Chinese Zodiac is Used to Predict People’s Fortune"></a>&amp; Chinese Zodiac is Used to Predict People’s Fortune</h4><p>To make a relatively correct Chinese fortune prediction, people take many methods into consideration, such as face characteristics, <a href="https://www.chinahighlights.com/travelguide/article-palmistry.htm">palmistry</a>, and more involved Chinese astrology including birth month, day, and hour, gender, etc.</p>
+<p>Zodiac fortune prediction by birth year is only one of these methods. So you may only take Chinese zodiac birth sign horoscopes as a general reference.</p>
+<p>See more on <a href="https://www.chinahighlights.com/travelguide/article-fortune-telling.htm">Fortune Telling in China — Methods, Benefits, and Tips</a>.</p>
+<blockquote>
+<p>Very complicated, Fortune-telling has a particular number of factors to consider, and the year of birth is just one of many.</p>
+</blockquote>
+<h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs"></a>Refs</h4><p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/">https://www.chinahighlights.com/travelguide/chinese-zodiac/</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/article-fortune-telling.htm">https://www.chinahighlights.com/travelguide/article-fortune-telling.htm</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Chinese_zodiac">https://en.wikipedia.org/wiki/Chinese_zodiac</a></p>
+]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
       </tags>
   </entry>
   <entry>
@@ -944,7 +1144,7 @@
 <li><strong>Évitez les légumes, les viandes et les poissons en conserve,</strong> car ils sont souvent trop salés.  <u>[避免罐头食品，因为罐头里经常含盐超标。]</u></li>
 <li><strong>Évitez de mettre du sel, du sucre, du beurre ou des épices dans la purée.</strong> Votre bébé n’en a pas besoin, et il doit apprendre à connaître le vrai goût des aliments. <u>[不管是果泥，蔬菜泥，还是肉泥，永远不要添加任何额外的东西，因为你的宝宝不需要，他们需要的就是食物本来的味道，认识并且记住食物本来的味道]</u></li>
 <li><u>试着自己找教程，制作水果泥，蔬菜泥，豆泥和肉泥</u></li>
-<li><u>肉泥注意事项，不推荐纯肉，肯定要添加一些蔬菜在肉泥里的，不然很粘稠，无法下咽，对孩子身体也不好。一般都是会添加胡萝卜，芹菜茎和洋葱。</u></li>
+<li><u>肉泥注意事项，不推荐纯肉，首先要去皮，去掉眼睛能看到的肥肉阻为止。做好了肉泥之后, 要添加一些蔬菜在里面，不然很粘稠，无法下咽，对孩子身体也不好。一般都是会添加胡萝卜，芹菜茎和洋葱。</u></li>
 </ul>
 <h5 id="amp-Bio-or-not？"><a href="#amp-Bio-or-not？" class="headerlink" title="&amp; Bio or not？"></a>&amp; Bio or not？</h5><p><u>预算够的话，最好全部是bio的，因为没有弄农药残留。除非预算紧张，可以考虑一些必要的bio食品。就是根据不同的生产方式，有些蔬菜即使不是bio，农药残留也很小，那么这些蔬菜就不需要买bio，可以节约家庭开销。</u></p>
 <img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201115152102.png"/>
@@ -1156,19 +1356,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Corpus @ Make your own corpus</title>
-    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
-    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Corpus</category>
-      </categories>
-      <tags>
-        <tag>corpus📖</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Time Zone</title>
     <url>/2020/11/04/Others-Practical-info-Time-zones/</url>
     <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201104124526.png" style="zoom: 50%;" />
@@ -1213,6 +1400,19 @@
       </categories>
       <tags>
         <tag>time zone🕜</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Corpus @ Make your own corpus</title>
+    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
+    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Corpus</category>
+      </categories>
+      <tags>
+        <tag>corpus📖</tag>
       </tags>
   </entry>
   <entry>
@@ -1292,206 +1492,6 @@
       </categories>
       <tags>
         <tag>Hexo_Adv🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Chinese culture @ 12 Zodiac Signs [12生肖]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-12-zodiac-signs/</url>
-    <content><![CDATA[<img src="/beauty/12signs.png" style="zoom:80%;" />
-
-<a id="more"></a>
-
-<p>The Chinese zodiac, or <em>shengxiao</em> <code>生肖</code> (born resembling), is a repeating cycle of 12 years, with each year being represented by an animal and its reputed attributes.</p>
-<p>In order, the 12 Chinese horoscope animals are: Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, Pig. </p>
-<p>2020 is a year of the Rat.</p>
-<ol>
-<li><strong><a href="https://en.wikipedia.org/wiki/Rat_(zodiac)">Rat</a></strong> – <a href="https://en.wiktionary.org/wiki/%E9%BC%A0">鼠</a>, shǔ (<a href="https://en.wiktionary.org/wiki/%E5%AD%90">子</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yang</a>, 1st <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Water_(Wu_Xing)">Water</a>)</li>
-<li><strong><a href="https://en.wikipedia.org/wiki/Ox_(zodiac)">Ox</a></strong> – <a href="https://en.wiktionary.org/wiki/%E7%89%9B">牛</a>, niú (<a href="https://en.wiktionary.org/wiki/%E4%B8%91">丑</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yin</a>, 2nd <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Earth_(Wu_Xing)">Earth</a>)</li>
-<li><strong><a href="https://en.wikipedia.org/wiki/Tiger_(zodiac)">Tiger</a></strong> – <a href="https://en.wiktionary.org/wiki/%E8%99%8E">虎</a>, hǔ (<a href="https://en.wiktionary.org/wiki/%E5%AF%85">寅</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yang</a>, 3rd <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Wood_(Wu_Xing)">Wood</a>)</li>
-<li><strong><a href="https://en.wikipedia.org/wiki/Rabbit_(zodiac)">Rabbit</a></strong> – <a href="https://en.wiktionary.org/wiki/%E5%85%94">兔</a>, tù (<a href="https://en.wiktionary.org/wiki/%E5%8D%AF">卯</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yin</a>, 4th <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Wood_(Wu_Xing)">Wood</a>)</li>
-<li><strong><a href="https://en.wikipedia.org/wiki/Dragon_(zodiac)">Dragon</a></strong> – <a href="https://en.wiktionary.org/wiki/%E9%BE%99">龙</a>/<a href="https://en.wiktionary.org/wiki/%E9%BE%8D">龍</a>, lóng (<a href="https://en.wiktionary.org/wiki/%E8%BE%B0">辰</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yang</a>, 1st <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Earth_(Wu_Xing)">Earth</a>)</li>
-<li><strong><a href="https://en.wikipedia.org/wiki/Snake_(zodiac)">Snake</a></strong> – <a href="https://en.wiktionary.org/wiki/%E8%9B%87">蛇</a>, shé (<a href="https://en.wiktionary.org/wiki/%E5%B7%B3">巳</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yin</a>, 2nd <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Fire_(Wu_Xing)">Fire</a>)</li>
-<li><strong><a href="https://en.wikipedia.org/wiki/Horse_(zodiac)">Horse</a></strong> – <a href="https://en.wiktionary.org/wiki/%E9%A9%AC">马</a>/<a href="https://en.wiktionary.org/wiki/%E9%A6%AC">馬</a>, mǎ (<a href="https://en.wiktionary.org/wiki/%E5%8D%88">午</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yang</a>, 3rd <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Fire_(Wu_Xing)">Fire</a>)</li>
-<li><strong><a href="https://en.wikipedia.org/wiki/Goat_(zodiac)">Goat</a></strong> – <a href="https://en.wiktionary.org/wiki/%E7%BE%8A">羊</a>, yáng (<a href="https://en.wiktionary.org/wiki/%E6%9C%AA">未</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yin</a>, 4th <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Earth_(Wu_Xing)">Earth</a>)</li>
-<li><strong><a href="https://en.wikipedia.org/wiki/Monkey_(zodiac)">Monkey</a></strong> – <a href="https://en.wiktionary.org/wiki/%E7%8C%B4">猴</a>, hóu (<a href="https://en.wiktionary.org/wiki/%E7%94%B3">申</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yang</a>, 1st <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Metal_(Wu_Xing)">Metal</a>)</li>
-<li><strong><a href="https://en.wikipedia.org/wiki/Rooster_(zodiac)">Rooster</a></strong> – <a href="https://en.wiktionary.org/wiki/%E9%B8%A1">鸡</a>/<a href="https://en.wiktionary.org/wiki/%E9%9B%9E">雞</a>, jī (<a href="https://en.wiktionary.org/wiki/%E9%85%89">酉</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yin</a>, 2nd <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Metal_(Wu_Xing)">Metal</a>)</li>
-<li><strong><a href="https://en.wikipedia.org/wiki/Dog_(zodiac)">Dog</a></strong> – <a href="https://en.wiktionary.org/wiki/%E7%8B%97">狗</a>, gǒu (<a href="https://en.wiktionary.org/wiki/%E6%88%8C">戌</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yang</a>, 3rd <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Earth_(Wu_Xing)">Earth</a>)</li>
-<li><strong><a href="https://en.wikipedia.org/wiki/Pig_(zodiac)">Pig</a></strong> – <a href="https://en.wiktionary.org/wiki/%E7%8C%AA">猪</a>/<a href="https://en.wiktionary.org/wiki/%E8%B1%AC">豬</a>, zhū (<a href="https://en.wiktionary.org/wiki/%E4%BA%A5">亥</a>) (<a href="https://en.wikipedia.org/wiki/Yin_and_yang">Yin</a>, 4th <a href="https://en.wikipedia.org/wiki/Astrological_aspect#Trine">Trine</a>, Fixed <a href="https://en.wikipedia.org/wiki/Wu_Xing">Element</a> <a href="https://en.wikipedia.org/wiki/Water_(Wu_Xing)">Water</a>)</li>
-</ol>
-</br>
-
-<h4 id="amp-Chinese-Zodiac-Origins-—-Why-12-Animals"><a href="#amp-Chinese-Zodiac-Origins-—-Why-12-Animals" class="headerlink" title="&amp; Chinese Zodiac Origins — Why 12 Animals"></a>&amp; Chinese Zodiac Origins — Why 12 Animals</h4><p>The Chinese Zodiac Story - The Zodiac Rankings Race</p>
-<p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/story.htm">https://www.chinahighlights.com/travelguide/chinese-zodiac/story.htm</a></p>
-<h4 id="amp-Chinese-Zodiac-Years-are-based-on-Chinese-lunar-calendar"><a href="#amp-Chinese-Zodiac-Years-are-based-on-Chinese-lunar-calendar" class="headerlink" title="&amp; Chinese Zodiac Years are based on Chinese lunar calendar"></a>&amp; Chinese Zodiac Years are based on Chinese lunar calendar</h4><p>There are two dates a Chinese zodiac year could be said to start on:</p>
-<ul>
-<li>Chinese New Year (day 1 of the lunar year), which is somewhere in the period January 21 to February 20</li>
-<li>Start of Spring (day 1 of the solar year), the first day of the first <a href="https://www.chinahighlights.com/festivals/the-24-solar-terms.htm">solar term</a> in the traditional Chinese solar calendar, which falls in the period February 3–5.</li>
-</ul>
-<p>Most Chinese people use lunar new year as the start of the zodiac year. But for professional fortune telling, Chinese astrologers use ‘Start of Spring’ or solar new year as the beginning of the zodiac year.</p>
-<blockquote>
-<p>As far as I know, concerning Zodiac Animal signs, we use only the lunar year. </p>
-</blockquote>
-<p>The Chinese Calendar: <a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
-<p>CHINESE CALENDAR CONVERTOR: <a href="https://www.chinesecalendaronline.com/">https://www.chinesecalendaronline.com/</a></p>
-<h4 id="amp-Ben-Ming-Nian-Zodiac-Year-of-Birth"><a href="#amp-Ben-Ming-Nian-Zodiac-Year-of-Birth" class="headerlink" title="&amp; Ben Ming Nian (Zodiac Year of Birth)"></a>&amp; Ben Ming Nian (Zodiac Year of Birth)</h4><p>As the Chinese zodiac recurs every 12 years, your animal year will come around when you are 12, 24, 36, 48, 60, 72, etc. According to ancient Chinese superstition, in your birth sign year, you will offend the God of Age, and will have bad luck during that year. </p>
-<p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/how-to-bring-yourself-good-luck-on-ben-ming-nian.htm">How to Make Good Luck in Your Zodiac Year Easily?</a></p>
-<h4 id="amp-Chinese-Zodiac-Hours"><a href="#amp-Chinese-Zodiac-Hours" class="headerlink" title="&amp; Chinese Zodiac Hours"></a>&amp; Chinese Zodiac Hours</h4><p><strong>Every hour has an animal</strong></p>
-<p>It is widely known that each year is associated with a Chinese zodiac animal, but the animal signs are also assigned to months, days of the week, and hours.</p>
-<p>According to <strong>professional Chinese astrology</strong>, a person’s personality and life is more decided by his/her birth hour than year. Zodiac hours, days, months, and years are used together for in-depth character and destiny analysis. In popular astrology, by contrast, only the birth year is used.</p>
-<p>In ancient times, <strong>in order to tell the time,</strong> people divided a day into twelve 2-hour periods, and designated an animal to represent each period, according to each animal’s “special time, according to an ancient mnemonic and common observations.</p>
-<table>
-<thead>
-<tr>
-<th align="left">Zodiac animal</th>
-<th align="left">Hours</th>
-<th align="left">Mnemonic</th>
-<th align="left">Observation</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">Rat</td>
-<td align="left">11pm-1am [子]</td>
-<td align="left">Rats forage most actively.</td>
-<td align="left">The ancients heard them at this hour.</td>
-</tr>
-<tr>
-<td align="left">Ox</td>
-<td align="left">1-3am [丑]</td>
-<td align="left">Oxen chew the cud most comfortably.</td>
-<td align="left">People of old would get up and feed them at this time.</td>
-</tr>
-<tr>
-<td align="left">Tiger</td>
-<td align="left">3-5am [寅]</td>
-<td align="left">Tigers hunt most ferociously.</td>
-<td align="left">Chinese people long ago often hear them roaring at this time.</td>
-</tr>
-<tr>
-<td align="left">Rabbit</td>
-<td align="left">5-7am [卯]</td>
-<td align="left">Rabbits pound the ground most fervently.</td>
-<td align="left">Rabbits were seen to come out of their holes to eat grass with dew at dawn.</td>
-</tr>
-<tr>
-<td align="left">Dragon</td>
-<td align="left">7-9am [辰]</td>
-<td align="left">Dragons hover most thickly.</td>
-<td align="left">Morning mists, particularly coils around hills, made people think of dragons.</td>
-</tr>
-<tr>
-<td align="left">Snake</td>
-<td align="left">9-11am [巳]</td>
-<td align="left">Snakes emerge most readily.</td>
-<td align="left">Snakes come out to sun themselves as the morning sun warms the ground.</td>
-</tr>
-<tr>
-<td align="left">Horse</td>
-<td align="left">11am-1pm [午]</td>
-<td align="left">Horses stand most impressively.</td>
-<td align="left">When the sun is strongest, only horses were seen standing, while most other animals would lie down to rest.</td>
-</tr>
-<tr>
-<td align="left">Goat</td>
-<td align="left">1-3pm [未]</td>
-<td align="left">Goats eat and urinate most frequently.</td>
-<td align="left">This was reputedly the best time to herd goats, when the sun had dried the dew on the undergrowth.</td>
-</tr>
-<tr>
-<td align="left">Monkey</td>
-<td align="left">3-5pm [申]</td>
-<td align="left">Monkeys play most vigorously.</td>
-<td align="left">Monkeys were seen and heard playing and calling in the trees at this time.</td>
-</tr>
-<tr>
-<td align="left">Rooster</td>
-<td align="left">5-7pm [酉]</td>
-<td align="left">Roosters return to their coops most routinely.</td>
-<td align="left">Roosters are routinely led back to their henhouses before sunset.</td>
-</tr>
-<tr>
-<td align="left">Dog</td>
-<td align="left">7-9pm [戌]</td>
-<td align="left">Dogs guard most dutifully.</td>
-<td align="left">People would take their dogs out to keep a watch at night before sleep.</td>
-</tr>
-<tr>
-<td align="left">Pig</td>
-<td align="left">9-11pm [亥]</td>
-<td align="left">Pigs snuffle most sweetly.</td>
-<td align="left">As they settled down to sleep, people heard pigs snouting their troughs.</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>It is also used to indicate directions. We’ll often see Japanese ninja seal casting used as well. There are also phalanxes and boundaries that are often used in some oriental films to indicate bearings and stars, thus creating some sort of mystical power. </p>
-<p>It is also often used to indicate the five elements, thus acting like alchemy.</p>
-</blockquote>
-<h4 id="amp-What’s-Your-Zodiac-Animal"><a href="#amp-What’s-Your-Zodiac-Animal" class="headerlink" title="&amp; What’s Your Zodiac Animal?"></a>&amp; What’s Your Zodiac Animal?</h4><p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/chinese-zodiac-calculator.htm">Chinese Animal Zodiac Sign Calculator</a></p>
-<blockquote>
-<p>Based on Chinese lunar calendar.</p>
-</blockquote>
-<h4 id="amp-Chinese-Zodiac-Love-Compatibility-test"><a href="#amp-Chinese-Zodiac-Love-Compatibility-test" class="headerlink" title="&amp; Chinese Zodiac Love Compatibility test"></a>&amp; Chinese Zodiac Love Compatibility test</h4><p>Is he/she right for you?</p>
-<p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/compatibility.htm">https://www.chinahighlights.com/travelguide/chinese-zodiac/compatibility.htm</a></p>
-<p><strong>Best Matches for 12 Signs:</strong></p>
-<ul>
-<li><strong>Rat</strong>: Ox, Dragon, Rabbit</li>
-<li>Ox: Rat, Monkey, or Rooster</li>
-<li>Tiger: Dragon, Horse, or Pig</li>
-<li>Rabbit: Rat, Goat, Monkey, Dog, Pig</li>
-<li>Dragon: Rat, Tiger or Snake</li>
-<li>Snake: Dragon, Rooster</li>
-<li>Horse: Goat, Tiger</li>
-<li>Goat: Rabbit, Horse, Pig</li>
-<li>Monkey: Ox, Rabbit</li>
-<li>Rooster: Ox, Snake</li>
-<li>Dog: Rabbit</li>
-<li>Pig: Goat, Tiger, Rabbit</li>
-</ul>
-<h4 id="amp-Chinese-Zodiac-is-Used-to-Predict-People’s-Fortune"><a href="#amp-Chinese-Zodiac-is-Used-to-Predict-People’s-Fortune" class="headerlink" title="&amp; Chinese Zodiac is Used to Predict People’s Fortune"></a>&amp; Chinese Zodiac is Used to Predict People’s Fortune</h4><p>To make a relatively correct Chinese fortune prediction, people take many methods into consideration, such as face characteristics, <a href="https://www.chinahighlights.com/travelguide/article-palmistry.htm">palmistry</a>, and more involved Chinese astrology including birth month, day, and hour, gender, etc.</p>
-<p>Zodiac fortune prediction by birth year is only one of these methods. So you may only take Chinese zodiac birth sign horoscopes as a general reference.</p>
-<p>See more on <a href="https://www.chinahighlights.com/travelguide/article-fortune-telling.htm">Fortune Telling in China — Methods, Benefits, and Tips</a>.</p>
-<blockquote>
-<p>Very complicated, Fortune-telling has a particular number of factors to consider, and the year of birth is just one of many.</p>
-</blockquote>
-<h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs"></a>Refs</h4><p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/">https://www.chinahighlights.com/travelguide/chinese-zodiac/</a></p>
-<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
-<p><a href="https://www.chinahighlights.com/travelguide/article-fortune-telling.htm">https://www.chinahighlights.com/travelguide/article-fortune-telling.htm</a></p>
-<p><a href="https://en.wikipedia.org/wiki/Chinese_zodiac">https://en.wikipedia.org/wiki/Chinese_zodiac</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo[Next] @ add Tag Cloud Widget</title>
-    <url>/2020/09/04/2020-09-04-Hexo-Next-add-tag-cloud-widget/</url>
-    <content><![CDATA[<h4 id="1-Install-the-plugin-“hexo-tag-cloud”"><a href="#1-Install-the-plugin-“hexo-tag-cloud”" class="headerlink" title="1. Install the plugin “hexo-tag-cloud”"></a>1. Install the plugin “hexo-tag-cloud”</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-tag-cloud@^2.* --save</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="2-Configure-the-“sidebar-njk”-file"><a href="#2-Configure-the-“sidebar-njk”-file" class="headerlink" title="2. Configure the “sidebar.njk” file."></a>2. Configure the “sidebar.njk” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/layout/_macro/sidebar.njk |vi</span><br></pre></td></tr></table></figure>
-
-<p>Add the code block:</p>
-<a id="more"></a>
-
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcloud.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcanvas.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width=100%&quot;</span>&gt;</span></span><br><span class="line">                    &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">                <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>To the next location:</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">&#123;%- if theme.back2top.enable and theme.back2top.sidebar %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;back-to-top animated&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;fa fa-arrow-up&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">span</span>&gt;</span>0%<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;%- endif %&#125;</span><br><span class="line"></span><br><span class="line">      <span class="comment">&lt;!-- location for tag cloud--&gt;</span></span><br><span class="line"> 	  &#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcloud.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tagcanvas.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width=100%&quot;</span>&gt;</span></span><br><span class="line">                    &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">                <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &#123;% endif %&#125;</span><br><span class="line">      <span class="comment">&lt;!-- end for tag cloud--&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;sidebar-dimmer&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">&#123;% endmacro %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>Reload page, the 3D cloud-tag will appear.</p>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization📄</tag>
-        <tag>Hexo[Next]🕸️</tag>
       </tags>
   </entry>
 </search>
