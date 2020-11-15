@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yunlong-jia.com/2020/11/15/Others-Baby-feeding/</loc>
+    
+    <lastmod>2020-11-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yunlong-jia.com/2020/08/31/Others-Nice-songs/</loc>
     
     <lastmod>2020-11-15</lastmod>
@@ -557,6 +564,20 @@
   </url>
   
   <url>
+    <loc>http://yunlong-jia.com/tags/baby%F0%9F%91%B6/</loc>
+    <lastmod>2020-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/tags/religion%E2%98%AF/</loc>
+    <lastmod>2020-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yunlong-jia.com/tags/music%F0%9F%8E%B5/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
@@ -571,20 +592,6 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/religion%E2%98%AF/</loc>
-    <lastmod>2020-11-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/tags/time-zone%F0%9F%95%9C/</loc>
-    <lastmod>2020-11-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yunlong-jia.com/tags/password%F0%9F%94%90/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
@@ -593,6 +600,13 @@
   
   <url>
     <loc>http://yunlong-jia.com/tags/corpus%F0%9F%93%96/</loc>
+    <lastmod>2020-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/tags/time-zone%F0%9F%95%9C/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -727,14 +741,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/Tour/</loc>
+    <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/Culture/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/Culture/</loc>
+    <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/Tour/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -762,6 +776,20 @@
   </url>
   
   <url>
+    <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Baby-Feeding/</loc>
+    <lastmod>2020-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Culture/</loc>
+    <lastmod>2020-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Music/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
@@ -770,13 +798,6 @@
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Practical-info/</loc>
-    <lastmod>2020-11-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Culture/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
