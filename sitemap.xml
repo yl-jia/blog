@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yunlong-jia.com/Lifelong_learning_and_collections/index.html</loc>
+    
+    <lastmod>2020-11-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yunlong-jia.com/2020/11/03/Biology-WB-loading-control/</loc>
     
     <lastmod>2020-11-15</lastmod>
@@ -45,13 +52,6 @@
   
   <url>
     <loc>http://yunlong-jia.com/2020/10/25/Daily-life-Business-Think-about-part-time-business-/</loc>
-    
-    <lastmod>2020-11-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/Lifelong_learning_and_collections/index.html</loc>
     
     <lastmod>2020-11-14</lastmod>
     
@@ -522,14 +522,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/loading-control/</loc>
+    <loc>http://yunlong-jia.com/tags/Politics/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/Politics/</loc>
+    <loc>http://yunlong-jia.com/tags/loading-control/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -599,14 +599,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/time-zone%F0%9F%95%9C/</loc>
+    <loc>http://yunlong-jia.com/tags/corpus%F0%9F%93%96/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/corpus%F0%9F%93%96/</loc>
+    <loc>http://yunlong-jia.com/tags/time-zone%F0%9F%95%9C/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -755,14 +755,14 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/%F0%9F%A7%AC-Biology/Protein-identification/</loc>
+    <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/Politics/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/Politics/</loc>
+    <loc>http://yunlong-jia.com/categories/%F0%9F%A7%AC-Biology/Protein-identification/</loc>
     <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
