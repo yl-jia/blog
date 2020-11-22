@@ -157,6 +157,31 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo_Adv @ Add related post function</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</url>
+    <content><![CDATA[<p>With the module of <code>hexo-related-popular-posts</code>, hexo can find and match related articles for visitors.</p>
+<h4 id="1-install-quicklinkmodule-in-git-bash"><a href="#1-install-quicklinkmodule-in-git-bash" class="headerlink" title="1. install quicklinkmodule in git bash:"></a>1. install <code>quicklink</code>module in git bash:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-Open-and-modify-the-config-file"><a href="#2-Open-and-modify-the-config-file" class="headerlink" title="2. Open and modify the config file:"></a>2. Open and modify the config file:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<p>Locate to “related_posts” code block, change “enable” as “true”,</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="attr">PPMixingRate:</span> <span class="number">0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="attr">isImage:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo[Next] @ Set transparency and margins</title>
     <url>/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/</url>
     <content><![CDATA[<p>Go to the custom style file:</p>
@@ -180,31 +205,6 @@
       <tags>
         <tag>Page optimization📄</tag>
         <tag>Hexo[Next]🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Adv @ Add related post function</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</url>
-    <content><![CDATA[<p>With the module of <code>hexo-related-popular-posts</code>, hexo can find and match related articles for visitors.</p>
-<h4 id="1-install-quicklinkmodule-in-git-bash"><a href="#1-install-quicklinkmodule-in-git-bash" class="headerlink" title="1. install quicklinkmodule in git bash:"></a>1. install <code>quicklink</code>module in git bash:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
-
-<h4 id="2-Open-and-modify-the-config-file"><a href="#2-Open-and-modify-the-config-file" class="headerlink" title="2. Open and modify the config file:"></a>2. Open and modify the config file:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<p>Locate to “related_posts” code block, change “enable” as “true”,</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="attr">PPMixingRate:</span> <span class="number">0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="attr">isImage:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -234,34 +234,6 @@
       <tags>
         <tag>Page optimization📄</tag>
         <tag>Hexo[Next]🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Basic @ Post displayed per page in Archive</title>
-    <url>/2020/09/05/2020-09-05-Hexo-Basic-Post-displayed-per-page-in-Archive/</url>
-    <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<h4 id="2-Configure-the-“-site-config-yml”-file"><a href="#2-Configure-the-“-site-config-yml”-file" class="headerlink" title="2. Configure the “./site/_config.yml” file."></a>2. Configure the “./site/_config.yml” file.</h4><p>add option code：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line">  <span class="attr">enabled:</span> <span class="literal">true</span> <span class="comment"># The default value is true, set to false if you do not want to enable the plugin</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">30</span> <span class="comment"># Posts displayed per page. (0 = disable pagination)</span></span><br><span class="line">  <span class="attr">yearly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">monthly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">daily:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span> <span class="comment"># Posts order. (Order by date descending by default)</span></span><br></pre></td></tr></table></figure>
-
-
-
-<hr>
-<blockquote>
-<p>Ref:</p>
-<p><a href="https://github.com/hexojs/hexo-generator-archive">https://github.com/hexojs/hexo-generator-archive</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Basic</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Basic🕸️</tag>
-        <tag>Page optimization📄</tag>
       </tags>
   </entry>
   <entry>
@@ -298,6 +270,34 @@
       </categories>
       <tags>
         <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Basic @ Post displayed per page in Archive</title>
+    <url>/2020/09/05/2020-09-05-Hexo-Basic-Post-displayed-per-page-in-Archive/</url>
+    <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<h4 id="2-Configure-the-“-site-config-yml”-file"><a href="#2-Configure-the-“-site-config-yml”-file" class="headerlink" title="2. Configure the “./site/_config.yml” file."></a>2. Configure the “./site/_config.yml” file.</h4><p>add option code：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line">  <span class="attr">enabled:</span> <span class="literal">true</span> <span class="comment"># The default value is true, set to false if you do not want to enable the plugin</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">30</span> <span class="comment"># Posts displayed per page. (0 = disable pagination)</span></span><br><span class="line">  <span class="attr">yearly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">monthly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">daily:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span> <span class="comment"># Posts order. (Order by date descending by default)</span></span><br></pre></td></tr></table></figure>
+
+
+
+<hr>
+<blockquote>
+<p>Ref:</p>
+<p><a href="https://github.com/hexojs/hexo-generator-archive">https://github.com/hexojs/hexo-generator-archive</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Basic</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Basic🕸️</tag>
+        <tag>Page optimization📄</tag>
       </tags>
   </entry>
   <entry>
@@ -340,34 +340,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Adv @ Skip render for given files and folders</title>
-    <url>/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</url>
-    <content><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p>
-<p>Now in <code>hexo</code>system, you need to configure it in you <code>_ config.yml</code>for achieving it.</p>
-<a id="more"></a>
-
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd .../homepage/</span><br><span class="line">vi ./_config.yml</span><br></pre></td></tr></table></figure>
-
-<p>you need to locate and find <code>skip_render:</code></p>
-<p>Then modify it as below:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># The default work directory for &quot;skip_render&quot; is</span></span></span><br><span class="line">cd .../homepage/source/</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip single file, as README.md: </span></span></span><br><span class="line">skip_render: README.md</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip all files in single folder, as test:</span></span></span><br><span class="line">skip_render: test/*</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip several files or folders:</span></span></span><br><span class="line"></span><br><span class="line">skip_render:</span><br><span class="line"> - test.html</span><br><span class="line"> - README.md</span><br><span class="line"> - test/*</span><br><span class="line"> - miao/*</span><br></pre></td></tr></table></figure>
-
-
-
-<p>Finally , clean and reload your new files:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Zotero @ Citation style custom</title>
     <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
     <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
@@ -401,20 +373,57 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Calendar</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
-    <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
-
+    <title>Top places to go in China</title>
+    <url>/2020/10/17/2020-10-17-Top-places-to-go-in-China/</url>
+    <content><![CDATA[<h3 id="The-sites-in-UNESCO-World-Heritage-list"><a href="#The-sites-in-UNESCO-World-Heritage-list" class="headerlink" title="The sites in UNESCO World Heritage list"></a>The sites in <code>UNESCO World Heritage list</code></h3><p>China is a big country, so there are many tourist attractions. First of all, these sites are world class, best preserved, and most significant.</p>
+<p>Next, I will show you how to find these sites list and basic information:</p>
+<p>Open <code>Word Heritage List</code>:  <a href="https://whc.unesco.org/en/list/&amp;order=country">https://whc.unesco.org/en/list/&amp;order=country</a></p>
+<p>Ordering the sites by <code>Country</code>;</p>
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
+<p>Find out <code>China</code>and all related sites, there are 3 types: Cultural, Natural and Mixed site;</p>
+<p>When you open any of them, you’ll see the relevant basic information, including description, gallery and video.</p>
+<h3 id="AAAAA-Tourist-Attractions-of-China-5A-sites"><a href="#AAAAA-Tourist-Attractions-of-China-5A-sites" class="headerlink" title="AAAAA Tourist Attractions of China [5A sites]"></a>AAAAA Tourist Attractions of China [5A sites]</h3><p><code>5A</code> are the most important and best-maintained <a href="https://en.wikipedia.org/wiki/Tourist_attraction">tourist attractions</a> in the <a href="https://en.wikipedia.org/wiki/People's_Republic_of_China">People’s Republic of China</a>, given the highest level in the <a href="https://en.wikipedia.org/wiki/Tourist_Attraction_Rating_Categories_of_China">rating categories</a> used by the <a href="https://en.wikipedia.org/wiki/Ministry_of_Culture_and_Tourism_of_the_People's_Republic_of_China">Ministry of Culture and Tourism</a>. Generally, World Heritage sites are already included in the 5A list.</p>
+<p>Here is the list: <a href="https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China">https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China</a></p>
+<h3 id="Best-Cities-to-Visit-in-China"><a href="#Best-Cities-to-Visit-in-China" class="headerlink" title="Best Cities to Visit in China"></a>Best Cities to Visit in China</h3><h5 id="amp-Beijing-—-Ancient-and-Modern-Capital"><a href="#amp-Beijing-—-Ancient-and-Modern-Capital" class="headerlink" title="&amp; Beijing — Ancient and Modern Capital"></a>&amp; Beijing — Ancient and Modern Capital</h5><h5 id="amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization"><a href="#amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization" class="headerlink" title="&amp; Xi’an — a Window on China’s Ancient Civilization"></a>&amp; Xi’an — a Window on China’s Ancient Civilization</h5><h5 id="amp-Shanghai-—-China’s-Prosperous-Largest-City"><a href="#amp-Shanghai-—-China’s-Prosperous-Largest-City" class="headerlink" title="&amp; Shanghai — China’s Prosperous Largest City"></a>&amp; Shanghai — China’s Prosperous Largest City</h5><h5 id="amp-Guilin-—-China’s-Top-Karst-Landscape"><a href="#amp-Guilin-—-China’s-Top-Karst-Landscape" class="headerlink" title="&amp; Guilin — China’s Top Karst Landscape"></a>&amp; Guilin — China’s Top Karst Landscape</h5><h5 id="amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth"><a href="#amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth" class="headerlink" title="&amp; Hong Kong — Like Nowhere Else on Earth"></a>&amp; Hong Kong — Like Nowhere Else on Earth</h5><h5 id="amp-Hangzhou-—-Next-Best-Place-to-Heaven"><a href="#amp-Hangzhou-—-Next-Best-Place-to-Heaven" class="headerlink" title="&amp; Hangzhou — Next Best Place to Heaven"></a>&amp; Hangzhou — Next Best Place to Heaven</h5><h5 id="amp-Chengdu-—-Hometown-of-Giant-Pandas"><a href="#amp-Chengdu-—-Hometown-of-Giant-Pandas" class="headerlink" title="&amp; Chengdu — Hometown of Giant Pandas"></a>&amp; Chengdu — Hometown of Giant Pandas</h5><h5 id="amp-Lhasa-—-Gateway-to-Transcendent-Tibet"><a href="#amp-Lhasa-—-Gateway-to-Transcendent-Tibet" class="headerlink" title="&amp; Lhasa — Gateway to Transcendent Tibet"></a>&amp; Lhasa — Gateway to Transcendent Tibet</h5><h5 id="amp-Suzhou-—-Elegant-Water-Towns-and-Gardens"><a href="#amp-Suzhou-—-Elegant-Water-Towns-and-Gardens" class="headerlink" title="&amp; Suzhou — Elegant Water Towns and Gardens"></a>&amp; Suzhou — Elegant Water Towns and Gardens</h5><blockquote>
+<p><a href="https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/">https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/</a></p>
+</blockquote>
+<p>Finally, for more information, please refer to site China Travel Guide: <a href="https://www.chinahighlights.com/">https://www.chinahighlights.com/</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
-        <category>Culture</category>
+        <category>Tour</category>
       </categories>
       <tags>
-        <tag>Chinese culture</tag>
+        <tag>Good places✈️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ Skip render for given files and folders</title>
+    <url>/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</url>
+    <content><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p>
+<p>Now in <code>hexo</code>system, you need to configure it in you <code>_ config.yml</code>for achieving it.</p>
+<a id="more"></a>
+
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd .../homepage/</span><br><span class="line">vi ./_config.yml</span><br></pre></td></tr></table></figure>
+
+<p>you need to locate and find <code>skip_render:</code></p>
+<p>Then modify it as below:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># The default work directory for &quot;skip_render&quot; is</span></span></span><br><span class="line">cd .../homepage/source/</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip single file, as README.md: </span></span></span><br><span class="line">skip_render: README.md</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip all files in single folder, as test:</span></span></span><br><span class="line">skip_render: test/*</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip several files or folders:</span></span></span><br><span class="line"></span><br><span class="line">skip_render:</span><br><span class="line"> - test.html</span><br><span class="line"> - README.md</span><br><span class="line"> - test/*</span><br><span class="line"> - miao/*</span><br></pre></td></tr></table></figure>
+
+
+
+<p>Finally , clean and reload your new files:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -589,6 +598,23 @@
       </tags>
   </entry>
   <entry>
+    <title>Chinese culture @ Calendar</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
+    <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
+]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Chinese culture @ Five Elements Theory [五行]</title>
     <url>/2020/10/18/2020-10-18-Chinese-culture-five-elements-theory/</url>
     <content><![CDATA[<img src="/beauty/wuxing.png" style="zoom:70%;" />
@@ -640,49 +666,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Top places to go in China</title>
-    <url>/2020/10/17/2020-10-17-Top-places-to-go-in-China/</url>
-    <content><![CDATA[<h3 id="The-sites-in-UNESCO-World-Heritage-list"><a href="#The-sites-in-UNESCO-World-Heritage-list" class="headerlink" title="The sites in UNESCO World Heritage list"></a>The sites in <code>UNESCO World Heritage list</code></h3><p>China is a big country, so there are many tourist attractions. First of all, these sites are world class, best preserved, and most significant.</p>
-<p>Next, I will show you how to find these sites list and basic information:</p>
-<p>Open <code>Word Heritage List</code>:  <a href="https://whc.unesco.org/en/list/&amp;order=country">https://whc.unesco.org/en/list/&amp;order=country</a></p>
-<p>Ordering the sites by <code>Country</code>;</p>
-<a id="more"></a>
-
-<p>Find out <code>China</code>and all related sites, there are 3 types: Cultural, Natural and Mixed site;</p>
-<p>When you open any of them, you’ll see the relevant basic information, including description, gallery and video.</p>
-<h3 id="AAAAA-Tourist-Attractions-of-China-5A-sites"><a href="#AAAAA-Tourist-Attractions-of-China-5A-sites" class="headerlink" title="AAAAA Tourist Attractions of China [5A sites]"></a>AAAAA Tourist Attractions of China [5A sites]</h3><p><code>5A</code> are the most important and best-maintained <a href="https://en.wikipedia.org/wiki/Tourist_attraction">tourist attractions</a> in the <a href="https://en.wikipedia.org/wiki/People's_Republic_of_China">People’s Republic of China</a>, given the highest level in the <a href="https://en.wikipedia.org/wiki/Tourist_Attraction_Rating_Categories_of_China">rating categories</a> used by the <a href="https://en.wikipedia.org/wiki/Ministry_of_Culture_and_Tourism_of_the_People's_Republic_of_China">Ministry of Culture and Tourism</a>. Generally, World Heritage sites are already included in the 5A list.</p>
-<p>Here is the list: <a href="https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China">https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China</a></p>
-<h3 id="Best-Cities-to-Visit-in-China"><a href="#Best-Cities-to-Visit-in-China" class="headerlink" title="Best Cities to Visit in China"></a>Best Cities to Visit in China</h3><h5 id="amp-Beijing-—-Ancient-and-Modern-Capital"><a href="#amp-Beijing-—-Ancient-and-Modern-Capital" class="headerlink" title="&amp; Beijing — Ancient and Modern Capital"></a>&amp; Beijing — Ancient and Modern Capital</h5><h5 id="amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization"><a href="#amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization" class="headerlink" title="&amp; Xi’an — a Window on China’s Ancient Civilization"></a>&amp; Xi’an — a Window on China’s Ancient Civilization</h5><h5 id="amp-Shanghai-—-China’s-Prosperous-Largest-City"><a href="#amp-Shanghai-—-China’s-Prosperous-Largest-City" class="headerlink" title="&amp; Shanghai — China’s Prosperous Largest City"></a>&amp; Shanghai — China’s Prosperous Largest City</h5><h5 id="amp-Guilin-—-China’s-Top-Karst-Landscape"><a href="#amp-Guilin-—-China’s-Top-Karst-Landscape" class="headerlink" title="&amp; Guilin — China’s Top Karst Landscape"></a>&amp; Guilin — China’s Top Karst Landscape</h5><h5 id="amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth"><a href="#amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth" class="headerlink" title="&amp; Hong Kong — Like Nowhere Else on Earth"></a>&amp; Hong Kong — Like Nowhere Else on Earth</h5><h5 id="amp-Hangzhou-—-Next-Best-Place-to-Heaven"><a href="#amp-Hangzhou-—-Next-Best-Place-to-Heaven" class="headerlink" title="&amp; Hangzhou — Next Best Place to Heaven"></a>&amp; Hangzhou — Next Best Place to Heaven</h5><h5 id="amp-Chengdu-—-Hometown-of-Giant-Pandas"><a href="#amp-Chengdu-—-Hometown-of-Giant-Pandas" class="headerlink" title="&amp; Chengdu — Hometown of Giant Pandas"></a>&amp; Chengdu — Hometown of Giant Pandas</h5><h5 id="amp-Lhasa-—-Gateway-to-Transcendent-Tibet"><a href="#amp-Lhasa-—-Gateway-to-Transcendent-Tibet" class="headerlink" title="&amp; Lhasa — Gateway to Transcendent Tibet"></a>&amp; Lhasa — Gateway to Transcendent Tibet</h5><h5 id="amp-Suzhou-—-Elegant-Water-Towns-and-Gardens"><a href="#amp-Suzhou-—-Elegant-Water-Towns-and-Gardens" class="headerlink" title="&amp; Suzhou — Elegant Water Towns and Gardens"></a>&amp; Suzhou — Elegant Water Towns and Gardens</h5><blockquote>
-<p><a href="https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/">https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/</a></p>
-</blockquote>
-<p>Finally, for more information, please refer to site China Travel Guide: <a href="https://www.chinahighlights.com/">https://www.chinahighlights.com/</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Tour</category>
-      </categories>
-      <tags>
-        <tag>Good places✈️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Chinese culture @ Traditional herbal medicine [中药]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-herbal-medicine/</url>
-    <content><![CDATA[<img src="/beauty/zy.png" style="zoom:70%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm">https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Chinese culture @ Traditional Chinese Medicine [中医]</title>
     <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-chinese-medicine/</url>
     <content><![CDATA[<img src="/beauty/zhongyi.png" style="zoom:70%;" />
@@ -700,15 +683,20 @@
       </tags>
   </entry>
   <entry>
-    <title>2nd Wedding Anniversary</title>
-    <url>/2020/10/19/2020-10-19-wedding-anniversary/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="9bf7095c605dcde7d87ae33a681717371aec8867a991bb62cbf367366e62812c">ccaa9cb1d60be991ee03bc7daedf2a98436daecb4dd45de12ee244fbc39d88ae786534317c636e1eb992dd205c04fb0510cd019c295da83f0cd261cce11a3f7e188e62c29329f6771456ab246a9d25f5419fc4a0813ca946af8dea9eea1d1dbbc8cd1692bcb7f6ee8a53578f9ae6426c5ba19b53dbee1cc8e37d0d5408dac0ee0bffdef0848bb07fe47c88c33911d9b45be97ef6ac5aa23fccb97a6ae13fab6b6a5a36bd28934aa06949f6545535a77beda9a66ea580e16304d1b0fd3bd40439df93cf139e88118fb4c7bcfea80db0b82e6d317673eb69bdf82d9b0aa246b8eaf68b2ddb3e55b4d32997b6f913da78e663454f4cf889a8210b348cd3b48f1de315de6577563bb47d475c7fca68e68422a83d441f92db2b72f8e4048fc0a956180f3fb3675a12e83638444bf0debfc67c270f066ba38e4151322b2f634c31b6152ac6b96d8f3bfe29b5bd0532291716df0ee3c31803b245c35abd85b67543bc562410c644083c502de5f660b839e8c9cff67984cb350e8adcaf4a4431aa135bd72a31db0df31bffcc2926e572ec4bbcfe584c56748f17976f980e9d78dbbd3c6de1a7cb62b7cafef9bbbccd01af6f6eb999077bccc1c121a9c6cb1fd031d4d7bc046970ee94ad1b2a08b46e79805599efafc34800b8e5ded6cb035a9a9b99b3bd4809e56e918cfd64c7cf0bd591f4df9a548b2a57524e0298d0327bbd8ab88153e572a94aef50099fd648560a57bb1c19175c976d8225bee7e6bf5e80e44a3014dee3811f0ab85ef37c94248a3f0d600f928ea579cfd4f1cffa035f1dbf825c597b709cb07ddd526f1aa21d5a61ee3f9ee2e7bff9af57e605235847ed7f1d030764479a3421b4b09a794fe14b72f023cdb6cc3e44c14839552dcc2aed333ec335d55c32c81f669b31221fbf1cfeeba538bf3fb30a8d175170fecf38f130eea63bcd82920937701e39b45b356fc05ee5400a42eea0c610ebd6fb0371247c1d8b5fe9d9527bcb592b17b6ea5292083956b5c05970ad1d8d82c59ef9a65f757b6b8b10fd5c7823240f9c9e3bdfef46dd596a57cc67964184698a291f27d6bb6cf0b20496159796851a3223aad712d46fc659b95683a05cea7fbf9cde7794c46b6a637ab976e636b269403b506bc3f2b217b7e1c814e5d09752878bd323ced2469cea65dae0a84d7f6502358ab79e8df369d50e5ec749a4e9c05f82855cf4b264e6f0e350c4c25e316d4012fd966338d0579be7b17d35ac5ecc1ae797b18f1f93743b7068d27cc3dbe1a7244c95d7aa9b4b328ad7a996c23c37f9bf541aa97ff3127661212713ea976814faa51214f82b36a731c4fd06e176c523c9c8bfbeab6c96ec8981f9da2ed82a88391435ed9c263203b65eb29bb2f39c78d9f50bdeabed24c511ad1403d8e4771d434bfb6fd5ca05868357befb9b8f92f9d915b97367723b156d4d24df00620b5926b59dda03c1e24ca04e87a1e20dbcfe55a1c0b3ccd915345e0f872d950e38c1a9dd596adff3abdce0ed31ea3a4ef6fa711b8c41fbcdf9aa1e5e9cb4d3bb21aac70558c57316c945</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <title>Chinese culture @ Traditional herbal medicine [中药]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-herbal-medicine/</url>
+    <content><![CDATA[<img src="/beauty/zy.png" style="zoom:70%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm">https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm</a></p>
+]]></content>
       <categories>
-        <category>☀️ Daily life</category>
-        <category>Mine</category>
+        <category>🐉 China</category>
+        <category>Culture</category>
       </categories>
       <tags>
-        <tag>anniversary🎉</tag>
+        <tag>Chinese culture</tag>
       </tags>
   </entry>
   <entry>
@@ -743,6 +731,48 @@
       </categories>
       <tags>
         <tag>Picbed🖼️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2nd Wedding Anniversary</title>
+    <url>/2020/10/19/2020-10-19-wedding-anniversary/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="9bf7095c605dcde7d87ae33a681717371aec8867a991bb62cbf367366e62812c">ccaa9cb1d60be991ee03bc7daedf2a98436daecb4dd45de12ee244fbc39d88ae786534317c636e1eb992dd205c04fb0510cd019c295da83f0cd261cce11a3f7e188e62c29329f6771456ab246a9d25f5419fc4a0813ca946af8dea9eea1d1dbbc8cd1692bcb7f6ee8a53578f9ae6426c5ba19b53dbee1cc8e37d0d5408dac0ee0bffdef0848bb07fe47c88c33911d9b45be97ef6ac5aa23fccb97a6ae13fab6b6a5a36bd28934aa06949f6545535a77beda9a66ea580e16304d1b0fd3bd40439df93cf139e88118fb4c7bcfea80db0b82e6d317673eb69bdf82d9b0aa246b8eaf68b2ddb3e55b4d32997b6f913da78e663454f4cf889a8210b348cd3b48f1de315de6577563bb47d475c7fca68e68422a83d441f92db2b72f8e4048fc0a956180f3fb3675a12e83638444bf0debfc67c270f066ba38e4151322b2f634c31b6152ac6b96d8f3bfe29b5bd0532291716df0ee3c31803b245c35abd85b67543bc562410c644083c502de5f660b839e8c9cff67984cb350e8adcaf4a4431aa135bd72a31db0df31bffcc2926e572ec4bbcfe584c56748f17976f980e9d78dbbd3c6de1a7cb62b7cafef9bbbccd01af6f6eb999077bccc1c121a9c6cb1fd031d4d7bc046970ee94ad1b2a08b46e79805599efafc34800b8e5ded6cb035a9a9b99b3bd4809e56e918cfd64c7cf0bd591f4df9a548b2a57524e0298d0327bbd8ab88153e572a94aef50099fd648560a57bb1c19175c976d8225bee7e6bf5e80e44a3014dee3811f0ab85ef37c94248a3f0d600f928ea579cfd4f1cffa035f1dbf825c597b709cb07ddd526f1aa21d5a61ee3f9ee2e7bff9af57e605235847ed7f1d030764479a3421b4b09a794fe14b72f023cdb6cc3e44c14839552dcc2aed333ec335d55c32c81f669b31221fbf1cfeeba538bf3fb30a8d175170fecf38f130eea63bcd82920937701e39b45b356fc05ee5400a42eea0c610ebd6fb0371247c1d8b5fe9d9527bcb592b17b6ea5292083956b5c05970ad1d8d82c59ef9a65f757b6b8b10fd5c7823240f9c9e3bdfef46dd596a57cc67964184698a291f27d6bb6cf0b20496159796851a3223aad712d46fc659b95683a05cea7fbf9cde7794c46b6a637ab976e636b269403b506bc3f2b217b7e1c814e5d09752878bd323ced2469cea65dae0a84d7f6502358ab79e8df369d50e5ec749a4e9c05f82855cf4b264e6f0e350c4c25e316d4012fd966338d0579be7b17d35ac5ecc1ae797b18f1f93743b7068d27cc3dbe1a7244c95d7aa9b4b328ad7a996c23c37f9bf541aa97ff3127661212713ea976814faa51214f82b36a731c4fd06e176c523c9c8bfbeab6c96ec8981f9da2ed82a88391435ed9c263203b65eb29bb2f39c78d9f50bdeabed24c511ad1403d8e4771d434bfb6fd5ca05868357befb9b8f92f9d915b97367723b156d4d24df00620b5926b59dda03c1e24ca04e87a1e20dbcfe55a1c0b3ccd915345e0f872d950e38c1a9dd596adff3abdce0ed31ea3a4ef6fa711b8c41fbcdf9aa1e5e9cb4d3bb21aac70558c57316c945</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>☀️ Daily life</category>
+        <category>Mine</category>
+      </categories>
+      <tags>
+        <tag>anniversary🎉</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Cell culture info</title>
+    <url>/2020/11/21/Biology-Practical-info-Cell-culture/</url>
+    <content><![CDATA[<h3 id="Number-of-cells-to-seed-the-day-before-transfection"><a href="#Number-of-cells-to-seed-the-day-before-transfection" class="headerlink" title="@ Number of cells to seed the day before transfection"></a>@ Number of cells to seed the day before transfection</h3><h4 id="amp-HEK-293-293T"><a href="#amp-HEK-293-293T" class="headerlink" title="&amp; HEK 293/293T"></a>&amp; HEK 293/293T</h4><ul>
+<li>96-well plate [0.32 cm^2 (Corning)] / 10K cells / 0.1ul media</li>
+<li>24-well plate [1.9 cm^2 (Corning)] / 40-60K cells / 0.5ml media</li>
+<li>6-well plate [9.5 cm^2 (Corning)] / 300K cells / 2ml media</li>
+<li>60mm [21 cm^2 (Corning)] / 600K cells / 5ml media</li>
+<li>100mm [55 cm^2 (Corning)] / 1-1.2M cells / 10ml media</li>
+</ul>
+<a id="more"></a>
+
+</br>
+
+<h3 id="DNA-transfection-guidelines"><a href="#DNA-transfection-guidelines" class="headerlink" title="@ DNA transfection guidelines"></a>@ DNA transfection guidelines</h3><h4 id="amp-jetPRIME"><a href="#amp-jetPRIME" class="headerlink" title="&amp; jetPRIME"></a>&amp; jetPRIME</h4><ul>
+<li>96-well plate / Buffer [ 5ul ] / DNA [ 0.1ug ]</li>
+<li>24-well plate / Buffer [ 50ul ] / DNA [ 0.5ug ]</li>
+<li>6-well plate / Buffer [ 200ul ] / DNA [ 2ug ]</li>
+<li>60mm dish / Buffer [ 200ul ] / DNA [ 4ug ]</li>
+<li>100mm dish / Buffer [ 500ul ] / DNA [ 10ug ]</li>
+</ul>
+]]></content>
+      <categories>
+        <category>🧬 Biology</category>
+        <category>Practical info</category>
+      </categories>
+      <tags>
+        <tag>cell culture</tag>
       </tags>
   </entry>
   <entry>
@@ -916,34 +946,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Cell culture info</title>
-    <url>/2020/11/21/Biology-Practical-info-Cell-culture/</url>
-    <content><![CDATA[<h3 id="Recommended-number-of-cells-to-seed-the-day-before-transfection"><a href="#Recommended-number-of-cells-to-seed-the-day-before-transfection" class="headerlink" title="@ Recommended number of cells to seed the day before transfection"></a>@ Recommended number of cells to seed the day before transfection</h3><h4 id="amp-HEK-293-293T"><a href="#amp-HEK-293-293T" class="headerlink" title="&amp; HEK 293/293T"></a>&amp; HEK 293/293T</h4><ul>
-<li>96-well plate [0.32 cm^2 (Corning)] / 10K cells / 0.1ul media</li>
-<li>24-well plate [1.9 cm^2 (Corning)] / 40-60K cells / 0.5ml media</li>
-<li>6-well plate [9.5 cm^2 (Corning)] / 300K cells / 2ml media</li>
-<li>60mm [21 cm^2 (Corning)] / 600K cells / 5ml media</li>
-<li>100mm [55 cm^2 (Corning)] / 1-1.2M cells / 10ml media</li>
-</ul>
-</br>
-
-<h3 id="DNA-transfection-guidelines"><a href="#DNA-transfection-guidelines" class="headerlink" title="@ DNA transfection guidelines"></a>@ DNA transfection guidelines</h3><h4 id="amp-jetPRIME"><a href="#amp-jetPRIME" class="headerlink" title="&amp; jetPRIME"></a>&amp; jetPRIME</h4><ul>
-<li>96-well plate / Buffer [ 5ul ] / DNA [ 0.1ug ]</li>
-<li>24-well plate / Buffer [ 50ul ] / DNA [ 0.5ug ]</li>
-<li>6-well plate / Buffer [ 200ul ] / DNA [ 2ug ]</li>
-<li>60mm dish / Buffer [ 200ul ] / DNA [ 4ug ]</li>
-<li>100mm dish / Buffer [ 500ul ] / DNA [ 10ug ]</li>
-</ul>
-]]></content>
-      <categories>
-        <category>🧬 Biology</category>
-        <category>Practical info</category>
-      </categories>
-      <tags>
-        <tag>cell culture</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Think about Film and Television Production</title>
     <url>/2020/10/25/China-perception-Think-about-Film-and-television-Production/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="60f2596ce6723de6af77d504221fcf905b703f569408c7824d858efe13cc4b69">8b99030997d9e294e22d169f14a9b9af30076946d2e16ff2003e748bfa20774718e7eb4c449d12c407648717416cd24c6c5afe0d5a5abc1b186122fba0801dc54dd8356b33f5d024bbb55c3b04fa03f0f0d102f01c1d8591329662b03faa5b49be8262c42da0bde783dc561c7cc46e92496eb7a9762d621693371735636029a1ac2bb1dd1974f462aa3d5ba12445ed2dcd598a4b6216f0ea8833980ab1c0e09f78e348e231b43087370273e723e425d9500d657af02c6b7e4dd7ad9dfd4f7df3127319535f0e9d0fb1fe4256788736ed9328f01f20e07b2b86daf38c9630ea7c9eb66a7e941df294c9e885da4add10eb9c6cc8ffe5a57fe1346c288b89ecb760fe3a93ccaf9416071245aaf85ba6f55ba26586e3123fc424494f9831ea22d5990d863596032c72d3c7be3362061c4f939258b1c1f16640bb906d31bf48870838ab0c63430db3454f55b762a21a72ce0a5d4e47fefe6d36652886b95c28e968c9417b5a8f62d232137529201fa0cb6ef0bb1a52732878200dba7195a4912f2834f9d1f0602fb43eaa058ae79150ef81360d22e4eaf8171f6c8ff276eff4f8ba5414cca25114f22079d3a9c481b675086516bbd428e65447ffc1ab9a894c1140acd579b43a704c4acbe460bdbc261ff18483106f47f7f34fc69e204eb5a77855d08abec39f6257b1a73ea8653b3c908e92d96130bd71f390830e41c5391fc7187b36f0aaedd6ae58745b6967b6ddbcd0acce540c434713d14303d5425ed443e704710771f6189c26f00c39295c5d757f393b670058c3f9f46f6a1ee8bc1af75a31bb2ed3ba734ca63d521ac9d8e4973c97a2355c33372bcc2a717810bfd4a078cd182528a00b3eaa599acc5886e3fb02f3b986536e687e1fe74589d60d4ebf4739e7c5b90c15986eb2fdaca09c1861b8c8d0aed5151bd768c9befc9e35e5baef6006e891653aa2413c54536b132be2d2a0e575637267b8b3bd8e39114e5545f7fe9104c6d1dffe16a54e29c1e4bfb4f6dd4b336e3e63a15e56b7f69f1675504ad3a022c657fb461fd6cea5badc1ebb67cbbf255f191b82a729a964e7a77d24490d3a9be774c40745f643204f9fff2f14abc9bfc6cf68a408a7a3f1c72e257466bdc94c699dc70f9d291b2728cebcb5b3c8d8b4a4f8c1fa7b4b8d59845aeaeda309522a476e57c69d8ec686ccc5c70ebbf3e1a7e83be8c9b3930505f31c804a5f4b91663120e753d1ba45cb59f709abdbc1d3f67bf812d9ea3123e0ad08bb73938a5a4f57079e8fa3c6653ab094ed3035f751ac4bf211161ed40b3ab72e16d7bef28fdf5fde40af515420547753cf2d4c8e8a90fe28ddff591aaee8f213bb415d6fdcee0fd65761c03267136b1cfceadf8426a6f9b0d68083d53d0b5cf271d40809ae68e4f86ad540bb1f5fd4af140960cad936e930e1dcbd359cd99838494e9d8ff356b53726bf25822ac8045238c40ebeeb57322dd63d73aee42d6681b08d51148fe2655a44c75bb33f8f6154fac067dd77508c5d71f13fdf5b3a786d25ece909</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
@@ -953,6 +955,22 @@
       </categories>
       <tags>
         <tag>Opinion💭</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chong-Qing</title>
+    <url>/2020/08/31/Cover-Chongqing/</url>
+    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/chognqing1.jpg"></p>
+<a id="more"></a>
+
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/rtry.jpg"></p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/chognqing3.jpg"></p>
+]]></content>
+      <categories>
+        <category>📸 Cover</category>
+      </categories>
+      <tags>
+        <tag>images🖼️</tag>
       </tags>
   </entry>
   <entry>
@@ -973,19 +991,27 @@
       </tags>
   </entry>
   <entry>
-    <title>Chong-Qing</title>
-    <url>/2020/08/31/Cover-Chongqing/</url>
-    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/chognqing1.jpg"></p>
-<a id="more"></a>
-
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/rtry.jpg"></p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/chognqing3.jpg"></p>
-]]></content>
+    <title>Think about part-time business</title>
+    <url>/2020/10/25/Daily-life-Business-Think-about-part-time-business-/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="98f914cc1c82bab3d9941eadcd0bd8394f5a64f8bd0f8b0bb57075dc0f35aa40">06a3258ad59e4eff6dd45a2f0021519577bbd42bf5306d0c2f5166ba922f9120123120914cda524a2cd9fa6e0a9a1081130ad6a00339f2c95777a1dad931d9a563f1686403de37ec68c3f8c14994a5570071fb37f0cda93e87d0129ffea27da7071996e2b036b5c5775a53b88d623ed6e6e3bc0eec40decc44ab24f36cf3b0dafbea500964234e4859e7b7b99e59c113019e9218d048f182fbfd4c982686c2a76d3337ab4207d003b5863ccac1ed7a010f44bd3d9f97fa4a881c8be80340ce3838404d6beb0e2e31b25fd6e2878d85b09598f11160501d38f0286b13e5c5b6e7d3e547430aec3abb3616f5dc061a3395fceadc53e85e04af051292fcbea9a97ac67e81003afc9d3c1f1f4fa4116315f8319dcc87a302d83a8220af0e6998e79fd2b9d6c8d0e03d78d8cc57a67bb38cd2978355bd1f7a5f9cf568d34c9a91498f4d651f303ab3aeeeb0925b04f91ce481288f940b6822172865f8b90f530c02490158c3471020e36c7c12bfef7734b95371db9e59222e8af41c7643c79250e65a090d683a76064d2e1f84a5e95f4489a0d9ce00871de197434119b6036ae7f11ca9d615a4e2aeddea6458b9da1575681a9c54861c4a3d0e370c7d3a143e60527f0d7be7406217bae24d7bef1264c37cd356dec2edc3394ed2e70013945258c2b9bb90d952fec213fbafe3178aefa208ae62e5f1aadedc13021b1f5aaeb2395f1201ddc09e3e85686d35922cb33178cb333bab530867fb67009c1e205995c9efaaaff209f8e47258b7f50428cd38e3fcad7c1cd72507d7f4f7c2b9e49f85bb001f3e54c2552864098e7355f4843c190b0fbf0a96120a705e0f0327b918351de79e2acee7d2396b377a14b18d02aefee1eafd5338f0000dafde4545055004677d6c7d27a82db82688d9fb6e41ed45d79aea94b2f5696d5f0b2f3eca81aad59f1cd64b960a65aecc8447bacf5f9a860c895ce42411ce350aba8a317341201e4036d389d72d8dbea6d6689bcfea307222b227a61599f4ae3de31306a794d775e957b96ce8c1bc9b7d6f58df923b498429f8504c4533d5efe4046161cacc1534b8a2acd36e10e10461b9718e5f1451b8bbc1327fd59adf1177443bf9b75c83f80fe802eaae8943c27bdaf7744062adcbae2eca39b7ced5756d4705e7ecf41be6ff9c9018bc94b680e3275f2bd1c768aaf627f59c6535e7e7523915f03484afae2be61c6a2c1034df246bb99fa36df01e90c0554bd1f26fe7a3be900765df86f0b71cc1009a7d01dbefbda84a2a473258572c222860e552692d5d68ae5b22ad6943674f8d664543953f7d6bb4abd4036b4151762ffe02527702ff30ef11c4fa1e15131add78b93afbf6841f608a7705860ef2427220a735275555dac90d9e5874ac654d2378472521cf46b5d7a8dd45c19603b4b9c90e48fb491808e9dc32b53b9505d391e1784926528879fffd866e66472336f27193f38138dff7e7118770c7d98a49caac04361d714e919fcbeb90907f25fa094dec9764b87380b53271d5dc03aea34f0a4f7fb678692dc4a48c5ca8919eae226dd4445101ff50f2a2c75e659692ab8a75d46c2c9be37c0b89b476f98a90fe256d562c7914849ee4715cb7017cbdc34da7e8295a17c4a514251843aa0fa55aa8f5192abc98398a4744194a9ec097113ca4a1591297c2cccdf9f8a97eb0deab27ffa8c2079f12bed54913297d46fbff914478b76a78234fb9b96d4213cb63eb00ab5db2367339c1b33dc0930cede9ec69dba4a997464d94e49b78ec59c2659c39299e340d592d6ac86b3ef1e19b1c3cf2f039a5b8016f177e9341bd8abe7a3e212e6e95d05d4a3de9fe3377d1c6d663ed21cf3d2b6f87b1e85ad4eb4a00fa7367e75c9e3087a84870d4985572b809804e7fd1860957c280c9ebe43a412e33d69d52ed408e6342301599ee8db2add752c88044778385fe9302f3ec576690e057aaeb0a85e931188ed658a3685b12aaa271ba39f18df6c3b1db65c7e23975144df1a4522deef9f292ddb9b9600cf817865ca3b12c119607fe21d52fe053cfea264e84ce184dadb1db209b269bd810f156dcb0f90629984a093f231cd85c105989e1b8c1eb46415d54855da4fffc8e8819840a9e90e1cfcda25f64c465affacf9700a91c95575872287ced3fc4f70c4e17de53da0e63bb5fa48bce63a3026017908569cf91c6aa89eca968eab648973b39ccf144c2f3df2ed8693d9da86e6d14f11db0345317101d5aae45cf3fad2d162d7d3a9e2c214965ab13b71af92fc6ad0612d093ab0406f3161b29a2fc0ef063c8b81abbfa3518817458a12cb1580db93da605dc496e514c08964129c36ec4bb16e52131e6db4c84be05d30ec3575d0d41a5252d6505dfdbdbd7e08f15fbfdf233b9b7d77d3781644085046f29259b0de729cca633dab620fe10e4208d2c4a058d1a614d17e5513bb102aabe153fea31a1cbf7865e1ab2fddc7941fd9304877c8a075fe5ef25afe86286d7abf440eb088a349e187c308fd44d17c465f367b5cc5b47651c79e3448da065292753dbbf619684e0b62b732639c35f432cd920b8d0ca7d4bc0a1d672a7aa13e1ed83898faf09fc5c34d45e83a4122be9eca0ec5aab197e2ddde65909b0125a17a3e72e807ff5e847cbf391fcb4383081af7256f75aaa10f728c57c213fad7a23acd2ff4dfa892b05f1ba608f8ca6035d788f0d770e0f6e91e6daa366396a0c790b5a4340a3065332c098efd7011e935917565a064ce182d7c87202151362b403e1fb374fa62cbb023370b4297b1f4c8cc326a9c942a2ee2873bb76b05341c9c9ed69c485550311094fcf31298f47f867de8d6b068d3a148db742df7ce046747693f1d9ddf49171e22468c1a2f3943f3a9199af020959403e2eb4cc104170a19cf2f1dcbe1bfbc63fd708846deee8614314682a5d317d39ca05d926c152b7451402d619f982e7bfc0c18eab5b5bb93910b49263abf637</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>📸 Cover</category>
+        <category>☀️ Daily life</category>
+        <category>Business</category>
       </categories>
       <tags>
-        <tag>images🖼️</tag>
+        <tag>business💼</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2nd Wedding Anniversary-Letter</title>
+    <url>/2020/10/19/Daily-life-Mine-2nd-Wedding-Anniversary/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="1a7f1deecd30d13fb30cbe9075b261b2e51399572971b71504cf4272a66b4126">8b21cc1568dfca721c188826f7384bc493252b7561d71b218cd027d0b87c1853374c8c986dd196c9ec8f84e7e1bd1c584360bca66c8b741339bbbb3a5f392387950174ff40041da3bb3685da5c2ed38a849f379a3eb7997cc4ba1a7aca22846e364757fa795e1f6487d3bc0a0a9e1abb53b93c79903e56b5c2ee4b421c7c068c1ec1129c40cfc830fb78c1f0bb7c66186c52407eecac6f38295e71be88e8fa3a1d959b9c3cc322e305435a2cf19340a273499f92d25d80266414c96ed8d9d11ded0b0eac1031845bfb9dff79abe558aa8e5725726397e61b4cfd3e5187292748b04b48d85a5b6abab03ff80918d126cc41ebd45fde2db41c423a5fa3450c8c4f673705a795ec1683c412be8d2414f225f908693c8ac43f6b52e465f9743ee5fb1d9c5edce0773b85221330f7d4f7a4d4142591269a0a39669fb6cd0d81b96274ba7df60a14ea394f0e4efb5c01207fd6e580207c4e8ad615b921dd8929302da7e4eb260c823eb0c71e03abd5d34bb4d11089572fdb8546044214b69ae4bcf901c193ad883616a845ce41d6e2825ca1b40af8a2a77946077e6a66ad5291ee444ca2a3436c46a5d7647ee2151b5764c9ffb28bbf9b2f93471d37a7e758261d39d1d801f526b5e5674ee2c4d17de0f0896b3a255e167a1f25f9f08d07912bf9296f3c55e23eb36eea9031e7f34d0592155fe3530678d0836f9eed0b32504367eac697ac6879a121b979da8a30d0718f6bc065652dfacd4a2cefb204ad7223d61e50ae22f910e488efc096e2a6678c993a979d28bba0e8ddcd90ab11ba0c256767194a9f0e205b2d06bafc2083585497f3aa603137b01d58326e57940282ad7042eec7c784e77b3a1b27eb6ecafa54edb9dc84b3bbfe044962e305f4318abb5994487ebbd031b131a1172ad7a9b224efb5cba7f2cbd15b8ed1836a8eee1625cfd952e5166c64008c5737e56c595066bb14e3</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>☀️ Daily life</category>
+        <category>Mine</category>
+      </categories>
+      <tags>
+        <tag>anniversary🎉</tag>
       </tags>
   </entry>
   <entry>
@@ -1015,63 +1041,6 @@
       </categories>
       <tags>
         <tag>cooking🍳</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Think about part-time business</title>
-    <url>/2020/10/25/Daily-life-Business-Think-about-part-time-business-/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="98f914cc1c82bab3d9941eadcd0bd8394f5a64f8bd0f8b0bb57075dc0f35aa40">06a3258ad59e4eff6dd45a2f0021519577bbd42bf5306d0c2f5166ba922f9120123120914cda524a2cd9fa6e0a9a1081130ad6a00339f2c95777a1dad931d9a563f1686403de37ec68c3f8c14994a5570071fb37f0cda93e87d0129ffea27da7071996e2b036b5c5775a53b88d623ed6e6e3bc0eec40decc44ab24f36cf3b0dafbea500964234e4859e7b7b99e59c113019e9218d048f182fbfd4c982686c2a76d3337ab4207d003b5863ccac1ed7a010f44bd3d9f97fa4a881c8be80340ce3838404d6beb0e2e31b25fd6e2878d85b09598f11160501d38f0286b13e5c5b6e7d3e547430aec3abb3616f5dc061a3395fceadc53e85e04af051292fcbea9a97ac67e81003afc9d3c1f1f4fa4116315f8319dcc87a302d83a8220af0e6998e79fd2b9d6c8d0e03d78d8cc57a67bb38cd2978355bd1f7a5f9cf568d34c9a91498f4d651f303ab3aeeeb0925b04f91ce481288f940b6822172865f8b90f530c02490158c3471020e36c7c12bfef7734b95371db9e59222e8af41c7643c79250e65a090d683a76064d2e1f84a5e95f4489a0d9ce00871de197434119b6036ae7f11ca9d615a4e2aeddea6458b9da1575681a9c54861c4a3d0e370c7d3a143e60527f0d7be7406217bae24d7bef1264c37cd356dec2edc3394ed2e70013945258c2b9bb90d952fec213fbafe3178aefa208ae62e5f1aadedc13021b1f5aaeb2395f1201ddc09e3e85686d35922cb33178cb333bab530867fb67009c1e205995c9efaaaff209f8e47258b7f50428cd38e3fcad7c1cd72507d7f4f7c2b9e49f85bb001f3e54c2552864098e7355f4843c190b0fbf0a96120a705e0f0327b918351de79e2acee7d2396b377a14b18d02aefee1eafd5338f0000dafde4545055004677d6c7d27a82db82688d9fb6e41ed45d79aea94b2f5696d5f0b2f3eca81aad59f1cd64b960a65aecc8447bacf5f9a860c895ce42411ce350aba8a317341201e4036d389d72d8dbea6d6689bcfea307222b227a61599f4ae3de31306a794d775e957b96ce8c1bc9b7d6f58df923b498429f8504c4533d5efe4046161cacc1534b8a2acd36e10e10461b9718e5f1451b8bbc1327fd59adf1177443bf9b75c83f80fe802eaae8943c27bdaf7744062adcbae2eca39b7ced5756d4705e7ecf41be6ff9c9018bc94b680e3275f2bd1c768aaf627f59c6535e7e7523915f03484afae2be61c6a2c1034df246bb99fa36df01e90c0554bd1f26fe7a3be900765df86f0b71cc1009a7d01dbefbda84a2a473258572c222860e552692d5d68ae5b22ad6943674f8d664543953f7d6bb4abd4036b4151762ffe02527702ff30ef11c4fa1e15131add78b93afbf6841f608a7705860ef2427220a735275555dac90d9e5874ac654d2378472521cf46b5d7a8dd45c19603b4b9c90e48fb491808e9dc32b53b9505d391e1784926528879fffd866e66472336f27193f38138dff7e7118770c7d98a49caac04361d714e919fcbeb90907f25fa094dec9764b87380b53271d5dc03aea34f0a4f7fb678692dc4a48c5ca8919eae226dd4445101ff50f2a2c75e659692ab8a75d46c2c9be37c0b89b476f98a90fe256d562c7914849ee4715cb7017cbdc34da7e8295a17c4a514251843aa0fa55aa8f5192abc98398a4744194a9ec097113ca4a1591297c2cccdf9f8a97eb0deab27ffa8c2079f12bed54913297d46fbff914478b76a78234fb9b96d4213cb63eb00ab5db2367339c1b33dc0930cede9ec69dba4a997464d94e49b78ec59c2659c39299e340d592d6ac86b3ef1e19b1c3cf2f039a5b8016f177e9341bd8abe7a3e212e6e95d05d4a3de9fe3377d1c6d663ed21cf3d2b6f87b1e85ad4eb4a00fa7367e75c9e3087a84870d4985572b809804e7fd1860957c280c9ebe43a412e33d69d52ed408e6342301599ee8db2add752c88044778385fe9302f3ec576690e057aaeb0a85e931188ed658a3685b12aaa271ba39f18df6c3b1db65c7e23975144df1a4522deef9f292ddb9b9600cf817865ca3b12c119607fe21d52fe053cfea264e84ce184dadb1db209b269bd810f156dcb0f90629984a093f231cd85c105989e1b8c1eb46415d54855da4fffc8e8819840a9e90e1cfcda25f64c465affacf9700a91c95575872287ced3fc4f70c4e17de53da0e63bb5fa48bce63a3026017908569cf91c6aa89eca968eab648973b39ccf144c2f3df2ed8693d9da86e6d14f11db0345317101d5aae45cf3fad2d162d7d3a9e2c214965ab13b71af92fc6ad0612d093ab0406f3161b29a2fc0ef063c8b81abbfa3518817458a12cb1580db93da605dc496e514c08964129c36ec4bb16e52131e6db4c84be05d30ec3575d0d41a5252d6505dfdbdbd7e08f15fbfdf233b9b7d77d3781644085046f29259b0de729cca633dab620fe10e4208d2c4a058d1a614d17e5513bb102aabe153fea31a1cbf7865e1ab2fddc7941fd9304877c8a075fe5ef25afe86286d7abf440eb088a349e187c308fd44d17c465f367b5cc5b47651c79e3448da065292753dbbf619684e0b62b732639c35f432cd920b8d0ca7d4bc0a1d672a7aa13e1ed83898faf09fc5c34d45e83a4122be9eca0ec5aab197e2ddde65909b0125a17a3e72e807ff5e847cbf391fcb4383081af7256f75aaa10f728c57c213fad7a23acd2ff4dfa892b05f1ba608f8ca6035d788f0d770e0f6e91e6daa366396a0c790b5a4340a3065332c098efd7011e935917565a064ce182d7c87202151362b403e1fb374fa62cbb023370b4297b1f4c8cc326a9c942a2ee2873bb76b05341c9c9ed69c485550311094fcf31298f47f867de8d6b068d3a148db742df7ce046747693f1d9ddf49171e22468c1a2f3943f3a9199af020959403e2eb4cc104170a19cf2f1dcbe1bfbc63fd708846deee8614314682a5d317d39ca05d926c152b7451402d619f982e7bfc0c18eab5b5bb93910b49263abf637</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>☀️ Daily life</category>
-        <category>Business</category>
-      </categories>
-      <tags>
-        <tag>business💼</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Arab @ Traditional dress</title>
-    <url>/2020/10/24/Others-Arab-traditional-dress/</url>
-    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022071306.png"></p>
-<a id="more"></a>
-
-<h4 id="Hijab"><a href="#Hijab" class="headerlink" title="Hijab"></a>Hijab</h4><p>A <strong><em>hijab</em></strong>  is a veil worn by some <a href="https://en.wikipedia.org/wiki/Muslim">Muslim</a> women in the presence of any male outside of their immediate family, which usually covers the head and chest. The term can refer to any head, face, or body covering worn by Muslim women that conforms to <a href="https://en.wikipedia.org/wiki/Haya_(Islam)">Islamic standards of modesty</a>. </p>
-<p><em>Hijab</em> can also refer to the <a href="https://en.wikipedia.org/wiki/Seclusion">seclusion</a> of women from men in the <a href="https://en.wikipedia.org/wiki/Public_sphere">public sphere</a>, or it may denote a metaphysical dimension, for example referring to “the veil which separates man or the world from God.” </p>
-<h5 id="amp-Niqab"><a href="#amp-Niqab" class="headerlink" title="&amp; Niqāb"></a>&amp; Niqāb</h5><p>A <strong>niqāb</strong> or <strong>niqaab</strong>, also called a <strong>ruband</strong>, is a garment of clothing that covers the face, worn by some <a href="https://en.wikipedia.org/wiki/Muslim_women">Muslim women</a> as a part of a particular interpretation of <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a> (modest dress). </p>
-<p> It properly refers to a garment that covers a woman’s upper body and face, except for her eyes. It is particularly associated with the style traditionally worn in the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, where the veil is attached by one side and covers the face only below the eyes, thereby allowing the eyes to be seen.</p>
-<p>According to the majority of Muslim scholars and <a href="https://en.wikipedia.org/wiki/Islamic_schools_of_thought">Islamic schools of thought</a>, <strong>face veiling</strong> is not a requirement of <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>; however a minority of Muslim scholars, particularly among the <a href="https://en.wikipedia.org/wiki/Salafi">Salafi</a> movement, assert that women are required to cover their faces in public. Those Muslim women who wear the niqab do so in places where they may encounter non-<a href="https://en.wikipedia.org/wiki/Mahram">mahram</a> (non-related) men.</p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201024175433.png"></p>
-<h5 id="amp-Burqa"><a href="#amp-Burqa" class="headerlink" title="&amp; Burqa"></a>&amp; Burqa</h5><p>A <strong>burqa</strong> or <strong>burka</strong> in Afghanistan or a <strong><a href="https://en.wikipedia.org/wiki/Paranja">paranja</a></strong> in <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, is an enveloping outer garment which covers the body and the face that is worn by women in some <a href="https://en.wikipedia.org/wiki/Islamic">Islamic</a> traditions. The Arab version of the <strong>burqa</strong> is called the <strong><a href="https://en.wikipedia.org/wiki/Boshiya">boshiya</a></strong>, and is usually black in color.</p>
-<p>The term <em>burqa</em> is sometimes conflated with <em><a href="https://en.wikipedia.org/wiki/Niq%C4%81b">niqāb</a></em>. In more precise usage, niqab is a face veil that leaves the eyes uncovered, while a burqa covers the entire body from the top of the head to the ground, with only a mesh screen allowing the wearer to see in front of her. The burqa is also not to be confused with the <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>, a garment which covers the hair, neck and all or part of the chest, but not the face.</p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074229.png"></p>
-<h5 id="amp-Tudong"><a href="#amp-Tudong" class="headerlink" title="&amp; Tudong"></a>&amp; Tudong</h5><p><strong>Tudong</strong> (also spelled <strong>tudung</strong>) is a <a href="https://en.wikipedia.org/wiki/Malay_language">Malay</a> word, literally meaning the noun “cover”, which is commonly translated/referred to as <a href="https://en.wikipedia.org/wiki/Veil">veil</a> or <a href="https://en.wikipedia.org/wiki/Headscarf">headscarf</a> in <a href="https://en.wikipedia.org/wiki/English_language">English</a>.</p>
-<p>In <a href="https://en.wikipedia.org/wiki/Brunei">Brunei</a>, <a href="https://en.wikipedia.org/wiki/Malaysia">Malaysia</a> and <a href="https://en.wikipedia.org/wiki/Singapore">Singapore</a>, the tudong is worn in accordance to <a href="https://en.wikipedia.org/wiki/Islam">Islam’s</a> <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>. Usually, the tudong covers the hair, ears, neck while <code>leaving only the face exposed</code>. It is part of the standard <a href="https://en.wikipedia.org/wiki/Dress_code">dress code</a> for offices, such as school uniforms and formal occasions.</p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022072037.png"></p>
-<h5 id="amp-Turban"><a href="#amp-Turban" class="headerlink" title="&amp; Türban"></a>&amp; Türban</h5><p>Some fashion-conscious women have been turning to non-traditional forms of hijab such as turbans. While some regard turbans as a proper head cover, others argue that it cannot be considered a proper Islamic veil if it leaves the neck exposed.</p>
-<p>A <strong>turban</strong> (from <a href="https://en.wikipedia.org/wiki/Persian_language">Persian</a> دولبند‌, <em>dulband</em>; via <a href="https://en.wikipedia.org/wiki/Middle_French">Middle French</a> <em>turbant</em>) is a type of <a href="https://en.wikipedia.org/wiki/Headwear">headwear</a> based on cloth winding. Featuring many variations, it is worn as customary headwear by people of various cultures. Communities with prominent turban-wearing traditions can be found in the <a href="https://en.wikipedia.org/wiki/Indian_subcontinent">Indian subcontinent</a>, <a href="https://en.wikipedia.org/wiki/Southeast_Asia">Southeast Asia</a>, the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, the <a href="https://en.wikipedia.org/wiki/Middle_East">Middle East</a>, <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, <a href="https://en.wikipedia.org/wiki/North_Africa">North Africa</a>, <a href="https://en.wikipedia.org/wiki/West_Africa">West Africa</a>, and East Africa.</p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074749.png"></p>
-<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><blockquote>
-<p><a href="https://en.wikipedia.org/wiki/Hijab">https://en.wikipedia.org/wiki/Hijab</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Arab</category>
-      </categories>
-      <tags>
-        <tag>culture</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2nd Wedding Anniversary-Letter</title>
-    <url>/2020/10/19/Daily%20life-Mine-2nd-Wedding-Anniversary/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="1a7f1deecd30d13fb30cbe9075b261b2e51399572971b71504cf4272a66b4126">8b21cc1568dfca721c188826f7384bc493252b7561d71b218cd027d0b87c1853374c8c986dd196c9ec8f84e7e1bd1c584360bca66c8b741339bbbb3a5f392387950174ff40041da3bb3685da5c2ed38a849f379a3eb7997cc4ba1a7aca22846e364757fa795e1f6487d3bc0a0a9e1abb53b93c79903e56b5c2ee4b421c7c068c1ec1129c40cfc830fb78c1f0bb7c66186c52407eecac6f38295e71be88e8fa3a1d959b9c3cc322e305435a2cf19340a273499f92d25d80266414c96ed8d9d11ded0b0eac1031845bfb9dff79abe558aa8e5725726397e61b4cfd3e5187292748b04b48d85a5b6abab03ff80918d126cc41ebd45fde2db41c423a5fa3450c8c4f673705a795ec1683c412be8d2414f225f908693c8ac43f6b52e465f9743ee5fb1d9c5edce0773b85221330f7d4f7a4d4142591269a0a39669fb6cd0d81b96274ba7df60a14ea394f0e4efb5c01207fd6e580207c4e8ad615b921dd8929302da7e4eb260c823eb0c71e03abd5d34bb4d11089572fdb8546044214b69ae4bcf901c193ad883616a845ce41d6e2825ca1b40af8a2a77946077e6a66ad5291ee444ca2a3436c46a5d7647ee2151b5764c9ffb28bbf9b2f93471d37a7e758261d39d1d801f526b5e5674ee2c4d17de0f0896b3a255e167a1f25f9f08d07912bf9296f3c55e23eb36eea9031e7f34d0592155fe3530678d0836f9eed0b32504367eac697ac6879a121b979da8a30d0718f6bc065652dfacd4a2cefb204ad7223d61e50ae22f910e488efc096e2a6678c993a979d28bba0e8ddcd90ab11ba0c256767194a9f0e205b2d06bafc2083585497f3aa603137b01d58326e57940282ad7042eec7c784e77b3a1b27eb6ecafa54edb9dc84b3bbfe044962e305f4318abb5994487ebbd031b131a1172ad7a9b224efb5cba7f2cbd15b8ed1836a8eee1625cfd952e5166c64008c5737e56c595066bb14e3</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>☀️ Daily life</category>
-        <category>Mine</category>
-      </categories>
-      <tags>
-        <tag>anniversary🎉</tag>
       </tags>
   </entry>
   <entry>
@@ -1199,6 +1168,93 @@
       </tags>
   </entry>
   <entry>
+    <title>Arab @ Traditional dress</title>
+    <url>/2020/10/24/Others-Arab-traditional-dress/</url>
+    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022071306.png"></p>
+<a id="more"></a>
+
+<h4 id="Hijab"><a href="#Hijab" class="headerlink" title="Hijab"></a>Hijab</h4><p>A <strong><em>hijab</em></strong>  is a veil worn by some <a href="https://en.wikipedia.org/wiki/Muslim">Muslim</a> women in the presence of any male outside of their immediate family, which usually covers the head and chest. The term can refer to any head, face, or body covering worn by Muslim women that conforms to <a href="https://en.wikipedia.org/wiki/Haya_(Islam)">Islamic standards of modesty</a>. </p>
+<p><em>Hijab</em> can also refer to the <a href="https://en.wikipedia.org/wiki/Seclusion">seclusion</a> of women from men in the <a href="https://en.wikipedia.org/wiki/Public_sphere">public sphere</a>, or it may denote a metaphysical dimension, for example referring to “the veil which separates man or the world from God.” </p>
+<h5 id="amp-Niqab"><a href="#amp-Niqab" class="headerlink" title="&amp; Niqāb"></a>&amp; Niqāb</h5><p>A <strong>niqāb</strong> or <strong>niqaab</strong>, also called a <strong>ruband</strong>, is a garment of clothing that covers the face, worn by some <a href="https://en.wikipedia.org/wiki/Muslim_women">Muslim women</a> as a part of a particular interpretation of <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a> (modest dress). </p>
+<p> It properly refers to a garment that covers a woman’s upper body and face, except for her eyes. It is particularly associated with the style traditionally worn in the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, where the veil is attached by one side and covers the face only below the eyes, thereby allowing the eyes to be seen.</p>
+<p>According to the majority of Muslim scholars and <a href="https://en.wikipedia.org/wiki/Islamic_schools_of_thought">Islamic schools of thought</a>, <strong>face veiling</strong> is not a requirement of <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>; however a minority of Muslim scholars, particularly among the <a href="https://en.wikipedia.org/wiki/Salafi">Salafi</a> movement, assert that women are required to cover their faces in public. Those Muslim women who wear the niqab do so in places where they may encounter non-<a href="https://en.wikipedia.org/wiki/Mahram">mahram</a> (non-related) men.</p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201024175433.png"></p>
+<h5 id="amp-Burqa"><a href="#amp-Burqa" class="headerlink" title="&amp; Burqa"></a>&amp; Burqa</h5><p>A <strong>burqa</strong> or <strong>burka</strong> in Afghanistan or a <strong><a href="https://en.wikipedia.org/wiki/Paranja">paranja</a></strong> in <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, is an enveloping outer garment which covers the body and the face that is worn by women in some <a href="https://en.wikipedia.org/wiki/Islamic">Islamic</a> traditions. The Arab version of the <strong>burqa</strong> is called the <strong><a href="https://en.wikipedia.org/wiki/Boshiya">boshiya</a></strong>, and is usually black in color.</p>
+<p>The term <em>burqa</em> is sometimes conflated with <em><a href="https://en.wikipedia.org/wiki/Niq%C4%81b">niqāb</a></em>. In more precise usage, niqab is a face veil that leaves the eyes uncovered, while a burqa covers the entire body from the top of the head to the ground, with only a mesh screen allowing the wearer to see in front of her. The burqa is also not to be confused with the <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>, a garment which covers the hair, neck and all or part of the chest, but not the face.</p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074229.png"></p>
+<h5 id="amp-Tudong"><a href="#amp-Tudong" class="headerlink" title="&amp; Tudong"></a>&amp; Tudong</h5><p><strong>Tudong</strong> (also spelled <strong>tudung</strong>) is a <a href="https://en.wikipedia.org/wiki/Malay_language">Malay</a> word, literally meaning the noun “cover”, which is commonly translated/referred to as <a href="https://en.wikipedia.org/wiki/Veil">veil</a> or <a href="https://en.wikipedia.org/wiki/Headscarf">headscarf</a> in <a href="https://en.wikipedia.org/wiki/English_language">English</a>.</p>
+<p>In <a href="https://en.wikipedia.org/wiki/Brunei">Brunei</a>, <a href="https://en.wikipedia.org/wiki/Malaysia">Malaysia</a> and <a href="https://en.wikipedia.org/wiki/Singapore">Singapore</a>, the tudong is worn in accordance to <a href="https://en.wikipedia.org/wiki/Islam">Islam’s</a> <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>. Usually, the tudong covers the hair, ears, neck while <code>leaving only the face exposed</code>. It is part of the standard <a href="https://en.wikipedia.org/wiki/Dress_code">dress code</a> for offices, such as school uniforms and formal occasions.</p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022072037.png"></p>
+<h5 id="amp-Turban"><a href="#amp-Turban" class="headerlink" title="&amp; Türban"></a>&amp; Türban</h5><p>Some fashion-conscious women have been turning to non-traditional forms of hijab such as turbans. While some regard turbans as a proper head cover, others argue that it cannot be considered a proper Islamic veil if it leaves the neck exposed.</p>
+<p>A <strong>turban</strong> (from <a href="https://en.wikipedia.org/wiki/Persian_language">Persian</a> دولبند‌, <em>dulband</em>; via <a href="https://en.wikipedia.org/wiki/Middle_French">Middle French</a> <em>turbant</em>) is a type of <a href="https://en.wikipedia.org/wiki/Headwear">headwear</a> based on cloth winding. Featuring many variations, it is worn as customary headwear by people of various cultures. Communities with prominent turban-wearing traditions can be found in the <a href="https://en.wikipedia.org/wiki/Indian_subcontinent">Indian subcontinent</a>, <a href="https://en.wikipedia.org/wiki/Southeast_Asia">Southeast Asia</a>, the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, the <a href="https://en.wikipedia.org/wiki/Middle_East">Middle East</a>, <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, <a href="https://en.wikipedia.org/wiki/North_Africa">North Africa</a>, <a href="https://en.wikipedia.org/wiki/West_Africa">West Africa</a>, and East Africa.</p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074749.png"></p>
+<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><blockquote>
+<p><a href="https://en.wikipedia.org/wiki/Hijab">https://en.wikipedia.org/wiki/Hijab</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Arab</category>
+      </categories>
+      <tags>
+        <tag>culture</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Major religions</title>
+    <url>/2020/10/24/Others-Major-religions/</url>
+    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
+<a id="more"></a>
+
+<img src = "https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022075814.png"> 
+
+
+
+<h3 id="History-of-religious-categories"><a href="#History-of-religious-categories" class="headerlink" title="History of religious categories"></a>History of religious categories</h3><h4 id="World-categorizations"><a href="#World-categorizations" class="headerlink" title="@ World categorizations"></a>@ World categorizations</h4><p>In world cultures, there have traditionally been many different groupings of religious belief. In <a href="https://en.wikipedia.org/wiki/Culture_of_India">Indian culture</a>, different religious philosophies were traditionally respected as academic differences in pursuit of the same truth. In <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>, the <a href="https://en.wikipedia.org/wiki/Quran">Quran</a> mentions three different categories: <a href="https://en.wikipedia.org/wiki/Muslims">Muslims</a>, the <a href="https://en.wikipedia.org/wiki/People_of_the_Book">People of the Book</a>, and <a href="https://en.wikipedia.org/wiki/Idolatry">idol worshipers</a>.</p>
+<h4 id="Christian-categorizations"><a href="#Christian-categorizations" class="headerlink" title="@ Christian categorizations"></a>@ Christian categorizations</h4><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups">https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups</a></p>
+]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>religion☯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Nice Songs</title>
+    <url>/2020/08/31/Others-Nice-songs/</url>
+    <content><![CDATA[<h4 id="※-Chinese-Songs-※"><a href="#※-Chinese-Songs-※" class="headerlink" title="※ Chinese Songs ※"></a>※ Chinese Songs ※</h4><h5 id="amp-Singles"><a href="#amp-Singles" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><strong>后来(Later)</strong> - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
+<p><strong>童话(Fairy Tale)</strong> - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
+<p><strong>老男孩</strong> - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
+<p><strong>那些年(Those Bygone Years)</strong> - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
+<p><strong>少年</strong> - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
+<a id="more"></a>
+
+<h4 id="※-Japanese-Songs-※"><a href="#※-Japanese-Songs-※" class="headerlink" title="※ Japanese Songs ※"></a>※ Japanese Songs ※</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201028082408.png" style="zoom: 80%;" />
+
+<hr>
+<p><strong>SAKURA</strong> - 2006 - @Memory  @Love @Sadness</p>
+<p><strong>YELL</strong> - 2009 - @Courage</p>
+<p><strong>ありがとう</strong>(Arigatou = Thank you) - 2010 - @Love @Regret </p>
+<h4 id="※-English-Songs-※"><a href="#※-English-Songs-※" class="headerlink" title="※ English Songs ※"></a>※ English Songs ※</h4><h5 id="amp-Singles-1"><a href="#amp-Singles-1" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah"><strong>Monsters</strong></a> - 2014 - Katie Sky - @Courage</p>
+<h5 id="amp-Songs-from-Annual-GRAMMY-Awards"><a href="#amp-Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="&amp; Songs from Annual GRAMMY Awards"></a>&amp; Songs from <a href="https://www.grammy.com/grammys/awards">Annual GRAMMY Awards</a></h5></br>
+
+
+
+<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah">https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah</a></p>
+]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Music</category>
+      </categories>
+      <tags>
+        <tag>music🎵</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Useful info for BMIC days 2020</title>
     <url>/2020/11/08/Others-Practical-info-BMIC-day/</url>
     <content><![CDATA[<h4 id="🕗-Time-and-location"><a href="#🕗-Time-and-location" class="headerlink" title="🕗 Time and location"></a>🕗 Time and location</h4><ul>
@@ -1318,39 +1374,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Nice Songs</title>
-    <url>/2020/08/31/Others-Nice-songs/</url>
-    <content><![CDATA[<h4 id="※-Chinese-Songs-※"><a href="#※-Chinese-Songs-※" class="headerlink" title="※ Chinese Songs ※"></a>※ Chinese Songs ※</h4><h5 id="amp-Singles"><a href="#amp-Singles" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><strong>后来(Later)</strong> - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
-<p><strong>童话(Fairy Tale)</strong> - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
-<p><strong>老男孩</strong> - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
-<p><strong>那些年(Those Bygone Years)</strong> - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
-<p><strong>少年</strong> - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
-<a id="more"></a>
-
-<h4 id="※-Japanese-Songs-※"><a href="#※-Japanese-Songs-※" class="headerlink" title="※ Japanese Songs ※"></a>※ Japanese Songs ※</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201028082408.png" style="zoom: 80%;" />
-
-<hr>
-<p><strong>SAKURA</strong> - 2006 - @Memory  @Love @Sadness</p>
-<p><strong>YELL</strong> - 2009 - @Courage</p>
-<p><strong>ありがとう</strong>(Arigatou = Thank you) - 2010 - @Love @Regret </p>
-<h4 id="※-English-Songs-※"><a href="#※-English-Songs-※" class="headerlink" title="※ English Songs ※"></a>※ English Songs ※</h4><h5 id="amp-Singles-1"><a href="#amp-Singles-1" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah"><strong>Monsters</strong></a> - 2014 - Katie Sky - @Courage</p>
-<h5 id="amp-Songs-from-Annual-GRAMMY-Awards"><a href="#amp-Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="&amp; Songs from Annual GRAMMY Awards"></a>&amp; Songs from <a href="https://www.grammy.com/grammys/awards">Annual GRAMMY Awards</a></h5></br>
-
-
-
-<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah">https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah</a></p>
-]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Music</category>
-      </categories>
-      <tags>
-        <tag>music🎵</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Account and password</title>
     <url>/2020/10/22/Others-Practical-info-Password/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="322e4e9fdd58600abb0fb7546051d2ade940c1d2efb14e13077e2cd71421f4d6">8732f4be449ce79ab294b66edbb143ede968390e65c689b785f1dde9e55d1f8c3e7a898886732a87b3da97605ab98f988126e2e0dffc80255d94fc7f8fccd62b644c3f478d1874378b0e07fafee24d35d786e8f71cb98995f6761f3af524825207c5fbabe07d5f4b8bdbf417886149a08b6fccffcf70237952619572f406110903f9ee57748ba90a5d324b5783224fa511ef2273cdad1634c42ee7449ecd3107a082cc863cd663dcf11d2a4bfd605aecf7c40fef726815829f8b7402f5d906a06d770939fe1bcd37809c01a27749559d</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
@@ -1360,33 +1383,6 @@
       </categories>
       <tags>
         <tag>password🔐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Adv @ Font color changing</title>
-    <url>/2020/11/07/Tutorials-Hexo-Adv-Font-color/</url>
-    <content><![CDATA[<h3 id="🎆-Font-color-change"><a href="#🎆-Font-color-change" class="headerlink" title="🎆    Font color change"></a>🎆    Font color change</h3><h4 id="1-Open-the-parameter-file"><a href="#1-Open-the-parameter-file" class="headerlink" title="1. Open the parameter file."></a>1. Open the parameter file.</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">cd</span> <span class="string">./homepage/themes/next/source/css/_variables</span></span><br><span class="line"><span class="string">vi</span> <span class="string">./base.styl</span></span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<h4 id="2-Find-out-the-color-parameter-check-them-one-by-one"><a href="#2-Find-out-the-color-parameter-check-them-one-by-one" class="headerlink" title="2. Find out the color parameter, check them one by one."></a>2. Find out the color parameter, check them one by one.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203713.png"  />
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203750.png"/>
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203823.png"/>
-
-<hr>
-<h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h4><blockquote>
-<p><a href="https://asymptotic-freedom.xyz/posts/f4345ea0/">https://asymptotic-freedom.xyz/posts/f4345ea0/</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -1437,27 +1433,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Major religions</title>
-    <url>/2020/10/24/Others-Major-religions/</url>
-    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
-<a id="more"></a>
-
-<img src = "https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022075814.png"> 
-
-
-
-<h3 id="History-of-religious-categories"><a href="#History-of-religious-categories" class="headerlink" title="History of religious categories"></a>History of religious categories</h3><h4 id="World-categorizations"><a href="#World-categorizations" class="headerlink" title="@ World categorizations"></a>@ World categorizations</h4><p>In world cultures, there have traditionally been many different groupings of religious belief. In <a href="https://en.wikipedia.org/wiki/Culture_of_India">Indian culture</a>, different religious philosophies were traditionally respected as academic differences in pursuit of the same truth. In <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>, the <a href="https://en.wikipedia.org/wiki/Quran">Quran</a> mentions three different categories: <a href="https://en.wikipedia.org/wiki/Muslims">Muslims</a>, the <a href="https://en.wikipedia.org/wiki/People_of_the_Book">People of the Book</a>, and <a href="https://en.wikipedia.org/wiki/Idolatry">idol worshipers</a>.</p>
-<h4 id="Christian-categorizations"><a href="#Christian-categorizations" class="headerlink" title="@ Christian categorizations"></a>@ Christian categorizations</h4><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups">https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups</a></p>
-]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>religion☯</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Corpus @ Make your own corpus</title>
     <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
     <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
@@ -1468,6 +1443,33 @@
       </categories>
       <tags>
         <tag>corpus📖</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ Font color changing</title>
+    <url>/2020/11/07/Tutorials-Hexo-Adv-Font-color/</url>
+    <content><![CDATA[<h3 id="🎆-Font-color-change"><a href="#🎆-Font-color-change" class="headerlink" title="🎆    Font color change"></a>🎆    Font color change</h3><h4 id="1-Open-the-parameter-file"><a href="#1-Open-the-parameter-file" class="headerlink" title="1. Open the parameter file."></a>1. Open the parameter file.</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">cd</span> <span class="string">./homepage/themes/next/source/css/_variables</span></span><br><span class="line"><span class="string">vi</span> <span class="string">./base.styl</span></span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<h4 id="2-Find-out-the-color-parameter-check-them-one-by-one"><a href="#2-Find-out-the-color-parameter-check-them-one-by-one" class="headerlink" title="2. Find out the color parameter, check them one by one."></a>2. Find out the color parameter, check them one by one.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203713.png"  />
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203750.png"/>
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203823.png"/>
+
+<hr>
+<h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h4><blockquote>
+<p><a href="https://asymptotic-freedom.xyz/posts/f4345ea0/">https://asymptotic-freedom.xyz/posts/f4345ea0/</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
