@@ -16,6 +16,26 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo_Basic @ Post guide of YAML front matter</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</url>
+    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
+<p>It includes all necessary parameter needed for your article.</p>
+<p>Here is just some of important ones, which should be always considered before your writing: </p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Basic</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Basic🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo[Next] @ Custom background image</title>
     <url>/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</url>
     <content><![CDATA[<p>*<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong> Based on <code>Next theme</code> <a href="https://github.com/theme-next/hexo-theme-next/commit/f9956802c9cf51ebdb447fb954efa6383fbb2bd6">Release v7.8.0</a></p>
@@ -276,49 +296,8 @@
         <category>Basic</category>
       </categories>
       <tags>
+        <tag>Hexo_Basic🕸️</tag>
         <tag>Page optimization📄</tag>
-        <tag>Hexo_Basic🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Basic @ Post guide of YAML front matter</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</url>
-    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
-<p>It includes all necessary parameter needed for your article.</p>
-<p>Here is just some of important ones, which should be always considered before your writing: </p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Basic</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Basic🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Zotero @ Citation style custom</title>
-    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
-    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
-<a id="more"></a>
-
-<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
-<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
-<blockquote>
-<p>ref:</p>
-<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Zotero</category>
-      </categories>
-      <tags>
-        <tag>Zotero📑</tag>
       </tags>
   </entry>
   <entry>
@@ -361,15 +340,24 @@
       </tags>
   </entry>
   <entry>
-    <title>Not speaking, or saying things people don&#39;t understand</title>
-    <url>/2020/10/17/2020-10-17-Not-speaking-or-saying-things-people-dont-understand/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="2aa83b6b856cbfa6045dd23a4993014e217c896e5f428d7762e861abb941756d">eb4c5bd67eb92a5abf35e39786af585b491d4ebb6e56ad64a9758c12a590c1413d8357311d2c0028c11259394edc18fdb8506b41d8d21ac6a06c29dc65e7e49a102ecb26365068e3181e515146c9418b5b450776be2d970edc45968d8e86e11078cccf0e629d0bc369a9e6dce1181ce8aa4979daab475ecf6064ea1102dfe179e1c2273675e85747eb4c07b232b5d8e09dd8ed6cccf9af4d3a5c40f52804774cc1a5c023f455c34b03b7029111aa158efcacc79b970530688367ac9cbd5252731aa6e00e016ccbc22361cce3276466d97ed09c94b679b4267481548478b4b7204fbf9c3ab10ba10aaae2de13da60f6228fa25f6ee29b153b5eb63e7a331e91cbe0d6fca84aa4126823c6d5234b480d7aa0242796795b769586dc8e39dd6b1a829dfc20f4465473f06ccdae3d55a0561e9b5d9b7181b32ac860cb917a1ccf4e53b5ee761e41bf1ac9d4b6a146910bf27e0a5c1994b94107fb20f1323217c3243f92a01aa2944fbbe387a5e6d30a22c176c292cb269b8cc7240b4a3bf4c050b8f8af8cb1b1c620a9878262d7860457cba7dc216e8a279548e6e6cd3d130f99f81807ef3c613513dc6d7b638341d47d1d6e0bf6754802f35d1d4633d7c2ac366f0e01084c5e0d0b3d5c8d2efb93240ee9ebc98c2138a68c03e5595886e484614ae09b365006b0a322f322f08b7d2e1f1eb3d6a253664f8def023d2f471a0954fb0aa09b04dc428d39f727abfc7c65785d3636ee48e6f1ee53ed1363484097df1fa31a55432d8d5287280fafc85b705dd4ce656c5c29d490ea28ca29abeffc01443f13044dbcd97222515a9c7f8c69963cdc1d6952914dc732da239f8569f2da3a02e54307c94f0cde5a23420ee81c52d1b1ba51720024f51b255f81ee3712a9e7a365805d8641148cb1437af26c0bc3ffa87ac5a449713a578d615ce60d85d8fd846ac35411aca2dbcfeb8d21260616da6ab54e8d1f92b92729517ecdae76569dd85c0902cb87196e8f83cddaff5a8248884b8ee1b3c95266f6094c794a3ff09ddc1fb6cbe386b3459d444fe9fe4f8d0c1dd78efa64168eb522d6ae8afc3ca7b7e86a3b9b95d8fe2907ca711d62e3525929a3ffc1b80623300379608dc0cf3110ab341c6de40310504a160328d1d848b3f3c0343d082e87c8eb04407864602f2964c6542637d927f17f37fe4786c11a9e434d0015397f3f140955a74d5c5cb9b093cc685bb0b535e6488ffc02c578d314426cb82dfa4c7805bb1bb921888e73e95020e2bac707f87689d3836e38e74bbe05a953f01701a23f8a0c9145feb1c53086b03b315d5aeabf5135d427ff270876862b9591bfe39bf2c414bf32ca1a8b6defef074183ca20513c886ae9e80c692c575f11315a83528a2de3020ce6341683cf51e4c0c2e5d5a5f00096653201271543e498138e1051d8f20f5e88390445eac0c56ad3fa077c54c69d2e79d127326ea0cc559d427807adc57bd1bc125f45363dd033bd0d805de636220e57b83138f6a75f00574e3b5113f6e435c75af1a56ab3da1a48784f6710c8cfa7491ef17219c28b3c6ccca78228ac5523bbedfd9520e8db68dd6d523a470e66caf404302a7b77823e3028ecd745264c9966c99572f801a9d5619b5081ab9e1c3e95a3f3999037fc8ee8a673d5d222f1ab4dc1279a48076c69184a3352acbcf9ef28f1237a23e7e712868aad8b7cf7101f30964574b8ac16f9922541b01977bebd0acd18db6bb54e168002f2b17b1928c3c32d4598da6225888ef461d2bbfa4081fc6e5fc264af5d4bad501b424a22b9b41c77526790ca442ad3015a8551e2a745bc3c9bd4e076eab8a5cf6f90db7b653a076c399a284c2851ccf007f37332b90c8b436a208a5358ede74e0f25c334348a1e1d2c4e37b91f0b639b43a243f26918da7a42570bcdafd6a359a0758545d2c8e5c52c440252351952dfe31d52be2e1fbfcb4070e4890a9ec01f0d2e870b9949dabdd0b1a9b5abaa4db59f1ea95c8e425b06473f1aa12b513de490a1c5c2b50ba50e06e79cd1130172ffec59ad65a8c90436aeece0550007f4721205b8ffd94e7545e4fac70aa910c9e5e312360ace151a0df16737fbca1aab8130238ae66d31deb8f8920589fff226c7a39e600831fa17d300c500a18e8cc5bf2a320b6e259bdd21d7287c97996adb6eb7a0c48c5faa063488d2bb417015271fb3058455c8e361669344e08b9c1fd1e7f991fa5b48b74026af1e489477dff5f27cc46655aad2930374e2d5574ee08c92c79e66b2d110d4f43ccdef4b294112d57e5d6690f1d18fa7e938c37182de08631a76291450b02f35c3e6bfbb3c8d0496e2e671f28219e7b8e1efd19e1a5d7a555946aaddcfd9d82217641373345d3568a510e09a90c5ad7d5f8ecc47818cd7acfd1422a2e371440a1b8f4e60fed0333d1e62d1e2662ff7f9ef432b83c6e0105b13f714c213a3aabe5da4f787b517ffbc09a520fdc7844a87afc9995228bbe3a1ff7d7d242e3d01fc5cafe252db76d52be830b2beb27fb9a0a282f569459d773198f159253d9e0a3c2311dc659b7de2fd8b3ccb9c1aa3ef58f73942afa1ccefbac64f4cba650e09da9f45d64afcf567a4e63a80105321097778f768a1f391673bf24183e670ee0f7ce22b2ea890ca21acc30b8e9026ef8aa43898a28f45142ac1247824da4cd3fdf71a12e412347ca15a8bfbfd38bb25b09474af59b1ea6114317543288f2073f98e665c4dfef8e74eae4658dbf4707623a8bb0a51b9f1d275be0a0030768cd5d293eb2c9b2b343d6c6fb2b85328db6fada2b76bfe5b5c1e11b689af3304e94cac7381cb4623099fa766064f17ba42dff32e7ac783105b8e92c107a5fbcc949aabd885690a1d6ca3bffcd9e435f5931145c063d4695d5670a3beb899269a9793695264d7bd0622149696f9f27e9954324c37bbccbe14a5e5cd0d7a615a2e8750fe488770e23dbd900d7c3ba5629ebca46a3af4c696bf83bb12b33c38577d4962c8c310b36fc787f3a339637baeb342082081e72d6ee6c583315fbf231f39c3643b81ed53234100aec1ed4366d03522a2f26505e76051d43c0c98ed8dcca832e8b3b6c000067f54ad359a7620cbd487b2ee040b942a430459348f6e1e6eaf49b8876510e5f6bfe47c03c900929955a6d130d96c02d34d03dcf778ca3a167efa7cb1a9a4e3398f4574fd17a2843c835c9f68da66d866eebcaa4b84784f9c03dcc5e36542108c14d74db90e59a40589bf864dce48338ac6bf0e465a0a512ab54b3abe6d0fbdf8c12caf7121cdcf443f71646ad71b0fdabf968386748eab6e59015687de24688a7b71119f1d14927dbee751de9a0c5308896c702276b9a175a8f772266bb8797e5609769d592b3229601a9e587e2c862cd032fb4f7ad686bc155699e12e336aa6d55895bc94447fd9151d0ac29460d42523d66babd59b9aa6e7b1089647acdf31c9dea54815258678e08b6a8d691c9dea36ccea7ddf370fa271a2397baf5183f9329050ce402d01073ecd93bf57e28108cdffcc65e2aafc86b5b484304064383c5d0f2b3ceeffe81c687ba11aa28a2a7543f544eab99af22cc372cc82999e121cd2eed84ae5df3b12cf3e258b77baa759e810a4e5bf775482d0183433a2b607155e82e390c5b02d7fe6ba7a2ecea7e1bcc9b421767995d433cb9fead507adcae0c83e7459157594e61fa72e01039493e63f6839e929b22e2cc26e5f01fe6973dfc08722fffd91e853f2f98b1539d97891bcf2314fdbff011b70e276250eef255c32786b9626d6880c2a3c3da05fd37e2573f7b39f74151c3d16f701a7f08d457f89404b551f3848790fb7615f01e4f5f7161d573d3c513bacd2f5aa2ade10881e9467390af85d22c8c00d8f25e65393d9e65715dc8273ed22b20634f614b08392a9db4c99e836f6b9c5c20c2ce37cf52185f109ef4a604fed14723b448ab3449b85730231bbd33e09ffba06a47b8c6714a915c8bc70bcfb64da68a2ec8e3a6e05548454d15b7e9bb887510e2928c6ea8034aa9e8f4c9dab9bab14feff27242397311ac1fcf65188c46eac80d37f5d47de62e9999afd269c1381e78123a3551ab0a4fe04223d1e10a5f089f200bf23bc5f7128535e7797cc119449b7097a47d3f5c4e32b2e869414b1a30c8e73ab12216a08795351c5c43afce1d283e8e7e0af0261cc94eeb61ca4067305f89a9c0917bd794a390018252bdf654d116646eebef6610e36d828f8a846101bee2816f4fee37ce6f264f99477ee22070bfddb985115691ce1f67d9340247f89412ed8b4c9846822f09426cf3b652b5a73e18aa065e4d677a597456817deaa7d8ca43a68b1b57515fc361d4374eb1f3484f15066107ae1fa1d576af0fec70b9f42d2f30835304867631d7874fb3f2a0c686bf135c6f7ce8bd7d7b0a3a9309005041ebab3bd7e608e701bf36e0a38b5a90a3c400b4c9b6c825bbfd364b653af87a29111eb13f2680b9cd968d472ba42223659dfa5d175facb05498bcf2a6b186838b99cc0eebd98ea90970ff5f7c8b26f717796b738711f03184c5fa9cde1bd60a06d15683f0c585ab6e8caf8d4791d4109edc1187da2d1f76e03ba1fe940f8ec2e67a20efe4fe3c6c96f7d7050af1d305947952d779580decc6d8ced10f96554d7610980058e7a2fa86bdc41802b97fbe3b81d0cfceda87de763e69760895a15861a0938f131c24953083b66460e9742bfb2bb718bfe95427e47ec18d14e0667e8452630054fdd601c543c210e30af89d400b93aaf4e3dfca9e4801e35de031a17574ccc135e8bfbb2f81bbfa511c795f39bc4ac4f2924c66c1cd0120572c42fe8064af617a1cbdcc879d26f189362877891d01e181e0414e1dd3d8ac2c90720ad00615689a5fdae39a85c84a4959e881f1afd8563a622a49dfa7ead197679d5d71411cd756fda8952bdb1bfe2c48db39c6068dd132c6d9014954361fa514b8fb6e681654ce970f27ff5852f0d847a7bdbbae552fc7882115d89e0010c8eef98ec1bf8392480b85685a82b00686399670e0f5bd5cf3670ca2db3f22e8438cdce94ddc5415e11122313f53d2e55cef4368ed5497e2bae587d23cec1cfeb03f2e209ebe6f63a31219fe8b8b319faf24761846b372e8d7cccaf84371779bf09cd4cbdda3473b8d7638d35e0051dcd90a4078e99afb2a36100a63bb2fe0804510b5f371d521f98c4f47b8f7637d8da80ae7d93d73bdc64667a7cffd6d79b33a4338115cf13d5e83c3ca14841b48c0ec1cea966fbe4814aa42a4cc48d7b6287e0738694bc023013fe625c8e922be68b60d7c0fb222744685b1b33f7756ef65e1785c6e5dd2151a1229670d3135a4ee563a84ecc851512b3bcbc24ffe9f5afe31e909358727fa4f759abcae5fd00a99558afbdf82c1eca67725ebb8a1cae196c11fe411c23ca0eb54ce0b1070633b60ac2fd1e0745c69ef0f15e69fbd36794a6f8f270ef3115a4238fa93a2f7a201a928f6e6d7097b0009654d7a6b8052532b26348cfe250337fac51178e17f26d2e5eb3d190f09fbbb691b5709d880324571a89a213402198de9d21708e2102df147cc298e423a227bbfbf741783dac21561d4b2841a0d9dcd660868974d66d097680dfc583e8a88a0c7b19dd71277adc53a682119f3d887782a255134bc1352c1c75481c7ce3588ff01fc560b94be32964ecf04782d077e42ca201beeb6704d7a1c5e6850ac7e940b733e4779c998b7e0c461affdbd8fffae3207bfefd17edd6d42c7d72d784287a976f5ff8679cec7697a985598bb86f545c3fae08fad1d816795b8c9c429ee8b02e0c8a423bf4186d7e6aeeefa84dbe9a99ea0d17c9c5a36e17e95077e8b4d9c7e81d8ad660da87f35f9f1318d5373d2fd3f44ddeacb76b49fa02bfbe973b064766ffcbab3f2b077e5ebef48132bc2fa3867b9eb0895e1b1836f87a11c742a05dcff8cf5fc98633270a7e0e695ad270a7872bd9b935fe14f0a65b2934bcdf7b70dcb32a03344c16248c30db74058ee557ce8f03859bc54c46507a237db6ec8c32676847df9a9e1cadb650dfde6c33fe617c73325902af8c64cbdd54a1bc0616fc81aff8f06e88541da6fe07cc9aa2cb37e4cc0e82c4b1e6fd763f69468bf27d5a9b6b327793850387791c8d8e410dbc9db176df012964787937a99db4193f33ecd849d992952374d4375af2e7836c55819b6511c3739d0fab15f64a952f3fe4b6aa7f97151450e6a6ed8179b23402134d0fb1540cdaa6326cfb5b8908f2bc3afab4d922eb1c90e52612f9543c5f7be5f738977fc02854ae47663ef09ec9f9360aaa4cf1ab675899626d39284acba5e0d7052df832b066d806c47f01fc8abb599d5617277920a486b87abcf0cb947bf236ea884f54345b677170e7a2ecfea271cddad849c5de860f9c4044f830eb30fe2982ccde7f10f1a07dd44abbfe123fb0a51543a9facbb52f0365311049a9fcf71784e660c969a6c3904bd745aad85b8cf18bff57d962f4e0768fa0300882e9f84cafb2ab24316645b449b7fadbd1c39521a76efa633e949d0f9978fc381016e13b64119ecf5fdb5eb5bbd4c6760519ce005cb26057c50ff0803ad46b4af0789e307f084837e2f705e06604a02a65a4bd3f83ff1bdc8e7885c52d2cd5595d3c1a68e7d7046ba45a08324df1954b3ef182784f71ceb8c378f7be55c60ea7ab11395ff6c8d9ba7cd5daebf1aa5b8f7eb37e8294b6f038086166040a1158aa823f3f93ca62793366c4dd93b0abbc2daacab3cfc35ca18c2a6ab3549ef3cb9838ac5a5d5f416adfe14a3d135543b82067bea4c902ef6cdeee05f12b2c8e79d4087c711899cd213ac5c44e997c5b9b73bbc717d5ed7e03525115a4784315142c3faf1b1bcff27b973bcee4c26f5446091493c9aeb7d4d22d6927282487bcd9a922ea4b215d12844b4d65c3d9b70afd637417fed6ef8deaa5bdcf17eb1644f3567b36d831d5606985de1636cb14772ccaddf20aa100ea13b89db73bd0a7fcee532c8b31a1b21dedeef94a542b3322f2115a3015b38621ff68ac40930ef1e55778e165335b960a793314390c7f9c1d9ab7eeb6b06e5d0ecb6ae9dcf8949e5ff5b1e34a9b2bacb4896710da7607790183937b5e9b21f5cca12edd551c7690b90ea7802cba560d5844f39ff8e466ca3bc4ebb0654046ba3bfba7089685180d10bb688d0bcda0022e5fc32886832e72fb7af3baabd0edea90eb05afbeafce97cae0823a09dec45cb479bd20d3366882e4d03e7f3eb586ef7387c2eec6c0616c9d0607fccc029c8c726749b0be8fa62797d63e4ac0b9ba80f43d31897f03b84d870bd954b75bfb1f4e35c4d31acde8e9dd9ae047900f51a02a5ee2d550eed96a407cff909d61551bfec65a6876a4218df0aa7d66bba561e0ccea2548876230f37c7dd147bfba6b72dc962bff7049a107c7d0e243c0c7d9a966c4c39a61b4904061afbf4aae96c09078e2cdecf5b8473ddbd2f4930bf67b6419c72bfb7e7c0b88f255ab47995769f15ced243fe87db84226ee3cb1da0fd704c451ceeedd12aa8929284ce12419a009caa37e963ae255440553491bd0695319ae1dc22a9ad9043bdfb1be48bd196deb85fb50f83dc0a9ce029e6f5c401e455ad283ae7fb3e75d4a08669e87ce492dea908fc9457d081df69f5cd0e723d47a58e48e393a0d046b3b46cc446c08be30cf3df278</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <title>Zotero @ Citation style custom</title>
+    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
+    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
+<a id="more"></a>
+
+<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
+<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
+<blockquote>
+<p>ref:</p>
+<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
+</blockquote>
+]]></content>
       <categories>
-        <category>🐉 China</category>
-        <category>Perception</category>
+        <category>📘 Tutorials</category>
+        <category>Zotero</category>
       </categories>
       <tags>
-        <tag>Opinion💭</tag>
+        <tag>Zotero📑</tag>
       </tags>
   </entry>
   <entry>
@@ -401,20 +389,15 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Calendar</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
-    <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
-]]></content>
+    <title>Not speaking, or saying things people don&#39;t understand</title>
+    <url>/2020/10/17/2020-10-17-Not-speaking-or-saying-things-people-dont-understand/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="2aa83b6b856cbfa6045dd23a4993014e217c896e5f428d7762e861abb941756d">eb4c5bd67eb92a5abf35e39786af585b491d4ebb6e56ad64a9758c12a590c1413d8357311d2c0028c11259394edc18fdb8506b41d8d21ac6a06c29dc65e7e49a102ecb26365068e3181e515146c9418b5b450776be2d970edc45968d8e86e11078cccf0e629d0bc369a9e6dce1181ce8aa4979daab475ecf6064ea1102dfe179e1c2273675e85747eb4c07b232b5d8e09dd8ed6cccf9af4d3a5c40f52804774cc1a5c023f455c34b03b7029111aa158efcacc79b970530688367ac9cbd5252731aa6e00e016ccbc22361cce3276466d97ed09c94b679b4267481548478b4b7204fbf9c3ab10ba10aaae2de13da60f6228fa25f6ee29b153b5eb63e7a331e91cbe0d6fca84aa4126823c6d5234b480d7aa0242796795b769586dc8e39dd6b1a829dfc20f4465473f06ccdae3d55a0561e9b5d9b7181b32ac860cb917a1ccf4e53b5ee761e41bf1ac9d4b6a146910bf27e0a5c1994b94107fb20f1323217c3243f92a01aa2944fbbe387a5e6d30a22c176c292cb269b8cc7240b4a3bf4c050b8f8af8cb1b1c620a9878262d7860457cba7dc216e8a279548e6e6cd3d130f99f81807ef3c613513dc6d7b638341d47d1d6e0bf6754802f35d1d4633d7c2ac366f0e01084c5e0d0b3d5c8d2efb93240ee9ebc98c2138a68c03e5595886e484614ae09b365006b0a322f322f08b7d2e1f1eb3d6a253664f8def023d2f471a0954fb0aa09b04dc428d39f727abfc7c65785d3636ee48e6f1ee53ed1363484097df1fa31a55432d8d5287280fafc85b705dd4ce656c5c29d490ea28ca29abeffc01443f13044dbcd97222515a9c7f8c69963cdc1d6952914dc732da239f8569f2da3a02e54307c94f0cde5a23420ee81c52d1b1ba51720024f51b255f81ee3712a9e7a365805d8641148cb1437af26c0bc3ffa87ac5a449713a578d615ce60d85d8fd846ac35411aca2dbcfeb8d21260616da6ab54e8d1f92b92729517ecdae76569dd85c0902cb87196e8f83cddaff5a8248884b8ee1b3c95266f6094c794a3ff09ddc1fb6cbe386b3459d444fe9fe4f8d0c1dd78efa64168eb522d6ae8afc3ca7b7e86a3b9b95d8fe2907ca711d62e3525929a3ffc1b80623300379608dc0cf3110ab341c6de40310504a160328d1d848b3f3c0343d082e87c8eb04407864602f2964c6542637d927f17f37fe4786c11a9e434d0015397f3f140955a74d5c5cb9b093cc685bb0b535e6488ffc02c578d314426cb82dfa4c7805bb1bb921888e73e95020e2bac707f87689d3836e38e74bbe05a953f01701a23f8a0c9145feb1c53086b03b315d5aeabf5135d427ff270876862b9591bfe39bf2c414bf32ca1a8b6defef074183ca20513c886ae9e80c692c575f11315a83528a2de3020ce6341683cf51e4c0c2e5d5a5f00096653201271543e498138e1051d8f20f5e88390445eac0c56ad3fa077c54c69d2e79d127326ea0cc559d427807adc57bd1bc125f45363dd033bd0d805de636220e57b83138f6a75f00574e3b5113f6e435c75af1a56ab3da1a48784f6710c8cfa7491ef17219c28b3c6ccca78228ac5523bbedfd9520e8db68dd6d523a470e66caf404302a7b77823e3028ecd745264c9966c99572f801a9d5619b5081ab9e1c3e95a3f3999037fc8ee8a673d5d222f1ab4dc1279a48076c69184a3352acbcf9ef28f1237a23e7e712868aad8b7cf7101f30964574b8ac16f9922541b01977bebd0acd18db6bb54e168002f2b17b1928c3c32d4598da6225888ef461d2bbfa4081fc6e5fc264af5d4bad501b424a22b9b41c77526790ca442ad3015a8551e2a745bc3c9bd4e076eab8a5cf6f90db7b653a076c399a284c2851ccf007f37332b90c8b436a208a5358ede74e0f25c334348a1e1d2c4e37b91f0b639b43a243f26918da7a42570bcdafd6a359a0758545d2c8e5c52c440252351952dfe31d52be2e1fbfcb4070e4890a9ec01f0d2e870b9949dabdd0b1a9b5abaa4db59f1ea95c8e425b06473f1aa12b513de490a1c5c2b50ba50e06e79cd1130172ffec59ad65a8c90436aeece0550007f4721205b8ffd94e7545e4fac70aa910c9e5e312360ace151a0df16737fbca1aab8130238ae66d31deb8f8920589fff226c7a39e600831fa17d300c500a18e8cc5bf2a320b6e259bdd21d7287c97996adb6eb7a0c48c5faa063488d2bb417015271fb3058455c8e361669344e08b9c1fd1e7f991fa5b48b74026af1e489477dff5f27cc46655aad2930374e2d5574ee08c92c79e66b2d110d4f43ccdef4b294112d57e5d6690f1d18fa7e938c37182de08631a76291450b02f35c3e6bfbb3c8d0496e2e671f28219e7b8e1efd19e1a5d7a555946aaddcfd9d82217641373345d3568a510e09a90c5ad7d5f8ecc47818cd7acfd1422a2e371440a1b8f4e60fed0333d1e62d1e2662ff7f9ef432b83c6e0105b13f714c213a3aabe5da4f787b517ffbc09a520fdc7844a87afc9995228bbe3a1ff7d7d242e3d01fc5cafe252db76d52be830b2beb27fb9a0a282f569459d773198f159253d9e0a3c2311dc659b7de2fd8b3ccb9c1aa3ef58f73942afa1ccefbac64f4cba650e09da9f45d64afcf567a4e63a80105321097778f768a1f391673bf24183e670ee0f7ce22b2ea890ca21acc30b8e9026ef8aa43898a28f45142ac1247824da4cd3fdf71a12e412347ca15a8bfbfd38bb25b09474af59b1ea6114317543288f2073f98e665c4dfef8e74eae4658dbf4707623a8bb0a51b9f1d275be0a0030768cd5d293eb2c9b2b343d6c6fb2b85328db6fada2b76bfe5b5c1e11b689af3304e94cac7381cb4623099fa766064f17ba42dff32e7ac783105b8e92c107a5fbcc949aabd885690a1d6ca3bffcd9e435f5931145c063d4695d5670a3beb899269a9793695264d7bd0622149696f9f27e9954324c37bbccbe14a5e5cd0d7a615a2e8750fe488770e23dbd900d7c3ba5629ebca46a3af4c696bf83bb12b33c38577d4962c8c310b36fc787f3a339637baeb342082081e72d6ee6c583315fbf231f39c3643b81ed53234100aec1ed4366d03522a2f26505e76051d43c0c98ed8dcca832e8b3b6c000067f54ad359a7620cbd487b2ee040b942a430459348f6e1e6eaf49b8876510e5f6bfe47c03c900929955a6d130d96c02d34d03dcf778ca3a167efa7cb1a9a4e3398f4574fd17a2843c835c9f68da66d866eebcaa4b84784f9c03dcc5e36542108c14d74db90e59a40589bf864dce48338ac6bf0e465a0a512ab54b3abe6d0fbdf8c12caf7121cdcf443f71646ad71b0fdabf968386748eab6e59015687de24688a7b71119f1d14927dbee751de9a0c5308896c702276b9a175a8f772266bb8797e5609769d592b3229601a9e587e2c862cd032fb4f7ad686bc155699e12e336aa6d55895bc94447fd9151d0ac29460d42523d66babd59b9aa6e7b1089647acdf31c9dea54815258678e08b6a8d691c9dea36ccea7ddf370fa271a2397baf5183f9329050ce402d01073ecd93bf57e28108cdffcc65e2aafc86b5b484304064383c5d0f2b3ceeffe81c687ba11aa28a2a7543f544eab99af22cc372cc82999e121cd2eed84ae5df3b12cf3e258b77baa759e810a4e5bf775482d0183433a2b607155e82e390c5b02d7fe6ba7a2ecea7e1bcc9b421767995d433cb9fead507adcae0c83e7459157594e61fa72e01039493e63f6839e929b22e2cc26e5f01fe6973dfc08722fffd91e853f2f98b1539d97891bcf2314fdbff011b70e276250eef255c32786b9626d6880c2a3c3da05fd37e2573f7b39f74151c3d16f701a7f08d457f89404b551f3848790fb7615f01e4f5f7161d573d3c513bacd2f5aa2ade10881e9467390af85d22c8c00d8f25e65393d9e65715dc8273ed22b20634f614b08392a9db4c99e836f6b9c5c20c2ce37cf52185f109ef4a604fed14723b448ab3449b85730231bbd33e09ffba06a47b8c6714a915c8bc70bcfb64da68a2ec8e3a6e05548454d15b7e9bb887510e2928c6ea8034aa9e8f4c9dab9bab14feff27242397311ac1fcf65188c46eac80d37f5d47de62e9999afd269c1381e78123a3551ab0a4fe04223d1e10a5f089f200bf23bc5f7128535e7797cc119449b7097a47d3f5c4e32b2e869414b1a30c8e73ab12216a08795351c5c43afce1d283e8e7e0af0261cc94eeb61ca4067305f89a9c0917bd794a390018252bdf654d116646eebef6610e36d828f8a846101bee2816f4fee37ce6f264f99477ee22070bfddb985115691ce1f67d9340247f89412ed8b4c9846822f09426cf3b652b5a73e18aa065e4d677a597456817deaa7d8ca43a68b1b57515fc361d4374eb1f3484f15066107ae1fa1d576af0fec70b9f42d2f30835304867631d7874fb3f2a0c686bf135c6f7ce8bd7d7b0a3a9309005041ebab3bd7e608e701bf36e0a38b5a90a3c400b4c9b6c825bbfd364b653af87a29111eb13f2680b9cd968d472ba42223659dfa5d175facb05498bcf2a6b186838b99cc0eebd98ea90970ff5f7c8b26f717796b738711f03184c5fa9cde1bd60a06d15683f0c585ab6e8caf8d4791d4109edc1187da2d1f76e03ba1fe940f8ec2e67a20efe4fe3c6c96f7d7050af1d305947952d779580decc6d8ced10f96554d7610980058e7a2fa86bdc41802b97fbe3b81d0cfceda87de763e69760895a15861a0938f131c24953083b66460e9742bfb2bb718bfe95427e47ec18d14e0667e8452630054fdd601c543c210e30af89d400b93aaf4e3dfca9e4801e35de031a17574ccc135e8bfbb2f81bbfa511c795f39bc4ac4f2924c66c1cd0120572c42fe8064af617a1cbdcc879d26f189362877891d01e181e0414e1dd3d8ac2c90720ad00615689a5fdae39a85c84a4959e881f1afd8563a622a49dfa7ead197679d5d71411cd756fda8952bdb1bfe2c48db39c6068dd132c6d9014954361fa514b8fb6e681654ce970f27ff5852f0d847a7bdbbae552fc7882115d89e0010c8eef98ec1bf8392480b85685a82b00686399670e0f5bd5cf3670ca2db3f22e8438cdce94ddc5415e11122313f53d2e55cef4368ed5497e2bae587d23cec1cfeb03f2e209ebe6f63a31219fe8b8b319faf24761846b372e8d7cccaf84371779bf09cd4cbdda3473b8d7638d35e0051dcd90a4078e99afb2a36100a63bb2fe0804510b5f371d521f98c4f47b8f7637d8da80ae7d93d73bdc64667a7cffd6d79b33a4338115cf13d5e83c3ca14841b48c0ec1cea966fbe4814aa42a4cc48d7b6287e0738694bc023013fe625c8e922be68b60d7c0fb222744685b1b33f7756ef65e1785c6e5dd2151a1229670d3135a4ee563a84ecc851512b3bcbc24ffe9f5afe31e909358727fa4f759abcae5fd00a99558afbdf82c1eca67725ebb8a1cae196c11fe411c23ca0eb54ce0b1070633b60ac2fd1e0745c69ef0f15e69fbd36794a6f8f270ef3115a4238fa93a2f7a201a928f6e6d7097b0009654d7a6b8052532b26348cfe250337fac51178e17f26d2e5eb3d190f09fbbb691b5709d880324571a89a213402198de9d21708e2102df147cc298e423a227bbfbf741783dac21561d4b2841a0d9dcd660868974d66d097680dfc583e8a88a0c7b19dd71277adc53a682119f3d887782a255134bc1352c1c75481c7ce3588ff01fc560b94be32964ecf04782d077e42ca201beeb6704d7a1c5e6850ac7e940b733e4779c998b7e0c461affdbd8fffae3207bfefd17edd6d42c7d72d784287a976f5ff8679cec7697a985598bb86f545c3fae08fad1d816795b8c9c429ee8b02e0c8a423bf4186d7e6aeeefa84dbe9a99ea0d17c9c5a36e17e95077e8b4d9c7e81d8ad660da87f35f9f1318d5373d2fd3f44ddeacb76b49fa02bfbe973b064766ffcbab3f2b077e5ebef48132bc2fa3867b9eb0895e1b1836f87a11c742a05dcff8cf5fc98633270a7e0e695ad270a7872bd9b935fe14f0a65b2934bcdf7b70dcb32a03344c16248c30db74058ee557ce8f03859bc54c46507a237db6ec8c32676847df9a9e1cadb650dfde6c33fe617c73325902af8c64cbdd54a1bc0616fc81aff8f06e88541da6fe07cc9aa2cb37e4cc0e82c4b1e6fd763f69468bf27d5a9b6b327793850387791c8d8e410dbc9db176df012964787937a99db4193f33ecd849d992952374d4375af2e7836c55819b6511c3739d0fab15f64a952f3fe4b6aa7f97151450e6a6ed8179b23402134d0fb1540cdaa6326cfb5b8908f2bc3afab4d922eb1c90e52612f9543c5f7be5f738977fc02854ae47663ef09ec9f9360aaa4cf1ab675899626d39284acba5e0d7052df832b066d806c47f01fc8abb599d5617277920a486b87abcf0cb947bf236ea884f54345b677170e7a2ecfea271cddad849c5de860f9c4044f830eb30fe2982ccde7f10f1a07dd44abbfe123fb0a51543a9facbb52f0365311049a9fcf71784e660c969a6c3904bd745aad85b8cf18bff57d962f4e0768fa0300882e9f84cafb2ab24316645b449b7fadbd1c39521a76efa633e949d0f9978fc381016e13b64119ecf5fdb5eb5bbd4c6760519ce005cb26057c50ff0803ad46b4af0789e307f084837e2f705e06604a02a65a4bd3f83ff1bdc8e7885c52d2cd5595d3c1a68e7d7046ba45a08324df1954b3ef182784f71ceb8c378f7be55c60ea7ab11395ff6c8d9ba7cd5daebf1aa5b8f7eb37e8294b6f038086166040a1158aa823f3f93ca62793366c4dd93b0abbc2daacab3cfc35ca18c2a6ab3549ef3cb9838ac5a5d5f416adfe14a3d135543b82067bea4c902ef6cdeee05f12b2c8e79d4087c711899cd213ac5c44e997c5b9b73bbc717d5ed7e03525115a4784315142c3faf1b1bcff27b973bcee4c26f5446091493c9aeb7d4d22d6927282487bcd9a922ea4b215d12844b4d65c3d9b70afd637417fed6ef8deaa5bdcf17eb1644f3567b36d831d5606985de1636cb14772ccaddf20aa100ea13b89db73bd0a7fcee532c8b31a1b21dedeef94a542b3322f2115a3015b38621ff68ac40930ef1e55778e165335b960a793314390c7f9c1d9ab7eeb6b06e5d0ecb6ae9dcf8949e5ff5b1e34a9b2bacb4896710da7607790183937b5e9b21f5cca12edd551c7690b90ea7802cba560d5844f39ff8e466ca3bc4ebb0654046ba3bfba7089685180d10bb688d0bcda0022e5fc32886832e72fb7af3baabd0edea90eb05afbeafce97cae0823a09dec45cb479bd20d3366882e4d03e7f3eb586ef7387c2eec6c0616c9d0607fccc029c8c726749b0be8fa62797d63e4ac0b9ba80f43d31897f03b84d870bd954b75bfb1f4e35c4d31acde8e9dd9ae047900f51a02a5ee2d550eed96a407cff909d61551bfec65a6876a4218df0aa7d66bba561e0ccea2548876230f37c7dd147bfba6b72dc962bff7049a107c7d0e243c0c7d9a966c4c39a61b4904061afbf4aae96c09078e2cdecf5b8473ddbd2f4930bf67b6419c72bfb7e7c0b88f255ab47995769f15ced243fe87db84226ee3cb1da0fd704c451ceeedd12aa8929284ce12419a009caa37e963ae255440553491bd0695319ae1dc22a9ad9043bdfb1be48bd196deb85fb50f83dc0a9ce029e6f5c401e455ad283ae7fb3e75d4a08669e87ce492dea908fc9457d081df69f5cd0e723d47a58e48e393a0d046b3b46cc446c08be30cf3df278</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>🐉 China</category>
-        <category>Culture</category>
+        <category>Perception</category>
       </categories>
       <tags>
-        <tag>Chinese culture</tag>
+        <tag>Opinion💭</tag>
       </tags>
   </entry>
   <entry>
@@ -615,6 +598,23 @@
       </tags>
   </entry>
   <entry>
+    <title>Chinese culture @ Calendar</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
+    <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
+]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Chinese culture @ China’s religious beliefs</title>
     <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
     <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
@@ -666,13 +666,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Traditional herbal medicine [中药]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-herbal-medicine/</url>
-    <content><![CDATA[<img src="/beauty/zy.png" style="zoom:70%;" />
+    <title>Chinese culture @ Traditional Chinese Medicine [中医]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-chinese-medicine/</url>
+    <content><![CDATA[<img src="/beauty/zhongyi.png" style="zoom:70%;" />
 
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm">https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm">https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -683,13 +683,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Traditional Chinese Medicine [中医]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-chinese-medicine/</url>
-    <content><![CDATA[<img src="/beauty/zhongyi.png" style="zoom:70%;" />
+    <title>Chinese culture @ Traditional herbal medicine [中药]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-herbal-medicine/</url>
+    <content><![CDATA[<img src="/beauty/zy.png" style="zoom:70%;" />
 
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm">https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm">https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -734,6 +734,18 @@
       </tags>
   </entry>
   <entry>
+    <title>2nd Wedding Anniversary</title>
+    <url>/2020/10/19/2020-10-19-wedding-anniversary/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="9bf7095c605dcde7d87ae33a681717371aec8867a991bb62cbf367366e62812c">ccaa9cb1d60be991ee03bc7daedf2a98436daecb4dd45de12ee244fbc39d88ae786534317c636e1eb992dd205c04fb0510cd019c295da83f0cd261cce11a3f7e188e62c29329f6771456ab246a9d25f5419fc4a0813ca946af8dea9eea1d1dbbc8cd1692bcb7f6ee8a53578f9ae6426c5ba19b53dbee1cc8e37d0d5408dac0ee0bffdef0848bb07fe47c88c33911d9b45be97ef6ac5aa23fccb97a6ae13fab6b6a5a36bd28934aa06949f6545535a77beda9a66ea580e16304d1b0fd3bd40439df93cf139e88118fb4c7bcfea80db0b82e6d317673eb69bdf82d9b0aa246b8eaf68b2ddb3e55b4d32997b6f913da78e663454f4cf889a8210b348cd3b48f1de315de6577563bb47d475c7fca68e68422a83d441f92db2b72f8e4048fc0a956180f3fb3675a12e83638444bf0debfc67c270f066ba38e4151322b2f634c31b6152ac6b96d8f3bfe29b5bd0532291716df0ee3c31803b245c35abd85b67543bc562410c644083c502de5f660b839e8c9cff67984cb350e8adcaf4a4431aa135bd72a31db0df31bffcc2926e572ec4bbcfe584c56748f17976f980e9d78dbbd3c6de1a7cb62b7cafef9bbbccd01af6f6eb999077bccc1c121a9c6cb1fd031d4d7bc046970ee94ad1b2a08b46e79805599efafc34800b8e5ded6cb035a9a9b99b3bd4809e56e918cfd64c7cf0bd591f4df9a548b2a57524e0298d0327bbd8ab88153e572a94aef50099fd648560a57bb1c19175c976d8225bee7e6bf5e80e44a3014dee3811f0ab85ef37c94248a3f0d600f928ea579cfd4f1cffa035f1dbf825c597b709cb07ddd526f1aa21d5a61ee3f9ee2e7bff9af57e605235847ed7f1d030764479a3421b4b09a794fe14b72f023cdb6cc3e44c14839552dcc2aed333ec335d55c32c81f669b31221fbf1cfeeba538bf3fb30a8d175170fecf38f130eea63bcd82920937701e39b45b356fc05ee5400a42eea0c610ebd6fb0371247c1d8b5fe9d9527bcb592b17b6ea5292083956b5c05970ad1d8d82c59ef9a65f757b6b8b10fd5c7823240f9c9e3bdfef46dd596a57cc67964184698a291f27d6bb6cf0b20496159796851a3223aad712d46fc659b95683a05cea7fbf9cde7794c46b6a637ab976e636b269403b506bc3f2b217b7e1c814e5d09752878bd323ced2469cea65dae0a84d7f6502358ab79e8df369d50e5ec749a4e9c05f82855cf4b264e6f0e350c4c25e316d4012fd966338d0579be7b17d35ac5ecc1ae797b18f1f93743b7068d27cc3dbe1a7244c95d7aa9b4b328ad7a996c23c37f9bf541aa97ff3127661212713ea976814faa51214f82b36a731c4fd06e176c523c9c8bfbeab6c96ec8981f9da2ed82a88391435ed9c263203b65eb29bb2f39c78d9f50bdeabed24c511ad1403d8e4771d434bfb6fd5ca05868357befb9b8f92f9d915b97367723b156d4d24df00620b5926b59dda03c1e24ca04e87a1e20dbcfe55a1c0b3ccd915345e0f872d950e38c1a9dd596adff3abdce0ed31ea3a4ef6fa711b8c41fbcdf9aa1e5e9cb4d3bb21aac70558c57316c945</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>☀️ Daily life</category>
+        <category>Mine</category>
+      </categories>
+      <tags>
+        <tag>anniversary🎉</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Cell culture info</title>
     <url>/2020/11/21/Biology-Practical-info-Cell-culture/</url>
     <content><![CDATA[<h3 id="Number-of-cells-to-seed-the-day-before-transfection"><a href="#Number-of-cells-to-seed-the-day-before-transfection" class="headerlink" title="@ Number of cells to seed the day before transfection"></a>@ Number of cells to seed the day before transfection</h3><h4 id="amp-HEK-293-293T"><a href="#amp-HEK-293-293T" class="headerlink" title="&amp; HEK 293/293T"></a>&amp; HEK 293/293T</h4><ul>
@@ -761,6 +773,18 @@
       </categories>
       <tags>
         <tag>cell culture</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Think about Film and Television Production</title>
+    <url>/2020/10/25/China-perception-Think-about-Film-and-television-Production/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="60f2596ce6723de6af77d504221fcf905b703f569408c7824d858efe13cc4b69">8b99030997d9e294e22d169f14a9b9af30076946d2e16ff2003e748bfa20774718e7eb4c449d12c407648717416cd24c6c5afe0d5a5abc1b186122fba0801dc54dd8356b33f5d024bbb55c3b04fa03f0f0d102f01c1d8591329662b03faa5b49be8262c42da0bde783dc561c7cc46e92496eb7a9762d621693371735636029a1ac2bb1dd1974f462aa3d5ba12445ed2dcd598a4b6216f0ea8833980ab1c0e09f78e348e231b43087370273e723e425d9500d657af02c6b7e4dd7ad9dfd4f7df3127319535f0e9d0fb1fe4256788736ed9328f01f20e07b2b86daf38c9630ea7c9eb66a7e941df294c9e885da4add10eb9c6cc8ffe5a57fe1346c288b89ecb760fe3a93ccaf9416071245aaf85ba6f55ba26586e3123fc424494f9831ea22d5990d863596032c72d3c7be3362061c4f939258b1c1f16640bb906d31bf48870838ab0c63430db3454f55b762a21a72ce0a5d4e47fefe6d36652886b95c28e968c9417b5a8f62d232137529201fa0cb6ef0bb1a52732878200dba7195a4912f2834f9d1f0602fb43eaa058ae79150ef81360d22e4eaf8171f6c8ff276eff4f8ba5414cca25114f22079d3a9c481b675086516bbd428e65447ffc1ab9a894c1140acd579b43a704c4acbe460bdbc261ff18483106f47f7f34fc69e204eb5a77855d08abec39f6257b1a73ea8653b3c908e92d96130bd71f390830e41c5391fc7187b36f0aaedd6ae58745b6967b6ddbcd0acce540c434713d14303d5425ed443e704710771f6189c26f00c39295c5d757f393b670058c3f9f46f6a1ee8bc1af75a31bb2ed3ba734ca63d521ac9d8e4973c97a2355c33372bcc2a717810bfd4a078cd182528a00b3eaa599acc5886e3fb02f3b986536e687e1fe74589d60d4ebf4739e7c5b90c15986eb2fdaca09c1861b8c8d0aed5151bd768c9befc9e35e5baef6006e891653aa2413c54536b132be2d2a0e575637267b8b3bd8e39114e5545f7fe9104c6d1dffe16a54e29c1e4bfb4f6dd4b336e3e63a15e56b7f69f1675504ad3a022c657fb461fd6cea5badc1ebb67cbbf255f191b82a729a964e7a77d24490d3a9be774c40745f643204f9fff2f14abc9bfc6cf68a408a7a3f1c72e257466bdc94c699dc70f9d291b2728cebcb5b3c8d8b4a4f8c1fa7b4b8d59845aeaeda309522a476e57c69d8ec686ccc5c70ebbf3e1a7e83be8c9b3930505f31c804a5f4b91663120e753d1ba45cb59f709abdbc1d3f67bf812d9ea3123e0ad08bb73938a5a4f57079e8fa3c6653ab094ed3035f751ac4bf211161ed40b3ab72e16d7bef28fdf5fde40af515420547753cf2d4c8e8a90fe28ddff591aaee8f213bb415d6fdcee0fd65761c03267136b1cfceadf8426a6f9b0d68083d53d0b5cf271d40809ae68e4f86ad540bb1f5fd4af140960cad936e930e1dcbd359cd99838494e9d8ff356b53726bf25822ac8045238c40ebeeb57322dd63d73aee42d6681b08d51148fe2655a44c75bb33f8f6154fac067dd77508c5d71f13fdf5b3a786d25ece909</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Perception</category>
+      </categories>
+      <tags>
+        <tag>Opinion💭</tag>
       </tags>
   </entry>
   <entry>
@@ -931,30 +955,6 @@
       </categories>
       <tags>
         <tag>loading control</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Think about Film and Television Production</title>
-    <url>/2020/10/25/China-perception-Think-about-Film-and-television-Production/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="60f2596ce6723de6af77d504221fcf905b703f569408c7824d858efe13cc4b69">8b99030997d9e294e22d169f14a9b9af30076946d2e16ff2003e748bfa20774718e7eb4c449d12c407648717416cd24c6c5afe0d5a5abc1b186122fba0801dc54dd8356b33f5d024bbb55c3b04fa03f0f0d102f01c1d8591329662b03faa5b49be8262c42da0bde783dc561c7cc46e92496eb7a9762d621693371735636029a1ac2bb1dd1974f462aa3d5ba12445ed2dcd598a4b6216f0ea8833980ab1c0e09f78e348e231b43087370273e723e425d9500d657af02c6b7e4dd7ad9dfd4f7df3127319535f0e9d0fb1fe4256788736ed9328f01f20e07b2b86daf38c9630ea7c9eb66a7e941df294c9e885da4add10eb9c6cc8ffe5a57fe1346c288b89ecb760fe3a93ccaf9416071245aaf85ba6f55ba26586e3123fc424494f9831ea22d5990d863596032c72d3c7be3362061c4f939258b1c1f16640bb906d31bf48870838ab0c63430db3454f55b762a21a72ce0a5d4e47fefe6d36652886b95c28e968c9417b5a8f62d232137529201fa0cb6ef0bb1a52732878200dba7195a4912f2834f9d1f0602fb43eaa058ae79150ef81360d22e4eaf8171f6c8ff276eff4f8ba5414cca25114f22079d3a9c481b675086516bbd428e65447ffc1ab9a894c1140acd579b43a704c4acbe460bdbc261ff18483106f47f7f34fc69e204eb5a77855d08abec39f6257b1a73ea8653b3c908e92d96130bd71f390830e41c5391fc7187b36f0aaedd6ae58745b6967b6ddbcd0acce540c434713d14303d5425ed443e704710771f6189c26f00c39295c5d757f393b670058c3f9f46f6a1ee8bc1af75a31bb2ed3ba734ca63d521ac9d8e4973c97a2355c33372bcc2a717810bfd4a078cd182528a00b3eaa599acc5886e3fb02f3b986536e687e1fe74589d60d4ebf4739e7c5b90c15986eb2fdaca09c1861b8c8d0aed5151bd768c9befc9e35e5baef6006e891653aa2413c54536b132be2d2a0e575637267b8b3bd8e39114e5545f7fe9104c6d1dffe16a54e29c1e4bfb4f6dd4b336e3e63a15e56b7f69f1675504ad3a022c657fb461fd6cea5badc1ebb67cbbf255f191b82a729a964e7a77d24490d3a9be774c40745f643204f9fff2f14abc9bfc6cf68a408a7a3f1c72e257466bdc94c699dc70f9d291b2728cebcb5b3c8d8b4a4f8c1fa7b4b8d59845aeaeda309522a476e57c69d8ec686ccc5c70ebbf3e1a7e83be8c9b3930505f31c804a5f4b91663120e753d1ba45cb59f709abdbc1d3f67bf812d9ea3123e0ad08bb73938a5a4f57079e8fa3c6653ab094ed3035f751ac4bf211161ed40b3ab72e16d7bef28fdf5fde40af515420547753cf2d4c8e8a90fe28ddff591aaee8f213bb415d6fdcee0fd65761c03267136b1cfceadf8426a6f9b0d68083d53d0b5cf271d40809ae68e4f86ad540bb1f5fd4af140960cad936e930e1dcbd359cd99838494e9d8ff356b53726bf25822ac8045238c40ebeeb57322dd63d73aee42d6681b08d51148fe2655a44c75bb33f8f6154fac067dd77508c5d71f13fdf5b3a786d25ece909</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Perception</category>
-      </categories>
-      <tags>
-        <tag>Opinion💭</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2nd Wedding Anniversary</title>
-    <url>/2020/10/19/2020-10-19-wedding-anniversary/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="9bf7095c605dcde7d87ae33a681717371aec8867a991bb62cbf367366e62812c">ccaa9cb1d60be991ee03bc7daedf2a98436daecb4dd45de12ee244fbc39d88ae786534317c636e1eb992dd205c04fb0510cd019c295da83f0cd261cce11a3f7e188e62c29329f6771456ab246a9d25f5419fc4a0813ca946af8dea9eea1d1dbbc8cd1692bcb7f6ee8a53578f9ae6426c5ba19b53dbee1cc8e37d0d5408dac0ee0bffdef0848bb07fe47c88c33911d9b45be97ef6ac5aa23fccb97a6ae13fab6b6a5a36bd28934aa06949f6545535a77beda9a66ea580e16304d1b0fd3bd40439df93cf139e88118fb4c7bcfea80db0b82e6d317673eb69bdf82d9b0aa246b8eaf68b2ddb3e55b4d32997b6f913da78e663454f4cf889a8210b348cd3b48f1de315de6577563bb47d475c7fca68e68422a83d441f92db2b72f8e4048fc0a956180f3fb3675a12e83638444bf0debfc67c270f066ba38e4151322b2f634c31b6152ac6b96d8f3bfe29b5bd0532291716df0ee3c31803b245c35abd85b67543bc562410c644083c502de5f660b839e8c9cff67984cb350e8adcaf4a4431aa135bd72a31db0df31bffcc2926e572ec4bbcfe584c56748f17976f980e9d78dbbd3c6de1a7cb62b7cafef9bbbccd01af6f6eb999077bccc1c121a9c6cb1fd031d4d7bc046970ee94ad1b2a08b46e79805599efafc34800b8e5ded6cb035a9a9b99b3bd4809e56e918cfd64c7cf0bd591f4df9a548b2a57524e0298d0327bbd8ab88153e572a94aef50099fd648560a57bb1c19175c976d8225bee7e6bf5e80e44a3014dee3811f0ab85ef37c94248a3f0d600f928ea579cfd4f1cffa035f1dbf825c597b709cb07ddd526f1aa21d5a61ee3f9ee2e7bff9af57e605235847ed7f1d030764479a3421b4b09a794fe14b72f023cdb6cc3e44c14839552dcc2aed333ec335d55c32c81f669b31221fbf1cfeeba538bf3fb30a8d175170fecf38f130eea63bcd82920937701e39b45b356fc05ee5400a42eea0c610ebd6fb0371247c1d8b5fe9d9527bcb592b17b6ea5292083956b5c05970ad1d8d82c59ef9a65f757b6b8b10fd5c7823240f9c9e3bdfef46dd596a57cc67964184698a291f27d6bb6cf0b20496159796851a3223aad712d46fc659b95683a05cea7fbf9cde7794c46b6a637ab976e636b269403b506bc3f2b217b7e1c814e5d09752878bd323ced2469cea65dae0a84d7f6502358ab79e8df369d50e5ec749a4e9c05f82855cf4b264e6f0e350c4c25e316d4012fd966338d0579be7b17d35ac5ecc1ae797b18f1f93743b7068d27cc3dbe1a7244c95d7aa9b4b328ad7a996c23c37f9bf541aa97ff3127661212713ea976814faa51214f82b36a731c4fd06e176c523c9c8bfbeab6c96ec8981f9da2ed82a88391435ed9c263203b65eb29bb2f39c78d9f50bdeabed24c511ad1403d8e4771d434bfb6fd5ca05868357befb9b8f92f9d915b97367723b156d4d24df00620b5926b59dda03c1e24ca04e87a1e20dbcfe55a1c0b3ccd915345e0f872d950e38c1a9dd596adff3abdce0ed31ea3a4ef6fa711b8c41fbcdf9aa1e5e9cb4d3bb21aac70558c57316c945</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>☀️ Daily life</category>
-        <category>Mine</category>
-      </categories>
-      <tags>
-        <tag>anniversary🎉</tag>
       </tags>
   </entry>
   <entry>
@@ -1222,6 +1222,39 @@
       </tags>
   </entry>
   <entry>
+    <title>Nice Songs</title>
+    <url>/2020/08/31/Others-Nice-songs/</url>
+    <content><![CDATA[<h4 id="※-Chinese-Songs-※"><a href="#※-Chinese-Songs-※" class="headerlink" title="※ Chinese Songs ※"></a>※ Chinese Songs ※</h4><h5 id="amp-Singles"><a href="#amp-Singles" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><strong>后来(Later)</strong> - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
+<p><strong>童话(Fairy Tale)</strong> - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
+<p><strong>老男孩</strong> - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
+<p><strong>那些年(Those Bygone Years)</strong> - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
+<p><strong>少年</strong> - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
+<a id="more"></a>
+
+<h4 id="※-Japanese-Songs-※"><a href="#※-Japanese-Songs-※" class="headerlink" title="※ Japanese Songs ※"></a>※ Japanese Songs ※</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201028082408.png" style="zoom: 80%;" />
+
+<hr>
+<p><strong>SAKURA</strong> - 2006 - @Memory  @Love @Sadness</p>
+<p><strong>YELL</strong> - 2009 - @Courage</p>
+<p><strong>ありがとう</strong>(Arigatou = Thank you) - 2010 - @Love @Regret </p>
+<h4 id="※-English-Songs-※"><a href="#※-English-Songs-※" class="headerlink" title="※ English Songs ※"></a>※ English Songs ※</h4><h5 id="amp-Singles-1"><a href="#amp-Singles-1" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah"><strong>Monsters</strong></a> - 2014 - Katie Sky - @Courage</p>
+<h5 id="amp-Songs-from-Annual-GRAMMY-Awards"><a href="#amp-Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="&amp; Songs from Annual GRAMMY Awards"></a>&amp; Songs from <a href="https://www.grammy.com/grammys/awards">Annual GRAMMY Awards</a></h5></br>
+
+
+
+<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah">https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah</a></p>
+]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Music</category>
+      </categories>
+      <tags>
+        <tag>music🎵</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Useful info for BMIC days 2020</title>
     <url>/2020/11/08/Others-Practical-info-BMIC-day/</url>
     <content><![CDATA[<h4 id="🕗-Time-and-location"><a href="#🕗-Time-and-location" class="headerlink" title="🕗 Time and location"></a>🕗 Time and location</h4><ul>
@@ -1341,39 +1374,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Nice Songs</title>
-    <url>/2020/08/31/Others-Nice-songs/</url>
-    <content><![CDATA[<h4 id="※-Chinese-Songs-※"><a href="#※-Chinese-Songs-※" class="headerlink" title="※ Chinese Songs ※"></a>※ Chinese Songs ※</h4><h5 id="amp-Singles"><a href="#amp-Singles" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><strong>后来(Later)</strong> - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
-<p><strong>童话(Fairy Tale)</strong> - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
-<p><strong>老男孩</strong> - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
-<p><strong>那些年(Those Bygone Years)</strong> - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
-<p><strong>少年</strong> - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
-<a id="more"></a>
-
-<h4 id="※-Japanese-Songs-※"><a href="#※-Japanese-Songs-※" class="headerlink" title="※ Japanese Songs ※"></a>※ Japanese Songs ※</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201028082408.png" style="zoom: 80%;" />
-
-<hr>
-<p><strong>SAKURA</strong> - 2006 - @Memory  @Love @Sadness</p>
-<p><strong>YELL</strong> - 2009 - @Courage</p>
-<p><strong>ありがとう</strong>(Arigatou = Thank you) - 2010 - @Love @Regret </p>
-<h4 id="※-English-Songs-※"><a href="#※-English-Songs-※" class="headerlink" title="※ English Songs ※"></a>※ English Songs ※</h4><h5 id="amp-Singles-1"><a href="#amp-Singles-1" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah"><strong>Monsters</strong></a> - 2014 - Katie Sky - @Courage</p>
-<h5 id="amp-Songs-from-Annual-GRAMMY-Awards"><a href="#amp-Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="&amp; Songs from Annual GRAMMY Awards"></a>&amp; Songs from <a href="https://www.grammy.com/grammys/awards">Annual GRAMMY Awards</a></h5></br>
-
-
-
-<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah">https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah</a></p>
-]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Music</category>
-      </categories>
-      <tags>
-        <tag>music🎵</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Account and password</title>
     <url>/2020/10/22/Others-Practical-info-Password/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="322e4e9fdd58600abb0fb7546051d2ade940c1d2efb14e13077e2cd71421f4d6">8732f4be449ce79ab294b66edbb143ede968390e65c689b785f1dde9e55d1f8c3e7a898886732a87b3da97605ab98f988126e2e0dffc80255d94fc7f8fccd62b644c3f478d1874378b0e07fafee24d35d786e8f71cb98995f6761f3af524825207c5fbabe07d5f4b8bdbf417886149a08b6fccffcf70237952619572f406110903f9ee57748ba90a5d324b5783224fa511ef2273cdad1634c42ee7449ecd3107a082cc863cd663dcf11d2a4bfd605aecf7c40fef726815829f8b7402f5d906a06d770939fe1bcd37809c01a27749559d</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
@@ -1446,6 +1446,32 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo_Adv @ Header BG color changing</title>
+    <url>/2020/11/13/Tutorials-Hexo-Adv-Header-background-color/</url>
+    <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201113003643.png"/>
+
+<a id="more"></a>
+
+<h4 id="1-Using-the-color-picker-find-out-background-color-number"><a href="#1-Using-the-color-picker-find-out-background-color-number" class="headerlink" title="1. Using the color_picker find out background color number."></a>1. Using the color_picker find out background color number.</h4><h4 id="2-Open-the-folder-“-homepage-themes-next-source-css-“-by-VSC"><a href="#2-Open-the-folder-“-homepage-themes-next-source-css-“-by-VSC" class="headerlink" title="2. Open the folder “/homepage/themes/next/source/css/“ by VSC"></a>2. Open the folder “/homepage/themes/next/source/css/“ by VSC</h4><h4 id="3-Find-out-all-files-containing-the-related-color-number"><a href="#3-Find-out-all-files-containing-the-related-color-number" class="headerlink" title="3. Find out all files containing the related color number"></a>3. Find out all files containing the related color number</h4><h4 id="4-Locate-in-parameter-file"><a href="#4-Locate-in-parameter-file" class="headerlink" title="4. Locate in parameter file:"></a>4. Locate in parameter file:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">C:\Users\Administrator\Mega_sync\My_site\homepage\themes\next\source\css\_schemes\Pisces\_header.styl</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="5-Find-out-the-color-parameter-change-it-by-your-preferred-color"><a href="#5-Find-out-the-color-parameter-change-it-by-your-preferred-color" class="headerlink" title="5. Find out the color parameter, change it by your preferred color."></a>5. Find out the color parameter, change it by your preferred color.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201113004356.png"/>
+
+
+
+<hr>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo_Adv @ Font color changing</title>
     <url>/2020/11/07/Tutorials-Hexo-Adv-Font-color/</url>
     <content><![CDATA[<h3 id="🎆-Font-color-change"><a href="#🎆-Font-color-change" class="headerlink" title="🎆    Font color change"></a>🎆    Font color change</h3><h4 id="1-Open-the-parameter-file"><a href="#1-Open-the-parameter-file" class="headerlink" title="1. Open the parameter file."></a>1. Open the parameter file.</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">cd</span> <span class="string">./homepage/themes/next/source/css/_variables</span></span><br><span class="line"><span class="string">vi</span> <span class="string">./base.styl</span></span><br></pre></td></tr></table></figure>
@@ -1462,32 +1488,6 @@
 <h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h4><blockquote>
 <p><a href="https://asymptotic-freedom.xyz/posts/f4345ea0/">https://asymptotic-freedom.xyz/posts/f4345ea0/</a></p>
 </blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Adv @ Header BG color changing</title>
-    <url>/2020/11/13/Tutorials-Hexo-Adv-Header-background-color/</url>
-    <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201113003643.png"/>
-
-<a id="more"></a>
-
-<h4 id="1-Using-the-color-picker-find-out-background-color-number"><a href="#1-Using-the-color-picker-find-out-background-color-number" class="headerlink" title="1. Using the color_picker find out background color number."></a>1. Using the color_picker find out background color number.</h4><h4 id="2-Open-the-folder-“-homepage-themes-next-source-css-“-by-VSC"><a href="#2-Open-the-folder-“-homepage-themes-next-source-css-“-by-VSC" class="headerlink" title="2. Open the folder “/homepage/themes/next/source/css/“ by VSC"></a>2. Open the folder “/homepage/themes/next/source/css/“ by VSC</h4><h4 id="3-Find-out-all-files-containing-the-related-color-number"><a href="#3-Find-out-all-files-containing-the-related-color-number" class="headerlink" title="3. Find out all files containing the related color number"></a>3. Find out all files containing the related color number</h4><h4 id="4-Locate-in-parameter-file"><a href="#4-Locate-in-parameter-file" class="headerlink" title="4. Locate in parameter file:"></a>4. Locate in parameter file:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">C:\Users\Administrator\Mega_sync\My_site\homepage\themes\next\source\css\_schemes\Pisces\_header.styl</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="5-Find-out-the-color-parameter-change-it-by-your-preferred-color"><a href="#5-Find-out-the-color-parameter-change-it-by-your-preferred-color" class="headerlink" title="5. Find out the color parameter, change it by your preferred color."></a>5. Find out the color parameter, change it by your preferred color.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201113004356.png"/>
-
-
-
-<hr>
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>
