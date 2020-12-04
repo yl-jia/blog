@@ -86,29 +86,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ add rounded corners</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
-    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
-<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
-
-<p>add the follow code should be OK:</p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization📄</tag>
-        <tag>Hexo[Next]🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo_Adv @ Add local search function</title>
     <url>/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</url>
     <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
@@ -182,20 +159,17 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ Set transparency and margins</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/</url>
-    <content><![CDATA[<p>Go to the custom style file:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/source/_data/styles.styl | vi</span><br></pre></td></tr></table></figure>
+    <title>Hexo[Next] @ add rounded corners</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
+    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
+<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
 
-
-
-<p>Add the code as below:</p>
+<p>add the follow code should be OK:</p>
 <a id="more"></a>
 
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">//1_The</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="string">rgba(255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.7</span><span class="string">);</span> <span class="string">//from</span> <span class="number">0</span><span class="number">-1</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//2_Avatar</span> <span class="string">info</span> <span class="string">bar</span></span><br><span class="line"><span class="string">.sidebar</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.85</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//3_local-search</span> <span class="string">box</span></span><br><span class="line"><span class="string">.popup</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.9</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//4_post</span> <span class="string">tranparency</span> <span class="string">and</span> <span class="string">middle</span> <span class="string">body</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.main-inner</span> &#123; </span><br><span class="line">    <span class="attr">margin-top:</span> <span class="string">20px;</span>  <span class="string">//Margin</span> <span class="string">from</span> <span class="string">the</span> <span class="string">top</span> <span class="string">of</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">padding:</span> <span class="string">20px</span> <span class="string">40px</span> <span class="string">20px</span> <span class="string">40px;</span> <span class="string">//</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">for</span> <span class="string">up</span>,<span class="string">right</span>,<span class="string">down</span>,<span class="string">and</span> <span class="string">left.</span></span><br><span class="line">    <span class="attr">background:</span> <span class="string">none;</span> <span class="string">//The</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">color</span>, <span class="comment">#fff [white] is default. //&quot;none&quot; is transparent</span></span><br><span class="line">    <span class="attr">opacity:</span> <span class="number">0.90</span><span class="string">;</span>     </span><br><span class="line">    <span class="attr">min-height:</span> <span class="string">500px;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
 
-<p>You can now customize all the transparency of your site and margins.</p>
-<p>Good luck！</p>
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>
@@ -273,31 +247,29 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Basic @ Post displayed per page in Archive</title>
-    <url>/2020/09/05/2020-09-05-Hexo-Basic-Post-displayed-per-page-in-Archive/</url>
-    <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
+    <title>Hexo[Next] @ Set transparency and margins</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/</url>
+    <content><![CDATA[<p>Go to the custom style file:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/source/_data/styles.styl | vi</span><br></pre></td></tr></table></figure>
 
+
+
+<p>Add the code as below:</p>
 <a id="more"></a>
 
-<h4 id="2-Configure-the-“-site-config-yml”-file"><a href="#2-Configure-the-“-site-config-yml”-file" class="headerlink" title="2. Configure the “./site/_config.yml” file."></a>2. Configure the “./site/_config.yml” file.</h4><p>add option code：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line">  <span class="attr">enabled:</span> <span class="literal">true</span> <span class="comment"># The default value is true, set to false if you do not want to enable the plugin</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">30</span> <span class="comment"># Posts displayed per page. (0 = disable pagination)</span></span><br><span class="line">  <span class="attr">yearly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">monthly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">daily:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span> <span class="comment"># Posts order. (Order by date descending by default)</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">//1_The</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="string">rgba(255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.7</span><span class="string">);</span> <span class="string">//from</span> <span class="number">0</span><span class="number">-1</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//2_Avatar</span> <span class="string">info</span> <span class="string">bar</span></span><br><span class="line"><span class="string">.sidebar</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.85</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//3_local-search</span> <span class="string">box</span></span><br><span class="line"><span class="string">.popup</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.9</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//4_post</span> <span class="string">tranparency</span> <span class="string">and</span> <span class="string">middle</span> <span class="string">body</span> <span class="string">tranparency</span></span><br><span class="line"><span class="string">.main-inner</span> &#123; </span><br><span class="line">    <span class="attr">margin-top:</span> <span class="string">20px;</span>  <span class="string">//Margin</span> <span class="string">from</span> <span class="string">the</span> <span class="string">top</span> <span class="string">of</span> <span class="string">the</span> <span class="string">page</span></span><br><span class="line">    <span class="attr">padding:</span> <span class="string">20px</span> <span class="string">40px</span> <span class="string">20px</span> <span class="string">40px;</span> <span class="string">//</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">for</span> <span class="string">up</span>,<span class="string">right</span>,<span class="string">down</span>,<span class="string">and</span> <span class="string">left.</span></span><br><span class="line">    <span class="attr">background:</span> <span class="string">none;</span> <span class="string">//The</span> <span class="string">page</span> <span class="string">margin</span> <span class="string">color</span>, <span class="comment">#fff [white] is default. //&quot;none&quot; is transparent</span></span><br><span class="line">    <span class="attr">opacity:</span> <span class="number">0.90</span><span class="string">;</span>     </span><br><span class="line">    <span class="attr">min-height:</span> <span class="string">500px;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-
-
-<hr>
-<blockquote>
-<p>Ref:</p>
-<p><a href="https://github.com/hexojs/hexo-generator-archive">https://github.com/hexojs/hexo-generator-archive</a></p>
-</blockquote>
+<p>You can now customize all the transparency of your site and margins.</p>
+<p>Good luck！</p>
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>
         <category>Hexo</category>
-        <category>Basic</category>
+        <category>Theme_Next</category>
       </categories>
       <tags>
-        <tag>Hexo_Basic🕸️</tag>
         <tag>Page optimization📄</tag>
+        <tag>Hexo[Next]🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -386,6 +358,34 @@
       </categories>
       <tags>
         <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Basic @ Post displayed per page in Archive</title>
+    <url>/2020/09/05/2020-09-05-Hexo-Basic-Post-displayed-per-page-in-Archive/</url>
+    <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<h4 id="2-Configure-the-“-site-config-yml”-file"><a href="#2-Configure-the-“-site-config-yml”-file" class="headerlink" title="2. Configure the “./site/_config.yml” file."></a>2. Configure the “./site/_config.yml” file.</h4><p>add option code：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line">  <span class="attr">enabled:</span> <span class="literal">true</span> <span class="comment"># The default value is true, set to false if you do not want to enable the plugin</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">30</span> <span class="comment"># Posts displayed per page. (0 = disable pagination)</span></span><br><span class="line">  <span class="attr">yearly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">monthly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">daily:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span> <span class="comment"># Posts order. (Order by date descending by default)</span></span><br></pre></td></tr></table></figure>
+
+
+
+<hr>
+<blockquote>
+<p>Ref:</p>
+<p><a href="https://github.com/hexojs/hexo-generator-archive">https://github.com/hexojs/hexo-generator-archive</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Basic</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Basic🕸️</tag>
+        <tag>Page optimization📄</tag>
       </tags>
   </entry>
   <entry>
@@ -776,18 +776,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Think about Film and Television Production</title>
-    <url>/2020/10/25/China-perception-Think-about-Film-and-television-Production/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="60f2596ce6723de6af77d504221fcf905b703f569408c7824d858efe13cc4b69">8b99030997d9e294e22d169f14a9b9af30076946d2e16ff2003e748bfa20774718e7eb4c449d12c407648717416cd24c6c5afe0d5a5abc1b186122fba0801dc54dd8356b33f5d024bbb55c3b04fa03f0f0d102f01c1d8591329662b03faa5b49be8262c42da0bde783dc561c7cc46e92496eb7a9762d621693371735636029a1ac2bb1dd1974f462aa3d5ba12445ed2dcd598a4b6216f0ea8833980ab1c0e09f78e348e231b43087370273e723e425d9500d657af02c6b7e4dd7ad9dfd4f7df3127319535f0e9d0fb1fe4256788736ed9328f01f20e07b2b86daf38c9630ea7c9eb66a7e941df294c9e885da4add10eb9c6cc8ffe5a57fe1346c288b89ecb760fe3a93ccaf9416071245aaf85ba6f55ba26586e3123fc424494f9831ea22d5990d863596032c72d3c7be3362061c4f939258b1c1f16640bb906d31bf48870838ab0c63430db3454f55b762a21a72ce0a5d4e47fefe6d36652886b95c28e968c9417b5a8f62d232137529201fa0cb6ef0bb1a52732878200dba7195a4912f2834f9d1f0602fb43eaa058ae79150ef81360d22e4eaf8171f6c8ff276eff4f8ba5414cca25114f22079d3a9c481b675086516bbd428e65447ffc1ab9a894c1140acd579b43a704c4acbe460bdbc261ff18483106f47f7f34fc69e204eb5a77855d08abec39f6257b1a73ea8653b3c908e92d96130bd71f390830e41c5391fc7187b36f0aaedd6ae58745b6967b6ddbcd0acce540c434713d14303d5425ed443e704710771f6189c26f00c39295c5d757f393b670058c3f9f46f6a1ee8bc1af75a31bb2ed3ba734ca63d521ac9d8e4973c97a2355c33372bcc2a717810bfd4a078cd182528a00b3eaa599acc5886e3fb02f3b986536e687e1fe74589d60d4ebf4739e7c5b90c15986eb2fdaca09c1861b8c8d0aed5151bd768c9befc9e35e5baef6006e891653aa2413c54536b132be2d2a0e575637267b8b3bd8e39114e5545f7fe9104c6d1dffe16a54e29c1e4bfb4f6dd4b336e3e63a15e56b7f69f1675504ad3a022c657fb461fd6cea5badc1ebb67cbbf255f191b82a729a964e7a77d24490d3a9be774c40745f643204f9fff2f14abc9bfc6cf68a408a7a3f1c72e257466bdc94c699dc70f9d291b2728cebcb5b3c8d8b4a4f8c1fa7b4b8d59845aeaeda309522a476e57c69d8ec686ccc5c70ebbf3e1a7e83be8c9b3930505f31c804a5f4b91663120e753d1ba45cb59f709abdbc1d3f67bf812d9ea3123e0ad08bb73938a5a4f57079e8fa3c6653ab094ed3035f751ac4bf211161ed40b3ab72e16d7bef28fdf5fde40af515420547753cf2d4c8e8a90fe28ddff591aaee8f213bb415d6fdcee0fd65761c03267136b1cfceadf8426a6f9b0d68083d53d0b5cf271d40809ae68e4f86ad540bb1f5fd4af140960cad936e930e1dcbd359cd99838494e9d8ff356b53726bf25822ac8045238c40ebeeb57322dd63d73aee42d6681b08d51148fe2655a44c75bb33f8f6154fac067dd77508c5d71f13fdf5b3a786d25ece909</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Perception</category>
-      </categories>
-      <tags>
-        <tag>Opinion💭</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Western Blot @ Loading control</title>
     <url>/2020/11/03/Biology-WB-loading-control/</url>
     <content><![CDATA[<h4 id="amp-Common-Loading-Control-Proteins-for-Western-Blot"><a href="#amp-Common-Loading-Control-Proteins-for-Western-Blot" class="headerlink" title="&amp; Common Loading Control Proteins for Western Blot"></a>&amp; Common Loading Control Proteins for Western Blot</h4><table>
@@ -955,6 +943,18 @@
       </categories>
       <tags>
         <tag>loading control</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Think about Film and Television Production</title>
+    <url>/2020/10/25/China-perception-Think-about-Film-and-television-Production/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="60f2596ce6723de6af77d504221fcf905b703f569408c7824d858efe13cc4b69">8b99030997d9e294e22d169f14a9b9af30076946d2e16ff2003e748bfa20774718e7eb4c449d12c407648717416cd24c6c5afe0d5a5abc1b186122fba0801dc54dd8356b33f5d024bbb55c3b04fa03f0f0d102f01c1d8591329662b03faa5b49be8262c42da0bde783dc561c7cc46e92496eb7a9762d621693371735636029a1ac2bb1dd1974f462aa3d5ba12445ed2dcd598a4b6216f0ea8833980ab1c0e09f78e348e231b43087370273e723e425d9500d657af02c6b7e4dd7ad9dfd4f7df3127319535f0e9d0fb1fe4256788736ed9328f01f20e07b2b86daf38c9630ea7c9eb66a7e941df294c9e885da4add10eb9c6cc8ffe5a57fe1346c288b89ecb760fe3a93ccaf9416071245aaf85ba6f55ba26586e3123fc424494f9831ea22d5990d863596032c72d3c7be3362061c4f939258b1c1f16640bb906d31bf48870838ab0c63430db3454f55b762a21a72ce0a5d4e47fefe6d36652886b95c28e968c9417b5a8f62d232137529201fa0cb6ef0bb1a52732878200dba7195a4912f2834f9d1f0602fb43eaa058ae79150ef81360d22e4eaf8171f6c8ff276eff4f8ba5414cca25114f22079d3a9c481b675086516bbd428e65447ffc1ab9a894c1140acd579b43a704c4acbe460bdbc261ff18483106f47f7f34fc69e204eb5a77855d08abec39f6257b1a73ea8653b3c908e92d96130bd71f390830e41c5391fc7187b36f0aaedd6ae58745b6967b6ddbcd0acce540c434713d14303d5425ed443e704710771f6189c26f00c39295c5d757f393b670058c3f9f46f6a1ee8bc1af75a31bb2ed3ba734ca63d521ac9d8e4973c97a2355c33372bcc2a717810bfd4a078cd182528a00b3eaa599acc5886e3fb02f3b986536e687e1fe74589d60d4ebf4739e7c5b90c15986eb2fdaca09c1861b8c8d0aed5151bd768c9befc9e35e5baef6006e891653aa2413c54536b132be2d2a0e575637267b8b3bd8e39114e5545f7fe9104c6d1dffe16a54e29c1e4bfb4f6dd4b336e3e63a15e56b7f69f1675504ad3a022c657fb461fd6cea5badc1ebb67cbbf255f191b82a729a964e7a77d24490d3a9be774c40745f643204f9fff2f14abc9bfc6cf68a408a7a3f1c72e257466bdc94c699dc70f9d291b2728cebcb5b3c8d8b4a4f8c1fa7b4b8d59845aeaeda309522a476e57c69d8ec686ccc5c70ebbf3e1a7e83be8c9b3930505f31c804a5f4b91663120e753d1ba45cb59f709abdbc1d3f67bf812d9ea3123e0ad08bb73938a5a4f57079e8fa3c6653ab094ed3035f751ac4bf211161ed40b3ab72e16d7bef28fdf5fde40af515420547753cf2d4c8e8a90fe28ddff591aaee8f213bb415d6fdcee0fd65761c03267136b1cfceadf8426a6f9b0d68083d53d0b5cf271d40809ae68e4f86ad540bb1f5fd4af140960cad936e930e1dcbd359cd99838494e9d8ff356b53726bf25822ac8045238c40ebeeb57322dd63d73aee42d6681b08d51148fe2655a44c75bb33f8f6154fac067dd77508c5d71f13fdf5b3a786d25ece909</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Perception</category>
+      </categories>
+      <tags>
+        <tag>Opinion💭</tag>
       </tags>
   </entry>
   <entry>
@@ -1446,32 +1446,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Adv @ Header BG color changing</title>
-    <url>/2020/11/13/Tutorials-Hexo-Adv-Header-background-color/</url>
-    <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201113003643.png"/>
-
-<a id="more"></a>
-
-<h4 id="1-Using-the-color-picker-find-out-background-color-number"><a href="#1-Using-the-color-picker-find-out-background-color-number" class="headerlink" title="1. Using the color_picker find out background color number."></a>1. Using the color_picker find out background color number.</h4><h4 id="2-Open-the-folder-“-homepage-themes-next-source-css-“-by-VSC"><a href="#2-Open-the-folder-“-homepage-themes-next-source-css-“-by-VSC" class="headerlink" title="2. Open the folder “/homepage/themes/next/source/css/“ by VSC"></a>2. Open the folder “/homepage/themes/next/source/css/“ by VSC</h4><h4 id="3-Find-out-all-files-containing-the-related-color-number"><a href="#3-Find-out-all-files-containing-the-related-color-number" class="headerlink" title="3. Find out all files containing the related color number"></a>3. Find out all files containing the related color number</h4><h4 id="4-Locate-in-parameter-file"><a href="#4-Locate-in-parameter-file" class="headerlink" title="4. Locate in parameter file:"></a>4. Locate in parameter file:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">C:\Users\Administrator\Mega_sync\My_site\homepage\themes\next\source\css\_schemes\Pisces\_header.styl</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="5-Find-out-the-color-parameter-change-it-by-your-preferred-color"><a href="#5-Find-out-the-color-parameter-change-it-by-your-preferred-color" class="headerlink" title="5. Find out the color parameter, change it by your preferred color."></a>5. Find out the color parameter, change it by your preferred color.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201113004356.png"/>
-
-
-
-<hr>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo_Adv @ Font color changing</title>
     <url>/2020/11/07/Tutorials-Hexo-Adv-Font-color/</url>
     <content><![CDATA[<h3 id="🎆-Font-color-change"><a href="#🎆-Font-color-change" class="headerlink" title="🎆    Font color change"></a>🎆    Font color change</h3><h4 id="1-Open-the-parameter-file"><a href="#1-Open-the-parameter-file" class="headerlink" title="1. Open the parameter file."></a>1. Open the parameter file.</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">cd</span> <span class="string">./homepage/themes/next/source/css/_variables</span></span><br><span class="line"><span class="string">vi</span> <span class="string">./base.styl</span></span><br></pre></td></tr></table></figure>
@@ -1488,6 +1462,32 @@
 <h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h4><blockquote>
 <p><a href="https://asymptotic-freedom.xyz/posts/f4345ea0/">https://asymptotic-freedom.xyz/posts/f4345ea0/</a></p>
 </blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ Header BG color changing</title>
+    <url>/2020/11/13/Tutorials-Hexo-Adv-Header-background-color/</url>
+    <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201113003643.png"/>
+
+<a id="more"></a>
+
+<h4 id="1-Using-the-color-picker-find-out-background-color-number"><a href="#1-Using-the-color-picker-find-out-background-color-number" class="headerlink" title="1. Using the color_picker find out background color number."></a>1. Using the color_picker find out background color number.</h4><h4 id="2-Open-the-folder-“-homepage-themes-next-source-css-“-by-VSC"><a href="#2-Open-the-folder-“-homepage-themes-next-source-css-“-by-VSC" class="headerlink" title="2. Open the folder “/homepage/themes/next/source/css/“ by VSC"></a>2. Open the folder “/homepage/themes/next/source/css/“ by VSC</h4><h4 id="3-Find-out-all-files-containing-the-related-color-number"><a href="#3-Find-out-all-files-containing-the-related-color-number" class="headerlink" title="3. Find out all files containing the related color number"></a>3. Find out all files containing the related color number</h4><h4 id="4-Locate-in-parameter-file"><a href="#4-Locate-in-parameter-file" class="headerlink" title="4. Locate in parameter file:"></a>4. Locate in parameter file:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">C:\Users\Administrator\Mega_sync\My_site\homepage\themes\next\source\css\_schemes\Pisces\_header.styl</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="5-Find-out-the-color-parameter-change-it-by-your-preferred-color"><a href="#5-Find-out-the-color-parameter-change-it-by-your-preferred-color" class="headerlink" title="5. Find out the color parameter, change it by your preferred color."></a>5. Find out the color parameter, change it by your preferred color.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201113004356.png"/>
+
+
+
+<hr>
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>
