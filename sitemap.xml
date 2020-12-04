@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yunlong-jia.com/2020/11/21/Biology-Practical-info-Cell-culture/</loc>
+    <loc>http://yunlong-jia.com/about/researcher/index.html</loc>
     
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/Lifelong_learning_and_collections/index.html</loc>
     
-    <lastmod>2020-11-15</lastmod>
+    <lastmod>2020-11-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/2020/11/21/Biology-Practical-info-Cell-culture/</loc>
+    
+    <lastmod>2020-11-22</lastmod>
     
   </url>
   
@@ -373,13 +380,6 @@
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/about/researcher/index.html</loc>
-    
-    <lastmod>2020-10-25</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yunlong-jia.com/gallery/photos/index.html</loc>
     
     <lastmod>2020-10-18</lastmod>
@@ -445,7 +445,7 @@
 
   <url>
     <loc>http://yunlong-jia.com/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -453,175 +453,175 @@
   
   <url>
     <loc>http://yunlong-jia.com/tags/Saki%F0%9F%90%BE/</loc>
-    <lastmod>2020-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/tags/Hexo-Basic%F0%9F%95%B8%EF%B8%8F/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/Page-optimization%F0%9F%93%84/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/Hexo-Next-%F0%9F%95%B8%EF%B8%8F/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/Hexo-Adv%F0%9F%95%B8%EF%B8%8F/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/tags/Hexo-Basic%F0%9F%95%B8%EF%B8%8F/</loc>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/Zotero%F0%9F%93%91/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/Opinion%F0%9F%92%AD/</loc>
-    <lastmod>2020-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/tags/Good-places%E2%9C%88%EF%B8%8F/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/Chinese-culture/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/tags/Good-places%E2%9C%88%EF%B8%8F/</loc>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/Picbed%F0%9F%96%BC%EF%B8%8F/</loc>
-    <lastmod>2020-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/tags/anniversary%F0%9F%8E%89/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/cell-culture/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/loading-control/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yunlong-jia.com/tags/images%F0%9F%96%BC%EF%B8%8F/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <loc>http://yunlong-jia.com/tags/anniversary%F0%9F%8E%89/</loc>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/Politics/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/tags/images%F0%9F%96%BC%EF%B8%8F/</loc>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/business%F0%9F%92%BC/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/cooking%F0%9F%8D%B3/</loc>
-    <lastmod>2020-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/tags/baby%F0%9F%91%B6/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/culture/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/tags/baby%F0%9F%91%B6/</loc>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/religion%E2%98%AF/</loc>
-    <lastmod>2020-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/tags/music%F0%9F%8E%B5/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/BMIC-day/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/tags/music%F0%9F%8E%B5/</loc>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/password%F0%9F%94%90/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/time-zone%F0%9F%95%9C/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/tags/corpus%F0%9F%93%96/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -630,203 +630,203 @@
   
   <url>
     <loc>http://yunlong-jia.com/categories/%E2%98%80%EF%B8%8F-Daily-life/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%93%98-Tutorials/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%E2%98%80%EF%B8%8F-Daily-life/Saki-s/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%93%98-Tutorials/Hexo/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%93%98-Tutorials/Zotero/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%93%98-Tutorials/Hexo/Adv/</loc>
-    <lastmod>2020-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/categories/%F0%9F%93%98-Tutorials/Hexo/Basic/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%93%98-Tutorials/Hexo/Theme-Next/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%93%98-Tutorials/Picbed/</loc>
-    <lastmod>2020-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/categories/%E2%98%80%EF%B8%8F-Daily-life/Mine/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%A7%AC-Biology/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/categories/%E2%98%80%EF%B8%8F-Daily-life/Mine/</loc>
+    <lastmod>2020-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/categories/%F0%9F%93%98-Tutorials/Hexo/Basic/</loc>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%93%B8-Cover/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%E2%98%80%EF%B8%8F-Daily-life/Business/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%E2%98%80%EF%B8%8F-Daily-life/Cooking/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/Perception/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%93%98-Tutorials/Corpus/</loc>
-    <lastmod>2020-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/Tour/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/Culture/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/Tour/</loc>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%A7%AC-Biology/Practical-info/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%A7%AC-Biology/Protein-identification/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%90%89-China/Politics/</loc>
-    <lastmod>2020-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Baby-Feeding/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Arab/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Baby-Feeding/</loc>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Culture/</loc>
-    <lastmod>2020-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Music/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Practical-info/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunlong-jia.com/categories/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-Others/Music/</loc>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yunlong-jia.com/categories/%F0%9F%A7%AC-Biology/Protein-identification/WB/</loc>
-    <lastmod>2020-11-22</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
