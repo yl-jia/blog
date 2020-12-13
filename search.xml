@@ -340,27 +340,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Zotero @ Citation style custom</title>
-    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
-    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
-<a id="more"></a>
-
-<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
-<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
-<blockquote>
-<p>ref:</p>
-<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Zotero</category>
-      </categories>
-      <tags>
-        <tag>Zotero📑</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo_Adv @ Skip render for given files and folders</title>
     <url>/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</url>
     <content><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p>
@@ -386,6 +365,27 @@
       </categories>
       <tags>
         <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Zotero @ Citation style custom</title>
+    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
+    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
+<a id="more"></a>
+
+<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
+<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
+<blockquote>
+<p>ref:</p>
+<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Zotero</category>
+      </categories>
+      <tags>
+        <tag>Zotero📑</tag>
       </tags>
   </entry>
   <entry>
@@ -598,23 +598,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Calendar</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
-    <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Chinese culture @ China’s religious beliefs</title>
     <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
     <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
@@ -632,6 +615,23 @@
       </tags>
   </entry>
   <entry>
+    <title>Chinese culture @ Calendar</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
+    <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
+]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Chinese culture @ Five Elements Theory [五行]</title>
     <url>/2020/10/18/2020-10-18-Chinese-culture-five-elements-theory/</url>
     <content><![CDATA[<img src="/beauty/wuxing.png" style="zoom:70%;" />
@@ -639,40 +639,6 @@
 <a id="more"></a>
 
 <p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm">https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Chinese culture @ The 24 Solar Terms [24节气]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-the-24-solar-terms/</url>
-    <content><![CDATA[<img src="/beauty/24st.png" style="zoom:70%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/festivals/the-24-solar-terms.htm">https://www.chinahighlights.com/festivals/the-24-solar-terms.htm</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Chinese culture @ Traditional Chinese Medicine [中医]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-chinese-medicine/</url>
-    <content><![CDATA[<img src="/beauty/zhongyi.png" style="zoom:70%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm">https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -734,6 +700,23 @@
       </tags>
   </entry>
   <entry>
+    <title>Chinese culture @ Traditional Chinese Medicine [中医]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-chinese-medicine/</url>
+    <content><![CDATA[<img src="/beauty/zhongyi.png" style="zoom:70%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm">https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm</a></p>
+]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2nd Wedding Anniversary</title>
     <url>/2020/10/19/2020-10-19-wedding-anniversary/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="9bf7095c605dcde7d87ae33a681717371aec8867a991bb62cbf367366e62812c">ccaa9cb1d60be991ee03bc7daedf2a98436daecb4dd45de12ee244fbc39d88ae786534317c636e1eb992dd205c04fb0510cd019c295da83f0cd261cce11a3f7e188e62c29329f6771456ab246a9d25f5419fc4a0813ca946af8dea9eea1d1dbbc8cd1692bcb7f6ee8a53578f9ae6426c5ba19b53dbee1cc8e37d0d5408dac0ee0bffdef0848bb07fe47c88c33911d9b45be97ef6ac5aa23fccb97a6ae13fab6b6a5a36bd28934aa06949f6545535a77beda9a66ea580e16304d1b0fd3bd40439df93cf139e88118fb4c7bcfea80db0b82e6d317673eb69bdf82d9b0aa246b8eaf68b2ddb3e55b4d32997b6f913da78e663454f4cf889a8210b348cd3b48f1de315de6577563bb47d475c7fca68e68422a83d441f92db2b72f8e4048fc0a956180f3fb3675a12e83638444bf0debfc67c270f066ba38e4151322b2f634c31b6152ac6b96d8f3bfe29b5bd0532291716df0ee3c31803b245c35abd85b67543bc562410c644083c502de5f660b839e8c9cff67984cb350e8adcaf4a4431aa135bd72a31db0df31bffcc2926e572ec4bbcfe584c56748f17976f980e9d78dbbd3c6de1a7cb62b7cafef9bbbccd01af6f6eb999077bccc1c121a9c6cb1fd031d4d7bc046970ee94ad1b2a08b46e79805599efafc34800b8e5ded6cb035a9a9b99b3bd4809e56e918cfd64c7cf0bd591f4df9a548b2a57524e0298d0327bbd8ab88153e572a94aef50099fd648560a57bb1c19175c976d8225bee7e6bf5e80e44a3014dee3811f0ab85ef37c94248a3f0d600f928ea579cfd4f1cffa035f1dbf825c597b709cb07ddd526f1aa21d5a61ee3f9ee2e7bff9af57e605235847ed7f1d030764479a3421b4b09a794fe14b72f023cdb6cc3e44c14839552dcc2aed333ec335d55c32c81f669b31221fbf1cfeeba538bf3fb30a8d175170fecf38f130eea63bcd82920937701e39b45b356fc05ee5400a42eea0c610ebd6fb0371247c1d8b5fe9d9527bcb592b17b6ea5292083956b5c05970ad1d8d82c59ef9a65f757b6b8b10fd5c7823240f9c9e3bdfef46dd596a57cc67964184698a291f27d6bb6cf0b20496159796851a3223aad712d46fc659b95683a05cea7fbf9cde7794c46b6a637ab976e636b269403b506bc3f2b217b7e1c814e5d09752878bd323ced2469cea65dae0a84d7f6502358ab79e8df369d50e5ec749a4e9c05f82855cf4b264e6f0e350c4c25e316d4012fd966338d0579be7b17d35ac5ecc1ae797b18f1f93743b7068d27cc3dbe1a7244c95d7aa9b4b328ad7a996c23c37f9bf541aa97ff3127661212713ea976814faa51214f82b36a731c4fd06e176c523c9c8bfbeab6c96ec8981f9da2ed82a88391435ed9c263203b65eb29bb2f39c78d9f50bdeabed24c511ad1403d8e4771d434bfb6fd5ca05868357befb9b8f92f9d915b97367723b156d4d24df00620b5926b59dda03c1e24ca04e87a1e20dbcfe55a1c0b3ccd915345e0f872d950e38c1a9dd596adff3abdce0ed31ea3a4ef6fa711b8c41fbcdf9aa1e5e9cb4d3bb21aac70558c57316c945</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
@@ -763,52 +746,6 @@
 
 <h4 id="※-Artificial-Neural-Networks-ANN"><a href="#※-Artificial-Neural-Networks-ANN" class="headerlink" title="※ Artificial Neural Networks [ANN]"></a>※ Artificial Neural Networks [ANN]</h4><h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs"></a>Refs</h4><blockquote>
 <p><a href="https://www.youtube.com/watch?app=desktop&amp;v=7J-DfS52bnI">https://www.youtube.com/watch?app=desktop&amp;v=7J-DfS52bnI</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>🧬 Biology</category>
-        <category>AI</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>1 @ THE ETHICS OF ARTIFICIAL INTELLIGENCE</title>
-    <url>/2020/12/12/Biology-AI-Ethics-of-Artificial-Intelligence/</url>
-    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212173740.png"></p>
-<a id="more"></a>
-
-<p><strong>AI shouldn’t harm humans and other morally relevant beings, and to the moral status of the machines themselves.</strong></p>
-<ul>
-<li>The issues that may arise in the near future of AI.</li>
-<li>Challenges for ensuring that AI operates safely as it approaches humans in its intelligence.</li>
-<li>How we might assess whether, and in what circumstances, AIs themselves have moral status.</li>
-<li>How AIs might differ from humans in certain basic respects relevant to our ethical assessment of them.</li>
-<li>Creating AIs more intelligent than human, and ensuring that they use their advanced intelligence for good rather than ill</li>
-</ul>
-<h4 id="※-Methods-of-isolating-single-cells-for-sequencing"><a href="#※-Methods-of-isolating-single-cells-for-sequencing" class="headerlink" title="※ Methods of isolating single cells for sequencing"></a>※ Methods of isolating single cells for sequencing</h4><h4 id="※-Workflow-for-analysis"><a href="#※-Workflow-for-analysis" class="headerlink" title="※ Workflow for analysis"></a>※ Workflow for analysis</h4><h4 id="※-Application"><a href="#※-Application" class="headerlink" title="※ Application"></a>※ Application</h4><ul>
-<li><p><strong>Spatial Transcriptomics:</strong> The Visium <strong>Spatial Gene Expression</strong> Solution from 10x Genomics </p>
-<p>[Map the Whole Transcriptome Within the Tissue Context]</p>
-</li>
-</ul>
-<h4 id="※-Popular-tools"><a href="#※-Popular-tools" class="headerlink" title="※ Popular tools"></a>※ Popular tools</h4><ul>
-<li><p><strong>Seurat [Bioconductor]</strong></p>
-<ul>
-<li>QC, data normalization and scaling</li>
-<li>linear dimensional reduction [PCA]</li>
-<li>Identifying the true dimensionality [‘Significant’ PCs]</li>
-<li>Cluster the cells</li>
-<li>non-linear dimensional reduction (UMAP/tSNE)</li>
-<li>differentially expressed features (cluster biomarkers)</li>
-<li>Assigning cell type identity to clusters</li>
-</ul>
-</li>
-<li><p><strong>Monocle3 [Bioconductor]</strong> - for Trajectory analysis</p>
-</li>
-</ul>
-<h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs"></a>Refs</h4><blockquote>
-<p><a href="http://faculty.smcm.edu/acjamieson/s13/artificialintelligence.pdf">http://faculty.smcm.edu/acjamieson/s13/artificialintelligence.pdf</a></p>
 </blockquote>
 ]]></content>
       <categories>
@@ -1117,6 +1054,52 @@
       </tags>
   </entry>
   <entry>
+    <title>1 @ THE ETHICS OF ARTIFICIAL INTELLIGENCE</title>
+    <url>/2020/12/12/Biology-AI-Ethics-of-Artificial-Intelligence/</url>
+    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212173740.png"></p>
+<a id="more"></a>
+
+<p><strong>AI shouldn’t harm humans and other morally relevant beings, and to the moral status of the machines themselves.</strong></p>
+<ul>
+<li>The issues that may arise in the near future of AI.</li>
+<li>Challenges for ensuring that AI operates safely as it approaches humans in its intelligence.</li>
+<li>How we might assess whether, and in what circumstances, AIs themselves have moral status.</li>
+<li>How AIs might differ from humans in certain basic respects relevant to our ethical assessment of them.</li>
+<li>Creating AIs more intelligent than human, and ensuring that they use their advanced intelligence for good rather than ill</li>
+</ul>
+<h4 id="※-Methods-of-isolating-single-cells-for-sequencing"><a href="#※-Methods-of-isolating-single-cells-for-sequencing" class="headerlink" title="※ Methods of isolating single cells for sequencing"></a>※ Methods of isolating single cells for sequencing</h4><h4 id="※-Workflow-for-analysis"><a href="#※-Workflow-for-analysis" class="headerlink" title="※ Workflow for analysis"></a>※ Workflow for analysis</h4><h4 id="※-Application"><a href="#※-Application" class="headerlink" title="※ Application"></a>※ Application</h4><ul>
+<li><p><strong>Spatial Transcriptomics:</strong> The Visium <strong>Spatial Gene Expression</strong> Solution from 10x Genomics </p>
+<p>[Map the Whole Transcriptome Within the Tissue Context]</p>
+</li>
+</ul>
+<h4 id="※-Popular-tools"><a href="#※-Popular-tools" class="headerlink" title="※ Popular tools"></a>※ Popular tools</h4><ul>
+<li><p><strong>Seurat [Bioconductor]</strong></p>
+<ul>
+<li>QC, data normalization and scaling</li>
+<li>linear dimensional reduction [PCA]</li>
+<li>Identifying the true dimensionality [‘Significant’ PCs]</li>
+<li>Cluster the cells</li>
+<li>non-linear dimensional reduction (UMAP/tSNE)</li>
+<li>differentially expressed features (cluster biomarkers)</li>
+<li>Assigning cell type identity to clusters</li>
+</ul>
+</li>
+<li><p><strong>Monocle3 [Bioconductor]</strong> - for Trajectory analysis</p>
+</li>
+</ul>
+<h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs"></a>Refs</h4><blockquote>
+<p><a href="http://faculty.smcm.edu/acjamieson/s13/artificialintelligence.pdf">http://faculty.smcm.edu/acjamieson/s13/artificialintelligence.pdf</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>🧬 Biology</category>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Western Blot @ Loading control</title>
     <url>/2020/11/03/Biology-WB-loading-control/</url>
     <content><![CDATA[<h4 id="amp-Common-Loading-Control-Proteins-for-Western-Blot"><a href="#amp-Common-Loading-Control-Proteins-for-Western-Blot" class="headerlink" title="&amp; Common Loading Control Proteins for Western Blot"></a>&amp; Common Loading Control Proteins for Western Blot</h4><table>
@@ -1299,6 +1282,23 @@
       </tags>
   </entry>
   <entry>
+    <title>Chinese culture @ The 24 Solar Terms [24节气]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-the-24-solar-terms/</url>
+    <content><![CDATA[<img src="/beauty/24st.png" style="zoom:70%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/festivals/the-24-solar-terms.htm">https://www.chinahighlights.com/festivals/the-24-solar-terms.htm</a></p>
+]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Politics of China</title>
     <url>/2020/10/24/China-politics/</url>
     <content><![CDATA[<h3 id="※1949-Present"><a href="#※1949-Present" class="headerlink" title="※1949 - Present"></a>※1949 - Present</h3><h4 id="amp-Prime-Minister-Liu-Luoguo-宰相劉羅鍋"><a href="#amp-Prime-Minister-Liu-Luoguo-宰相劉羅鍋" class="headerlink" title="&amp; Prime Minister Liu Luoguo [宰相劉羅鍋]"></a>&amp; Prime Minister Liu Luoguo [宰相劉羅鍋]</h4><p><strong>Production company:</strong> 北京文化艺术音像出版社</p>
@@ -1341,35 +1341,6 @@
       </categories>
       <tags>
         <tag>business💼</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Cooking @ Snack making</title>
-    <url>/2020/10/22/Daily-life-Cooking-Snack-making/</url>
-    <content><![CDATA[<h3 id="amp-Sesame-chips"><a href="#amp-Sesame-chips" class="headerlink" title="&amp; Sesame chips"></a>&amp; Sesame chips</h3><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201024175209.png" style="zoom:67%;" />
-
-<a id="more"></a>
-
-<h4 id="Ingredients"><a href="#Ingredients" class="headerlink" title="Ingredients:"></a>Ingredients:</h4><p>125g <a href="https://www.bbcgoodfood.com/glossary/flour-glossary">plain flour</a> [Type 55]</p>
-<p>30g white  sesame seeds</p>
-<p>5g black sesame seeds</p>
-<p>2g salt</p>
-<p>15g Corn oil</p>
-<p>70g Water</p>
-<h4 id="Method"><a href="#Method" class="headerlink" title="Method:"></a>Method:</h4><p>Mix all above to make a smooth, soft dough.</p>
-<p>Ferment for 30 minutes, sealing with <code>cling film</code>.</p>
-<p>Re-<code>knead the dough</code> and press it flat.</p>
-<p>Use a <code>rolling pin</code> to roll out a large, thin sheet of dough.</p>
-<p>Use the <code>mold</code> to make the shape you like.</p>
-<p>Lift onto a non-stick <code>baking tray</code>.</p>
-<h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://www.bbcgoodfood.com/recipes/chilli-crowd">https://www.bbcgoodfood.com/recipes/chilli-crowd</a></p>
-]]></content>
-      <categories>
-        <category>☀️ Daily life</category>
-        <category>Cooking</category>
-      </categories>
-      <tags>
-        <tag>cooking🍳</tag>
       </tags>
   </entry>
   <entry>
@@ -1563,39 +1534,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Nice Songs</title>
-    <url>/2020/08/31/Others-Nice-songs/</url>
-    <content><![CDATA[<h4 id="※-Chinese-Songs-※"><a href="#※-Chinese-Songs-※" class="headerlink" title="※ Chinese Songs ※"></a>※ Chinese Songs ※</h4><h5 id="amp-Singles"><a href="#amp-Singles" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><strong>后来(Later)</strong> - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
-<p><strong>童话(Fairy Tale)</strong> - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
-<p><strong>老男孩</strong> - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
-<p><strong>那些年(Those Bygone Years)</strong> - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
-<p><strong>少年</strong> - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
-<a id="more"></a>
-
-<h4 id="※-Japanese-Songs-※"><a href="#※-Japanese-Songs-※" class="headerlink" title="※ Japanese Songs ※"></a>※ Japanese Songs ※</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201028082408.png" style="zoom: 80%;" />
-
-<hr>
-<p><strong>SAKURA</strong> - 2006 - @Memory  @Love @Sadness</p>
-<p><strong>YELL</strong> - 2009 - @Courage</p>
-<p><strong>ありがとう</strong>(Arigatou = Thank you) - 2010 - @Love @Regret </p>
-<h4 id="※-English-Songs-※"><a href="#※-English-Songs-※" class="headerlink" title="※ English Songs ※"></a>※ English Songs ※</h4><h5 id="amp-Singles-1"><a href="#amp-Singles-1" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah"><strong>Monsters</strong></a> - 2014 - Katie Sky - @Courage</p>
-<h5 id="amp-Songs-from-Annual-GRAMMY-Awards"><a href="#amp-Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="&amp; Songs from Annual GRAMMY Awards"></a>&amp; Songs from <a href="https://www.grammy.com/grammys/awards">Annual GRAMMY Awards</a></h5></br>
-
-
-
-<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah">https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah</a></p>
-]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Music</category>
-      </categories>
-      <tags>
-        <tag>music🎵</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Useful info for BMIC days 2020</title>
     <url>/2020/11/08/Others-Practical-info-BMIC-day/</url>
     <content><![CDATA[<h4 id="🕗-Time-and-location"><a href="#🕗-Time-and-location" class="headerlink" title="🕗 Time and location"></a>🕗 Time and location</h4><ul>
@@ -1715,6 +1653,68 @@
       </tags>
   </entry>
   <entry>
+    <title>Nice Songs</title>
+    <url>/2020/08/31/Others-Nice-songs/</url>
+    <content><![CDATA[<h4 id="※-Chinese-Songs-※"><a href="#※-Chinese-Songs-※" class="headerlink" title="※ Chinese Songs ※"></a>※ Chinese Songs ※</h4><h5 id="amp-Singles"><a href="#amp-Singles" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><strong>后来(Later)</strong> - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
+<p><strong>童话(Fairy Tale)</strong> - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
+<p><strong>老男孩</strong> - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
+<p><strong>那些年(Those Bygone Years)</strong> - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
+<p><strong>少年</strong> - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
+<a id="more"></a>
+
+<h4 id="※-Japanese-Songs-※"><a href="#※-Japanese-Songs-※" class="headerlink" title="※ Japanese Songs ※"></a>※ Japanese Songs ※</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201028082408.png" style="zoom: 80%;" />
+
+<hr>
+<p><strong>SAKURA</strong> - 2006 - @Memory  @Love @Sadness</p>
+<p><strong>YELL</strong> - 2009 - @Courage</p>
+<p><strong>ありがとう</strong>(Arigatou = Thank you) - 2010 - @Love @Regret </p>
+<h4 id="※-English-Songs-※"><a href="#※-English-Songs-※" class="headerlink" title="※ English Songs ※"></a>※ English Songs ※</h4><h5 id="amp-Singles-1"><a href="#amp-Singles-1" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah"><strong>Monsters</strong></a> - 2014 - Katie Sky - @Courage</p>
+<h5 id="amp-Songs-from-Annual-GRAMMY-Awards"><a href="#amp-Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="&amp; Songs from Annual GRAMMY Awards"></a>&amp; Songs from <a href="https://www.grammy.com/grammys/awards">Annual GRAMMY Awards</a></h5></br>
+
+
+
+<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah">https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah</a></p>
+]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Music</category>
+      </categories>
+      <tags>
+        <tag>music🎵</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Cooking @ Snack making</title>
+    <url>/2020/10/22/Daily-life-Cooking-Snack-making/</url>
+    <content><![CDATA[<h3 id="amp-Sesame-chips"><a href="#amp-Sesame-chips" class="headerlink" title="&amp; Sesame chips"></a>&amp; Sesame chips</h3><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201024175209.png" style="zoom:67%;" />
+
+<a id="more"></a>
+
+<h4 id="Ingredients"><a href="#Ingredients" class="headerlink" title="Ingredients:"></a>Ingredients:</h4><p>125g <a href="https://www.bbcgoodfood.com/glossary/flour-glossary">plain flour</a> [Type 55]</p>
+<p>30g white  sesame seeds</p>
+<p>5g black sesame seeds</p>
+<p>2g salt</p>
+<p>15g Corn oil</p>
+<p>70g Water</p>
+<h4 id="Method"><a href="#Method" class="headerlink" title="Method:"></a>Method:</h4><p>Mix all above to make a smooth, soft dough.</p>
+<p>Ferment for 30 minutes, sealing with <code>cling film</code>.</p>
+<p>Re-<code>knead the dough</code> and press it flat.</p>
+<p>Use a <code>rolling pin</code> to roll out a large, thin sheet of dough.</p>
+<p>Use the <code>mold</code> to make the shape you like.</p>
+<p>Lift onto a non-stick <code>baking tray</code>.</p>
+<h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://www.bbcgoodfood.com/recipes/chilli-crowd">https://www.bbcgoodfood.com/recipes/chilli-crowd</a></p>
+]]></content>
+      <categories>
+        <category>☀️ Daily life</category>
+        <category>Cooking</category>
+      </categories>
+      <tags>
+        <tag>cooking🍳</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Account and password</title>
     <url>/2020/10/22/Others-Practical-info-Password/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="322e4e9fdd58600abb0fb7546051d2ade940c1d2efb14e13077e2cd71421f4d6">8732f4be449ce79ab294b66edbb143ede968390e65c689b785f1dde9e55d1f8c3e7a898886732a87b3da97605ab98f988126e2e0dffc80255d94fc7f8fccd62b644c3f478d1874378b0e07fafee24d35d786e8f71cb98995f6761f3af524825207c5fbabe07d5f4b8bdbf417886149a08b6fccffcf70237952619572f406110903f9ee57748ba90a5d324b5783224fa511ef2273cdad1634c42ee7449ecd3107a082cc863cd663dcf11d2a4bfd605aecf7c40fef726815829f8b7402f5d906a06d770939fe1bcd37809c01a27749559d</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
@@ -1774,19 +1774,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Corpus @ Make your own corpus</title>
-    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
-    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Corpus</category>
-      </categories>
-      <tags>
-        <tag>corpus📖</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo_Adv @ Font color changing</title>
     <url>/2020/11/07/Tutorials-Hexo-Adv-Font-color/</url>
     <content><![CDATA[<h3 id="🎆-Font-color-change"><a href="#🎆-Font-color-change" class="headerlink" title="🎆    Font color change"></a>🎆    Font color change</h3><h4 id="1-Open-the-parameter-file"><a href="#1-Open-the-parameter-file" class="headerlink" title="1. Open the parameter file."></a>1. Open the parameter file.</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">cd</span> <span class="string">./homepage/themes/next/source/css/_variables</span></span><br><span class="line"><span class="string">vi</span> <span class="string">./base.styl</span></span><br></pre></td></tr></table></figure>
@@ -1811,6 +1798,19 @@
       </categories>
       <tags>
         <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Corpus @ Make your own corpus</title>
+    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
+    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Corpus</category>
+      </categories>
+      <tags>
+        <tag>corpus📖</tag>
       </tags>
   </entry>
   <entry>
