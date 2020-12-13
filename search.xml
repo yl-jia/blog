@@ -16,26 +16,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Basic @ Post guide of YAML front matter</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</url>
-    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
-<p>It includes all necessary parameter needed for your article.</p>
-<p>Here is just some of important ones, which should be always considered before your writing: </p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Basic</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Basic🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo[Next] @ Custom background image</title>
     <url>/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</url>
     <content><![CDATA[<p>*<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong> Based on <code>Next theme</code> <a href="https://github.com/theme-next/hexo-theme-next/commit/f9956802c9cf51ebdb447fb954efa6383fbb2bd6">Release v7.8.0</a></p>
@@ -86,6 +66,26 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo_Basic @ Post guide of YAML front matter</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</url>
+    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
+<p>It includes all necessary parameter needed for your article.</p>
+<p>Here is just some of important ones, which should be always considered before your writing: </p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Basic</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Basic🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo_Adv @ Add local search function</title>
     <url>/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</url>
     <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
@@ -107,29 +107,6 @@
       </categories>
       <tags>
         <tag>Hexo_Adv🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo[Next] @ add rounded corners</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
-    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
-<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
-
-<p>add the follow code should be OK:</p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization📄</tag>
-        <tag>Hexo[Next]🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -179,6 +156,29 @@
       </categories>
       <tags>
         <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo[Next] @ add rounded corners</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
+    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
+<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
+
+<p>add the follow code should be OK:</p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Theme_Next</category>
+      </categories>
+      <tags>
+        <tag>Page optimization📄</tag>
+        <tag>Hexo[Next]🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -273,34 +273,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Basic @ Post displayed per page in Archive</title>
-    <url>/2020/09/05/2020-09-05-Hexo-Basic-Post-displayed-per-page-in-Archive/</url>
-    <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<h4 id="2-Configure-the-“-site-config-yml”-file"><a href="#2-Configure-the-“-site-config-yml”-file" class="headerlink" title="2. Configure the “./site/_config.yml” file."></a>2. Configure the “./site/_config.yml” file.</h4><p>add option code：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line">  <span class="attr">enabled:</span> <span class="literal">true</span> <span class="comment"># The default value is true, set to false if you do not want to enable the plugin</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">30</span> <span class="comment"># Posts displayed per page. (0 = disable pagination)</span></span><br><span class="line">  <span class="attr">yearly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">monthly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">daily:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span> <span class="comment"># Posts order. (Order by date descending by default)</span></span><br></pre></td></tr></table></figure>
-
-
-
-<hr>
-<blockquote>
-<p>Ref:</p>
-<p><a href="https://github.com/hexojs/hexo-generator-archive">https://github.com/hexojs/hexo-generator-archive</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Basic</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Basic🕸️</tag>
-        <tag>Page optimization📄</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo[Next] @ Insert Image Browser for embedded images</title>
     <url>/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</url>
     <content><![CDATA[<img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifr5ldjnej30gs0cnn36.jpg" alt="" style="zoom:80%;" />
@@ -340,6 +312,34 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo_Basic @ Post displayed per page in Archive</title>
+    <url>/2020/09/05/2020-09-05-Hexo-Basic-Post-displayed-per-page-in-Archive/</url>
+    <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<h4 id="2-Configure-the-“-site-config-yml”-file"><a href="#2-Configure-the-“-site-config-yml”-file" class="headerlink" title="2. Configure the “./site/_config.yml” file."></a>2. Configure the “./site/_config.yml” file.</h4><p>add option code：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line">  <span class="attr">enabled:</span> <span class="literal">true</span> <span class="comment"># The default value is true, set to false if you do not want to enable the plugin</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">30</span> <span class="comment"># Posts displayed per page. (0 = disable pagination)</span></span><br><span class="line">  <span class="attr">yearly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">monthly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">daily:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span> <span class="comment"># Posts order. (Order by date descending by default)</span></span><br></pre></td></tr></table></figure>
+
+
+
+<hr>
+<blockquote>
+<p>Ref:</p>
+<p><a href="https://github.com/hexojs/hexo-generator-archive">https://github.com/hexojs/hexo-generator-archive</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Basic</category>
+      </categories>
+      <tags>
+        <tag>Page optimization📄</tag>
+        <tag>Hexo_Basic🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Zotero @ Citation style custom</title>
     <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
     <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
@@ -358,34 +358,6 @@
       </categories>
       <tags>
         <tag>Zotero📑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Adv @ Skip render for given files and folders</title>
-    <url>/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</url>
-    <content><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p>
-<p>Now in <code>hexo</code>system, you need to configure it in you <code>_ config.yml</code>for achieving it.</p>
-<a id="more"></a>
-
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd .../homepage/</span><br><span class="line">vi ./_config.yml</span><br></pre></td></tr></table></figure>
-
-<p>you need to locate and find <code>skip_render:</code></p>
-<p>Then modify it as below:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># The default work directory for &quot;skip_render&quot; is</span></span></span><br><span class="line">cd .../homepage/source/</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip single file, as README.md: </span></span></span><br><span class="line">skip_render: README.md</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip all files in single folder, as test:</span></span></span><br><span class="line">skip_render: test/*</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip several files or folders:</span></span></span><br><span class="line"></span><br><span class="line">skip_render:</span><br><span class="line"> - test.html</span><br><span class="line"> - README.md</span><br><span class="line"> - test/*</span><br><span class="line"> - miao/*</span><br></pre></td></tr></table></figure>
-
-
-
-<p>Finally , clean and reload your new files:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -598,13 +570,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Calendar</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
-    <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
+    <title>Chinese culture @ China’s religious beliefs</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
+    <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
 
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/religion.htm">https://www.chinahighlights.com/travelguide/religion.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -615,13 +587,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ China’s religious beliefs</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
-    <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
+    <title>Chinese culture @ Calendar</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
+    <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
 
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/travelguide/religion.htm">https://www.chinahighlights.com/travelguide/religion.htm</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -1067,6 +1039,34 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo_Adv @ Skip render for given files and folders</title>
+    <url>/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</url>
+    <content><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p>
+<p>Now in <code>hexo</code>system, you need to configure it in you <code>_ config.yml</code>for achieving it.</p>
+<a id="more"></a>
+
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd .../homepage/</span><br><span class="line">vi ./_config.yml</span><br></pre></td></tr></table></figure>
+
+<p>you need to locate and find <code>skip_render:</code></p>
+<p>Then modify it as below:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># The default work directory for &quot;skip_render&quot; is</span></span></span><br><span class="line">cd .../homepage/source/</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip single file, as README.md: </span></span></span><br><span class="line">skip_render: README.md</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip all files in single folder, as test:</span></span></span><br><span class="line">skip_render: test/*</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip several files or folders:</span></span></span><br><span class="line"></span><br><span class="line">skip_render:</span><br><span class="line"> - test.html</span><br><span class="line"> - README.md</span><br><span class="line"> - test/*</span><br><span class="line"> - miao/*</span><br></pre></td></tr></table></figure>
+
+
+
+<p>Finally , clean and reload your new files:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Cell culture info</title>
     <url>/2020/11/21/Biology-Practical-info-Cell-culture/</url>
     <content><![CDATA[<h3 id="Number-of-cells-to-seed-the-day-before-transfection"><a href="#Number-of-cells-to-seed-the-day-before-transfection" class="headerlink" title="@ Number of cells to seed the day before transfection"></a>@ Number of cells to seed the day before transfection</h3><h4 id="amp-HEK-293-293T"><a href="#amp-HEK-293-293T" class="headerlink" title="&amp; HEK 293/293T"></a>&amp; HEK 293/293T</h4><ul>
@@ -1296,6 +1296,22 @@
       </tags>
   </entry>
   <entry>
+    <title>Chong-Qing</title>
+    <url>/2020/08/31/Cover-Chongqing/</url>
+    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/chognqing1.jpg"></p>
+<a id="more"></a>
+
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/rtry.jpg"></p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/chognqing3.jpg"></p>
+]]></content>
+      <categories>
+        <category>📸 Cover</category>
+      </categories>
+      <tags>
+        <tag>images🖼️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Think about part-time business</title>
     <url>/2020/10/25/Daily-life-Business-Think-about-part-time-business-/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="98f914cc1c82bab3d9941eadcd0bd8394f5a64f8bd0f8b0bb57075dc0f35aa40">06a3258ad59e4eff6dd45a2f0021519577bbd42bf5306d0c2f5166ba922f9120123120914cda524a2cd9fa6e0a9a1081130ad6a00339f2c95777a1dad931d9a563f1686403de37ec68c3f8c14994a5570071fb37f0cda93e87d0129ffea27da7071996e2b036b5c5775a53b88d623ed6e6e3bc0eec40decc44ab24f36cf3b0dafbea500964234e4859e7b7b99e59c113019e9218d048f182fbfd4c982686c2a76d3337ab4207d003b5863ccac1ed7a010f44bd3d9f97fa4a881c8be80340ce3838404d6beb0e2e31b25fd6e2878d85b09598f11160501d38f0286b13e5c5b6e7d3e547430aec3abb3616f5dc061a3395fceadc53e85e04af051292fcbea9a97ac67e81003afc9d3c1f1f4fa4116315f8319dcc87a302d83a8220af0e6998e79fd2b9d6c8d0e03d78d8cc57a67bb38cd2978355bd1f7a5f9cf568d34c9a91498f4d651f303ab3aeeeb0925b04f91ce481288f940b6822172865f8b90f530c02490158c3471020e36c7c12bfef7734b95371db9e59222e8af41c7643c79250e65a090d683a76064d2e1f84a5e95f4489a0d9ce00871de197434119b6036ae7f11ca9d615a4e2aeddea6458b9da1575681a9c54861c4a3d0e370c7d3a143e60527f0d7be7406217bae24d7bef1264c37cd356dec2edc3394ed2e70013945258c2b9bb90d952fec213fbafe3178aefa208ae62e5f1aadedc13021b1f5aaeb2395f1201ddc09e3e85686d35922cb33178cb333bab530867fb67009c1e205995c9efaaaff209f8e47258b7f50428cd38e3fcad7c1cd72507d7f4f7c2b9e49f85bb001f3e54c2552864098e7355f4843c190b0fbf0a96120a705e0f0327b918351de79e2acee7d2396b377a14b18d02aefee1eafd5338f0000dafde4545055004677d6c7d27a82db82688d9fb6e41ed45d79aea94b2f5696d5f0b2f3eca81aad59f1cd64b960a65aecc8447bacf5f9a860c895ce42411ce350aba8a317341201e4036d389d72d8dbea6d6689bcfea307222b227a61599f4ae3de31306a794d775e957b96ce8c1bc9b7d6f58df923b498429f8504c4533d5efe4046161cacc1534b8a2acd36e10e10461b9718e5f1451b8bbc1327fd59adf1177443bf9b75c83f80fe802eaae8943c27bdaf7744062adcbae2eca39b7ced5756d4705e7ecf41be6ff9c9018bc94b680e3275f2bd1c768aaf627f59c6535e7e7523915f03484afae2be61c6a2c1034df246bb99fa36df01e90c0554bd1f26fe7a3be900765df86f0b71cc1009a7d01dbefbda84a2a473258572c222860e552692d5d68ae5b22ad6943674f8d664543953f7d6bb4abd4036b4151762ffe02527702ff30ef11c4fa1e15131add78b93afbf6841f608a7705860ef2427220a735275555dac90d9e5874ac654d2378472521cf46b5d7a8dd45c19603b4b9c90e48fb491808e9dc32b53b9505d391e1784926528879fffd866e66472336f27193f38138dff7e7118770c7d98a49caac04361d714e919fcbeb90907f25fa094dec9764b87380b53271d5dc03aea34f0a4f7fb678692dc4a48c5ca8919eae226dd4445101ff50f2a2c75e659692ab8a75d46c2c9be37c0b89b476f98a90fe256d562c7914849ee4715cb7017cbdc34da7e8295a17c4a514251843aa0fa55aa8f5192abc98398a4744194a9ec097113ca4a1591297c2cccdf9f8a97eb0deab27ffa8c2079f12bed54913297d46fbff914478b76a78234fb9b96d4213cb63eb00ab5db2367339c1b33dc0930cede9ec69dba4a997464d94e49b78ec59c2659c39299e340d592d6ac86b3ef1e19b1c3cf2f039a5b8016f177e9341bd8abe7a3e212e6e95d05d4a3de9fe3377d1c6d663ed21cf3d2b6f87b1e85ad4eb4a00fa7367e75c9e3087a84870d4985572b809804e7fd1860957c280c9ebe43a412e33d69d52ed408e6342301599ee8db2add752c88044778385fe9302f3ec576690e057aaeb0a85e931188ed658a3685b12aaa271ba39f18df6c3b1db65c7e23975144df1a4522deef9f292ddb9b9600cf817865ca3b12c119607fe21d52fe053cfea264e84ce184dadb1db209b269bd810f156dcb0f90629984a093f231cd85c105989e1b8c1eb46415d54855da4fffc8e8819840a9e90e1cfcda25f64c465affacf9700a91c95575872287ced3fc4f70c4e17de53da0e63bb5fa48bce63a3026017908569cf91c6aa89eca968eab648973b39ccf144c2f3df2ed8693d9da86e6d14f11db0345317101d5aae45cf3fad2d162d7d3a9e2c214965ab13b71af92fc6ad0612d093ab0406f3161b29a2fc0ef063c8b81abbfa3518817458a12cb1580db93da605dc496e514c08964129c36ec4bb16e52131e6db4c84be05d30ec3575d0d41a5252d6505dfdbdbd7e08f15fbfdf233b9b7d77d3781644085046f29259b0de729cca633dab620fe10e4208d2c4a058d1a614d17e5513bb102aabe153fea31a1cbf7865e1ab2fddc7941fd9304877c8a075fe5ef25afe86286d7abf440eb088a349e187c308fd44d17c465f367b5cc5b47651c79e3448da065292753dbbf619684e0b62b732639c35f432cd920b8d0ca7d4bc0a1d672a7aa13e1ed83898faf09fc5c34d45e83a4122be9eca0ec5aab197e2ddde65909b0125a17a3e72e807ff5e847cbf391fcb4383081af7256f75aaa10f728c57c213fad7a23acd2ff4dfa892b05f1ba608f8ca6035d788f0d770e0f6e91e6daa366396a0c790b5a4340a3065332c098efd7011e935917565a064ce182d7c87202151362b403e1fb374fa62cbb023370b4297b1f4c8cc326a9c942a2ee2873bb76b05341c9c9ed69c485550311094fcf31298f47f867de8d6b068d3a148db742df7ce046747693f1d9ddf49171e22468c1a2f3943f3a9199af020959403e2eb4cc104170a19cf2f1dcbe1bfbc63fd708846deee8614314682a5d317d39ca05d926c152b7451402d619f982e7bfc0c18eab5b5bb93910b49263abf637</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
@@ -1349,22 +1365,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Chong-Qing</title>
-    <url>/2020/08/31/Cover-Chongqing/</url>
-    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/chognqing1.jpg"></p>
-<a id="more"></a>
-
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/rtry.jpg"></p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/chognqing3.jpg"></p>
-]]></content>
-      <categories>
-        <category>📸 Cover</category>
-      </categories>
-      <tags>
-        <tag>images🖼️</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Arab @ Traditional dress</title>
     <url>/2020/10/24/Others-Arab-traditional-dress/</url>
     <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022071306.png"></p>
@@ -1395,6 +1395,27 @@
       </categories>
       <tags>
         <tag>culture</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Major religions</title>
+    <url>/2020/10/24/Others-Major-religions/</url>
+    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
+<a id="more"></a>
+
+<img src = "https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022075814.png"> 
+
+
+
+<h3 id="History-of-religious-categories"><a href="#History-of-religious-categories" class="headerlink" title="History of religious categories"></a>History of religious categories</h3><h4 id="World-categorizations"><a href="#World-categorizations" class="headerlink" title="@ World categorizations"></a>@ World categorizations</h4><p>In world cultures, there have traditionally been many different groupings of religious belief. In <a href="https://en.wikipedia.org/wiki/Culture_of_India">Indian culture</a>, different religious philosophies were traditionally respected as academic differences in pursuit of the same truth. In <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>, the <a href="https://en.wikipedia.org/wiki/Quran">Quran</a> mentions three different categories: <a href="https://en.wikipedia.org/wiki/Muslims">Muslims</a>, the <a href="https://en.wikipedia.org/wiki/People_of_the_Book">People of the Book</a>, and <a href="https://en.wikipedia.org/wiki/Idolatry">idol worshipers</a>.</p>
+<h4 id="Christian-categorizations"><a href="#Christian-categorizations" class="headerlink" title="@ Christian categorizations"></a>@ Christian categorizations</h4><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups">https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups</a></p>
+]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>religion☯</tag>
       </tags>
   </entry>
   <entry>
@@ -1522,60 +1543,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Major religions</title>
-    <url>/2020/10/24/Others-Major-religions/</url>
-    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
-<a id="more"></a>
-
-<img src = "https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022075814.png"> 
-
-
-
-<h3 id="History-of-religious-categories"><a href="#History-of-religious-categories" class="headerlink" title="History of religious categories"></a>History of religious categories</h3><h4 id="World-categorizations"><a href="#World-categorizations" class="headerlink" title="@ World categorizations"></a>@ World categorizations</h4><p>In world cultures, there have traditionally been many different groupings of religious belief. In <a href="https://en.wikipedia.org/wiki/Culture_of_India">Indian culture</a>, different religious philosophies were traditionally respected as academic differences in pursuit of the same truth. In <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>, the <a href="https://en.wikipedia.org/wiki/Quran">Quran</a> mentions three different categories: <a href="https://en.wikipedia.org/wiki/Muslims">Muslims</a>, the <a href="https://en.wikipedia.org/wiki/People_of_the_Book">People of the Book</a>, and <a href="https://en.wikipedia.org/wiki/Idolatry">idol worshipers</a>.</p>
-<h4 id="Christian-categorizations"><a href="#Christian-categorizations" class="headerlink" title="@ Christian categorizations"></a>@ Christian categorizations</h4><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups">https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups</a></p>
-]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>religion☯</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Nice Songs</title>
-    <url>/2020/08/31/Others-Nice-songs/</url>
-    <content><![CDATA[<h4 id="※-Chinese-Songs-※"><a href="#※-Chinese-Songs-※" class="headerlink" title="※ Chinese Songs ※"></a>※ Chinese Songs ※</h4><h5 id="amp-Singles"><a href="#amp-Singles" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><strong>后来(Later)</strong> - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
-<p><strong>童话(Fairy Tale)</strong> - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
-<p><strong>老男孩</strong> - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
-<p><strong>那些年(Those Bygone Years)</strong> - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
-<p><strong>少年</strong> - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
-<a id="more"></a>
-
-<h4 id="※-Japanese-Songs-※"><a href="#※-Japanese-Songs-※" class="headerlink" title="※ Japanese Songs ※"></a>※ Japanese Songs ※</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201028082408.png" style="zoom: 80%;" />
-
-<hr>
-<p><strong>SAKURA</strong> - 2006 - @Memory  @Love @Sadness</p>
-<p><strong>YELL</strong> - 2009 - @Courage</p>
-<p><strong>ありがとう</strong>(Arigatou = Thank you) - 2010 - @Love @Regret </p>
-<h4 id="※-English-Songs-※"><a href="#※-English-Songs-※" class="headerlink" title="※ English Songs ※"></a>※ English Songs ※</h4><h5 id="amp-Singles-1"><a href="#amp-Singles-1" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah"><strong>Monsters</strong></a> - 2014 - Katie Sky - @Courage</p>
-<h5 id="amp-Songs-from-Annual-GRAMMY-Awards"><a href="#amp-Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="&amp; Songs from Annual GRAMMY Awards"></a>&amp; Songs from <a href="https://www.grammy.com/grammys/awards">Annual GRAMMY Awards</a></h5></br>
-
-
-
-<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah">https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah</a></p>
-]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Music</category>
-      </categories>
-      <tags>
-        <tag>music🎵</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Useful info for BMIC days 2020</title>
     <url>/2020/11/08/Others-Practical-info-BMIC-day/</url>
     <content><![CDATA[<h4 id="🕗-Time-and-location"><a href="#🕗-Time-and-location" class="headerlink" title="🕗 Time and location"></a>🕗 Time and location</h4><ul>
@@ -1695,6 +1662,39 @@
       </tags>
   </entry>
   <entry>
+    <title>Nice Songs</title>
+    <url>/2020/08/31/Others-Nice-songs/</url>
+    <content><![CDATA[<h4 id="※-Chinese-Songs-※"><a href="#※-Chinese-Songs-※" class="headerlink" title="※ Chinese Songs ※"></a>※ Chinese Songs ※</h4><h5 id="amp-Singles"><a href="#amp-Singles" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><strong>后来(Later)</strong> - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
+<p><strong>童话(Fairy Tale)</strong> - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
+<p><strong>老男孩</strong> - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
+<p><strong>那些年(Those Bygone Years)</strong> - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
+<p><strong>少年</strong> - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
+<a id="more"></a>
+
+<h4 id="※-Japanese-Songs-※"><a href="#※-Japanese-Songs-※" class="headerlink" title="※ Japanese Songs ※"></a>※ Japanese Songs ※</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201028082408.png" style="zoom: 80%;" />
+
+<hr>
+<p><strong>SAKURA</strong> - 2006 - @Memory  @Love @Sadness</p>
+<p><strong>YELL</strong> - 2009 - @Courage</p>
+<p><strong>ありがとう</strong>(Arigatou = Thank you) - 2010 - @Love @Regret </p>
+<h4 id="※-English-Songs-※"><a href="#※-English-Songs-※" class="headerlink" title="※ English Songs ※"></a>※ English Songs ※</h4><h5 id="amp-Singles-1"><a href="#amp-Singles-1" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah"><strong>Monsters</strong></a> - 2014 - Katie Sky - @Courage</p>
+<h5 id="amp-Songs-from-Annual-GRAMMY-Awards"><a href="#amp-Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="&amp; Songs from Annual GRAMMY Awards"></a>&amp; Songs from <a href="https://www.grammy.com/grammys/awards">Annual GRAMMY Awards</a></h5></br>
+
+
+
+<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah">https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah</a></p>
+]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Music</category>
+      </categories>
+      <tags>
+        <tag>music🎵</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Account and password</title>
     <url>/2020/10/22/Others-Practical-info-Password/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="322e4e9fdd58600abb0fb7546051d2ade940c1d2efb14e13077e2cd71421f4d6">8732f4be449ce79ab294b66edbb143ede968390e65c689b785f1dde9e55d1f8c3e7a898886732a87b3da97605ab98f988126e2e0dffc80255d94fc7f8fccd62b644c3f478d1874378b0e07fafee24d35d786e8f71cb98995f6761f3af524825207c5fbabe07d5f4b8bdbf417886149a08b6fccffcf70237952619572f406110903f9ee57748ba90a5d324b5783224fa511ef2273cdad1634c42ee7449ecd3107a082cc863cd663dcf11d2a4bfd605aecf7c40fef726815829f8b7402f5d906a06d770939fe1bcd37809c01a27749559d</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
@@ -1754,16 +1754,30 @@
       </tags>
   </entry>
   <entry>
-    <title>Corpus @ Make your own corpus</title>
-    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
-    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
+    <title>Hexo_Adv @ Font color changing</title>
+    <url>/2020/11/07/Tutorials-Hexo-Adv-Font-color/</url>
+    <content><![CDATA[<h3 id="🎆-Font-color-change"><a href="#🎆-Font-color-change" class="headerlink" title="🎆    Font color change"></a>🎆    Font color change</h3><h4 id="1-Open-the-parameter-file"><a href="#1-Open-the-parameter-file" class="headerlink" title="1. Open the parameter file."></a>1. Open the parameter file.</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">cd</span> <span class="string">./homepage/themes/next/source/css/_variables</span></span><br><span class="line"><span class="string">vi</span> <span class="string">./base.styl</span></span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<h4 id="2-Find-out-the-color-parameter-check-them-one-by-one"><a href="#2-Find-out-the-color-parameter-check-them-one-by-one" class="headerlink" title="2. Find out the color parameter, check them one by one."></a>2. Find out the color parameter, check them one by one.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203713.png"  />
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203750.png"/>
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203823.png"/>
+
+<hr>
+<h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h4><blockquote>
+<p><a href="https://asymptotic-freedom.xyz/posts/f4345ea0/">https://asymptotic-freedom.xyz/posts/f4345ea0/</a></p>
+</blockquote>
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>
-        <category>Corpus</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
       </categories>
       <tags>
-        <tag>corpus📖</tag>
+        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -1819,30 +1833,16 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Adv @ Font color changing</title>
-    <url>/2020/11/07/Tutorials-Hexo-Adv-Font-color/</url>
-    <content><![CDATA[<h3 id="🎆-Font-color-change"><a href="#🎆-Font-color-change" class="headerlink" title="🎆    Font color change"></a>🎆    Font color change</h3><h4 id="1-Open-the-parameter-file"><a href="#1-Open-the-parameter-file" class="headerlink" title="1. Open the parameter file."></a>1. Open the parameter file.</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">cd</span> <span class="string">./homepage/themes/next/source/css/_variables</span></span><br><span class="line"><span class="string">vi</span> <span class="string">./base.styl</span></span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<h4 id="2-Find-out-the-color-parameter-check-them-one-by-one"><a href="#2-Find-out-the-color-parameter-check-them-one-by-one" class="headerlink" title="2. Find out the color parameter, check them one by one."></a>2. Find out the color parameter, check them one by one.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203713.png"  />
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203750.png"/>
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203823.png"/>
-
-<hr>
-<h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h4><blockquote>
-<p><a href="https://asymptotic-freedom.xyz/posts/f4345ea0/">https://asymptotic-freedom.xyz/posts/f4345ea0/</a></p>
-</blockquote>
+    <title>Corpus @ Make your own corpus</title>
+    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
+    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
+        <category>Corpus</category>
       </categories>
       <tags>
-        <tag>Hexo_Adv🕸️</tag>
+        <tag>corpus📖</tag>
       </tags>
   </entry>
 </search>
