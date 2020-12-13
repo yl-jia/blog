@@ -10,5 +10,5 @@ The website is named after the first Chinese character of the first names, deriv
 
 **Welcome to my website!** 
 
-[云焱逍の栈] https://www.yunlong-jia.com/
+ https://www.yunlong-jia.com/
 
