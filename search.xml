@@ -86,27 +86,26 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Adv @ Add local search function</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</url>
-    <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+    <title>Hexo[Next] @ add rounded corners</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
+    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
+<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
 
-<h4 id="2-Open-config-file-and-add-code"><a href="#2-Open-config-file-and-add-code" class="headerlink" title="2. Open config file and add code:"></a>2. Open config file and add code:</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;_config.yml |vi</span><br></pre></td></tr></table></figure>
-
-<p>add the code below after “Extension”:</p>
+<p>add the follow code should be OK:</p>
 <a id="more"></a>
 
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 搜索</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>
         <category>Hexo</category>
-        <category>Adv.</category>
+        <category>Theme_Next</category>
       </categories>
       <tags>
-        <tag>Hexo_Adv🕸️</tag>
+        <tag>Page optimization📄</tag>
+        <tag>Hexo[Next]🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -123,6 +122,30 @@
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Disqus</span></span><br><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">shortname:</span> <span class="string">yl-jia</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
 <p>Add your own “shortname”, and enable “true”, then the Comment system is working.</p>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ Add local search function</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</url>
+    <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-Open-config-file-and-add-code"><a href="#2-Open-config-file-and-add-code" class="headerlink" title="2. Open config file and add code:"></a>2. Open config file and add code:</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;_config.yml |vi</span><br></pre></td></tr></table></figure>
+
+<p>add the code below after “Extension”:</p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 搜索</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>
@@ -156,29 +179,6 @@
       </categories>
       <tags>
         <tag>Hexo_Adv🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo[Next] @ add rounded corners</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
-    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
-<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
-
-<p>add the follow code should be OK:</p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization📄</tag>
-        <tag>Hexo[Next]🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -273,6 +273,34 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo_Basic @ Post displayed per page in Archive</title>
+    <url>/2020/09/05/2020-09-05-Hexo-Basic-Post-displayed-per-page-in-Archive/</url>
+    <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<h4 id="2-Configure-the-“-site-config-yml”-file"><a href="#2-Configure-the-“-site-config-yml”-file" class="headerlink" title="2. Configure the “./site/_config.yml” file."></a>2. Configure the “./site/_config.yml” file.</h4><p>add option code：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line">  <span class="attr">enabled:</span> <span class="literal">true</span> <span class="comment"># The default value is true, set to false if you do not want to enable the plugin</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">30</span> <span class="comment"># Posts displayed per page. (0 = disable pagination)</span></span><br><span class="line">  <span class="attr">yearly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">monthly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">daily:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span> <span class="comment"># Posts order. (Order by date descending by default)</span></span><br></pre></td></tr></table></figure>
+
+
+
+<hr>
+<blockquote>
+<p>Ref:</p>
+<p><a href="https://github.com/hexojs/hexo-generator-archive">https://github.com/hexojs/hexo-generator-archive</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Basic</category>
+      </categories>
+      <tags>
+        <tag>Page optimization📄</tag>
+        <tag>Hexo_Basic🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo[Next] @ Insert Image Browser for embedded images</title>
     <url>/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</url>
     <content><![CDATA[<img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifr5ldjnej30gs0cnn36.jpg" alt="" style="zoom:80%;" />
@@ -312,34 +340,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Basic @ Post displayed per page in Archive</title>
-    <url>/2020/09/05/2020-09-05-Hexo-Basic-Post-displayed-per-page-in-Archive/</url>
-    <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<h4 id="2-Configure-the-“-site-config-yml”-file"><a href="#2-Configure-the-“-site-config-yml”-file" class="headerlink" title="2. Configure the “./site/_config.yml” file."></a>2. Configure the “./site/_config.yml” file.</h4><p>add option code：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line">  <span class="attr">enabled:</span> <span class="literal">true</span> <span class="comment"># The default value is true, set to false if you do not want to enable the plugin</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">30</span> <span class="comment"># Posts displayed per page. (0 = disable pagination)</span></span><br><span class="line">  <span class="attr">yearly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">monthly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">daily:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span> <span class="comment"># Posts order. (Order by date descending by default)</span></span><br></pre></td></tr></table></figure>
-
-
-
-<hr>
-<blockquote>
-<p>Ref:</p>
-<p><a href="https://github.com/hexojs/hexo-generator-archive">https://github.com/hexojs/hexo-generator-archive</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Basic</category>
-      </categories>
-      <tags>
-        <tag>Page optimization📄</tag>
-        <tag>Hexo_Basic🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Zotero @ Citation style custom</title>
     <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
     <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
@@ -358,6 +358,34 @@
       </categories>
       <tags>
         <tag>Zotero📑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ Skip render for given files and folders</title>
+    <url>/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</url>
+    <content><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p>
+<p>Now in <code>hexo</code>system, you need to configure it in you <code>_ config.yml</code>for achieving it.</p>
+<a id="more"></a>
+
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd .../homepage/</span><br><span class="line">vi ./_config.yml</span><br></pre></td></tr></table></figure>
+
+<p>you need to locate and find <code>skip_render:</code></p>
+<p>Then modify it as below:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># The default work directory for &quot;skip_render&quot; is</span></span></span><br><span class="line">cd .../homepage/source/</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip single file, as README.md: </span></span></span><br><span class="line">skip_render: README.md</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip all files in single folder, as test:</span></span></span><br><span class="line">skip_render: test/*</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip several files or folders:</span></span></span><br><span class="line"></span><br><span class="line">skip_render:</span><br><span class="line"> - test.html</span><br><span class="line"> - README.md</span><br><span class="line"> - test/*</span><br><span class="line"> - miao/*</span><br></pre></td></tr></table></figure>
+
+
+
+<p>Finally , clean and reload your new files:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -570,23 +598,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ China’s religious beliefs</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
-    <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/travelguide/religion.htm">https://www.chinahighlights.com/travelguide/religion.htm</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Chinese culture @ Calendar</title>
     <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
     <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
@@ -604,13 +615,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Five Elements Theory [五行]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-five-elements-theory/</url>
-    <content><![CDATA[<img src="/beauty/wuxing.png" style="zoom:70%;" />
+    <title>Chinese culture @ China’s religious beliefs</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
+    <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
 
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm">https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/religion.htm">https://www.chinahighlights.com/travelguide/religion.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -628,6 +639,23 @@
 <a id="more"></a>
 
 <p><a href="https://www.chinahighlights.com/festivals/the-24-solar-terms.htm">https://www.chinahighlights.com/festivals/the-24-solar-terms.htm</a></p>
+]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>Chinese culture</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chinese culture @ Five Elements Theory [五行]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-five-elements-theory/</url>
+    <content><![CDATA[<img src="/beauty/wuxing.png" style="zoom:70%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm">https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -834,12 +862,13 @@
 <p>LCM, <a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/laser-capture-microdissection">laser capture microdissection</a>; FACS, <a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/fluorescence-activated-cell-sorting">fluorescence-activated cell sorting</a>; MACS, <a href="https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/magnetic-activated-cell-sorting">magnetic-activated cell sorting</a>.</p>
 </br>
 
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213222540.png" style="zoom:80%;" />
+
 
 
 <img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201211232726.png" style="zoom: 40%;" />
 
-
-
+<hr>
 <p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212015317.png"></p>
 <p><strong>SMART-seq2</strong> is plate-based.</p>
 <hr>
@@ -848,11 +877,14 @@
 
 
 <hr>
+<h5 id="amp-Cell-number"><a href="#amp-Cell-number" class="headerlink" title="&amp; Cell number"></a>&amp; Cell number</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213222409.png" style="zoom:80%;" />
+
 <h5 id="amp-Cost"><a href="#amp-Cost" class="headerlink" title="&amp; Cost"></a>&amp; Cost</h5><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213114102.png"></p>
 <h4 id="🔥-10X-Chromium-Single-Cell-library-preparation"><a href="#🔥-10X-Chromium-Single-Cell-library-preparation" class="headerlink" title="🔥 10X Chromium Single Cell library preparation"></a>🔥 10X Chromium Single Cell library preparation</h4><p>The 10X single cell RNA-seq could only sequenced for 5’ or 3’-end transcript about 300-400bp, <strong>not full length capture.</strong></p>
 <p><u>[[[[ Example of Chromium Single Cell 3’  v2 library preparation ]]]]</u></p>
 <img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213132041.png" style="zoom: 50%;" />
 
+<hr>
 <h5 id="amp-Procedure-for-library-preparation-🔥🔥"><a href="#amp-Procedure-for-library-preparation-🔥🔥" class="headerlink" title="&amp; Procedure for library preparation 🔥🔥"></a>&amp; <strong>Procedure for library preparation</strong> 🔥🔥</h5><ol>
 <li>Reverse transcribe the full-length transcript [3’ assay or 5’assay]</li>
 <li>Amplifying the full-length cDNA</li>
@@ -863,6 +895,7 @@
 </ol>
 <img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213134143.png" style="zoom:80%;" />
 
+<hr>
 <h5 id="amp-Cell-Ranger-for-10X"><a href="#amp-Cell-Ranger-for-10X" class="headerlink" title="&amp; Cell Ranger for 10X"></a>&amp; <strong>Cell Ranger for 10X</strong></h5><p>Cell Ranger is a set of analysis pipelines that process Chromium single-cell RNA-seq output to align reads, generate feature-barcode matrices and perform clustering and gene expression analysis. </p>
 <h5 id="amp-Cell-Ranger-correct-for-amplification-bias"><a href="#amp-Cell-Ranger-correct-for-amplification-bias" class="headerlink" title="&amp; Cell Ranger correct for amplification bias"></a>&amp; <strong>Cell Ranger correct for amplification bias</strong></h5><blockquote>
 <p>Unique Molecular Identifier [UMI] </p>
@@ -873,47 +906,56 @@
 
 
 
-<h4 id="※-Applications"><a href="#※-Applications" class="headerlink" title="※ Applications"></a>※ Applications</h4><ul>
-<li><p><strong>Single cell RNA-sequencing</strong> [10X Genomics]</p>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212201506.png" style="zoom: 67%;" />
+<h4 id="※-Applications"><a href="#※-Applications" class="headerlink" title="※ Applications"></a>※ Applications</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213221746.png" style="zoom:80%;" />
+
+
+
+<h5 id="amp-Single-cell-RNA-sequencing-10X-Genomics"><a href="#amp-Single-cell-RNA-sequencing-10X-Genomics" class="headerlink" title="&amp; Single cell RNA-sequencing [10X Genomics]"></a>&amp; <strong>Single cell RNA-sequencing</strong> [10X Genomics]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212201506.png" style="zoom: 67%;" />
 
 <hr>
-</li>
-<li><p><strong>Spatial Transcriptomics:</strong> The Visium <strong>Spatial Gene Expression</strong> Solution from 10x Genomics </p>
-<p>[Map the Whole Transcriptome Within the Tissue Context] using <strong>10X Chromium</strong></p>
+<h5 id="amp-Spatial-Transcriptomics-The-Visium-Spatial-Gene-Expression-Solution-from-10x-Genomics"><a href="#amp-Spatial-Transcriptomics-The-Visium-Spatial-Gene-Expression-Solution-from-10x-Genomics" class="headerlink" title="&amp; Spatial Transcriptomics: The Visium Spatial Gene Expression Solution from 10x Genomics"></a>&amp; <strong>Spatial Transcriptomics:</strong> The Visium <strong>Spatial Gene Expression</strong> Solution from 10x Genomics</h5><p>[Map the Whole Transcriptome Within the Tissue Context] using <strong>10X Chromium</strong></p>
 <img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212022622.png" style="zoom:80%;" />
 
-</li>
-</ul>
 <hr>
-<ul>
-<li><p>Single Cell CNV [single cell genome sequencing]</p>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212210936.png" style="zoom: 67%;" />
+<h5 id="amp-Single-Cell-CNV-single-cell-genome-sequencing"><a href="#amp-Single-Cell-CNV-single-cell-genome-sequencing" class="headerlink" title="&amp; Single Cell CNV [single cell genome sequencing]"></a>&amp; Single Cell CNV [single cell genome sequencing]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212210936.png" style="zoom: 67%;" />
 
-</li>
-</ul>
 <hr>
-<ul>
-<li><p>Scale target screening: Detecting sgRNA and perturbed gene expression profiles in each cell. [10X]</p>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/image-20201212212233861.png" style="zoom:80%;" />
+<h5 id="amp-Scale-target-screening-Detecting-sgRNA-and-perturbed-gene-expression-profiles-in-each-cell-10X"><a href="#amp-Scale-target-screening-Detecting-sgRNA-and-perturbed-gene-expression-profiles-in-each-cell-10X" class="headerlink" title="&amp; Scale target screening: Detecting sgRNA and perturbed gene expression profiles in each cell. [10X]"></a>&amp; Scale target screening: Detecting sgRNA and perturbed gene expression profiles in each cell. [10X]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/image-20201212212233861.png" style="zoom:80%;" />
 
 <p>@ need the <strong>Single Cell 3’  v3 Gel Beads</strong> [poly (dT) + Two additional capture sequences]</p>
 <p>@ To enable direct capture, each sgRNA should be engineered to contain either Capture Sequence 1 or Capture Sequence 2, along with a protospacer (Feature Barcode), designed to target gene/s of interest. </p>
 <p>@ Performing sgRNA QC by qPCR, NGS or other methods is recommended before proceeding with 10x Genomics Single Cell Solutions. [sgRNA will be captured by primer on-bead]</p>
 <hr>
-</li>
-<li><p>Combining Gene expression profiling and cell surface protein detection with tens to hundreds of antibodies. [10X]</p>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212211456.png" style="zoom: 40%;" />
+<h5 id="amp-Combining-Gene-expression-profiling-and-cell-surface-protein-detection-with-tens-to-hundreds-of-antibodies-10X"><a href="#amp-Combining-Gene-expression-profiling-and-cell-surface-protein-detection-with-tens-to-hundreds-of-antibodies-10X" class="headerlink" title="&amp; Combining Gene expression profiling and cell surface protein detection with tens to hundreds of antibodies. [10X]"></a>&amp; Combining Gene expression profiling and cell surface protein detection with tens to hundreds of antibodies. [10X]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212211456.png" style="zoom: 40%;" />
 
 <hr>
-</li>
-</ul>
 <img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212203916.png" style="zoom: 80%;" />
 
 <hr>
+<h5 id="amp-LIBRA-seq-linking-B-cell-receptor-to-antigen-specificity-through-sequencing-10X"><a href="#amp-LIBRA-seq-linking-B-cell-receptor-to-antigen-specificity-through-sequencing-10X" class="headerlink" title="&amp; LIBRA-seq (linking B cell receptor to antigen specificity through sequencing) [10X]"></a>&amp; <strong>LIBRA-seq</strong> (linking B cell receptor to antigen specificity through sequencing) [10X]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212203759.png" style="zoom: 67%;" />
+
+
+
+<h5 id="amp-Single-Cell-Immune-Profiling-Target-enrichment-sequencing"><a href="#amp-Single-Cell-Immune-Profiling-Target-enrichment-sequencing" class="headerlink" title="&amp; Single Cell Immune Profiling [Target enrichment sequencing]"></a>&amp; <strong>Single Cell Immune Profiling</strong> [Target enrichment sequencing]</h5><ul>
+<li>There are approximately 105 TCRs expressed on the surface of a cytotoxic T lymphocyte (CTL), and it has been suggested that engagement of anywhere from 3–<strong>400</strong> TCRs per cell may suffice for CTL activation .</li>
+<li>The Single Cell V(D)J protocols offer comprehensive, scalable solutions for measuring immune repertoire information and gene expression from the same cell. Profile full-length (5’ UTR to constant region), paired T-cell receptor (TCR), or B-cell immunoglobulin (Ig) transcripts from 100-10,000 individual cells per sample.</li>
+</ul>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213220914.png" style="zoom: 67%;" />
+
+<hr>
 <ul>
-<li><p><strong>LIBRA-seq</strong> (linking B cell receptor to antigen specificity through sequencing) [10X]</p>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212203759.png" style="zoom: 67%;" />
+<li><p><u>Target Enrichment Library Construction and sequencing</u></p>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213221050.png" style="zoom: 67%;" />
+
+</li>
+</ul>
+<p>The <strong>two enrichment steps</strong> in the Single Cell V(D)J workflow improve specificity by utilizing a hemi-nested PCR strategy. The first PCR step utilizes primers targeting the P5 and Read 1 sequence (forward primer) and a distal position of the TCR or Ig constant regions (reverse primer), and the second PCR step targets the P5 and partial R1 sequence (forward primer) and a proximal position in the constant regions (reverse primer). </p>
+<hr>
+<ul>
+<li><p>Target Enrichment and 5’ Gene Expression sequencing</p>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213221316.png"  /> 
+
+
 
 </li>
 </ul>
@@ -946,6 +988,7 @@
 <p><a href="https://kb.10xgenomics.com/hc/en-us/articles/115004037743-How-does-Cell-Ranger-correct-for-amplification-bias-">https://kb.10xgenomics.com/hc/en-us/articles/115004037743-How-does-Cell-Ranger-correct-for-amplification-bias-</a></p>
 <p><a href="https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger">https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger</a></p>
 <p><a href="https://teichlab.github.io/scg_lib_structs/data/CG000108_AssayConfiguration_SC3v2.pdf">https://teichlab.github.io/scg_lib_structs/data/CG000108_AssayConfiguration_SC3v2.pdf</a></p>
+<p><a href="https://assets.ctfassets.net/an68im79xiti/j7qXxnyhAAiIWcSWA6g0M/751aa78891085b540e41d1120d127e7b/CG000109_AssayConfiguration_VDJ_RevC.pdf">https://assets.ctfassets.net/an68im79xiti/j7qXxnyhAAiIWcSWA6g0M/751aa78891085b540e41d1120d127e7b/CG000109_AssayConfiguration_VDJ_RevC.pdf</a></p>
 </blockquote>
 ]]></content>
       <categories>
@@ -1036,34 +1079,6 @@
       </categories>
       <tags>
         <tag>Cas9</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Adv @ Skip render for given files and folders</title>
-    <url>/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</url>
-    <content><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p>
-<p>Now in <code>hexo</code>system, you need to configure it in you <code>_ config.yml</code>for achieving it.</p>
-<a id="more"></a>
-
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd .../homepage/</span><br><span class="line">vi ./_config.yml</span><br></pre></td></tr></table></figure>
-
-<p>you need to locate and find <code>skip_render:</code></p>
-<p>Then modify it as below:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># The default work directory for &quot;skip_render&quot; is</span></span></span><br><span class="line">cd .../homepage/source/</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip single file, as README.md: </span></span></span><br><span class="line">skip_render: README.md</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip all files in single folder, as test:</span></span></span><br><span class="line">skip_render: test/*</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># skip several files or folders:</span></span></span><br><span class="line"></span><br><span class="line">skip_render:</span><br><span class="line"> - test.html</span><br><span class="line"> - README.md</span><br><span class="line"> - test/*</span><br><span class="line"> - miao/*</span><br></pre></td></tr></table></figure>
-
-
-
-<p>Finally , clean and reload your new files:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -1398,27 +1413,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Major religions</title>
-    <url>/2020/10/24/Others-Major-religions/</url>
-    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
-<a id="more"></a>
-
-<img src = "https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022075814.png"> 
-
-
-
-<h3 id="History-of-religious-categories"><a href="#History-of-religious-categories" class="headerlink" title="History of religious categories"></a>History of religious categories</h3><h4 id="World-categorizations"><a href="#World-categorizations" class="headerlink" title="@ World categorizations"></a>@ World categorizations</h4><p>In world cultures, there have traditionally been many different groupings of religious belief. In <a href="https://en.wikipedia.org/wiki/Culture_of_India">Indian culture</a>, different religious philosophies were traditionally respected as academic differences in pursuit of the same truth. In <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>, the <a href="https://en.wikipedia.org/wiki/Quran">Quran</a> mentions three different categories: <a href="https://en.wikipedia.org/wiki/Muslims">Muslims</a>, the <a href="https://en.wikipedia.org/wiki/People_of_the_Book">People of the Book</a>, and <a href="https://en.wikipedia.org/wiki/Idolatry">idol worshipers</a>.</p>
-<h4 id="Christian-categorizations"><a href="#Christian-categorizations" class="headerlink" title="@ Christian categorizations"></a>@ Christian categorizations</h4><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups">https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups</a></p>
-]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>religion☯</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Baby feeding schedule by age [Instruction Manual]</title>
     <url>/2020/11/15/Others-Baby-feeding/</url>
     <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201115113814.png"/>
@@ -1543,6 +1537,39 @@
       </tags>
   </entry>
   <entry>
+    <title>Nice Songs</title>
+    <url>/2020/08/31/Others-Nice-songs/</url>
+    <content><![CDATA[<h4 id="※-Chinese-Songs-※"><a href="#※-Chinese-Songs-※" class="headerlink" title="※ Chinese Songs ※"></a>※ Chinese Songs ※</h4><h5 id="amp-Singles"><a href="#amp-Singles" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><strong>后来(Later)</strong> - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
+<p><strong>童话(Fairy Tale)</strong> - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
+<p><strong>老男孩</strong> - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
+<p><strong>那些年(Those Bygone Years)</strong> - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
+<p><strong>少年</strong> - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
+<a id="more"></a>
+
+<h4 id="※-Japanese-Songs-※"><a href="#※-Japanese-Songs-※" class="headerlink" title="※ Japanese Songs ※"></a>※ Japanese Songs ※</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201028082408.png" style="zoom: 80%;" />
+
+<hr>
+<p><strong>SAKURA</strong> - 2006 - @Memory  @Love @Sadness</p>
+<p><strong>YELL</strong> - 2009 - @Courage</p>
+<p><strong>ありがとう</strong>(Arigatou = Thank you) - 2010 - @Love @Regret </p>
+<h4 id="※-English-Songs-※"><a href="#※-English-Songs-※" class="headerlink" title="※ English Songs ※"></a>※ English Songs ※</h4><h5 id="amp-Singles-1"><a href="#amp-Singles-1" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah"><strong>Monsters</strong></a> - 2014 - Katie Sky - @Courage</p>
+<h5 id="amp-Songs-from-Annual-GRAMMY-Awards"><a href="#amp-Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="&amp; Songs from Annual GRAMMY Awards"></a>&amp; Songs from <a href="https://www.grammy.com/grammys/awards">Annual GRAMMY Awards</a></h5></br>
+
+
+
+<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah">https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah</a></p>
+]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Music</category>
+      </categories>
+      <tags>
+        <tag>music🎵</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Useful info for BMIC days 2020</title>
     <url>/2020/11/08/Others-Practical-info-BMIC-day/</url>
     <content><![CDATA[<h4 id="🕗-Time-and-location"><a href="#🕗-Time-and-location" class="headerlink" title="🕗 Time and location"></a>🕗 Time and location</h4><ul>
@@ -1662,39 +1689,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Nice Songs</title>
-    <url>/2020/08/31/Others-Nice-songs/</url>
-    <content><![CDATA[<h4 id="※-Chinese-Songs-※"><a href="#※-Chinese-Songs-※" class="headerlink" title="※ Chinese Songs ※"></a>※ Chinese Songs ※</h4><h5 id="amp-Singles"><a href="#amp-Singles" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><strong>后来(Later)</strong> - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
-<p><strong>童话(Fairy Tale)</strong> - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
-<p><strong>老男孩</strong> - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
-<p><strong>那些年(Those Bygone Years)</strong> - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
-<p><strong>少年</strong> - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
-<a id="more"></a>
-
-<h4 id="※-Japanese-Songs-※"><a href="#※-Japanese-Songs-※" class="headerlink" title="※ Japanese Songs ※"></a>※ Japanese Songs ※</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201028082408.png" style="zoom: 80%;" />
-
-<hr>
-<p><strong>SAKURA</strong> - 2006 - @Memory  @Love @Sadness</p>
-<p><strong>YELL</strong> - 2009 - @Courage</p>
-<p><strong>ありがとう</strong>(Arigatou = Thank you) - 2010 - @Love @Regret </p>
-<h4 id="※-English-Songs-※"><a href="#※-English-Songs-※" class="headerlink" title="※ English Songs ※"></a>※ English Songs ※</h4><h5 id="amp-Singles-1"><a href="#amp-Singles-1" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah"><strong>Monsters</strong></a> - 2014 - Katie Sky - @Courage</p>
-<h5 id="amp-Songs-from-Annual-GRAMMY-Awards"><a href="#amp-Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="&amp; Songs from Annual GRAMMY Awards"></a>&amp; Songs from <a href="https://www.grammy.com/grammys/awards">Annual GRAMMY Awards</a></h5></br>
-
-
-
-<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah">https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah</a></p>
-]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Music</category>
-      </categories>
-      <tags>
-        <tag>music🎵</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Account and password</title>
     <url>/2020/10/22/Others-Practical-info-Password/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="322e4e9fdd58600abb0fb7546051d2ade940c1d2efb14e13077e2cd71421f4d6">8732f4be449ce79ab294b66edbb143ede968390e65c689b785f1dde9e55d1f8c3e7a898886732a87b3da97605ab98f988126e2e0dffc80255d94fc7f8fccd62b644c3f478d1874378b0e07fafee24d35d786e8f71cb98995f6761f3af524825207c5fbabe07d5f4b8bdbf417886149a08b6fccffcf70237952619572f406110903f9ee57748ba90a5d324b5783224fa511ef2273cdad1634c42ee7449ecd3107a082cc863cd663dcf11d2a4bfd605aecf7c40fef726815829f8b7402f5d906a06d770939fe1bcd37809c01a27749559d</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
@@ -1704,6 +1698,27 @@
       </categories>
       <tags>
         <tag>password🔐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Major religions</title>
+    <url>/2020/10/24/Others-Major-religions/</url>
+    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
+<a id="more"></a>
+
+<img src = "https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022075814.png"> 
+
+
+
+<h3 id="History-of-religious-categories"><a href="#History-of-religious-categories" class="headerlink" title="History of religious categories"></a>History of religious categories</h3><h4 id="World-categorizations"><a href="#World-categorizations" class="headerlink" title="@ World categorizations"></a>@ World categorizations</h4><p>In world cultures, there have traditionally been many different groupings of religious belief. In <a href="https://en.wikipedia.org/wiki/Culture_of_India">Indian culture</a>, different religious philosophies were traditionally respected as academic differences in pursuit of the same truth. In <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>, the <a href="https://en.wikipedia.org/wiki/Quran">Quran</a> mentions three different categories: <a href="https://en.wikipedia.org/wiki/Muslims">Muslims</a>, the <a href="https://en.wikipedia.org/wiki/People_of_the_Book">People of the Book</a>, and <a href="https://en.wikipedia.org/wiki/Idolatry">idol worshipers</a>.</p>
+<h4 id="Christian-categorizations"><a href="#Christian-categorizations" class="headerlink" title="@ Christian categorizations"></a>@ Christian categorizations</h4><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups">https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups</a></p>
+]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>religion☯</tag>
       </tags>
   </entry>
   <entry>
@@ -1751,6 +1766,19 @@
       </categories>
       <tags>
         <tag>time zone🕜</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Corpus @ Make your own corpus</title>
+    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
+    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Corpus</category>
+      </categories>
+      <tags>
+        <tag>corpus📖</tag>
       </tags>
   </entry>
   <entry>
@@ -1830,19 +1858,6 @@
       </categories>
       <tags>
         <tag>Hexo_Adv🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Corpus @ Make your own corpus</title>
-    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
-    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Corpus</category>
-      </categories>
-      <tags>
-        <tag>corpus📖</tag>
       </tags>
   </entry>
 </search>
