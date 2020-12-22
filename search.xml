@@ -16,6 +16,26 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo_Basic @ Post guide of YAML front matter</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</url>
+    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
+<p>It includes all necessary parameter needed for your article.</p>
+<p>Here is just some of important ones, which should be always considered before your writing: </p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Basic</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Basic🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo[Next] @ Custom background image</title>
     <url>/2020/08/31/2020-08-31-Hexo-Next-Custom-background-image-of-your-blog/</url>
     <content><![CDATA[<p>*<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>**</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong> Based on <code>Next theme</code> <a href="https://github.com/theme-next/hexo-theme-next/commit/f9956802c9cf51ebdb447fb954efa6383fbb2bd6">Release v7.8.0</a></p>
@@ -63,26 +83,6 @@
       <tags>
         <tag>Page optimization📄</tag>
         <tag>Hexo[Next]🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Basic @ Post guide of YAML front matter</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Basic-Post-guide-of-YAML-front-matter/</url>
-    <content><![CDATA[<p><code>YAML Front Matter</code>, it is important for your post writing in Markdown. </p>
-<p>It includes all necessary parameter needed for your article.</p>
-<p>Here is just some of important ones, which should be always considered before your writing: </p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Just</span> <span class="string">a</span> <span class="string">model</span> <span class="string">for</span> <span class="string">writing</span> <span class="string">post</span> <span class="string">with</span> <span class="string">good</span> <span class="string">&quot;yml&quot;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020-08-24 01:47:15</span>   <span class="comment">## The date and time can be generated auto.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">password:</span> <span class="string">mikemessi</span> <span class="comment">## need install the plugin &quot;hexo-blog-encrypt&quot;</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Here&#x27;s</span> <span class="string">something</span> <span class="string">encrypted,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">to</span> <span class="string">continue</span> <span class="string">reading.</span></span><br><span class="line"><span class="comment">## can be any for &quot;abstract&quot;, will replce the default one in the _config.yml</span></span><br><span class="line"><span class="attr">message:</span> <span class="string">Hey,</span> <span class="string">password</span> <span class="string">is</span> <span class="string">required</span> <span class="string">here.</span></span><br><span class="line"><span class="comment">## can be any, will replace the default one in _config.yml</span></span><br><span class="line"></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span> <span class="comment">## not necessary, in default, it is &quot;true&quot;, change it when you don&#x27;t want someone comment your post.</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">index.html</span> <span class="comment">### can be any, but end with &quot;.html&quot; for home page setting.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">categories:</span>  <span class="comment">## define a category or sub-category</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">Sports</span>, <span class="string">Baseball</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">Boston</span> <span class="string">Red</span> <span class="string">Sox</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">MLB</span>, <span class="string">American</span> <span class="string">League</span>, <span class="string">New</span> <span class="string">York</span> <span class="string">Yankees</span>]</span><br><span class="line"><span class="bullet">-</span> <span class="string">Rivalries</span></span><br><span class="line"></span><br><span class="line"><span class="attr">tags:</span> <span class="comment">## give tags to your post.</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Basic</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Basic🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -296,8 +296,8 @@
         <category>Basic</category>
       </categories>
       <tags>
-        <tag>Page optimization📄</tag>
         <tag>Hexo_Basic🕸️</tag>
+        <tag>Page optimization📄</tag>
       </tags>
   </entry>
   <entry>
@@ -340,6 +340,27 @@
       </tags>
   </entry>
   <entry>
+    <title>Zotero @ Citation style custom</title>
+    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
+    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
+<a id="more"></a>
+
+<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
+<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
+<blockquote>
+<p>ref:</p>
+<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Zotero</category>
+      </categories>
+      <tags>
+        <tag>Zotero📑</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo_Adv @ Skip render for given files and folders</title>
     <url>/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</url>
     <content><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p>
@@ -365,27 +386,6 @@
       </categories>
       <tags>
         <tag>Hexo_Adv🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Zotero @ Citation style custom</title>
-    <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
-    <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
-<a id="more"></a>
-
-<p>This site will help you quick modify the style as you want, and also add new style in Zotero:</p>
-<p> <a href="https://editor.citationstyles.org/about/">https://editor.citationstyles.org/about/</a></p>
-<blockquote>
-<p>ref:</p>
-<p><a href="https://blog.csdn.net/weixin_41457494/article/details/103967939">https://blog.csdn.net/weixin_41457494/article/details/103967939</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Zotero</category>
-      </categories>
-      <tags>
-        <tag>Zotero📑</tag>
       </tags>
   </entry>
   <entry>
@@ -800,6 +800,212 @@
       </tags>
   </entry>
   <entry>
+    <title>Single Cell Sequencing</title>
+    <url>/2020/12/11/Biology-NGS-Single-cell-sequencing/</url>
+    <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201211224244.png" style="zoom: 80%;" />
+
+<a id="more"></a>
+
+<h4 id="※-Single-cell-sequencing-of-a-tumor-cell"><a href="#※-Single-cell-sequencing-of-a-tumor-cell" class="headerlink" title="※ Single-cell sequencing of a tumor cell"></a>※ Single-cell sequencing of a tumor cell</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201211225450.png" style="zoom: 50%;" />
+
+
+
+<h4 id="※-Methods-of-isolating-single-cells-for-sequencing"><a href="#※-Methods-of-isolating-single-cells-for-sequencing" class="headerlink" title="※ Methods of isolating single cells for sequencing"></a>※ Methods of isolating single cells for sequencing</h4><table>
+<thead>
+<tr>
+<th align="left">Method</th>
+<th align="left">Sorting principle</th>
+<th align="left">Single cell suspension</th>
+<th align="left">Cost</th>
+<th align="left">Throughput</th>
+<th align="left">Automated?</th>
+<th align="left">Limitation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">Micropipette isolation</td>
+<td align="left">Microexamination</td>
+<td align="left">Yes</td>
+<td align="left">Low</td>
+<td align="left">Low</td>
+<td align="left">No</td>
+<td align="left">Operational bias</td>
+</tr>
+<tr>
+<td align="left">LCM</td>
+<td align="left">Laser beam microdissection</td>
+<td align="left">No</td>
+<td align="left">High</td>
+<td align="left">Low</td>
+<td align="left">No</td>
+<td align="left">Contamination by surrounding material</td>
+</tr>
+<tr>
+<td align="left">FACS</td>
+<td align="left">Antigen–antibody hybrid</td>
+<td align="left">Yes</td>
+<td align="left">High</td>
+<td align="left">High</td>
+<td align="left">Yes</td>
+<td align="left">Needs large numbers of cells</td>
+</tr>
+<tr>
+<td align="left">MACS</td>
+<td align="left">Antigen–antibody hybrid</td>
+<td align="left">Yes</td>
+<td align="left">High</td>
+<td align="left">High</td>
+<td align="left">Yes</td>
+<td align="left">Operational complexity</td>
+</tr>
+</tbody></table>
+<p>LCM, <a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/laser-capture-microdissection">laser capture microdissection</a>; FACS, <a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/fluorescence-activated-cell-sorting">fluorescence-activated cell sorting</a>; MACS, <a href="https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/magnetic-activated-cell-sorting">magnetic-activated cell sorting</a>.</p>
+</br>
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213222540.png" style="zoom: 67%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201211232726.png" style="zoom: 40%;" />
+
+<hr>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212015317.png"></p>
+<p><strong>SMART-seq2</strong> is plate-based.</p>
+<hr>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/image-20201212200703244.png" style="zoom: 67%;" />
+
+
+
+<hr>
+<h5 id="amp-Cell-number"><a href="#amp-Cell-number" class="headerlink" title="&amp; Cell number"></a>&amp; Cell number</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213222409.png" style="zoom: 50%;" />
+
+<h5 id="amp-Cost"><a href="#amp-Cost" class="headerlink" title="&amp; Cost"></a>&amp; Cost</h5><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213114102.png"></p>
+<h4 id="🔥-10X-Chromium-Single-Cell-library-preparation"><a href="#🔥-10X-Chromium-Single-Cell-library-preparation" class="headerlink" title="🔥 10X Chromium Single Cell library preparation"></a>🔥 10X Chromium Single Cell library preparation</h4><p>The 10X single cell RNA-seq could only sequenced for 5’ or 3’-end transcript about 300-400bp, <strong>not full length capture.</strong></p>
+<p><u>[[[[ Example of Chromium Single Cell 3’  v2 library preparation ]]]]</u></p>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213132041.png" style="zoom: 50%;" />
+
+<hr>
+<h5 id="amp-Procedure-for-library-preparation-🔥🔥"><a href="#amp-Procedure-for-library-preparation-🔥🔥" class="headerlink" title="&amp; Procedure for library preparation 🔥🔥"></a>&amp; <strong>Procedure for library preparation</strong> 🔥🔥</h5><ol>
+<li>Reverse transcribe the full-length transcript [3’ assay or 5’assay]</li>
+<li>Amplifying the full-length cDNA</li>
+<li>Randomly fragmented under conditions that favor 300-400 bp length fragments. [Only the 3 or 5 end of transcript will be kept for next  step]</li>
+<li>End repair and Truseq adapters R2 ligation</li>
+<li>Followed by clean up, the proper-size reads will be amplified during the Sample Index PCR. </li>
+<li>The final library pass to illumina or other platform for NGS sequencing.</li>
+</ol>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213134143.png" style="zoom:80%;" />
+
+<hr>
+<h5 id="amp-Cell-Ranger-for-10X"><a href="#amp-Cell-Ranger-for-10X" class="headerlink" title="&amp; Cell Ranger for 10X"></a>&amp; <strong>Cell Ranger for 10X</strong></h5><p>Cell Ranger is a set of analysis pipelines that process Chromium single-cell RNA-seq output to align reads, generate feature-barcode matrices and perform clustering and gene expression analysis. </p>
+<h5 id="amp-Cell-Ranger-correct-for-amplification-bias"><a href="#amp-Cell-Ranger-correct-for-amplification-bias" class="headerlink" title="&amp; Cell Ranger correct for amplification bias"></a>&amp; <strong>Cell Ranger correct for amplification bias</strong></h5><blockquote>
+<p>Unique Molecular Identifier [UMI] </p>
+</blockquote>
+<p>After sequencing, the UMI is used to distinguish sequenced reads that originate from unique mRNA molecules vs PCR duplicates. </p>
+<p>Multiple reads that match the same UMI, 10x barcode and gene are collapsed to a single UMI count in the gene-barcode UMI count matrix. </p>
+</br>
+
+
+
+<h4 id="※-Applications"><a href="#※-Applications" class="headerlink" title="※ Applications"></a>※ Applications</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213221746.png" style="zoom: 50%;" />
+
+
+
+<h5 id="amp-Single-cell-RNA-sequencing-10X-Genomics"><a href="#amp-Single-cell-RNA-sequencing-10X-Genomics" class="headerlink" title="&amp; Single cell RNA-sequencing [10X Genomics]"></a>&amp; <strong>Single cell RNA-sequencing</strong> [10X Genomics]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212201506.png" style="zoom: 67%;" />
+
+<hr>
+<h5 id="amp-Spatial-Transcriptomics-The-Visium-Spatial-Gene-Expression-Solution-from-10x-Genomics"><a href="#amp-Spatial-Transcriptomics-The-Visium-Spatial-Gene-Expression-Solution-from-10x-Genomics" class="headerlink" title="&amp; Spatial Transcriptomics: The Visium Spatial Gene Expression Solution from 10x Genomics"></a>&amp; <strong>Spatial Transcriptomics:</strong> The Visium <strong>Spatial Gene Expression</strong> Solution from 10x Genomics</h5><p>[Map the Whole Transcriptome Within the Tissue Context] using <strong>10X Chromium</strong></p>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212022622.png" style="zoom:80%;" />
+
+<hr>
+<h5 id="amp-Single-Cell-CNV-single-cell-genome-sequencing"><a href="#amp-Single-Cell-CNV-single-cell-genome-sequencing" class="headerlink" title="&amp; Single Cell CNV [single cell genome sequencing]"></a>&amp; Single Cell CNV [single cell genome sequencing]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212210936.png" style="zoom: 67%;" />
+
+<hr>
+<h5 id="amp-Scale-target-screening-Detecting-sgRNA-and-perturbed-gene-expression-profiles-in-each-cell-10X"><a href="#amp-Scale-target-screening-Detecting-sgRNA-and-perturbed-gene-expression-profiles-in-each-cell-10X" class="headerlink" title="&amp; Scale target screening: Detecting sgRNA and perturbed gene expression profiles in each cell. [10X]"></a>&amp; Scale target screening: Detecting sgRNA and perturbed gene expression profiles in each cell. [10X]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/image-20201212212233861.png" style="zoom:80%;" />
+
+<p>@ need the <strong>Single Cell 3’  v3 Gel Beads</strong> [poly (dT) + Two additional capture sequences]</p>
+<p>@ To enable direct capture, each sgRNA should be engineered to contain either Capture Sequence 1 or Capture Sequence 2, along with a protospacer (Feature Barcode), designed to target gene/s of interest. </p>
+<p>@ Performing sgRNA QC by qPCR, NGS or other methods is recommended before proceeding with 10x Genomics Single Cell Solutions. [sgRNA will be captured by primer on-bead]</p>
+<hr>
+<h5 id="amp-Combining-Gene-expression-profiling-and-cell-surface-protein-detection-with-tens-to-hundreds-of-antibodies-10X"><a href="#amp-Combining-Gene-expression-profiling-and-cell-surface-protein-detection-with-tens-to-hundreds-of-antibodies-10X" class="headerlink" title="&amp; Combining Gene expression profiling and cell surface protein detection with tens to hundreds of antibodies. [10X]"></a>&amp; Combining Gene expression profiling and cell surface protein detection with tens to hundreds of antibodies. [10X]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212211456.png" style="zoom: 40%;" />
+
+<hr>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212203916.png" style="zoom: 80%;" />
+
+<hr>
+<h5 id="amp-LIBRA-seq-linking-B-cell-receptor-to-antigen-specificity-through-sequencing-10X"><a href="#amp-LIBRA-seq-linking-B-cell-receptor-to-antigen-specificity-through-sequencing-10X" class="headerlink" title="&amp; LIBRA-seq (linking B cell receptor to antigen specificity through sequencing) [10X]"></a>&amp; <strong>LIBRA-seq</strong> (linking B cell receptor to antigen specificity through sequencing) [10X]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212203759.png" style="zoom: 67%;" />
+
+
+
+<h5 id="amp-Single-Cell-Immune-Profiling-Target-enrichment-sequencing"><a href="#amp-Single-Cell-Immune-Profiling-Target-enrichment-sequencing" class="headerlink" title="&amp; Single Cell Immune Profiling [Target enrichment sequencing]"></a>&amp; <strong>Single Cell Immune Profiling</strong> [Target enrichment sequencing]</h5><ul>
+<li>There are approximately 105 TCRs expressed on the surface of a cytotoxic T lymphocyte (CTL), and it has been suggested that engagement of anywhere from 3–<strong>400</strong> TCRs per cell may suffice for CTL activation .</li>
+<li>The Single Cell V(D)J protocols offer comprehensive, scalable solutions for measuring immune repertoire information and gene expression from the same cell. Profile full-length (5’ UTR to constant region), paired T-cell receptor (TCR), or B-cell immunoglobulin (Ig) transcripts from 100-10,000 individual cells per sample.</li>
+</ul>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213220914.png" style="zoom: 67%;" />
+
+<hr>
+<ul>
+<li><p><u>Target Enrichment Library Construction and sequencing</u></p>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213221050.png" style="zoom: 58%;" />
+
+</li>
+</ul>
+<p>The <strong>two enrichment steps</strong> in the Single Cell V(D)J workflow improve specificity by utilizing a hemi-nested PCR strategy. The first PCR step utilizes primers targeting the P5 and Read 1 sequence (forward primer) and a distal position of the TCR or Ig constant regions (reverse primer), and the second PCR step targets the P5 and partial R1 sequence (forward primer) and a proximal position in the constant regions (reverse primer). </p>
+<hr>
+<ul>
+<li><p>Target Enrichment and 5’ Gene Expression sequencing</p>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213221316.png" style="zoom: 67%;" /> 
+
+</li>
+</ul>
+</br>
+
+
+
+<h4 id="※-Workflow-for-analysis"><a href="#※-Workflow-for-analysis" class="headerlink" title="※ Workflow for analysis"></a>※ Workflow for analysis</h4><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201211233229.png"></p>
+<h4 id="※-Popular-tools"><a href="#※-Popular-tools" class="headerlink" title="※ Popular tools"></a>※ Popular tools</h4><ul>
+<li><p><strong>Seurat [Bioconductor]</strong></p>
+<ul>
+<li>QC, data normalization and scaling</li>
+<li>linear dimensional reduction [PCA]</li>
+<li>Identifying the true dimensionality [‘Significant’ PCs]</li>
+<li>Cluster the cells</li>
+<li>non-linear dimensional reduction (UMAP/tSNE)</li>
+<li>differentially expressed features (cluster biomarkers)</li>
+<li>Assigning cell type identity to clusters</li>
+</ul>
+</li>
+<li><p><strong>Monocle3 [Bioconductor]</strong> - for Trajectory analysis</p>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201211233702.png" style="zoom:67%;" />
+</li>
+<li><p><strong><a href="https://satijalab.org/costpercell">Cost Per Cell Calculator</a></strong></p>
+</li>
+</ul>
+</br>
+
+<h4 id="※-Workshop"><a href="#※-Workshop" class="headerlink" title="※ Workshop"></a>※ Workshop</h4><ul>
+<li><a href="https://satijalab.org/scgd/">Single Cell Genomics Day</a></li>
+<li></li>
+</ul>
+<h4 id="※-Top-Lab-for-single-cell-sequencing"><a href="#※-Top-Lab-for-single-cell-sequencing" class="headerlink" title="※ Top Lab for single cell sequencing"></a>※ Top Lab for single cell sequencing</h4><ul>
+<li><a href="https://satijalab.org/">SATIJA Lab</a>    #cellular_heterogeneity    #toolkit_develop</li>
+</ul>
+<h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs"></a>Refs</h4><blockquote>
+<p><a href="https://www.youtube.com/watch?v=k9VFNLLQP8c">https://www.youtube.com/watch?v=k9VFNLLQP8c</a></p>
+<p><a href="https://kb.10xgenomics.com/hc/en-us/articles/115004037743-How-does-Cell-Ranger-correct-for-amplification-bias-">https://kb.10xgenomics.com/hc/en-us/articles/115004037743-How-does-Cell-Ranger-correct-for-amplification-bias-</a></p>
+<p><a href="https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger">https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger</a></p>
+<p><a href="https://teichlab.github.io/scg_lib_structs/data/CG000108_AssayConfiguration_SC3v2.pdf">https://teichlab.github.io/scg_lib_structs/data/CG000108_AssayConfiguration_SC3v2.pdf</a></p>
+<p><a href="https://assets.ctfassets.net/an68im79xiti/j7qXxnyhAAiIWcSWA6g0M/751aa78891085b540e41d1120d127e7b/CG000109_AssayConfiguration_VDJ_RevC.pdf">https://assets.ctfassets.net/an68im79xiti/j7qXxnyhAAiIWcSWA6g0M/751aa78891085b540e41d1120d127e7b/CG000109_AssayConfiguration_VDJ_RevC.pdf</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>🧬 Biology</category>
+        <category>NGS</category>
+      </categories>
+      <tags>
+        <tag>scRNA-seq</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Genome engineering with CRISPR-Cas9</title>
     <url>/2020/12/12/Biology-Practical-info-CRISPR-Cas9-system/</url>
     <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212222137.png"></p>
@@ -865,6 +1071,19 @@
 
 
 <h4 id="※-CRISPR-Cas9-System-Applications"><a href="#※-CRISPR-Cas9-System-Applications" class="headerlink" title="※ CRISPR/Cas9 System Applications"></a>※ CRISPR/Cas9 System Applications</h4><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212224725.png"></p>
+</br>
+
+<h4 id="※-Protocol-and-supplementary-info"><a href="#※-Protocol-and-supplementary-info" class="headerlink" title="※ Protocol and supplementary info"></a>※ Protocol and supplementary info</h4><ul>
+<li><a href="https://zlab.bio/resources-2">Official protocol for CAS9 using</a></li>
+<li><a href="https://portals.broadinstitute.org/gpp/public/">Genetic Perturbation Platform</a></li>
+</ul>
+</br>
+
+
+
+<h4 id="※-Top-Lab-for-CRISPR-engineering"><a href="#※-Top-Lab-for-CRISPR-engineering" class="headerlink" title="※ Top Lab for  CRISPR engineering"></a>※ Top Lab for  CRISPR engineering</h4><ul>
+<li><a href="https://zlab.bio/">Zhang’s Lab</a></li>
+</ul>
 </br>
 
 <h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs:"></a>Refs:</h4><blockquote>
@@ -1510,208 +1729,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Single Cell Sequencing</title>
-    <url>/2020/12/11/Biology-NGS-Single-cell-sequencing/</url>
-    <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201211224244.png" style="zoom: 80%;" />
-
-<a id="more"></a>
-
-<h4 id="※-Single-cell-sequencing-of-a-tumor-cell"><a href="#※-Single-cell-sequencing-of-a-tumor-cell" class="headerlink" title="※ Single-cell sequencing of a tumor cell"></a>※ Single-cell sequencing of a tumor cell</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201211225450.png" style="zoom: 50%;" />
-
-
-
-<h4 id="※-Methods-of-isolating-single-cells-for-sequencing"><a href="#※-Methods-of-isolating-single-cells-for-sequencing" class="headerlink" title="※ Methods of isolating single cells for sequencing"></a>※ Methods of isolating single cells for sequencing</h4><table>
-<thead>
-<tr>
-<th align="left">Method</th>
-<th align="left">Sorting principle</th>
-<th align="left">Single cell suspension</th>
-<th align="left">Cost</th>
-<th align="left">Throughput</th>
-<th align="left">Automated?</th>
-<th align="left">Limitation</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">Micropipette isolation</td>
-<td align="left">Microexamination</td>
-<td align="left">Yes</td>
-<td align="left">Low</td>
-<td align="left">Low</td>
-<td align="left">No</td>
-<td align="left">Operational bias</td>
-</tr>
-<tr>
-<td align="left">LCM</td>
-<td align="left">Laser beam microdissection</td>
-<td align="left">No</td>
-<td align="left">High</td>
-<td align="left">Low</td>
-<td align="left">No</td>
-<td align="left">Contamination by surrounding material</td>
-</tr>
-<tr>
-<td align="left">FACS</td>
-<td align="left">Antigen–antibody hybrid</td>
-<td align="left">Yes</td>
-<td align="left">High</td>
-<td align="left">High</td>
-<td align="left">Yes</td>
-<td align="left">Needs large numbers of cells</td>
-</tr>
-<tr>
-<td align="left">MACS</td>
-<td align="left">Antigen–antibody hybrid</td>
-<td align="left">Yes</td>
-<td align="left">High</td>
-<td align="left">High</td>
-<td align="left">Yes</td>
-<td align="left">Operational complexity</td>
-</tr>
-</tbody></table>
-<p>LCM, <a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/laser-capture-microdissection">laser capture microdissection</a>; FACS, <a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/fluorescence-activated-cell-sorting">fluorescence-activated cell sorting</a>; MACS, <a href="https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/magnetic-activated-cell-sorting">magnetic-activated cell sorting</a>.</p>
-</br>
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213222540.png" style="zoom: 67%;" />
-
-
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201211232726.png" style="zoom: 40%;" />
-
-<hr>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212015317.png"></p>
-<p><strong>SMART-seq2</strong> is plate-based.</p>
-<hr>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/image-20201212200703244.png" style="zoom: 67%;" />
-
-
-
-<hr>
-<h5 id="amp-Cell-number"><a href="#amp-Cell-number" class="headerlink" title="&amp; Cell number"></a>&amp; Cell number</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213222409.png" style="zoom: 50%;" />
-
-<h5 id="amp-Cost"><a href="#amp-Cost" class="headerlink" title="&amp; Cost"></a>&amp; Cost</h5><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213114102.png"></p>
-<h4 id="🔥-10X-Chromium-Single-Cell-library-preparation"><a href="#🔥-10X-Chromium-Single-Cell-library-preparation" class="headerlink" title="🔥 10X Chromium Single Cell library preparation"></a>🔥 10X Chromium Single Cell library preparation</h4><p>The 10X single cell RNA-seq could only sequenced for 5’ or 3’-end transcript about 300-400bp, <strong>not full length capture.</strong></p>
-<p><u>[[[[ Example of Chromium Single Cell 3’  v2 library preparation ]]]]</u></p>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213132041.png" style="zoom: 50%;" />
-
-<hr>
-<h5 id="amp-Procedure-for-library-preparation-🔥🔥"><a href="#amp-Procedure-for-library-preparation-🔥🔥" class="headerlink" title="&amp; Procedure for library preparation 🔥🔥"></a>&amp; <strong>Procedure for library preparation</strong> 🔥🔥</h5><ol>
-<li>Reverse transcribe the full-length transcript [3’ assay or 5’assay]</li>
-<li>Amplifying the full-length cDNA</li>
-<li>Randomly fragmented under conditions that favor 300-400 bp length fragments. [Only the 3 or 5 end of transcript will be kept for next  step]</li>
-<li>End repair and Truseq adapters R2 ligation</li>
-<li>Followed by clean up, the proper-size reads will be amplified during the Sample Index PCR. </li>
-<li>The final library pass to illumina or other platform for NGS sequencing.</li>
-</ol>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213134143.png" style="zoom:80%;" />
-
-<hr>
-<h5 id="amp-Cell-Ranger-for-10X"><a href="#amp-Cell-Ranger-for-10X" class="headerlink" title="&amp; Cell Ranger for 10X"></a>&amp; <strong>Cell Ranger for 10X</strong></h5><p>Cell Ranger is a set of analysis pipelines that process Chromium single-cell RNA-seq output to align reads, generate feature-barcode matrices and perform clustering and gene expression analysis. </p>
-<h5 id="amp-Cell-Ranger-correct-for-amplification-bias"><a href="#amp-Cell-Ranger-correct-for-amplification-bias" class="headerlink" title="&amp; Cell Ranger correct for amplification bias"></a>&amp; <strong>Cell Ranger correct for amplification bias</strong></h5><blockquote>
-<p>Unique Molecular Identifier [UMI] </p>
-</blockquote>
-<p>After sequencing, the UMI is used to distinguish sequenced reads that originate from unique mRNA molecules vs PCR duplicates. </p>
-<p>Multiple reads that match the same UMI, 10x barcode and gene are collapsed to a single UMI count in the gene-barcode UMI count matrix. </p>
-</br>
-
-
-
-<h4 id="※-Applications"><a href="#※-Applications" class="headerlink" title="※ Applications"></a>※ Applications</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213221746.png" style="zoom: 50%;" />
-
-
-
-<h5 id="amp-Single-cell-RNA-sequencing-10X-Genomics"><a href="#amp-Single-cell-RNA-sequencing-10X-Genomics" class="headerlink" title="&amp; Single cell RNA-sequencing [10X Genomics]"></a>&amp; <strong>Single cell RNA-sequencing</strong> [10X Genomics]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212201506.png" style="zoom: 67%;" />
-
-<hr>
-<h5 id="amp-Spatial-Transcriptomics-The-Visium-Spatial-Gene-Expression-Solution-from-10x-Genomics"><a href="#amp-Spatial-Transcriptomics-The-Visium-Spatial-Gene-Expression-Solution-from-10x-Genomics" class="headerlink" title="&amp; Spatial Transcriptomics: The Visium Spatial Gene Expression Solution from 10x Genomics"></a>&amp; <strong>Spatial Transcriptomics:</strong> The Visium <strong>Spatial Gene Expression</strong> Solution from 10x Genomics</h5><p>[Map the Whole Transcriptome Within the Tissue Context] using <strong>10X Chromium</strong></p>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212022622.png" style="zoom:80%;" />
-
-<hr>
-<h5 id="amp-Single-Cell-CNV-single-cell-genome-sequencing"><a href="#amp-Single-Cell-CNV-single-cell-genome-sequencing" class="headerlink" title="&amp; Single Cell CNV [single cell genome sequencing]"></a>&amp; Single Cell CNV [single cell genome sequencing]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212210936.png" style="zoom: 67%;" />
-
-<hr>
-<h5 id="amp-Scale-target-screening-Detecting-sgRNA-and-perturbed-gene-expression-profiles-in-each-cell-10X"><a href="#amp-Scale-target-screening-Detecting-sgRNA-and-perturbed-gene-expression-profiles-in-each-cell-10X" class="headerlink" title="&amp; Scale target screening: Detecting sgRNA and perturbed gene expression profiles in each cell. [10X]"></a>&amp; Scale target screening: Detecting sgRNA and perturbed gene expression profiles in each cell. [10X]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/image-20201212212233861.png" style="zoom:80%;" />
-
-<p>@ need the <strong>Single Cell 3’  v3 Gel Beads</strong> [poly (dT) + Two additional capture sequences]</p>
-<p>@ To enable direct capture, each sgRNA should be engineered to contain either Capture Sequence 1 or Capture Sequence 2, along with a protospacer (Feature Barcode), designed to target gene/s of interest. </p>
-<p>@ Performing sgRNA QC by qPCR, NGS or other methods is recommended before proceeding with 10x Genomics Single Cell Solutions. [sgRNA will be captured by primer on-bead]</p>
-<hr>
-<h5 id="amp-Combining-Gene-expression-profiling-and-cell-surface-protein-detection-with-tens-to-hundreds-of-antibodies-10X"><a href="#amp-Combining-Gene-expression-profiling-and-cell-surface-protein-detection-with-tens-to-hundreds-of-antibodies-10X" class="headerlink" title="&amp; Combining Gene expression profiling and cell surface protein detection with tens to hundreds of antibodies. [10X]"></a>&amp; Combining Gene expression profiling and cell surface protein detection with tens to hundreds of antibodies. [10X]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212211456.png" style="zoom: 40%;" />
-
-<hr>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212203916.png" style="zoom: 80%;" />
-
-<hr>
-<h5 id="amp-LIBRA-seq-linking-B-cell-receptor-to-antigen-specificity-through-sequencing-10X"><a href="#amp-LIBRA-seq-linking-B-cell-receptor-to-antigen-specificity-through-sequencing-10X" class="headerlink" title="&amp; LIBRA-seq (linking B cell receptor to antigen specificity through sequencing) [10X]"></a>&amp; <strong>LIBRA-seq</strong> (linking B cell receptor to antigen specificity through sequencing) [10X]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212203759.png" style="zoom: 67%;" />
-
-
-
-<h5 id="amp-Single-Cell-Immune-Profiling-Target-enrichment-sequencing"><a href="#amp-Single-Cell-Immune-Profiling-Target-enrichment-sequencing" class="headerlink" title="&amp; Single Cell Immune Profiling [Target enrichment sequencing]"></a>&amp; <strong>Single Cell Immune Profiling</strong> [Target enrichment sequencing]</h5><ul>
-<li>There are approximately 105 TCRs expressed on the surface of a cytotoxic T lymphocyte (CTL), and it has been suggested that engagement of anywhere from 3–<strong>400</strong> TCRs per cell may suffice for CTL activation .</li>
-<li>The Single Cell V(D)J protocols offer comprehensive, scalable solutions for measuring immune repertoire information and gene expression from the same cell. Profile full-length (5’ UTR to constant region), paired T-cell receptor (TCR), or B-cell immunoglobulin (Ig) transcripts from 100-10,000 individual cells per sample.</li>
-</ul>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213220914.png" style="zoom: 67%;" />
-
-<hr>
-<ul>
-<li><p><u>Target Enrichment Library Construction and sequencing</u></p>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213221050.png" style="zoom: 58%;" />
-
-</li>
-</ul>
-<p>The <strong>two enrichment steps</strong> in the Single Cell V(D)J workflow improve specificity by utilizing a hemi-nested PCR strategy. The first PCR step utilizes primers targeting the P5 and Read 1 sequence (forward primer) and a distal position of the TCR or Ig constant regions (reverse primer), and the second PCR step targets the P5 and partial R1 sequence (forward primer) and a proximal position in the constant regions (reverse primer). </p>
-<hr>
-<ul>
-<li><p>Target Enrichment and 5’ Gene Expression sequencing</p>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201213221316.png" style="zoom: 67%;" /> 
-
-</li>
-</ul>
-</br>
-
-
-
-<h4 id="※-Workflow-for-analysis"><a href="#※-Workflow-for-analysis" class="headerlink" title="※ Workflow for analysis"></a>※ Workflow for analysis</h4><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201211233229.png"></p>
-<h4 id="※-Popular-tools"><a href="#※-Popular-tools" class="headerlink" title="※ Popular tools"></a>※ Popular tools</h4><ul>
-<li><p><strong>Seurat [Bioconductor]</strong></p>
-<ul>
-<li>QC, data normalization and scaling</li>
-<li>linear dimensional reduction [PCA]</li>
-<li>Identifying the true dimensionality [‘Significant’ PCs]</li>
-<li>Cluster the cells</li>
-<li>non-linear dimensional reduction (UMAP/tSNE)</li>
-<li>differentially expressed features (cluster biomarkers)</li>
-<li>Assigning cell type identity to clusters</li>
-</ul>
-</li>
-<li><p><strong>Monocle3 [Bioconductor]</strong> - for Trajectory analysis</p>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201211233702.png" style="zoom:67%;" />
-
-</li>
-</ul>
-</br>
-
-
-
-
-
-<h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs"></a>Refs</h4><blockquote>
-<p><a href="https://www.youtube.com/watch?v=k9VFNLLQP8c">https://www.youtube.com/watch?v=k9VFNLLQP8c</a></p>
-<p><a href="https://kb.10xgenomics.com/hc/en-us/articles/115004037743-How-does-Cell-Ranger-correct-for-amplification-bias-">https://kb.10xgenomics.com/hc/en-us/articles/115004037743-How-does-Cell-Ranger-correct-for-amplification-bias-</a></p>
-<p><a href="https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger">https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger</a></p>
-<p><a href="https://teichlab.github.io/scg_lib_structs/data/CG000108_AssayConfiguration_SC3v2.pdf">https://teichlab.github.io/scg_lib_structs/data/CG000108_AssayConfiguration_SC3v2.pdf</a></p>
-<p><a href="https://assets.ctfassets.net/an68im79xiti/j7qXxnyhAAiIWcSWA6g0M/751aa78891085b540e41d1120d127e7b/CG000109_AssayConfiguration_VDJ_RevC.pdf">https://assets.ctfassets.net/an68im79xiti/j7qXxnyhAAiIWcSWA6g0M/751aa78891085b540e41d1120d127e7b/CG000109_AssayConfiguration_VDJ_RevC.pdf</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>🧬 Biology</category>
-        <category>NGS</category>
-      </categories>
-      <tags>
-        <tag>scRNA-seq</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Account and password</title>
     <url>/2020/10/22/Others-Practical-info-Password/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="322e4e9fdd58600abb0fb7546051d2ade940c1d2efb14e13077e2cd71421f4d6">8732f4be449ce79ab294b66edbb143ede968390e65c689b785f1dde9e55d1f8c3e7a898886732a87b3da97605ab98f988126e2e0dffc80255d94fc7f8fccd62b644c3f478d1874378b0e07fafee24d35d786e8f71cb98995f6761f3af524825207c5fbabe07d5f4b8bdbf417886149a08b6fccffcf70237952619572f406110903f9ee57748ba90a5d324b5783224fa511ef2273cdad1634c42ee7449ecd3107a082cc863cd663dcf11d2a4bfd605aecf7c40fef726815829f8b7402f5d906a06d770939fe1bcd37809c01a27749559d</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
@@ -1721,72 +1738,6 @@
       </categories>
       <tags>
         <tag>password🔐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Adv @ Font color changing</title>
-    <url>/2020/11/07/Tutorials-Hexo-Adv-Font-color/</url>
-    <content><![CDATA[<h3 id="🎆-Font-color-change"><a href="#🎆-Font-color-change" class="headerlink" title="🎆    Font color change"></a>🎆    Font color change</h3><h4 id="1-Open-the-parameter-file"><a href="#1-Open-the-parameter-file" class="headerlink" title="1. Open the parameter file."></a>1. Open the parameter file.</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">cd</span> <span class="string">./homepage/themes/next/source/css/_variables</span></span><br><span class="line"><span class="string">vi</span> <span class="string">./base.styl</span></span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<h4 id="2-Find-out-the-color-parameter-check-them-one-by-one"><a href="#2-Find-out-the-color-parameter-check-them-one-by-one" class="headerlink" title="2. Find out the color parameter, check them one by one."></a>2. Find out the color parameter, check them one by one.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203713.png"  />
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203750.png"/>
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203823.png"/>
-
-<hr>
-<h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h4><blockquote>
-<p><a href="https://asymptotic-freedom.xyz/posts/f4345ea0/">https://asymptotic-freedom.xyz/posts/f4345ea0/</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Corpus @ Make your own corpus</title>
-    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
-    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Corpus</category>
-      </categories>
-      <tags>
-        <tag>corpus📖</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Adv @ Header BG color changing</title>
-    <url>/2020/11/13/Tutorials-Hexo-Adv-Header-background-color/</url>
-    <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201113003643.png"/>
-
-<a id="more"></a>
-
-<h4 id="1-Using-the-color-picker-find-out-background-color-number"><a href="#1-Using-the-color-picker-find-out-background-color-number" class="headerlink" title="1. Using the color_picker find out background color number."></a>1. Using the color_picker find out background color number.</h4><h4 id="2-Open-the-folder-“-homepage-themes-next-source-css-“-by-VSC"><a href="#2-Open-the-folder-“-homepage-themes-next-source-css-“-by-VSC" class="headerlink" title="2. Open the folder “/homepage/themes/next/source/css/“ by VSC"></a>2. Open the folder “/homepage/themes/next/source/css/“ by VSC</h4><h4 id="3-Find-out-all-files-containing-the-related-color-number"><a href="#3-Find-out-all-files-containing-the-related-color-number" class="headerlink" title="3. Find out all files containing the related color number"></a>3. Find out all files containing the related color number</h4><h4 id="4-Locate-in-parameter-file"><a href="#4-Locate-in-parameter-file" class="headerlink" title="4. Locate in parameter file:"></a>4. Locate in parameter file:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">C:\Users\Administrator\Mega_sync\My_site\homepage\themes\next\source\css\_schemes\Pisces\_header.styl</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="5-Find-out-the-color-parameter-change-it-by-your-preferred-color"><a href="#5-Find-out-the-color-parameter-change-it-by-your-preferred-color" class="headerlink" title="5. Find out the color parameter, change it by your preferred color."></a>5. Find out the color parameter, change it by your preferred color.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201113004356.png"/>
-
-
-
-<hr>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -1834,6 +1785,72 @@
       </categories>
       <tags>
         <tag>time zone🕜</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Corpus @ Make your own corpus</title>
+    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
+    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Corpus</category>
+      </categories>
+      <tags>
+        <tag>corpus📖</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ Font color changing</title>
+    <url>/2020/11/07/Tutorials-Hexo-Adv-Font-color/</url>
+    <content><![CDATA[<h3 id="🎆-Font-color-change"><a href="#🎆-Font-color-change" class="headerlink" title="🎆    Font color change"></a>🎆    Font color change</h3><h4 id="1-Open-the-parameter-file"><a href="#1-Open-the-parameter-file" class="headerlink" title="1. Open the parameter file."></a>1. Open the parameter file.</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">cd</span> <span class="string">./homepage/themes/next/source/css/_variables</span></span><br><span class="line"><span class="string">vi</span> <span class="string">./base.styl</span></span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<h4 id="2-Find-out-the-color-parameter-check-them-one-by-one"><a href="#2-Find-out-the-color-parameter-check-them-one-by-one" class="headerlink" title="2. Find out the color parameter, check them one by one."></a>2. Find out the color parameter, check them one by one.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203713.png"  />
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203750.png"/>
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203823.png"/>
+
+<hr>
+<h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h4><blockquote>
+<p><a href="https://asymptotic-freedom.xyz/posts/f4345ea0/">https://asymptotic-freedom.xyz/posts/f4345ea0/</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ Header BG color changing</title>
+    <url>/2020/11/13/Tutorials-Hexo-Adv-Header-background-color/</url>
+    <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201113003643.png"/>
+
+<a id="more"></a>
+
+<h4 id="1-Using-the-color-picker-find-out-background-color-number"><a href="#1-Using-the-color-picker-find-out-background-color-number" class="headerlink" title="1. Using the color_picker find out background color number."></a>1. Using the color_picker find out background color number.</h4><h4 id="2-Open-the-folder-“-homepage-themes-next-source-css-“-by-VSC"><a href="#2-Open-the-folder-“-homepage-themes-next-source-css-“-by-VSC" class="headerlink" title="2. Open the folder “/homepage/themes/next/source/css/“ by VSC"></a>2. Open the folder “/homepage/themes/next/source/css/“ by VSC</h4><h4 id="3-Find-out-all-files-containing-the-related-color-number"><a href="#3-Find-out-all-files-containing-the-related-color-number" class="headerlink" title="3. Find out all files containing the related color number"></a>3. Find out all files containing the related color number</h4><h4 id="4-Locate-in-parameter-file"><a href="#4-Locate-in-parameter-file" class="headerlink" title="4. Locate in parameter file:"></a>4. Locate in parameter file:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">C:\Users\Administrator\Mega_sync\My_site\homepage\themes\next\source\css\_schemes\Pisces\_header.styl</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="5-Find-out-the-color-parameter-change-it-by-your-preferred-color"><a href="#5-Find-out-the-color-parameter-change-it-by-your-preferred-color" class="headerlink" title="5. Find out the color parameter, change it by your preferred color."></a>5. Find out the color parameter, change it by your preferred color.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201113004356.png"/>
+
+
+
+<hr>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
