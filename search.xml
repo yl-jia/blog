@@ -109,18 +109,19 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Adv @ Add local search function</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</url>
-    <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+    <title>Hexo_Adv @ Add related post function</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</url>
+    <content><![CDATA[<p>With the module of <code>hexo-related-popular-posts</code>, hexo can find and match related articles for visitors.</p>
+<h4 id="1-install-quicklinkmodule-in-git-bash"><a href="#1-install-quicklinkmodule-in-git-bash" class="headerlink" title="1. install quicklinkmodule in git bash:"></a>1. install <code>quicklink</code>module in git bash:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
 
-<h4 id="2-Open-config-file-and-add-code"><a href="#2-Open-config-file-and-add-code" class="headerlink" title="2. Open config file and add code:"></a>2. Open config file and add code:</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;_config.yml |vi</span><br></pre></td></tr></table></figure>
+<h4 id="2-Open-and-modify-the-config-file"><a href="#2-Open-and-modify-the-config-file" class="headerlink" title="2. Open and modify the config file:"></a>2. Open and modify the config file:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
 
-<p>add the code below after “Extension”:</p>
 <a id="more"></a>
 
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 搜索</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
+<p>Locate to “related_posts” code block, change “enable” as “true”,</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="attr">PPMixingRate:</span> <span class="number">0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="attr">isImage:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
 
-<h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
+
 
 ]]></content>
       <categories>
@@ -157,31 +158,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Adv @ Add related post function</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</url>
-    <content><![CDATA[<p>With the module of <code>hexo-related-popular-posts</code>, hexo can find and match related articles for visitors.</p>
-<h4 id="1-install-quicklinkmodule-in-git-bash"><a href="#1-install-quicklinkmodule-in-git-bash" class="headerlink" title="1. install quicklinkmodule in git bash:"></a>1. install <code>quicklink</code>module in git bash:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
-
-<h4 id="2-Open-and-modify-the-config-file"><a href="#2-Open-and-modify-the-config-file" class="headerlink" title="2. Open and modify the config file:"></a>2. Open and modify the config file:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<p>Locate to “related_posts” code block, change “enable” as “true”,</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="attr">PPMixingRate:</span> <span class="number">0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="attr">isImage:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo[Next] @ Set transparency and margins</title>
     <url>/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/</url>
     <content><![CDATA[<p>Go to the custom style file:</p>
@@ -205,6 +181,30 @@
       <tags>
         <tag>Page optimization📄</tag>
         <tag>Hexo[Next]🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ Add local search function</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Adv-Add-local-search-function/</url>
+    <content><![CDATA[<h4 id="1-Install-hexo-generator-searchdb-plugin"><a href="#1-Install-hexo-generator-searchdb-plugin" class="headerlink" title="1. Install hexo-generator-searchdb  plugin."></a>1. Install <a href="https://links.jianshu.com/go?to=https://github.com/flashlab/hexo-generator-search">hexo-generator-searchdb</a>  plugin.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-Open-config-file-and-add-code"><a href="#2-Open-config-file-and-add-code" class="headerlink" title="2. Open config file and add code:"></a>2. Open config file and add code:</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd .&#x2F;site_folder&#x2F;_config.yml |vi</span><br></pre></td></tr></table></figure>
+
+<p>add the code below after “Extension”:</p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 搜索</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="3-Open-theme-config-file-and-change-“enable”-as-true"><a href="#3-Open-theme-config-file-and-change-“enable”-as-true" class="headerlink" title="3. Open theme config file, and change “enable” as true:"></a>3. Open theme config file, and change “enable” as true:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local Search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">-1</span> <span class="comment">## show all result for each article.</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span> <span class="comment">## </span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -301,45 +301,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo[Next] @ Insert Image Browser for embedded images</title>
-    <url>/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</url>
-    <content><![CDATA[<img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifr5ldjnej30gs0cnn36.jpg" alt="" style="zoom:80%;" />
-
-<a id="more"></a>
-
-<h4 id="1-Install-the-fancyBox3-for-Next"><a href="#1-Install-the-fancyBox3-for-Next" class="headerlink" title="1. Install the fancyBox3 for Next"></a>1. Install the fancyBox3 for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/themes/next/source/lib</span><br><span class="line">cd ./site_folder/themes/next/source/lib</span><br><span class="line">git clone https://github.com/theme-next/theme-next-fancybox3 fancybox</span><br></pre></td></tr></table></figure>
-
-<p>or</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/source/lib</span><br><span class="line"><span class="built_in">cd</span> ./site_folder/source/lib</span><br><span class="line">git clone https://github.com/theme<span class="literal">-next</span>/theme<span class="literal">-next</span><span class="literal">-fancybox3</span> fancybox</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="2-Configure-the-“next-config-yml”-file"><a href="#2-Configure-the-“next-config-yml”-file" class="headerlink" title="2. Configure the “next/_config.yml” file."></a>2. Configure the “next/_config.yml” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml | vi</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="3-Effect-preview"><a href="#3-Effect-preview" class="headerlink" title="3. Effect preview"></a>3. Effect preview</h4><img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifrhfusq8j31h30oq7wh.jpg" alt="" style="zoom: 33%;" />
-
-<p>This setting works globally, all images in your blog.</p>
-<blockquote>
-<p>Ref:</p>
-<p><a href="https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html">https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html</a></p>
-<p><a href="https://github.com/theme-next/theme-next-fancybox3">https://github.com/theme-next/theme-next-fancybox3</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization📄</tag>
-        <tag>Hexo[Next]🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Zotero @ Citation style custom</title>
     <url>/2020/09/16/2020-09-16-Zotero-citation-style-custom/</url>
     <content><![CDATA[<p>Install and using Zotero is important for me, as researcher managing your personal library. But sometimes, when you are writing paper, the specific citation styles are needed.  This is the time for you to learn how to custom your csl format citation style.</p>
@@ -386,6 +347,45 @@
       </categories>
       <tags>
         <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo[Next] @ Insert Image Browser for embedded images</title>
+    <url>/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</url>
+    <content><![CDATA[<img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifr5ldjnej30gs0cnn36.jpg" alt="" style="zoom:80%;" />
+
+<a id="more"></a>
+
+<h4 id="1-Install-the-fancyBox3-for-Next"><a href="#1-Install-the-fancyBox3-for-Next" class="headerlink" title="1. Install the fancyBox3 for Next"></a>1. Install the fancyBox3 for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/themes/next/source/lib</span><br><span class="line">cd ./site_folder/themes/next/source/lib</span><br><span class="line">git clone https://github.com/theme-next/theme-next-fancybox3 fancybox</span><br></pre></td></tr></table></figure>
+
+<p>or</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/source/lib</span><br><span class="line"><span class="built_in">cd</span> ./site_folder/source/lib</span><br><span class="line">git clone https://github.com/theme<span class="literal">-next</span>/theme<span class="literal">-next</span><span class="literal">-fancybox3</span> fancybox</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="2-Configure-the-“next-config-yml”-file"><a href="#2-Configure-the-“next-config-yml”-file" class="headerlink" title="2. Configure the “next/_config.yml” file."></a>2. Configure the “next/_config.yml” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml | vi</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="3-Effect-preview"><a href="#3-Effect-preview" class="headerlink" title="3. Effect preview"></a>3. Effect preview</h4><img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifrhfusq8j31h30oq7wh.jpg" alt="" style="zoom: 33%;" />
+
+<p>This setting works globally, all images in your blog.</p>
+<blockquote>
+<p>Ref:</p>
+<p><a href="https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html">https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html</a></p>
+<p><a href="https://github.com/theme-next/theme-next-fancybox3">https://github.com/theme-next/theme-next-fancybox3</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Theme_Next</category>
+      </categories>
+      <tags>
+        <tag>Page optimization📄</tag>
+        <tag>Hexo[Next]🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -615,13 +615,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ China’s religious beliefs</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
-    <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
+    <title>Chinese culture @ Five Elements Theory [五行]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-five-elements-theory/</url>
+    <content><![CDATA[<img src="/beauty/wuxing.png" style="zoom:70%;" />
 
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/travelguide/religion.htm">https://www.chinahighlights.com/travelguide/religion.htm</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm">https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -632,13 +632,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Five Elements Theory [五行]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-five-elements-theory/</url>
-    <content><![CDATA[<img src="/beauty/wuxing.png" style="zoom:70%;" />
+    <title>Chinese culture @ China’s religious beliefs</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
+    <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
 
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm">https://www.chinahighlights.com/travelguide/chinese-zodiac/china-five-elements-philosophy.htm</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/religion.htm">https://www.chinahighlights.com/travelguide/religion.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -683,23 +683,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Traditional herbal medicine [中药]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-herbal-medicine/</url>
-    <content><![CDATA[<img src="/beauty/zy.png" style="zoom:70%;" />
-
-<a id="more"></a>
-
-<p><a href="https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm">https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>Chinese culture</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Picture bed building by GitHub + PicGo</title>
     <url>/2020/10/18/2020-10-18-Picturebed-using-PicGo-and-Github/</url>
     <content><![CDATA[<p>This article describes how to use your own GitHub as a picture bed and use the open source software PicGo to upload pictures to GitHub.</p>
@@ -734,15 +717,20 @@
       </tags>
   </entry>
   <entry>
-    <title>2nd Wedding Anniversary</title>
-    <url>/2020/10/19/2020-10-19-wedding-anniversary/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="9bf7095c605dcde7d87ae33a681717371aec8867a991bb62cbf367366e62812c">ccaa9cb1d60be991ee03bc7daedf2a98436daecb4dd45de12ee244fbc39d88ae786534317c636e1eb992dd205c04fb0510cd019c295da83f0cd261cce11a3f7e188e62c29329f6771456ab246a9d25f5419fc4a0813ca946af8dea9eea1d1dbbc8cd1692bcb7f6ee8a53578f9ae6426c5ba19b53dbee1cc8e37d0d5408dac0ee0bffdef0848bb07fe47c88c33911d9b45be97ef6ac5aa23fccb97a6ae13fab6b6a5a36bd28934aa06949f6545535a77beda9a66ea580e16304d1b0fd3bd40439df93cf139e88118fb4c7bcfea80db0b82e6d317673eb69bdf82d9b0aa246b8eaf68b2ddb3e55b4d32997b6f913da78e663454f4cf889a8210b348cd3b48f1de315de6577563bb47d475c7fca68e68422a83d441f92db2b72f8e4048fc0a956180f3fb3675a12e83638444bf0debfc67c270f066ba38e4151322b2f634c31b6152ac6b96d8f3bfe29b5bd0532291716df0ee3c31803b245c35abd85b67543bc562410c644083c502de5f660b839e8c9cff67984cb350e8adcaf4a4431aa135bd72a31db0df31bffcc2926e572ec4bbcfe584c56748f17976f980e9d78dbbd3c6de1a7cb62b7cafef9bbbccd01af6f6eb999077bccc1c121a9c6cb1fd031d4d7bc046970ee94ad1b2a08b46e79805599efafc34800b8e5ded6cb035a9a9b99b3bd4809e56e918cfd64c7cf0bd591f4df9a548b2a57524e0298d0327bbd8ab88153e572a94aef50099fd648560a57bb1c19175c976d8225bee7e6bf5e80e44a3014dee3811f0ab85ef37c94248a3f0d600f928ea579cfd4f1cffa035f1dbf825c597b709cb07ddd526f1aa21d5a61ee3f9ee2e7bff9af57e605235847ed7f1d030764479a3421b4b09a794fe14b72f023cdb6cc3e44c14839552dcc2aed333ec335d55c32c81f669b31221fbf1cfeeba538bf3fb30a8d175170fecf38f130eea63bcd82920937701e39b45b356fc05ee5400a42eea0c610ebd6fb0371247c1d8b5fe9d9527bcb592b17b6ea5292083956b5c05970ad1d8d82c59ef9a65f757b6b8b10fd5c7823240f9c9e3bdfef46dd596a57cc67964184698a291f27d6bb6cf0b20496159796851a3223aad712d46fc659b95683a05cea7fbf9cde7794c46b6a637ab976e636b269403b506bc3f2b217b7e1c814e5d09752878bd323ced2469cea65dae0a84d7f6502358ab79e8df369d50e5ec749a4e9c05f82855cf4b264e6f0e350c4c25e316d4012fd966338d0579be7b17d35ac5ecc1ae797b18f1f93743b7068d27cc3dbe1a7244c95d7aa9b4b328ad7a996c23c37f9bf541aa97ff3127661212713ea976814faa51214f82b36a731c4fd06e176c523c9c8bfbeab6c96ec8981f9da2ed82a88391435ed9c263203b65eb29bb2f39c78d9f50bdeabed24c511ad1403d8e4771d434bfb6fd5ca05868357befb9b8f92f9d915b97367723b156d4d24df00620b5926b59dda03c1e24ca04e87a1e20dbcfe55a1c0b3ccd915345e0f872d950e38c1a9dd596adff3abdce0ed31ea3a4ef6fa711b8c41fbcdf9aa1e5e9cb4d3bb21aac70558c57316c945</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <title>Chinese culture @ Traditional herbal medicine [中药]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-herbal-medicine/</url>
+    <content><![CDATA[<img src="/beauty/zy.png" style="zoom:70%;" />
+
+<a id="more"></a>
+
+<p><a href="https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm">https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm</a></p>
+]]></content>
       <categories>
-        <category>☀️ Daily life</category>
-        <category>Mine</category>
+        <category>🐉 China</category>
+        <category>Culture</category>
       </categories>
       <tags>
-        <tag>anniversary🎉</tag>
+        <tag>Chinese culture</tag>
       </tags>
   </entry>
   <entry>
@@ -763,32 +751,6 @@
 
 <h4 id="※-Artificial-Neural-Networks-ANN"><a href="#※-Artificial-Neural-Networks-ANN" class="headerlink" title="※ Artificial Neural Networks [ANN]"></a>※ Artificial Neural Networks [ANN]</h4><h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs"></a>Refs</h4><blockquote>
 <p><a href="https://www.youtube.com/watch?app=desktop&amp;v=7J-DfS52bnI">https://www.youtube.com/watch?app=desktop&amp;v=7J-DfS52bnI</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>🧬 Biology</category>
-        <category>AI</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>1 @ THE ETHICS OF ARTIFICIAL INTELLIGENCE</title>
-    <url>/2020/12/12/Biology-AI-Ethics-of-Artificial-Intelligence/</url>
-    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212173740.png"></p>
-<a id="more"></a>
-
-<p><strong>AI shouldn’t harm humans and other morally relevant beings, and to the moral status of the machines themselves.</strong></p>
-<ul>
-<li>The issues that may arise in the near future of AI.</li>
-<li>Challenges for ensuring that AI operates safely as it approaches humans in its intelligence.</li>
-<li>How we might assess whether, and in what circumstances, AIs themselves have moral status.</li>
-<li>How AIs might differ from humans in certain basic respects relevant to our ethical assessment of them.</li>
-<li>Creating AIs more intelligent than human, and ensuring that they use their advanced intelligence for good rather than ill</li>
-</ul>
-<h4 id="※"><a href="#※" class="headerlink" title="※"></a>※</h4><h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs"></a>Refs</h4><blockquote>
-<p><a href="http://faculty.smcm.edu/acjamieson/s13/artificialintelligence.pdf">http://faculty.smcm.edu/acjamieson/s13/artificialintelligence.pdf</a></p>
 </blockquote>
 ]]></content>
       <categories>
@@ -1003,6 +965,44 @@
       </categories>
       <tags>
         <tag>scRNA-seq</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2nd Wedding Anniversary</title>
+    <url>/2020/10/19/2020-10-19-wedding-anniversary/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="9bf7095c605dcde7d87ae33a681717371aec8867a991bb62cbf367366e62812c">ccaa9cb1d60be991ee03bc7daedf2a98436daecb4dd45de12ee244fbc39d88ae786534317c636e1eb992dd205c04fb0510cd019c295da83f0cd261cce11a3f7e188e62c29329f6771456ab246a9d25f5419fc4a0813ca946af8dea9eea1d1dbbc8cd1692bcb7f6ee8a53578f9ae6426c5ba19b53dbee1cc8e37d0d5408dac0ee0bffdef0848bb07fe47c88c33911d9b45be97ef6ac5aa23fccb97a6ae13fab6b6a5a36bd28934aa06949f6545535a77beda9a66ea580e16304d1b0fd3bd40439df93cf139e88118fb4c7bcfea80db0b82e6d317673eb69bdf82d9b0aa246b8eaf68b2ddb3e55b4d32997b6f913da78e663454f4cf889a8210b348cd3b48f1de315de6577563bb47d475c7fca68e68422a83d441f92db2b72f8e4048fc0a956180f3fb3675a12e83638444bf0debfc67c270f066ba38e4151322b2f634c31b6152ac6b96d8f3bfe29b5bd0532291716df0ee3c31803b245c35abd85b67543bc562410c644083c502de5f660b839e8c9cff67984cb350e8adcaf4a4431aa135bd72a31db0df31bffcc2926e572ec4bbcfe584c56748f17976f980e9d78dbbd3c6de1a7cb62b7cafef9bbbccd01af6f6eb999077bccc1c121a9c6cb1fd031d4d7bc046970ee94ad1b2a08b46e79805599efafc34800b8e5ded6cb035a9a9b99b3bd4809e56e918cfd64c7cf0bd591f4df9a548b2a57524e0298d0327bbd8ab88153e572a94aef50099fd648560a57bb1c19175c976d8225bee7e6bf5e80e44a3014dee3811f0ab85ef37c94248a3f0d600f928ea579cfd4f1cffa035f1dbf825c597b709cb07ddd526f1aa21d5a61ee3f9ee2e7bff9af57e605235847ed7f1d030764479a3421b4b09a794fe14b72f023cdb6cc3e44c14839552dcc2aed333ec335d55c32c81f669b31221fbf1cfeeba538bf3fb30a8d175170fecf38f130eea63bcd82920937701e39b45b356fc05ee5400a42eea0c610ebd6fb0371247c1d8b5fe9d9527bcb592b17b6ea5292083956b5c05970ad1d8d82c59ef9a65f757b6b8b10fd5c7823240f9c9e3bdfef46dd596a57cc67964184698a291f27d6bb6cf0b20496159796851a3223aad712d46fc659b95683a05cea7fbf9cde7794c46b6a637ab976e636b269403b506bc3f2b217b7e1c814e5d09752878bd323ced2469cea65dae0a84d7f6502358ab79e8df369d50e5ec749a4e9c05f82855cf4b264e6f0e350c4c25e316d4012fd966338d0579be7b17d35ac5ecc1ae797b18f1f93743b7068d27cc3dbe1a7244c95d7aa9b4b328ad7a996c23c37f9bf541aa97ff3127661212713ea976814faa51214f82b36a731c4fd06e176c523c9c8bfbeab6c96ec8981f9da2ed82a88391435ed9c263203b65eb29bb2f39c78d9f50bdeabed24c511ad1403d8e4771d434bfb6fd5ca05868357befb9b8f92f9d915b97367723b156d4d24df00620b5926b59dda03c1e24ca04e87a1e20dbcfe55a1c0b3ccd915345e0f872d950e38c1a9dd596adff3abdce0ed31ea3a4ef6fa711b8c41fbcdf9aa1e5e9cb4d3bb21aac70558c57316c945</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>☀️ Daily life</category>
+        <category>Mine</category>
+      </categories>
+      <tags>
+        <tag>anniversary🎉</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1 @ THE ETHICS OF ARTIFICIAL INTELLIGENCE</title>
+    <url>/2020/12/12/Biology-AI-Ethics-of-Artificial-Intelligence/</url>
+    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212173740.png"></p>
+<a id="more"></a>
+
+<p><strong>AI shouldn’t harm humans and other morally relevant beings, and to the moral status of the machines themselves.</strong></p>
+<ul>
+<li>The issues that may arise in the near future of AI.</li>
+<li>Challenges for ensuring that AI operates safely as it approaches humans in its intelligence.</li>
+<li>How we might assess whether, and in what circumstances, AIs themselves have moral status.</li>
+<li>How AIs might differ from humans in certain basic respects relevant to our ethical assessment of them.</li>
+<li>Creating AIs more intelligent than human, and ensuring that they use their advanced intelligence for good rather than ill</li>
+</ul>
+<h4 id="※"><a href="#※" class="headerlink" title="※"></a>※</h4><h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs"></a>Refs</h4><blockquote>
+<p><a href="http://faculty.smcm.edu/acjamieson/s13/artificialintelligence.pdf">http://faculty.smcm.edu/acjamieson/s13/artificialintelligence.pdf</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>🧬 Biology</category>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -1346,18 +1346,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Think about part-time business</title>
-    <url>/2020/10/25/Daily-life-Business-Think-about-part-time-business-/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="98f914cc1c82bab3d9941eadcd0bd8394f5a64f8bd0f8b0bb57075dc0f35aa40">06a3258ad59e4eff6dd45a2f0021519577bbd42bf5306d0c2f5166ba922f9120123120914cda524a2cd9fa6e0a9a1081130ad6a00339f2c95777a1dad931d9a563f1686403de37ec68c3f8c14994a5570071fb37f0cda93e87d0129ffea27da7071996e2b036b5c5775a53b88d623ed6e6e3bc0eec40decc44ab24f36cf3b0dafbea500964234e4859e7b7b99e59c113019e9218d048f182fbfd4c982686c2a76d3337ab4207d003b5863ccac1ed7a010f44bd3d9f97fa4a881c8be80340ce3838404d6beb0e2e31b25fd6e2878d85b09598f11160501d38f0286b13e5c5b6e7d3e547430aec3abb3616f5dc061a3395fceadc53e85e04af051292fcbea9a97ac67e81003afc9d3c1f1f4fa4116315f8319dcc87a302d83a8220af0e6998e79fd2b9d6c8d0e03d78d8cc57a67bb38cd2978355bd1f7a5f9cf568d34c9a91498f4d651f303ab3aeeeb0925b04f91ce481288f940b6822172865f8b90f530c02490158c3471020e36c7c12bfef7734b95371db9e59222e8af41c7643c79250e65a090d683a76064d2e1f84a5e95f4489a0d9ce00871de197434119b6036ae7f11ca9d615a4e2aeddea6458b9da1575681a9c54861c4a3d0e370c7d3a143e60527f0d7be7406217bae24d7bef1264c37cd356dec2edc3394ed2e70013945258c2b9bb90d952fec213fbafe3178aefa208ae62e5f1aadedc13021b1f5aaeb2395f1201ddc09e3e85686d35922cb33178cb333bab530867fb67009c1e205995c9efaaaff209f8e47258b7f50428cd38e3fcad7c1cd72507d7f4f7c2b9e49f85bb001f3e54c2552864098e7355f4843c190b0fbf0a96120a705e0f0327b918351de79e2acee7d2396b377a14b18d02aefee1eafd5338f0000dafde4545055004677d6c7d27a82db82688d9fb6e41ed45d79aea94b2f5696d5f0b2f3eca81aad59f1cd64b960a65aecc8447bacf5f9a860c895ce42411ce350aba8a317341201e4036d389d72d8dbea6d6689bcfea307222b227a61599f4ae3de31306a794d775e957b96ce8c1bc9b7d6f58df923b498429f8504c4533d5efe4046161cacc1534b8a2acd36e10e10461b9718e5f1451b8bbc1327fd59adf1177443bf9b75c83f80fe802eaae8943c27bdaf7744062adcbae2eca39b7ced5756d4705e7ecf41be6ff9c9018bc94b680e3275f2bd1c768aaf627f59c6535e7e7523915f03484afae2be61c6a2c1034df246bb99fa36df01e90c0554bd1f26fe7a3be900765df86f0b71cc1009a7d01dbefbda84a2a473258572c222860e552692d5d68ae5b22ad6943674f8d664543953f7d6bb4abd4036b4151762ffe02527702ff30ef11c4fa1e15131add78b93afbf6841f608a7705860ef2427220a735275555dac90d9e5874ac654d2378472521cf46b5d7a8dd45c19603b4b9c90e48fb491808e9dc32b53b9505d391e1784926528879fffd866e66472336f27193f38138dff7e7118770c7d98a49caac04361d714e919fcbeb90907f25fa094dec9764b87380b53271d5dc03aea34f0a4f7fb678692dc4a48c5ca8919eae226dd4445101ff50f2a2c75e659692ab8a75d46c2c9be37c0b89b476f98a90fe256d562c7914849ee4715cb7017cbdc34da7e8295a17c4a514251843aa0fa55aa8f5192abc98398a4744194a9ec097113ca4a1591297c2cccdf9f8a97eb0deab27ffa8c2079f12bed54913297d46fbff914478b76a78234fb9b96d4213cb63eb00ab5db2367339c1b33dc0930cede9ec69dba4a997464d94e49b78ec59c2659c39299e340d592d6ac86b3ef1e19b1c3cf2f039a5b8016f177e9341bd8abe7a3e212e6e95d05d4a3de9fe3377d1c6d663ed21cf3d2b6f87b1e85ad4eb4a00fa7367e75c9e3087a84870d4985572b809804e7fd1860957c280c9ebe43a412e33d69d52ed408e6342301599ee8db2add752c88044778385fe9302f3ec576690e057aaeb0a85e931188ed658a3685b12aaa271ba39f18df6c3b1db65c7e23975144df1a4522deef9f292ddb9b9600cf817865ca3b12c119607fe21d52fe053cfea264e84ce184dadb1db209b269bd810f156dcb0f90629984a093f231cd85c105989e1b8c1eb46415d54855da4fffc8e8819840a9e90e1cfcda25f64c465affacf9700a91c95575872287ced3fc4f70c4e17de53da0e63bb5fa48bce63a3026017908569cf91c6aa89eca968eab648973b39ccf144c2f3df2ed8693d9da86e6d14f11db0345317101d5aae45cf3fad2d162d7d3a9e2c214965ab13b71af92fc6ad0612d093ab0406f3161b29a2fc0ef063c8b81abbfa3518817458a12cb1580db93da605dc496e514c08964129c36ec4bb16e52131e6db4c84be05d30ec3575d0d41a5252d6505dfdbdbd7e08f15fbfdf233b9b7d77d3781644085046f29259b0de729cca633dab620fe10e4208d2c4a058d1a614d17e5513bb102aabe153fea31a1cbf7865e1ab2fddc7941fd9304877c8a075fe5ef25afe86286d7abf440eb088a349e187c308fd44d17c465f367b5cc5b47651c79e3448da065292753dbbf619684e0b62b732639c35f432cd920b8d0ca7d4bc0a1d672a7aa13e1ed83898faf09fc5c34d45e83a4122be9eca0ec5aab197e2ddde65909b0125a17a3e72e807ff5e847cbf391fcb4383081af7256f75aaa10f728c57c213fad7a23acd2ff4dfa892b05f1ba608f8ca6035d788f0d770e0f6e91e6daa366396a0c790b5a4340a3065332c098efd7011e935917565a064ce182d7c87202151362b403e1fb374fa62cbb023370b4297b1f4c8cc326a9c942a2ee2873bb76b05341c9c9ed69c485550311094fcf31298f47f867de8d6b068d3a148db742df7ce046747693f1d9ddf49171e22468c1a2f3943f3a9199af020959403e2eb4cc104170a19cf2f1dcbe1bfbc63fd708846deee8614314682a5d317d39ca05d926c152b7451402d619f982e7bfc0c18eab5b5bb93910b49263abf637</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>☀️ Daily life</category>
-        <category>Business</category>
-      </categories>
-      <tags>
-        <tag>business💼</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Cooking @ Snack making</title>
     <url>/2020/10/22/Daily-life-Cooking-Snack-making/</url>
     <content><![CDATA[<h3 id="amp-Sesame-chips"><a href="#amp-Sesame-chips" class="headerlink" title="&amp; Sesame chips"></a>&amp; Sesame chips</h3><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201024175209.png" style="zoom:67%;" />
@@ -1384,18 +1372,6 @@
       </categories>
       <tags>
         <tag>cooking🍳</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2nd Wedding Anniversary-Letter</title>
-    <url>/2020/10/19/Daily-life-Mine-2nd-Wedding-Anniversary/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="1a7f1deecd30d13fb30cbe9075b261b2e51399572971b71504cf4272a66b4126">8b21cc1568dfca721c188826f7384bc493252b7561d71b218cd027d0b87c1853374c8c986dd196c9ec8f84e7e1bd1c584360bca66c8b741339bbbb3a5f392387950174ff40041da3bb3685da5c2ed38a849f379a3eb7997cc4ba1a7aca22846e364757fa795e1f6487d3bc0a0a9e1abb53b93c79903e56b5c2ee4b421c7c068c1ec1129c40cfc830fb78c1f0bb7c66186c52407eecac6f38295e71be88e8fa3a1d959b9c3cc322e305435a2cf19340a273499f92d25d80266414c96ed8d9d11ded0b0eac1031845bfb9dff79abe558aa8e5725726397e61b4cfd3e5187292748b04b48d85a5b6abab03ff80918d126cc41ebd45fde2db41c423a5fa3450c8c4f673705a795ec1683c412be8d2414f225f908693c8ac43f6b52e465f9743ee5fb1d9c5edce0773b85221330f7d4f7a4d4142591269a0a39669fb6cd0d81b96274ba7df60a14ea394f0e4efb5c01207fd6e580207c4e8ad615b921dd8929302da7e4eb260c823eb0c71e03abd5d34bb4d11089572fdb8546044214b69ae4bcf901c193ad883616a845ce41d6e2825ca1b40af8a2a77946077e6a66ad5291ee444ca2a3436c46a5d7647ee2151b5764c9ffb28bbf9b2f93471d37a7e758261d39d1d801f526b5e5674ee2c4d17de0f0896b3a255e167a1f25f9f08d07912bf9296f3c55e23eb36eea9031e7f34d0592155fe3530678d0836f9eed0b32504367eac697ac6879a121b979da8a30d0718f6bc065652dfacd4a2cefb204ad7223d61e50ae22f910e488efc096e2a6678c993a979d28bba0e8ddcd90ab11ba0c256767194a9f0e205b2d06bafc2083585497f3aa603137b01d58326e57940282ad7042eec7c784e77b3a1b27eb6ecafa54edb9dc84b3bbfe044962e305f4318abb5994487ebbd031b131a1172ad7a9b224efb5cba7f2cbd15b8ed1836a8eee1625cfd952e5166c64008c5737e56c595066bb14e3</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>☀️ Daily life</category>
-        <category>Mine</category>
-      </categories>
-      <tags>
-        <tag>anniversary🎉</tag>
       </tags>
   </entry>
   <entry>
@@ -1429,6 +1405,84 @@
       </categories>
       <tags>
         <tag>culture</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Think about part-time business</title>
+    <url>/2020/10/25/Daily-life-Business-Think-about-part-time-business-/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="98f914cc1c82bab3d9941eadcd0bd8394f5a64f8bd0f8b0bb57075dc0f35aa40">06a3258ad59e4eff6dd45a2f0021519577bbd42bf5306d0c2f5166ba922f9120123120914cda524a2cd9fa6e0a9a1081130ad6a00339f2c95777a1dad931d9a563f1686403de37ec68c3f8c14994a5570071fb37f0cda93e87d0129ffea27da7071996e2b036b5c5775a53b88d623ed6e6e3bc0eec40decc44ab24f36cf3b0dafbea500964234e4859e7b7b99e59c113019e9218d048f182fbfd4c982686c2a76d3337ab4207d003b5863ccac1ed7a010f44bd3d9f97fa4a881c8be80340ce3838404d6beb0e2e31b25fd6e2878d85b09598f11160501d38f0286b13e5c5b6e7d3e547430aec3abb3616f5dc061a3395fceadc53e85e04af051292fcbea9a97ac67e81003afc9d3c1f1f4fa4116315f8319dcc87a302d83a8220af0e6998e79fd2b9d6c8d0e03d78d8cc57a67bb38cd2978355bd1f7a5f9cf568d34c9a91498f4d651f303ab3aeeeb0925b04f91ce481288f940b6822172865f8b90f530c02490158c3471020e36c7c12bfef7734b95371db9e59222e8af41c7643c79250e65a090d683a76064d2e1f84a5e95f4489a0d9ce00871de197434119b6036ae7f11ca9d615a4e2aeddea6458b9da1575681a9c54861c4a3d0e370c7d3a143e60527f0d7be7406217bae24d7bef1264c37cd356dec2edc3394ed2e70013945258c2b9bb90d952fec213fbafe3178aefa208ae62e5f1aadedc13021b1f5aaeb2395f1201ddc09e3e85686d35922cb33178cb333bab530867fb67009c1e205995c9efaaaff209f8e47258b7f50428cd38e3fcad7c1cd72507d7f4f7c2b9e49f85bb001f3e54c2552864098e7355f4843c190b0fbf0a96120a705e0f0327b918351de79e2acee7d2396b377a14b18d02aefee1eafd5338f0000dafde4545055004677d6c7d27a82db82688d9fb6e41ed45d79aea94b2f5696d5f0b2f3eca81aad59f1cd64b960a65aecc8447bacf5f9a860c895ce42411ce350aba8a317341201e4036d389d72d8dbea6d6689bcfea307222b227a61599f4ae3de31306a794d775e957b96ce8c1bc9b7d6f58df923b498429f8504c4533d5efe4046161cacc1534b8a2acd36e10e10461b9718e5f1451b8bbc1327fd59adf1177443bf9b75c83f80fe802eaae8943c27bdaf7744062adcbae2eca39b7ced5756d4705e7ecf41be6ff9c9018bc94b680e3275f2bd1c768aaf627f59c6535e7e7523915f03484afae2be61c6a2c1034df246bb99fa36df01e90c0554bd1f26fe7a3be900765df86f0b71cc1009a7d01dbefbda84a2a473258572c222860e552692d5d68ae5b22ad6943674f8d664543953f7d6bb4abd4036b4151762ffe02527702ff30ef11c4fa1e15131add78b93afbf6841f608a7705860ef2427220a735275555dac90d9e5874ac654d2378472521cf46b5d7a8dd45c19603b4b9c90e48fb491808e9dc32b53b9505d391e1784926528879fffd866e66472336f27193f38138dff7e7118770c7d98a49caac04361d714e919fcbeb90907f25fa094dec9764b87380b53271d5dc03aea34f0a4f7fb678692dc4a48c5ca8919eae226dd4445101ff50f2a2c75e659692ab8a75d46c2c9be37c0b89b476f98a90fe256d562c7914849ee4715cb7017cbdc34da7e8295a17c4a514251843aa0fa55aa8f5192abc98398a4744194a9ec097113ca4a1591297c2cccdf9f8a97eb0deab27ffa8c2079f12bed54913297d46fbff914478b76a78234fb9b96d4213cb63eb00ab5db2367339c1b33dc0930cede9ec69dba4a997464d94e49b78ec59c2659c39299e340d592d6ac86b3ef1e19b1c3cf2f039a5b8016f177e9341bd8abe7a3e212e6e95d05d4a3de9fe3377d1c6d663ed21cf3d2b6f87b1e85ad4eb4a00fa7367e75c9e3087a84870d4985572b809804e7fd1860957c280c9ebe43a412e33d69d52ed408e6342301599ee8db2add752c88044778385fe9302f3ec576690e057aaeb0a85e931188ed658a3685b12aaa271ba39f18df6c3b1db65c7e23975144df1a4522deef9f292ddb9b9600cf817865ca3b12c119607fe21d52fe053cfea264e84ce184dadb1db209b269bd810f156dcb0f90629984a093f231cd85c105989e1b8c1eb46415d54855da4fffc8e8819840a9e90e1cfcda25f64c465affacf9700a91c95575872287ced3fc4f70c4e17de53da0e63bb5fa48bce63a3026017908569cf91c6aa89eca968eab648973b39ccf144c2f3df2ed8693d9da86e6d14f11db0345317101d5aae45cf3fad2d162d7d3a9e2c214965ab13b71af92fc6ad0612d093ab0406f3161b29a2fc0ef063c8b81abbfa3518817458a12cb1580db93da605dc496e514c08964129c36ec4bb16e52131e6db4c84be05d30ec3575d0d41a5252d6505dfdbdbd7e08f15fbfdf233b9b7d77d3781644085046f29259b0de729cca633dab620fe10e4208d2c4a058d1a614d17e5513bb102aabe153fea31a1cbf7865e1ab2fddc7941fd9304877c8a075fe5ef25afe86286d7abf440eb088a349e187c308fd44d17c465f367b5cc5b47651c79e3448da065292753dbbf619684e0b62b732639c35f432cd920b8d0ca7d4bc0a1d672a7aa13e1ed83898faf09fc5c34d45e83a4122be9eca0ec5aab197e2ddde65909b0125a17a3e72e807ff5e847cbf391fcb4383081af7256f75aaa10f728c57c213fad7a23acd2ff4dfa892b05f1ba608f8ca6035d788f0d770e0f6e91e6daa366396a0c790b5a4340a3065332c098efd7011e935917565a064ce182d7c87202151362b403e1fb374fa62cbb023370b4297b1f4c8cc326a9c942a2ee2873bb76b05341c9c9ed69c485550311094fcf31298f47f867de8d6b068d3a148db742df7ce046747693f1d9ddf49171e22468c1a2f3943f3a9199af020959403e2eb4cc104170a19cf2f1dcbe1bfbc63fd708846deee8614314682a5d317d39ca05d926c152b7451402d619f982e7bfc0c18eab5b5bb93910b49263abf637</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>☀️ Daily life</category>
+        <category>Business</category>
+      </categories>
+      <tags>
+        <tag>business💼</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2nd Wedding Anniversary-Letter</title>
+    <url>/2020/10/19/Daily-life-Mine-2nd-Wedding-Anniversary/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="1a7f1deecd30d13fb30cbe9075b261b2e51399572971b71504cf4272a66b4126">8b21cc1568dfca721c188826f7384bc493252b7561d71b218cd027d0b87c1853374c8c986dd196c9ec8f84e7e1bd1c584360bca66c8b741339bbbb3a5f392387950174ff40041da3bb3685da5c2ed38a849f379a3eb7997cc4ba1a7aca22846e364757fa795e1f6487d3bc0a0a9e1abb53b93c79903e56b5c2ee4b421c7c068c1ec1129c40cfc830fb78c1f0bb7c66186c52407eecac6f38295e71be88e8fa3a1d959b9c3cc322e305435a2cf19340a273499f92d25d80266414c96ed8d9d11ded0b0eac1031845bfb9dff79abe558aa8e5725726397e61b4cfd3e5187292748b04b48d85a5b6abab03ff80918d126cc41ebd45fde2db41c423a5fa3450c8c4f673705a795ec1683c412be8d2414f225f908693c8ac43f6b52e465f9743ee5fb1d9c5edce0773b85221330f7d4f7a4d4142591269a0a39669fb6cd0d81b96274ba7df60a14ea394f0e4efb5c01207fd6e580207c4e8ad615b921dd8929302da7e4eb260c823eb0c71e03abd5d34bb4d11089572fdb8546044214b69ae4bcf901c193ad883616a845ce41d6e2825ca1b40af8a2a77946077e6a66ad5291ee444ca2a3436c46a5d7647ee2151b5764c9ffb28bbf9b2f93471d37a7e758261d39d1d801f526b5e5674ee2c4d17de0f0896b3a255e167a1f25f9f08d07912bf9296f3c55e23eb36eea9031e7f34d0592155fe3530678d0836f9eed0b32504367eac697ac6879a121b979da8a30d0718f6bc065652dfacd4a2cefb204ad7223d61e50ae22f910e488efc096e2a6678c993a979d28bba0e8ddcd90ab11ba0c256767194a9f0e205b2d06bafc2083585497f3aa603137b01d58326e57940282ad7042eec7c784e77b3a1b27eb6ecafa54edb9dc84b3bbfe044962e305f4318abb5994487ebbd031b131a1172ad7a9b224efb5cba7f2cbd15b8ed1836a8eee1625cfd952e5166c64008c5737e56c595066bb14e3</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>☀️ Daily life</category>
+        <category>Mine</category>
+      </categories>
+      <tags>
+        <tag>anniversary🎉</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Major religions</title>
+    <url>/2020/10/24/Others-Major-religions/</url>
+    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
+<a id="more"></a>
+
+<img src = "https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022075814.png"> 
+
+
+
+<h3 id="History-of-religious-categories"><a href="#History-of-religious-categories" class="headerlink" title="History of religious categories"></a>History of religious categories</h3><h4 id="World-categorizations"><a href="#World-categorizations" class="headerlink" title="@ World categorizations"></a>@ World categorizations</h4><p>In world cultures, there have traditionally been many different groupings of religious belief. In <a href="https://en.wikipedia.org/wiki/Culture_of_India">Indian culture</a>, different religious philosophies were traditionally respected as academic differences in pursuit of the same truth. In <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>, the <a href="https://en.wikipedia.org/wiki/Quran">Quran</a> mentions three different categories: <a href="https://en.wikipedia.org/wiki/Muslims">Muslims</a>, the <a href="https://en.wikipedia.org/wiki/People_of_the_Book">People of the Book</a>, and <a href="https://en.wikipedia.org/wiki/Idolatry">idol worshipers</a>.</p>
+<h4 id="Christian-categorizations"><a href="#Christian-categorizations" class="headerlink" title="@ Christian categorizations"></a>@ Christian categorizations</h4><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups">https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups</a></p>
+]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Culture</category>
+      </categories>
+      <tags>
+        <tag>religion☯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Nice Songs</title>
+    <url>/2020/08/31/Others-Nice-songs/</url>
+    <content><![CDATA[<h4 id="※-Chinese-Songs-※"><a href="#※-Chinese-Songs-※" class="headerlink" title="※ Chinese Songs ※"></a>※ Chinese Songs ※</h4><h5 id="amp-Singles"><a href="#amp-Singles" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><strong>后来(Later)</strong> - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
+<p><strong>童话(Fairy Tale)</strong> - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
+<p><strong>老男孩</strong> - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
+<p><strong>那些年(Those Bygone Years)</strong> - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
+<p><strong>少年</strong> - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
+<a id="more"></a>
+
+<h4 id="※-Japanese-Songs-※"><a href="#※-Japanese-Songs-※" class="headerlink" title="※ Japanese Songs ※"></a>※ Japanese Songs ※</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201028082408.png" style="zoom: 80%;" />
+
+<hr>
+<p><strong>SAKURA</strong> - 2006 - @Memory  @Love @Sadness</p>
+<p><strong>YELL</strong> - 2009 - @Courage</p>
+<p><strong>ありがとう</strong>(Arigatou = Thank you) - 2010 - @Love @Regret </p>
+<h4 id="※-English-Songs-※"><a href="#※-English-Songs-※" class="headerlink" title="※ English Songs ※"></a>※ English Songs ※</h4><h5 id="amp-Singles-1"><a href="#amp-Singles-1" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah"><strong>Monsters</strong></a> - 2014 - Katie Sky - @Courage</p>
+<h5 id="amp-Songs-from-Annual-GRAMMY-Awards"><a href="#amp-Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="&amp; Songs from Annual GRAMMY Awards"></a>&amp; Songs from <a href="https://www.grammy.com/grammys/awards">Annual GRAMMY Awards</a></h5></br>
+
+
+
+<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah">https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah</a></p>
+]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Music</category>
+      </categories>
+      <tags>
+        <tag>music🎵</tag>
       </tags>
   </entry>
   <entry>
@@ -1553,60 +1607,6 @@
       </categories>
       <tags>
         <tag>baby👶</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Major religions</title>
-    <url>/2020/10/24/Others-Major-religions/</url>
-    <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
-<a id="more"></a>
-
-<img src = "https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022075814.png"> 
-
-
-
-<h3 id="History-of-religious-categories"><a href="#History-of-religious-categories" class="headerlink" title="History of religious categories"></a>History of religious categories</h3><h4 id="World-categorizations"><a href="#World-categorizations" class="headerlink" title="@ World categorizations"></a>@ World categorizations</h4><p>In world cultures, there have traditionally been many different groupings of religious belief. In <a href="https://en.wikipedia.org/wiki/Culture_of_India">Indian culture</a>, different religious philosophies were traditionally respected as academic differences in pursuit of the same truth. In <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>, the <a href="https://en.wikipedia.org/wiki/Quran">Quran</a> mentions three different categories: <a href="https://en.wikipedia.org/wiki/Muslims">Muslims</a>, the <a href="https://en.wikipedia.org/wiki/People_of_the_Book">People of the Book</a>, and <a href="https://en.wikipedia.org/wiki/Idolatry">idol worshipers</a>.</p>
-<h4 id="Christian-categorizations"><a href="#Christian-categorizations" class="headerlink" title="@ Christian categorizations"></a>@ Christian categorizations</h4><h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref:"></a>Ref:</h4><p><a href="https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups">https://en.wikipedia.org/wiki/Major_religious_groups#Largest_religious_groups</a></p>
-]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Culture</category>
-      </categories>
-      <tags>
-        <tag>religion☯</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Nice Songs</title>
-    <url>/2020/08/31/Others-Nice-songs/</url>
-    <content><![CDATA[<h4 id="※-Chinese-Songs-※"><a href="#※-Chinese-Songs-※" class="headerlink" title="※ Chinese Songs ※"></a>※ Chinese Songs ※</h4><h5 id="amp-Singles"><a href="#amp-Singles" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><strong>后来(Later)</strong> - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
-<p><strong>童话(Fairy Tale)</strong> - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
-<p><strong>老男孩</strong> - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
-<p><strong>那些年(Those Bygone Years)</strong> - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
-<p><strong>少年</strong> - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
-<a id="more"></a>
-
-<h4 id="※-Japanese-Songs-※"><a href="#※-Japanese-Songs-※" class="headerlink" title="※ Japanese Songs ※"></a>※ Japanese Songs ※</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201028082408.png" style="zoom: 80%;" />
-
-<hr>
-<p><strong>SAKURA</strong> - 2006 - @Memory  @Love @Sadness</p>
-<p><strong>YELL</strong> - 2009 - @Courage</p>
-<p><strong>ありがとう</strong>(Arigatou = Thank you) - 2010 - @Love @Regret </p>
-<h4 id="※-English-Songs-※"><a href="#※-English-Songs-※" class="headerlink" title="※ English Songs ※"></a>※ English Songs ※</h4><h5 id="amp-Singles-1"><a href="#amp-Singles-1" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah"><strong>Monsters</strong></a> - 2014 - Katie Sky - @Courage</p>
-<h5 id="amp-Songs-from-Annual-GRAMMY-Awards"><a href="#amp-Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="&amp; Songs from Annual GRAMMY Awards"></a>&amp; Songs from <a href="https://www.grammy.com/grammys/awards">Annual GRAMMY Awards</a></h5></br>
-
-
-
-<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah">https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah</a></p>
-]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Music</category>
-      </categories>
-      <tags>
-        <tag>music🎵</tag>
       </tags>
   </entry>
   <entry>
@@ -1741,6 +1741,46 @@
       </tags>
   </entry>
   <entry>
+    <title>Corpus @ Make your own corpus</title>
+    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
+    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Corpus</category>
+      </categories>
+      <tags>
+        <tag>corpus📖</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ Font color changing</title>
+    <url>/2020/11/07/Tutorials-Hexo-Adv-Font-color/</url>
+    <content><![CDATA[<h3 id="🎆-Font-color-change"><a href="#🎆-Font-color-change" class="headerlink" title="🎆    Font color change"></a>🎆    Font color change</h3><h4 id="1-Open-the-parameter-file"><a href="#1-Open-the-parameter-file" class="headerlink" title="1. Open the parameter file."></a>1. Open the parameter file.</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">cd</span> <span class="string">./homepage/themes/next/source/css/_variables</span></span><br><span class="line"><span class="string">vi</span> <span class="string">./base.styl</span></span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<h4 id="2-Find-out-the-color-parameter-check-them-one-by-one"><a href="#2-Find-out-the-color-parameter-check-them-one-by-one" class="headerlink" title="2. Find out the color parameter, check them one by one."></a>2. Find out the color parameter, check them one by one.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203713.png"  />
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203750.png"/>
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203823.png"/>
+
+<hr>
+<h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h4><blockquote>
+<p><a href="https://asymptotic-freedom.xyz/posts/f4345ea0/">https://asymptotic-freedom.xyz/posts/f4345ea0/</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Time Zone</title>
     <url>/2020/11/04/Others-Practical-info-Time-zones/</url>
     <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201104124526.png" style="zoom: 50%;" />
@@ -1785,46 +1825,6 @@
       </categories>
       <tags>
         <tag>time zone🕜</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Corpus @ Make your own corpus</title>
-    <url>/2020/11/01/Tutorials-Corpus-Make-your-own-corpus/</url>
-    <content><![CDATA[<p><a href="https://www.zhihu.com/question/29283677">https://www.zhihu.com/question/29283677</a></p>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Corpus</category>
-      </categories>
-      <tags>
-        <tag>corpus📖</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_Adv @ Font color changing</title>
-    <url>/2020/11/07/Tutorials-Hexo-Adv-Font-color/</url>
-    <content><![CDATA[<h3 id="🎆-Font-color-change"><a href="#🎆-Font-color-change" class="headerlink" title="🎆    Font color change"></a>🎆    Font color change</h3><h4 id="1-Open-the-parameter-file"><a href="#1-Open-the-parameter-file" class="headerlink" title="1. Open the parameter file."></a>1. Open the parameter file.</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">cd</span> <span class="string">./homepage/themes/next/source/css/_variables</span></span><br><span class="line"><span class="string">vi</span> <span class="string">./base.styl</span></span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<h4 id="2-Find-out-the-color-parameter-check-them-one-by-one"><a href="#2-Find-out-the-color-parameter-check-them-one-by-one" class="headerlink" title="2. Find out the color parameter, check them one by one."></a>2. Find out the color parameter, check them one by one.</h4><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203713.png"  />
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203750.png"/>
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201107203823.png"/>
-
-<hr>
-<h4 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h4><blockquote>
-<p><a href="https://asymptotic-freedom.xyz/posts/f4345ea0/">https://asymptotic-freedom.xyz/posts/f4345ea0/</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
