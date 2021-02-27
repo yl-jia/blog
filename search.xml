@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>/2021/02/27/New%20Text%20Document/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>Saki before the Doomsday Sky</title>
     <url>/2020/08/24/2020-08-24-Saki-portrait/</url>
     <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/sakimi.jpg"></p>
@@ -33,6 +38,29 @@
       </categories>
       <tags>
         <tag>Hexo_Basic🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo[Next] @ add rounded corners</title>
+    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
+    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
+<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
+
+<p>add the follow code should be OK:</p>
+<a id="more"></a>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Theme_Next</category>
+      </categories>
+      <tags>
+        <tag>Page optimization📄</tag>
+        <tag>Hexo[Next]🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -74,29 +102,6 @@
 <blockquote>
 <p>the annotation should follow the “//“</p>
 </blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization📄</tag>
-        <tag>Hexo[Next]🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo[Next] @ add rounded corners</title>
-    <url>/2020/08/31/2020-08-31-Hexo-Next-add-rounded-corners/</url>
-    <content><![CDATA[<p>To make the page look more comfortable,  we need further add the rounded corners for page block.</p>
-<p>First, should know your Next_theme type, here we use  <code>Gemini</code> </p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_floder/themes/next/source/css/_variables/Gemini.styl |vi</span><br></pre></td></tr></table></figure>
-
-<p>add the follow code should be OK:</p>
-<a id="more"></a>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">$border-radius-inner</span>              <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">for</span> <span class="string">menu</span> <span class="string">bar</span> <span class="string">and</span> <span class="string">main</span> <span class="string">text</span> <span class="string">block</span></span><br><span class="line"><span class="string">$border-radius</span>                    <span class="string">=</span> <span class="string">20px</span> <span class="string">//</span> <span class="string">only</span> <span class="string">for</span> <span class="string">personal</span> <span class="string">info</span> <span class="string">sidebar</span></span><br></pre></td></tr></table></figure>
-
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>
@@ -157,31 +162,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Adv @ Add related post function</title>
-    <url>/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</url>
-    <content><![CDATA[<p>With the module of <code>hexo-related-popular-posts</code>, hexo can find and match related articles for visitors.</p>
-<h4 id="1-install-quicklinkmodule-in-git-bash"><a href="#1-install-quicklinkmodule-in-git-bash" class="headerlink" title="1. install quicklinkmodule in git bash:"></a>1. install <code>quicklink</code>module in git bash:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
-
-<h4 id="2-Open-and-modify-the-config-file"><a href="#2-Open-and-modify-the-config-file" class="headerlink" title="2. Open and modify the config file:"></a>2. Open and modify the config file:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<p>Locate to “related_posts” code block, change “enable” as “true”,</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="attr">PPMixingRate:</span> <span class="number">0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="attr">isImage:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Adv.</category>
-      </categories>
-      <tags>
-        <tag>Hexo_Adv🕸️</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo[Next] @ Set transparency and margins</title>
     <url>/2020/09/01/2020-09-01-Hexo-Next-Set-transparency-and-margins/</url>
     <content><![CDATA[<p>Go to the custom style file:</p>
@@ -205,6 +185,31 @@
       <tags>
         <tag>Page optimization📄</tag>
         <tag>Hexo[Next]🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_Adv @ Add related post function</title>
+    <url>/2020/09/01/2020-09-01-Hexo-Next-Add-related-post-function/</url>
+    <content><![CDATA[<p>With the module of <code>hexo-related-popular-posts</code>, hexo can find and match related articles for visitors.</p>
+<h4 id="1-install-quicklinkmodule-in-git-bash"><a href="#1-install-quicklinkmodule-in-git-bash" class="headerlink" title="1. install quicklinkmodule in git bash:"></a>1. install <code>quicklink</code>module in git bash:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-Open-and-modify-the-config-file"><a href="#2-Open-and-modify-the-config-file" class="headerlink" title="2. Open and modify the config file:"></a>2. Open and modify the config file:</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml |vi</span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<p>Locate to “related_posts” code block, change “enable” as “true”,</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="attr">PPMixingRate:</span> <span class="number">0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="attr">isImage:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Adv.</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Adv🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -361,6 +366,32 @@
       </tags>
   </entry>
   <entry>
+    <title>Top places to go in China</title>
+    <url>/2020/10/17/2020-10-17-Top-places-to-go-in-China/</url>
+    <content><![CDATA[<h3 id="The-sites-in-UNESCO-World-Heritage-list"><a href="#The-sites-in-UNESCO-World-Heritage-list" class="headerlink" title="The sites in UNESCO World Heritage list"></a>The sites in <code>UNESCO World Heritage list</code></h3><p>China is a big country, so there are many tourist attractions. First of all, these sites are world class, best preserved, and most significant.</p>
+<p>Next, I will show you how to find these sites list and basic information:</p>
+<p>Open <code>Word Heritage List</code>:  <a href="https://whc.unesco.org/en/list/&amp;order=country">https://whc.unesco.org/en/list/&amp;order=country</a></p>
+<p>Ordering the sites by <code>Country</code>;</p>
+<a id="more"></a>
+
+<p>Find out <code>China</code>and all related sites, there are 3 types: Cultural, Natural and Mixed site;</p>
+<p>When you open any of them, you’ll see the relevant basic information, including description, gallery and video.</p>
+<h3 id="AAAAA-Tourist-Attractions-of-China-5A-sites"><a href="#AAAAA-Tourist-Attractions-of-China-5A-sites" class="headerlink" title="AAAAA Tourist Attractions of China [5A sites]"></a>AAAAA Tourist Attractions of China [5A sites]</h3><p><code>5A</code> are the most important and best-maintained <a href="https://en.wikipedia.org/wiki/Tourist_attraction">tourist attractions</a> in the <a href="https://en.wikipedia.org/wiki/People's_Republic_of_China">People’s Republic of China</a>, given the highest level in the <a href="https://en.wikipedia.org/wiki/Tourist_Attraction_Rating_Categories_of_China">rating categories</a> used by the <a href="https://en.wikipedia.org/wiki/Ministry_of_Culture_and_Tourism_of_the_People's_Republic_of_China">Ministry of Culture and Tourism</a>. Generally, World Heritage sites are already included in the 5A list.</p>
+<p>Here is the list: <a href="https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China">https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China</a></p>
+<h3 id="Best-Cities-to-Visit-in-China"><a href="#Best-Cities-to-Visit-in-China" class="headerlink" title="Best Cities to Visit in China"></a>Best Cities to Visit in China</h3><h5 id="amp-Beijing-—-Ancient-and-Modern-Capital"><a href="#amp-Beijing-—-Ancient-and-Modern-Capital" class="headerlink" title="&amp; Beijing — Ancient and Modern Capital"></a>&amp; Beijing — Ancient and Modern Capital</h5><h5 id="amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization"><a href="#amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization" class="headerlink" title="&amp; Xi’an — a Window on China’s Ancient Civilization"></a>&amp; Xi’an — a Window on China’s Ancient Civilization</h5><h5 id="amp-Shanghai-—-China’s-Prosperous-Largest-City"><a href="#amp-Shanghai-—-China’s-Prosperous-Largest-City" class="headerlink" title="&amp; Shanghai — China’s Prosperous Largest City"></a>&amp; Shanghai — China’s Prosperous Largest City</h5><h5 id="amp-Guilin-—-China’s-Top-Karst-Landscape"><a href="#amp-Guilin-—-China’s-Top-Karst-Landscape" class="headerlink" title="&amp; Guilin — China’s Top Karst Landscape"></a>&amp; Guilin — China’s Top Karst Landscape</h5><h5 id="amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth"><a href="#amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth" class="headerlink" title="&amp; Hong Kong — Like Nowhere Else on Earth"></a>&amp; Hong Kong — Like Nowhere Else on Earth</h5><h5 id="amp-Hangzhou-—-Next-Best-Place-to-Heaven"><a href="#amp-Hangzhou-—-Next-Best-Place-to-Heaven" class="headerlink" title="&amp; Hangzhou — Next Best Place to Heaven"></a>&amp; Hangzhou — Next Best Place to Heaven</h5><h5 id="amp-Chengdu-—-Hometown-of-Giant-Pandas"><a href="#amp-Chengdu-—-Hometown-of-Giant-Pandas" class="headerlink" title="&amp; Chengdu — Hometown of Giant Pandas"></a>&amp; Chengdu — Hometown of Giant Pandas</h5><h5 id="amp-Lhasa-—-Gateway-to-Transcendent-Tibet"><a href="#amp-Lhasa-—-Gateway-to-Transcendent-Tibet" class="headerlink" title="&amp; Lhasa — Gateway to Transcendent Tibet"></a>&amp; Lhasa — Gateway to Transcendent Tibet</h5><h5 id="amp-Suzhou-—-Elegant-Water-Towns-and-Gardens"><a href="#amp-Suzhou-—-Elegant-Water-Towns-and-Gardens" class="headerlink" title="&amp; Suzhou — Elegant Water Towns and Gardens"></a>&amp; Suzhou — Elegant Water Towns and Gardens</h5><blockquote>
+<p><a href="https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/">https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/</a></p>
+</blockquote>
+<p>Finally, for more information, please refer to site China Travel Guide: <a href="https://www.chinahighlights.com/">https://www.chinahighlights.com/</a></p>
+]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Tour</category>
+      </categories>
+      <tags>
+        <tag>Good places✈️</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo_Adv @ Skip render for given files and folders</title>
     <url>/2020/10/10/2020-10-10-Hexo-Adv-Skip-render/</url>
     <content><![CDATA[<p>Sometimes, we have some special files needn’t go through the render to generate the .html files. We prefer to only keep it  original format and show in our website.</p>
@@ -398,32 +429,6 @@
       </categories>
       <tags>
         <tag>Opinion💭</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Top places to go in China</title>
-    <url>/2020/10/17/2020-10-17-Top-places-to-go-in-China/</url>
-    <content><![CDATA[<h3 id="The-sites-in-UNESCO-World-Heritage-list"><a href="#The-sites-in-UNESCO-World-Heritage-list" class="headerlink" title="The sites in UNESCO World Heritage list"></a>The sites in <code>UNESCO World Heritage list</code></h3><p>China is a big country, so there are many tourist attractions. First of all, these sites are world class, best preserved, and most significant.</p>
-<p>Next, I will show you how to find these sites list and basic information:</p>
-<p>Open <code>Word Heritage List</code>:  <a href="https://whc.unesco.org/en/list/&amp;order=country">https://whc.unesco.org/en/list/&amp;order=country</a></p>
-<p>Ordering the sites by <code>Country</code>;</p>
-<a id="more"></a>
-
-<p>Find out <code>China</code>and all related sites, there are 3 types: Cultural, Natural and Mixed site;</p>
-<p>When you open any of them, you’ll see the relevant basic information, including description, gallery and video.</p>
-<h3 id="AAAAA-Tourist-Attractions-of-China-5A-sites"><a href="#AAAAA-Tourist-Attractions-of-China-5A-sites" class="headerlink" title="AAAAA Tourist Attractions of China [5A sites]"></a>AAAAA Tourist Attractions of China [5A sites]</h3><p><code>5A</code> are the most important and best-maintained <a href="https://en.wikipedia.org/wiki/Tourist_attraction">tourist attractions</a> in the <a href="https://en.wikipedia.org/wiki/People's_Republic_of_China">People’s Republic of China</a>, given the highest level in the <a href="https://en.wikipedia.org/wiki/Tourist_Attraction_Rating_Categories_of_China">rating categories</a> used by the <a href="https://en.wikipedia.org/wiki/Ministry_of_Culture_and_Tourism_of_the_People's_Republic_of_China">Ministry of Culture and Tourism</a>. Generally, World Heritage sites are already included in the 5A list.</p>
-<p>Here is the list: <a href="https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China">https://en.wikipedia.org/wiki/AAAAA_Tourist_Attractions_of_China</a></p>
-<h3 id="Best-Cities-to-Visit-in-China"><a href="#Best-Cities-to-Visit-in-China" class="headerlink" title="Best Cities to Visit in China"></a>Best Cities to Visit in China</h3><h5 id="amp-Beijing-—-Ancient-and-Modern-Capital"><a href="#amp-Beijing-—-Ancient-and-Modern-Capital" class="headerlink" title="&amp; Beijing — Ancient and Modern Capital"></a>&amp; Beijing — Ancient and Modern Capital</h5><h5 id="amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization"><a href="#amp-Xi’an-—-a-Window-on-China’s-Ancient-Civilization" class="headerlink" title="&amp; Xi’an — a Window on China’s Ancient Civilization"></a>&amp; Xi’an — a Window on China’s Ancient Civilization</h5><h5 id="amp-Shanghai-—-China’s-Prosperous-Largest-City"><a href="#amp-Shanghai-—-China’s-Prosperous-Largest-City" class="headerlink" title="&amp; Shanghai — China’s Prosperous Largest City"></a>&amp; Shanghai — China’s Prosperous Largest City</h5><h5 id="amp-Guilin-—-China’s-Top-Karst-Landscape"><a href="#amp-Guilin-—-China’s-Top-Karst-Landscape" class="headerlink" title="&amp; Guilin — China’s Top Karst Landscape"></a>&amp; Guilin — China’s Top Karst Landscape</h5><h5 id="amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth"><a href="#amp-Hong-Kong-—-Like-Nowhere-Else-on-Earth" class="headerlink" title="&amp; Hong Kong — Like Nowhere Else on Earth"></a>&amp; Hong Kong — Like Nowhere Else on Earth</h5><h5 id="amp-Hangzhou-—-Next-Best-Place-to-Heaven"><a href="#amp-Hangzhou-—-Next-Best-Place-to-Heaven" class="headerlink" title="&amp; Hangzhou — Next Best Place to Heaven"></a>&amp; Hangzhou — Next Best Place to Heaven</h5><h5 id="amp-Chengdu-—-Hometown-of-Giant-Pandas"><a href="#amp-Chengdu-—-Hometown-of-Giant-Pandas" class="headerlink" title="&amp; Chengdu — Hometown of Giant Pandas"></a>&amp; Chengdu — Hometown of Giant Pandas</h5><h5 id="amp-Lhasa-—-Gateway-to-Transcendent-Tibet"><a href="#amp-Lhasa-—-Gateway-to-Transcendent-Tibet" class="headerlink" title="&amp; Lhasa — Gateway to Transcendent Tibet"></a>&amp; Lhasa — Gateway to Transcendent Tibet</h5><h5 id="amp-Suzhou-—-Elegant-Water-Towns-and-Gardens"><a href="#amp-Suzhou-—-Elegant-Water-Towns-and-Gardens" class="headerlink" title="&amp; Suzhou — Elegant Water Towns and Gardens"></a>&amp; Suzhou — Elegant Water Towns and Gardens</h5><blockquote>
-<p><a href="https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/">https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/</a></p>
-</blockquote>
-<p>Finally, for more information, please refer to site China Travel Guide: <a href="https://www.chinahighlights.com/">https://www.chinahighlights.com/</a></p>
-]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Tour</category>
-      </categories>
-      <tags>
-        <tag>Good places✈️</tag>
       </tags>
   </entry>
   <entry>
@@ -598,13 +603,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Calendar</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
-    <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
+    <title>Chinese culture @ China’s religious beliefs</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
+    <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
 
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/religion.htm">https://www.chinahighlights.com/travelguide/religion.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -615,13 +620,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ China’s religious beliefs</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-Chinas-religious%20beliefs/</url>
-    <content><![CDATA[<img src="/beauty/rc.png" style="zoom:70%;" />
+    <title>Chinese culture @ Calendar</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-Calendar/</url>
+    <content><![CDATA[<img src="/beauty/calendar.png" style="zoom:80%;" />
 
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/travelguide/religion.htm">https://www.chinahighlights.com/travelguide/religion.htm</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm">https://www.chinahighlights.com/travelguide/guidebook/chinese-calendar.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -666,13 +671,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Traditional Chinese Medicine [中医]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-chinese-medicine/</url>
-    <content><![CDATA[<img src="/beauty/zhongyi.png" style="zoom:70%;" />
+    <title>Chinese culture @ Traditional herbal medicine [中药]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-herbal-medicine/</url>
+    <content><![CDATA[<img src="/beauty/zy.png" style="zoom:70%;" />
 
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm">https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm">https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -683,13 +688,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Chinese culture @ Traditional herbal medicine [中药]</title>
-    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-herbal-medicine/</url>
-    <content><![CDATA[<img src="/beauty/zy.png" style="zoom:70%;" />
+    <title>Chinese culture @ Traditional Chinese Medicine [中医]</title>
+    <url>/2020/10/18/2020-10-18-Chinese-culture-traditional-chinese-medicine/</url>
+    <content><![CDATA[<img src="/beauty/zhongyi.png" style="zoom:70%;" />
 
 <a id="more"></a>
 
-<p><a href="https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm">https://www.chinahighlights.com/travelguide/chinese-medicine/product.htm</a></p>
+<p><a href="https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm">https://www.chinahighlights.com/travelguide/culture/traditionalmedichine.htm</a></p>
 ]]></content>
       <categories>
         <category>🐉 China</category>
@@ -797,101 +802,6 @@
       </categories>
       <tags>
         <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Genome engineering with CRISPR-Cas9</title>
-    <url>/2020/12/12/Biology-CRISPR-Cas9/</url>
-    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212222137.png"></p>
-<a id="more"></a>
-
-<p><strong>The Cas9 enzyme (blue) generates breaks in double-stranded DNA by using its two catalytic centers (blades) to cleave each strand of a DNA target site (gold) next to a PAM sequence (red) and matching the 20-nucleotide sequence (orange) of the single guide RNA (sgRNA).</strong> </p>
-<hr>
-<p>The CRISPR-Cas9 technology originates from type II CRISPR-Cas systems, which provide bacteria with adaptive immunity to viruses and plasmids. The CRISPR-associated protein Cas9 is an endonuclease that uses a guide sequence within an RNA duplex, tracrRNA:crRNA, to form base pairs with DNA target sequences, enabling Cas9 to introduce a site-specific double-strand break in the DNA. The dual tracrRNA:crRNA was engineered as a single guide RNA (sgRNA) that retains two critical features: a sequence at the 5′ side that determines the DNA target site by Watson-Crick base-pairing and a duplex RNA structure at the 3′ side that binds to Cas9. </p>
-</br>
-
-
-
-<h4 id="※-sgRNA-Expression-system"><a href="#※-sgRNA-Expression-system" class="headerlink" title="※ sgRNA Expression system"></a>※ sgRNA Expression system</h4><p><strong>U6 promoter</strong> —  BsmBI - <strong>sgRNA (targeting sequence)</strong> - BsmBI — <strong>sgRNA (scaffold sequence)</strong> — <strong>Termiantion_signal</strong></p>
-<ul>
-<li><p><strong>U6 promoter</strong>:  RNA polymerase III promoter for human U6 snRNA</p>
-</li>
-<li><p><strong>sgRNA</strong> = targeting sequence + scaffold.</p>
-</li>
-<li><p><strong>Termination signal</strong> : TTTTTT</p>
-</li>
-<li><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212225758.png"></p>
-</li>
-</ul>
-</br>
-
-
-
-<h4 id="※-Single-guide-RNA-sgRNA"><a href="#※-Single-guide-RNA-sgRNA" class="headerlink" title="※ Single guide RNA (sgRNA)"></a>※ Single guide RNA (sgRNA)</h4><p>Single guide RNA (sgRNA) that contains a targeting sequence (crRNA sequence) and a Cas9 nuclease-recruiting sequence (tracrRNA).</p>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212223126.png" style="zoom:80%;" />
-
-<hr>
-<p>sgRNA consisting of a 20-nt guide sequence (red) and a scaffold (blue).</p>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212224236.png"  />
-
-<hr>
-<p>guide RNA scaffold for the <strong>Streptococcus pyogenes CRISPR/Cas9 system</strong>:</p>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212224419.png" style="zoom:80%;" />
-
-</br>
-
-
-
-<h4 id="※-Cas9-Csn1-endonuclease-from-the-Streptococcus-pyogenes-Type-II-CRISPR-Cas-system"><a href="#※-Cas9-Csn1-endonuclease-from-the-Streptococcus-pyogenes-Type-II-CRISPR-Cas-system" class="headerlink" title="※ Cas9 (Csn1) endonuclease from the Streptococcus pyogenes [Type II CRISPR/Cas system]"></a>※ Cas9 (Csn1) endonuclease from the Streptococcus pyogenes [Type II CRISPR/Cas system]</h4><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212223326.png"></p>
-<p><u>The corresponding plasmids:     <strong>pXPR_023 [lentiCRISPRV2]</strong></u> </p>
-<p><strong>SpCas9</strong> [wild-type]= Cas9 (Csn1) endonuclease from the Streptococcus pyogenes <strong>[1368aa]</strong></p>
-<p>MDKKYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAEATRLKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFGNIVDEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSDVDKLFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGNLIALSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAILLSDILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYAGYIDGGASQEEFYKFIKPILEKMDGTEELLVKLNREDLLRKQRTFDNGSIPHQIHLGELHAILRRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEEVVDKGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKIIKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWGRLSRKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQKAQVSGQGDSLHEHIANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMARENQTTQKGQKNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNLTKAERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKSKLVSDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGDYKVYDVRKMIAKSEQEIGKATAKYFFYSNIMNFFKTEITLANGEIRKRPLIETNGETGEIVWDKGRDFATVRKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVAYSVLVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPKYSLFELENGRKRMLASAGELQKGNELALPSKYVNFLYLASHYEKLKGSPEDNEQKQLFVEQHKHYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGAPAAFKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQLGGD</p>
-</br>
-
-<h4 id="※-Protospacer-Adjacent-Motif-PAM"><a href="#※-Protospacer-Adjacent-Motif-PAM" class="headerlink" title="※ Protospacer Adjacent Motif (PAM)"></a>※ Protospacer Adjacent Motif (PAM)</h4><p><strong>Cas9 endonuclease</strong> binding to the target genomic locus is mediated both by the target sequence contained within the guide RNA and a 3-base pair sequence known as the <strong>Protospacer Adjacent Motif or PAM.</strong></p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212231415.png"></p>
-<hr>
-<p>Different PAM requirements allow researchers to target many different genomic loci.</p>
-<p>Cas9-mediated DNA damage is a DSB within the target DNA <strong>~3-4 nucleotides upstream of the PAM sequence.</strong></p>
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212230710.png" style="zoom:67%;" />
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212231120.png" style="zoom: 67%;" />
-
-<hr>
-<p>Notably, the D1135E variant, which still recognizes the <strong>canonical S. pyogenes PAM sequence</strong> (5’NGG’3), is far more selective for the NGG PAM over the NGA PAM compared to wild-type SpCas9. This variant may therefore increase the specificity of genome modifications at DNA targets adjacent to NGG PAM sequences when used in place of wild-type SpCas9. </p>
-<p>The remaining variants (VQR, EQR and VRER) recognize novel PAM sequences (shown above). Importantly, the VQR, EQR and VRER Cas9 variants are capable of cleaving genomic DNA when expressed in mammalian cells and zebrafish embryos and can be used to modify genomic loci that cannot be modified using wild-type SpCas9. <strong><u>The number of off-target cleavage events for the VQR and VRER variants is similar to wild-type SpCas9</u></strong> for several genomic targets in human cells, indicating that <u><strong>the variants are likely just as selective as wild-type SpCas9</strong>.</u> Inclusion of the VQR, EQR and VRER SpCas9 variants effectively doubles the targeting range of CRISPR/Cas9 within the human genome.</p>
-</br>
-
-
-
-<h4 id="※-CRISPR-Cas9-System-Applications"><a href="#※-CRISPR-Cas9-System-Applications" class="headerlink" title="※ CRISPR/Cas9 System Applications"></a>※ CRISPR/Cas9 System Applications</h4><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212224725.png"></p>
-</br>
-
-<h4 id="※-Protocol-and-supplementary-info"><a href="#※-Protocol-and-supplementary-info" class="headerlink" title="※ Protocol and supplementary info"></a>※ Protocol and supplementary info</h4><ul>
-<li><a href="https://zlab.bio/resources-2">Official protocol for CAS9 using</a></li>
-<li><a href="https://portals.broadinstitute.org/gpp/public/">Genetic Perturbation Platform</a></li>
-</ul>
-</br>
-
-
-
-<h4 id="※-Top-Lab-for-CRISPR-engineering"><a href="#※-Top-Lab-for-CRISPR-engineering" class="headerlink" title="※ Top Lab for  CRISPR engineering"></a>※ Top Lab for  CRISPR engineering</h4><ul>
-<li><a href="https://zlab.bio/">Zhang’s Lab</a></li>
-</ul>
-</br>
-
-<h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs:"></a>Refs:</h4><blockquote>
-<p><a href="https://science.sciencemag.org/content/346/6213/1258096.full">https://science.sciencemag.org/content/346/6213/1258096.full</a></p>
-<p><a href="https://international.neb.com/tools-and-resources/feature-articles/crispr-cas9-and-targeted-genome-editing-a-new-era-in-molecular-biology">https://international.neb.com/tools-and-resources/feature-articles/crispr-cas9-and-targeted-genome-editing-a-new-era-in-molecular-biology</a></p>
-<p><a href="https://www.nature.com/articles/nprot.2013.143">https://www.nature.com/articles/nprot.2013.143</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>🧬 Biology</category>
-        <category>CRISPR-Cas9</category>
-      </categories>
-      <tags>
-        <tag>Cas9</tag>
       </tags>
   </entry>
   <entry>
@@ -1131,6 +1041,101 @@
       </tags>
   </entry>
   <entry>
+    <title>Genome engineering with CRISPR-Cas9</title>
+    <url>/2020/12/12/Biology-CRISPR-Cas9/</url>
+    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212222137.png"></p>
+<a id="more"></a>
+
+<p><strong>The Cas9 enzyme (blue) generates breaks in double-stranded DNA by using its two catalytic centers (blades) to cleave each strand of a DNA target site (gold) next to a PAM sequence (red) and matching the 20-nucleotide sequence (orange) of the single guide RNA (sgRNA).</strong> </p>
+<hr>
+<p>The CRISPR-Cas9 technology originates from type II CRISPR-Cas systems, which provide bacteria with adaptive immunity to viruses and plasmids. The CRISPR-associated protein Cas9 is an endonuclease that uses a guide sequence within an RNA duplex, tracrRNA:crRNA, to form base pairs with DNA target sequences, enabling Cas9 to introduce a site-specific double-strand break in the DNA. The dual tracrRNA:crRNA was engineered as a single guide RNA (sgRNA) that retains two critical features: a sequence at the 5′ side that determines the DNA target site by Watson-Crick base-pairing and a duplex RNA structure at the 3′ side that binds to Cas9. </p>
+</br>
+
+
+
+<h4 id="※-sgRNA-Expression-system"><a href="#※-sgRNA-Expression-system" class="headerlink" title="※ sgRNA Expression system"></a>※ sgRNA Expression system</h4><p><strong>U6 promoter</strong> —  BsmBI - <strong>sgRNA (targeting sequence)</strong> - BsmBI — <strong>sgRNA (scaffold sequence)</strong> — <strong>Termiantion_signal</strong></p>
+<ul>
+<li><p><strong>U6 promoter</strong>:  RNA polymerase III promoter for human U6 snRNA</p>
+</li>
+<li><p><strong>sgRNA</strong> = targeting sequence + scaffold.</p>
+</li>
+<li><p><strong>Termination signal</strong> : TTTTTT</p>
+</li>
+<li><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212225758.png"></p>
+</li>
+</ul>
+</br>
+
+
+
+<h4 id="※-Single-guide-RNA-sgRNA"><a href="#※-Single-guide-RNA-sgRNA" class="headerlink" title="※ Single guide RNA (sgRNA)"></a>※ Single guide RNA (sgRNA)</h4><p>Single guide RNA (sgRNA) that contains a targeting sequence (crRNA sequence) and a Cas9 nuclease-recruiting sequence (tracrRNA).</p>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212223126.png" style="zoom:80%;" />
+
+<hr>
+<p>sgRNA consisting of a 20-nt guide sequence (red) and a scaffold (blue).</p>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212224236.png"  />
+
+<hr>
+<p>guide RNA scaffold for the <strong>Streptococcus pyogenes CRISPR/Cas9 system</strong>:</p>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212224419.png" style="zoom:80%;" />
+
+</br>
+
+
+
+<h4 id="※-Cas9-Csn1-endonuclease-from-the-Streptococcus-pyogenes-Type-II-CRISPR-Cas-system"><a href="#※-Cas9-Csn1-endonuclease-from-the-Streptococcus-pyogenes-Type-II-CRISPR-Cas-system" class="headerlink" title="※ Cas9 (Csn1) endonuclease from the Streptococcus pyogenes [Type II CRISPR/Cas system]"></a>※ Cas9 (Csn1) endonuclease from the Streptococcus pyogenes [Type II CRISPR/Cas system]</h4><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212223326.png"></p>
+<p><u>The corresponding plasmids:     <strong>pXPR_023 [lentiCRISPRV2]</strong></u> </p>
+<p><strong>SpCas9</strong> [wild-type]= Cas9 (Csn1) endonuclease from the Streptococcus pyogenes <strong>[1368aa]</strong></p>
+<p>MDKKYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAEATRLKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFGNIVDEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSDVDKLFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGNLIALSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAILLSDILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYAGYIDGGASQEEFYKFIKPILEKMDGTEELLVKLNREDLLRKQRTFDNGSIPHQIHLGELHAILRRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEEVVDKGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKIIKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWGRLSRKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQKAQVSGQGDSLHEHIANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMARENQTTQKGQKNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVDHIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNLTKAERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKSKLVSDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGDYKVYDVRKMIAKSEQEIGKATAKYFFYSNIMNFFKTEITLANGEIRKRPLIETNGETGEIVWDKGRDFATVRKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVAYSVLVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPKYSLFELENGRKRMLASAGELQKGNELALPSKYVNFLYLASHYEKLKGSPEDNEQKQLFVEQHKHYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGAPAAFKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQLGGD</p>
+</br>
+
+<h4 id="※-Protospacer-Adjacent-Motif-PAM"><a href="#※-Protospacer-Adjacent-Motif-PAM" class="headerlink" title="※ Protospacer Adjacent Motif (PAM)"></a>※ Protospacer Adjacent Motif (PAM)</h4><p><strong>Cas9 endonuclease</strong> binding to the target genomic locus is mediated both by the target sequence contained within the guide RNA and a 3-base pair sequence known as the <strong>Protospacer Adjacent Motif or PAM.</strong></p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212231415.png"></p>
+<hr>
+<p>Different PAM requirements allow researchers to target many different genomic loci.</p>
+<p>Cas9-mediated DNA damage is a DSB within the target DNA <strong>~3-4 nucleotides upstream of the PAM sequence.</strong></p>
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212230710.png" style="zoom:67%;" />
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212231120.png" style="zoom: 67%;" />
+
+<hr>
+<p>Notably, the D1135E variant, which still recognizes the <strong>canonical S. pyogenes PAM sequence</strong> (5’NGG’3), is far more selective for the NGG PAM over the NGA PAM compared to wild-type SpCas9. This variant may therefore increase the specificity of genome modifications at DNA targets adjacent to NGG PAM sequences when used in place of wild-type SpCas9. </p>
+<p>The remaining variants (VQR, EQR and VRER) recognize novel PAM sequences (shown above). Importantly, the VQR, EQR and VRER Cas9 variants are capable of cleaving genomic DNA when expressed in mammalian cells and zebrafish embryos and can be used to modify genomic loci that cannot be modified using wild-type SpCas9. <strong><u>The number of off-target cleavage events for the VQR and VRER variants is similar to wild-type SpCas9</u></strong> for several genomic targets in human cells, indicating that <u><strong>the variants are likely just as selective as wild-type SpCas9</strong>.</u> Inclusion of the VQR, EQR and VRER SpCas9 variants effectively doubles the targeting range of CRISPR/Cas9 within the human genome.</p>
+</br>
+
+
+
+<h4 id="※-CRISPR-Cas9-System-Applications"><a href="#※-CRISPR-Cas9-System-Applications" class="headerlink" title="※ CRISPR/Cas9 System Applications"></a>※ CRISPR/Cas9 System Applications</h4><p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212224725.png"></p>
+</br>
+
+<h4 id="※-Protocol-and-supplementary-info"><a href="#※-Protocol-and-supplementary-info" class="headerlink" title="※ Protocol and supplementary info"></a>※ Protocol and supplementary info</h4><ul>
+<li><a href="https://zlab.bio/resources-2">Official protocol for CAS9 using</a></li>
+<li><a href="https://portals.broadinstitute.org/gpp/public/">Genetic Perturbation Platform</a></li>
+</ul>
+</br>
+
+
+
+<h4 id="※-Top-Lab-for-CRISPR-engineering"><a href="#※-Top-Lab-for-CRISPR-engineering" class="headerlink" title="※ Top Lab for  CRISPR engineering"></a>※ Top Lab for  CRISPR engineering</h4><ul>
+<li><a href="https://zlab.bio/">Zhang’s Lab</a></li>
+</ul>
+</br>
+
+<h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs:"></a>Refs:</h4><blockquote>
+<p><a href="https://science.sciencemag.org/content/346/6213/1258096.full">https://science.sciencemag.org/content/346/6213/1258096.full</a></p>
+<p><a href="https://international.neb.com/tools-and-resources/feature-articles/crispr-cas9-and-targeted-genome-editing-a-new-era-in-molecular-biology">https://international.neb.com/tools-and-resources/feature-articles/crispr-cas9-and-targeted-genome-editing-a-new-era-in-molecular-biology</a></p>
+<p><a href="https://www.nature.com/articles/nprot.2013.143">https://www.nature.com/articles/nprot.2013.143</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>🧬 Biology</category>
+        <category>CRISPR-Cas9</category>
+      </categories>
+      <tags>
+        <tag>Cas9</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Western Blot @ Loading control</title>
     <url>/2020/11/03/Biology-WB-loading-control/</url>
     <content><![CDATA[<h4 id="amp-Common-Loading-Control-Proteins-for-Western-Blot"><a href="#amp-Common-Loading-Control-Proteins-for-Western-Blot" class="headerlink" title="&amp; Common Loading Control Proteins for Western Blot"></a>&amp; Common Loading Control Proteins for Western Blot</h4><table>
@@ -1301,18 +1306,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Think about Film and Television Production</title>
-    <url>/2020/10/25/China-perception-Think-about-Film-and-television-Production/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="60f2596ce6723de6af77d504221fcf905b703f569408c7824d858efe13cc4b69">8b99030997d9e294e22d169f14a9b9af30076946d2e16ff2003e748bfa20774718e7eb4c449d12c407648717416cd24c6c5afe0d5a5abc1b186122fba0801dc54dd8356b33f5d024bbb55c3b04fa03f0f0d102f01c1d8591329662b03faa5b49be8262c42da0bde783dc561c7cc46e92496eb7a9762d621693371735636029a1ac2bb1dd1974f462aa3d5ba12445ed2dcd598a4b6216f0ea8833980ab1c0e09f78e348e231b43087370273e723e425d9500d657af02c6b7e4dd7ad9dfd4f7df3127319535f0e9d0fb1fe4256788736ed9328f01f20e07b2b86daf38c9630ea7c9eb66a7e941df294c9e885da4add10eb9c6cc8ffe5a57fe1346c288b89ecb760fe3a93ccaf9416071245aaf85ba6f55ba26586e3123fc424494f9831ea22d5990d863596032c72d3c7be3362061c4f939258b1c1f16640bb906d31bf48870838ab0c63430db3454f55b762a21a72ce0a5d4e47fefe6d36652886b95c28e968c9417b5a8f62d232137529201fa0cb6ef0bb1a52732878200dba7195a4912f2834f9d1f0602fb43eaa058ae79150ef81360d22e4eaf8171f6c8ff276eff4f8ba5414cca25114f22079d3a9c481b675086516bbd428e65447ffc1ab9a894c1140acd579b43a704c4acbe460bdbc261ff18483106f47f7f34fc69e204eb5a77855d08abec39f6257b1a73ea8653b3c908e92d96130bd71f390830e41c5391fc7187b36f0aaedd6ae58745b6967b6ddbcd0acce540c434713d14303d5425ed443e704710771f6189c26f00c39295c5d757f393b670058c3f9f46f6a1ee8bc1af75a31bb2ed3ba734ca63d521ac9d8e4973c97a2355c33372bcc2a717810bfd4a078cd182528a00b3eaa599acc5886e3fb02f3b986536e687e1fe74589d60d4ebf4739e7c5b90c15986eb2fdaca09c1861b8c8d0aed5151bd768c9befc9e35e5baef6006e891653aa2413c54536b132be2d2a0e575637267b8b3bd8e39114e5545f7fe9104c6d1dffe16a54e29c1e4bfb4f6dd4b336e3e63a15e56b7f69f1675504ad3a022c657fb461fd6cea5badc1ebb67cbbf255f191b82a729a964e7a77d24490d3a9be774c40745f643204f9fff2f14abc9bfc6cf68a408a7a3f1c72e257466bdc94c699dc70f9d291b2728cebcb5b3c8d8b4a4f8c1fa7b4b8d59845aeaeda309522a476e57c69d8ec686ccc5c70ebbf3e1a7e83be8c9b3930505f31c804a5f4b91663120e753d1ba45cb59f709abdbc1d3f67bf812d9ea3123e0ad08bb73938a5a4f57079e8fa3c6653ab094ed3035f751ac4bf211161ed40b3ab72e16d7bef28fdf5fde40af515420547753cf2d4c8e8a90fe28ddff591aaee8f213bb415d6fdcee0fd65761c03267136b1cfceadf8426a6f9b0d68083d53d0b5cf271d40809ae68e4f86ad540bb1f5fd4af140960cad936e930e1dcbd359cd99838494e9d8ff356b53726bf25822ac8045238c40ebeeb57322dd63d73aee42d6681b08d51148fe2655a44c75bb33f8f6154fac067dd77508c5d71f13fdf5b3a786d25ece909</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Perception</category>
-      </categories>
-      <tags>
-        <tag>Opinion💭</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Politics of China</title>
     <url>/2020/10/24/China-politics/</url>
     <content><![CDATA[<h3 id="※1949-Present"><a href="#※1949-Present" class="headerlink" title="※1949 - Present"></a>※1949 - Present</h3><h4 id="amp-Prime-Minister-Liu-Luoguo-宰相劉羅鍋"><a href="#amp-Prime-Minister-Liu-Luoguo-宰相劉羅鍋" class="headerlink" title="&amp; Prime Minister Liu Luoguo [宰相劉羅鍋]"></a>&amp; Prime Minister Liu Luoguo [宰相劉羅鍋]</h4><p><strong>Production company:</strong> 北京文化艺术音像出版社</p>
@@ -1327,6 +1320,18 @@
       </categories>
       <tags>
         <tag>Politics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Think about Film and Television Production</title>
+    <url>/2020/10/25/China-perception-Think-about-Film-and-television-Production/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="60f2596ce6723de6af77d504221fcf905b703f569408c7824d858efe13cc4b69">8b99030997d9e294e22d169f14a9b9af30076946d2e16ff2003e748bfa20774718e7eb4c449d12c407648717416cd24c6c5afe0d5a5abc1b186122fba0801dc54dd8356b33f5d024bbb55c3b04fa03f0f0d102f01c1d8591329662b03faa5b49be8262c42da0bde783dc561c7cc46e92496eb7a9762d621693371735636029a1ac2bb1dd1974f462aa3d5ba12445ed2dcd598a4b6216f0ea8833980ab1c0e09f78e348e231b43087370273e723e425d9500d657af02c6b7e4dd7ad9dfd4f7df3127319535f0e9d0fb1fe4256788736ed9328f01f20e07b2b86daf38c9630ea7c9eb66a7e941df294c9e885da4add10eb9c6cc8ffe5a57fe1346c288b89ecb760fe3a93ccaf9416071245aaf85ba6f55ba26586e3123fc424494f9831ea22d5990d863596032c72d3c7be3362061c4f939258b1c1f16640bb906d31bf48870838ab0c63430db3454f55b762a21a72ce0a5d4e47fefe6d36652886b95c28e968c9417b5a8f62d232137529201fa0cb6ef0bb1a52732878200dba7195a4912f2834f9d1f0602fb43eaa058ae79150ef81360d22e4eaf8171f6c8ff276eff4f8ba5414cca25114f22079d3a9c481b675086516bbd428e65447ffc1ab9a894c1140acd579b43a704c4acbe460bdbc261ff18483106f47f7f34fc69e204eb5a77855d08abec39f6257b1a73ea8653b3c908e92d96130bd71f390830e41c5391fc7187b36f0aaedd6ae58745b6967b6ddbcd0acce540c434713d14303d5425ed443e704710771f6189c26f00c39295c5d757f393b670058c3f9f46f6a1ee8bc1af75a31bb2ed3ba734ca63d521ac9d8e4973c97a2355c33372bcc2a717810bfd4a078cd182528a00b3eaa599acc5886e3fb02f3b986536e687e1fe74589d60d4ebf4739e7c5b90c15986eb2fdaca09c1861b8c8d0aed5151bd768c9befc9e35e5baef6006e891653aa2413c54536b132be2d2a0e575637267b8b3bd8e39114e5545f7fe9104c6d1dffe16a54e29c1e4bfb4f6dd4b336e3e63a15e56b7f69f1675504ad3a022c657fb461fd6cea5badc1ebb67cbbf255f191b82a729a964e7a77d24490d3a9be774c40745f643204f9fff2f14abc9bfc6cf68a408a7a3f1c72e257466bdc94c699dc70f9d291b2728cebcb5b3c8d8b4a4f8c1fa7b4b8d59845aeaeda309522a476e57c69d8ec686ccc5c70ebbf3e1a7e83be8c9b3930505f31c804a5f4b91663120e753d1ba45cb59f709abdbc1d3f67bf812d9ea3123e0ad08bb73938a5a4f57079e8fa3c6653ab094ed3035f751ac4bf211161ed40b3ab72e16d7bef28fdf5fde40af515420547753cf2d4c8e8a90fe28ddff591aaee8f213bb415d6fdcee0fd65761c03267136b1cfceadf8426a6f9b0d68083d53d0b5cf271d40809ae68e4f86ad540bb1f5fd4af140960cad936e930e1dcbd359cd99838494e9d8ff356b53726bf25822ac8045238c40ebeeb57322dd63d73aee42d6681b08d51148fe2655a44c75bb33f8f6154fac067dd77508c5d71f13fdf5b3a786d25ece909</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Perception</category>
+      </categories>
+      <tags>
+        <tag>Opinion💭</tag>
       </tags>
   </entry>
   <entry>
@@ -1396,39 +1401,6 @@
       </categories>
       <tags>
         <tag>anniversary🎉</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Arab @ Traditional dress</title>
-    <url>/2020/10/24/Others-Arab-traditional-dress/</url>
-    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022071306.png"></p>
-<a id="more"></a>
-
-<h4 id="Hijab"><a href="#Hijab" class="headerlink" title="Hijab"></a>Hijab</h4><p>A <strong><em>hijab</em></strong>  is a veil worn by some <a href="https://en.wikipedia.org/wiki/Muslim">Muslim</a> women in the presence of any male outside of their immediate family, which usually covers the head and chest. The term can refer to any head, face, or body covering worn by Muslim women that conforms to <a href="https://en.wikipedia.org/wiki/Haya_(Islam)">Islamic standards of modesty</a>. </p>
-<p><em>Hijab</em> can also refer to the <a href="https://en.wikipedia.org/wiki/Seclusion">seclusion</a> of women from men in the <a href="https://en.wikipedia.org/wiki/Public_sphere">public sphere</a>, or it may denote a metaphysical dimension, for example referring to “the veil which separates man or the world from God.” </p>
-<h5 id="amp-Niqab"><a href="#amp-Niqab" class="headerlink" title="&amp; Niqāb"></a>&amp; Niqāb</h5><p>A <strong>niqāb</strong> or <strong>niqaab</strong>, also called a <strong>ruband</strong>, is a garment of clothing that covers the face, worn by some <a href="https://en.wikipedia.org/wiki/Muslim_women">Muslim women</a> as a part of a particular interpretation of <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a> (modest dress). </p>
-<p> It properly refers to a garment that covers a woman’s upper body and face, except for her eyes. It is particularly associated with the style traditionally worn in the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, where the veil is attached by one side and covers the face only below the eyes, thereby allowing the eyes to be seen.</p>
-<p>According to the majority of Muslim scholars and <a href="https://en.wikipedia.org/wiki/Islamic_schools_of_thought">Islamic schools of thought</a>, <strong>face veiling</strong> is not a requirement of <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>; however a minority of Muslim scholars, particularly among the <a href="https://en.wikipedia.org/wiki/Salafi">Salafi</a> movement, assert that women are required to cover their faces in public. Those Muslim women who wear the niqab do so in places where they may encounter non-<a href="https://en.wikipedia.org/wiki/Mahram">mahram</a> (non-related) men.</p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201024175433.png"></p>
-<h5 id="amp-Burqa"><a href="#amp-Burqa" class="headerlink" title="&amp; Burqa"></a>&amp; Burqa</h5><p>A <strong>burqa</strong> or <strong>burka</strong> in Afghanistan or a <strong><a href="https://en.wikipedia.org/wiki/Paranja">paranja</a></strong> in <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, is an enveloping outer garment which covers the body and the face that is worn by women in some <a href="https://en.wikipedia.org/wiki/Islamic">Islamic</a> traditions. The Arab version of the <strong>burqa</strong> is called the <strong><a href="https://en.wikipedia.org/wiki/Boshiya">boshiya</a></strong>, and is usually black in color.</p>
-<p>The term <em>burqa</em> is sometimes conflated with <em><a href="https://en.wikipedia.org/wiki/Niq%C4%81b">niqāb</a></em>. In more precise usage, niqab is a face veil that leaves the eyes uncovered, while a burqa covers the entire body from the top of the head to the ground, with only a mesh screen allowing the wearer to see in front of her. The burqa is also not to be confused with the <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>, a garment which covers the hair, neck and all or part of the chest, but not the face.</p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074229.png"></p>
-<h5 id="amp-Tudong"><a href="#amp-Tudong" class="headerlink" title="&amp; Tudong"></a>&amp; Tudong</h5><p><strong>Tudong</strong> (also spelled <strong>tudung</strong>) is a <a href="https://en.wikipedia.org/wiki/Malay_language">Malay</a> word, literally meaning the noun “cover”, which is commonly translated/referred to as <a href="https://en.wikipedia.org/wiki/Veil">veil</a> or <a href="https://en.wikipedia.org/wiki/Headscarf">headscarf</a> in <a href="https://en.wikipedia.org/wiki/English_language">English</a>.</p>
-<p>In <a href="https://en.wikipedia.org/wiki/Brunei">Brunei</a>, <a href="https://en.wikipedia.org/wiki/Malaysia">Malaysia</a> and <a href="https://en.wikipedia.org/wiki/Singapore">Singapore</a>, the tudong is worn in accordance to <a href="https://en.wikipedia.org/wiki/Islam">Islam’s</a> <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>. Usually, the tudong covers the hair, ears, neck while <code>leaving only the face exposed</code>. It is part of the standard <a href="https://en.wikipedia.org/wiki/Dress_code">dress code</a> for offices, such as school uniforms and formal occasions.</p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022072037.png"></p>
-<h5 id="amp-Turban"><a href="#amp-Turban" class="headerlink" title="&amp; Türban"></a>&amp; Türban</h5><p>Some fashion-conscious women have been turning to non-traditional forms of hijab such as turbans. While some regard turbans as a proper head cover, others argue that it cannot be considered a proper Islamic veil if it leaves the neck exposed.</p>
-<p>A <strong>turban</strong> (from <a href="https://en.wikipedia.org/wiki/Persian_language">Persian</a> دولبند‌, <em>dulband</em>; via <a href="https://en.wikipedia.org/wiki/Middle_French">Middle French</a> <em>turbant</em>) is a type of <a href="https://en.wikipedia.org/wiki/Headwear">headwear</a> based on cloth winding. Featuring many variations, it is worn as customary headwear by people of various cultures. Communities with prominent turban-wearing traditions can be found in the <a href="https://en.wikipedia.org/wiki/Indian_subcontinent">Indian subcontinent</a>, <a href="https://en.wikipedia.org/wiki/Southeast_Asia">Southeast Asia</a>, the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, the <a href="https://en.wikipedia.org/wiki/Middle_East">Middle East</a>, <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, <a href="https://en.wikipedia.org/wiki/North_Africa">North Africa</a>, <a href="https://en.wikipedia.org/wiki/West_Africa">West Africa</a>, and East Africa.</p>
-<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074749.png"></p>
-<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><blockquote>
-<p><a href="https://en.wikipedia.org/wiki/Hijab">https://en.wikipedia.org/wiki/Hijab</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Arab</category>
-      </categories>
-      <tags>
-        <tag>culture</tag>
       </tags>
   </entry>
   <entry>
@@ -1556,6 +1528,39 @@
       </tags>
   </entry>
   <entry>
+    <title>Arab @ Traditional dress</title>
+    <url>/2020/10/24/Others-Arab-traditional-dress/</url>
+    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022071306.png"></p>
+<a id="more"></a>
+
+<h4 id="Hijab"><a href="#Hijab" class="headerlink" title="Hijab"></a>Hijab</h4><p>A <strong><em>hijab</em></strong>  is a veil worn by some <a href="https://en.wikipedia.org/wiki/Muslim">Muslim</a> women in the presence of any male outside of their immediate family, which usually covers the head and chest. The term can refer to any head, face, or body covering worn by Muslim women that conforms to <a href="https://en.wikipedia.org/wiki/Haya_(Islam)">Islamic standards of modesty</a>. </p>
+<p><em>Hijab</em> can also refer to the <a href="https://en.wikipedia.org/wiki/Seclusion">seclusion</a> of women from men in the <a href="https://en.wikipedia.org/wiki/Public_sphere">public sphere</a>, or it may denote a metaphysical dimension, for example referring to “the veil which separates man or the world from God.” </p>
+<h5 id="amp-Niqab"><a href="#amp-Niqab" class="headerlink" title="&amp; Niqāb"></a>&amp; Niqāb</h5><p>A <strong>niqāb</strong> or <strong>niqaab</strong>, also called a <strong>ruband</strong>, is a garment of clothing that covers the face, worn by some <a href="https://en.wikipedia.org/wiki/Muslim_women">Muslim women</a> as a part of a particular interpretation of <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a> (modest dress). </p>
+<p> It properly refers to a garment that covers a woman’s upper body and face, except for her eyes. It is particularly associated with the style traditionally worn in the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, where the veil is attached by one side and covers the face only below the eyes, thereby allowing the eyes to be seen.</p>
+<p>According to the majority of Muslim scholars and <a href="https://en.wikipedia.org/wiki/Islamic_schools_of_thought">Islamic schools of thought</a>, <strong>face veiling</strong> is not a requirement of <a href="https://en.wikipedia.org/wiki/Islam">Islam</a>; however a minority of Muslim scholars, particularly among the <a href="https://en.wikipedia.org/wiki/Salafi">Salafi</a> movement, assert that women are required to cover their faces in public. Those Muslim women who wear the niqab do so in places where they may encounter non-<a href="https://en.wikipedia.org/wiki/Mahram">mahram</a> (non-related) men.</p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201024175433.png"></p>
+<h5 id="amp-Burqa"><a href="#amp-Burqa" class="headerlink" title="&amp; Burqa"></a>&amp; Burqa</h5><p>A <strong>burqa</strong> or <strong>burka</strong> in Afghanistan or a <strong><a href="https://en.wikipedia.org/wiki/Paranja">paranja</a></strong> in <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, is an enveloping outer garment which covers the body and the face that is worn by women in some <a href="https://en.wikipedia.org/wiki/Islamic">Islamic</a> traditions. The Arab version of the <strong>burqa</strong> is called the <strong><a href="https://en.wikipedia.org/wiki/Boshiya">boshiya</a></strong>, and is usually black in color.</p>
+<p>The term <em>burqa</em> is sometimes conflated with <em><a href="https://en.wikipedia.org/wiki/Niq%C4%81b">niqāb</a></em>. In more precise usage, niqab is a face veil that leaves the eyes uncovered, while a burqa covers the entire body from the top of the head to the ground, with only a mesh screen allowing the wearer to see in front of her. The burqa is also not to be confused with the <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>, a garment which covers the hair, neck and all or part of the chest, but not the face.</p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074229.png"></p>
+<h5 id="amp-Tudong"><a href="#amp-Tudong" class="headerlink" title="&amp; Tudong"></a>&amp; Tudong</h5><p><strong>Tudong</strong> (also spelled <strong>tudung</strong>) is a <a href="https://en.wikipedia.org/wiki/Malay_language">Malay</a> word, literally meaning the noun “cover”, which is commonly translated/referred to as <a href="https://en.wikipedia.org/wiki/Veil">veil</a> or <a href="https://en.wikipedia.org/wiki/Headscarf">headscarf</a> in <a href="https://en.wikipedia.org/wiki/English_language">English</a>.</p>
+<p>In <a href="https://en.wikipedia.org/wiki/Brunei">Brunei</a>, <a href="https://en.wikipedia.org/wiki/Malaysia">Malaysia</a> and <a href="https://en.wikipedia.org/wiki/Singapore">Singapore</a>, the tudong is worn in accordance to <a href="https://en.wikipedia.org/wiki/Islam">Islam’s</a> <a href="https://en.wikipedia.org/wiki/Hijab">hijab</a>. Usually, the tudong covers the hair, ears, neck while <code>leaving only the face exposed</code>. It is part of the standard <a href="https://en.wikipedia.org/wiki/Dress_code">dress code</a> for offices, such as school uniforms and formal occasions.</p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022072037.png"></p>
+<h5 id="amp-Turban"><a href="#amp-Turban" class="headerlink" title="&amp; Türban"></a>&amp; Türban</h5><p>Some fashion-conscious women have been turning to non-traditional forms of hijab such as turbans. While some regard turbans as a proper head cover, others argue that it cannot be considered a proper Islamic veil if it leaves the neck exposed.</p>
+<p>A <strong>turban</strong> (from <a href="https://en.wikipedia.org/wiki/Persian_language">Persian</a> دولبند‌, <em>dulband</em>; via <a href="https://en.wikipedia.org/wiki/Middle_French">Middle French</a> <em>turbant</em>) is a type of <a href="https://en.wikipedia.org/wiki/Headwear">headwear</a> based on cloth winding. Featuring many variations, it is worn as customary headwear by people of various cultures. Communities with prominent turban-wearing traditions can be found in the <a href="https://en.wikipedia.org/wiki/Indian_subcontinent">Indian subcontinent</a>, <a href="https://en.wikipedia.org/wiki/Southeast_Asia">Southeast Asia</a>, the <a href="https://en.wikipedia.org/wiki/Arabian_Peninsula">Arabian Peninsula</a>, the <a href="https://en.wikipedia.org/wiki/Middle_East">Middle East</a>, <a href="https://en.wikipedia.org/wiki/Central_Asia">Central Asia</a>, <a href="https://en.wikipedia.org/wiki/North_Africa">North Africa</a>, <a href="https://en.wikipedia.org/wiki/West_Africa">West Africa</a>, and East Africa.</p>
+<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201022074749.png"></p>
+<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><blockquote>
+<p><a href="https://en.wikipedia.org/wiki/Hijab">https://en.wikipedia.org/wiki/Hijab</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Arab</category>
+      </categories>
+      <tags>
+        <tag>culture</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Major religions</title>
     <url>/2020/10/24/Others-Major-religions/</url>
     <content><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/World">world</a>‘s principal <a href="https://en.wikipedia.org/wiki/Religion">religions</a> and spiritual traditions may be classified into a small number of major groups, although this is not a uniform practice. This theory began in the 18th century with the goal of recognizing the relative levels of civility in societies, which in many modern cultures is considered offensive.</p>
@@ -1574,39 +1579,6 @@
       </categories>
       <tags>
         <tag>religion☯</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Nice Songs</title>
-    <url>/2020/08/31/Others-Nice-songs/</url>
-    <content><![CDATA[<h4 id="※-Chinese-Songs-※"><a href="#※-Chinese-Songs-※" class="headerlink" title="※ Chinese Songs ※"></a>※ Chinese Songs ※</h4><h5 id="amp-Singles"><a href="#amp-Singles" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><strong>后来(Later)</strong> - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
-<p><strong>童话(Fairy Tale)</strong> - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
-<p><strong>老男孩</strong> - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
-<p><strong>那些年(Those Bygone Years)</strong> - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
-<p><strong>少年</strong> - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
-<a id="more"></a>
-
-<h4 id="※-Japanese-Songs-※"><a href="#※-Japanese-Songs-※" class="headerlink" title="※ Japanese Songs ※"></a>※ Japanese Songs ※</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
-
-<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201028082408.png" style="zoom: 80%;" />
-
-<hr>
-<p><strong>SAKURA</strong> - 2006 - @Memory  @Love @Sadness</p>
-<p><strong>YELL</strong> - 2009 - @Courage</p>
-<p><strong>ありがとう</strong>(Arigatou = Thank you) - 2010 - @Love @Regret </p>
-<h4 id="※-English-Songs-※"><a href="#※-English-Songs-※" class="headerlink" title="※ English Songs ※"></a>※ English Songs ※</h4><h5 id="amp-Singles-1"><a href="#amp-Singles-1" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah"><strong>Monsters</strong></a> - 2014 - Katie Sky - @Courage</p>
-<h5 id="amp-Songs-from-Annual-GRAMMY-Awards"><a href="#amp-Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="&amp; Songs from Annual GRAMMY Awards"></a>&amp; Songs from <a href="https://www.grammy.com/grammys/awards">Annual GRAMMY Awards</a></h5></br>
-
-
-
-<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah">https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah</a></p>
-]]></content>
-      <categories>
-        <category>🏳️‍🌈 Others</category>
-        <category>Music</category>
-      </categories>
-      <tags>
-        <tag>music🎵</tag>
       </tags>
   </entry>
   <entry>
@@ -1806,6 +1778,18 @@
       </tags>
   </entry>
   <entry>
+    <title>Secret of Miaomiao</title>
+    <url>/2020/01/08/Others-Practical-info-Secret-of-Miao/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="1cb241dfdfe1a1bbafdf85ad2d4141cabaadf13dbbd30f8c38eb0269bdb7e25a">7580bcfd48f803fd66e9a8c4961acef4c6dc73a002888bdaa9fdfe46d490a2de107349796a3bd2b7dbf3beaf2528ce379fd552bf5a550cafc7b011e30dbbb6f97a32a5a331b901345d1128bbf8c3800085d4f0ebed016a55e96f688648ebc17cba16d90f16e307cd0d00685f86582e893faffb114ec1f7eb5dfe878eba9dd9de090718fcc602bf2c2b9e81bd3a11ac9979ecb232430eba6f2906f715b1f9e50f9cfbf864b3324388ac02fa2253e8c24339cb87f83ae37c6f709e0b7df33ec4b67e7b3294dc42ae782563a037e4afc2a50470003db84cef8c3aa508eb071b7ab1958f062b254f6b6d83ae2621529ade2009f326ab390e2cc0d28ac140994b838dc25c3f9793a92915465f739ccd7af10b7b1f94d93c1797d932b36d65ca384c905588641f34f9e11960d2e3cf6cfad345f4a600eb8847faca940ac9e8c4c0ce5a3060553e6a87d166cb1ea24ed58bc4b7035ed3af535a0591eda2b72f416eca88c9a1f1f764e720cbef1641647942ae16f5b5e1b561bfc9ed986049295e9b5b81ff86107e756a48c8746ca65228ea5a5641a49f2e701ab086daf51ee226821a3881bc13b3106c2a6757e6458976e95708c5f23428b3305243b56d300a8279f37b83ec99d3d32dcb95df41a43f78afe1f42814f43a906c56bf5e55910ed2e1918e4112bf17c4da530b35754ce255a758010a08ccb1dcc234c3a944f12b2ce2d43bba22098ddf0d00604373e5324d55e5b117c3f225d4b0d3aac939bba936679da2f795026e209a0a3ba079da861c8e54e23ed8c64941f649f2e248d07713c259ce73c9525b227a4d862857b1979939f7bab67a45883c0186f2f3c1d32d9369487721db1394fefbef3bb33b848e6920c4039168dbae8bdf52a86044abd3633695fcbba0271ea1e95fe9203eb167dcc1ebd1b58ae1fdf311c2793dc5844e5f9e930a26d5705087a0dba8134ddcd523f245422f9d8512699d0000e42f03981ac41d04ccd8f531211244ea3bb2a5c48e80cf2b2c0211fb9cc426ee301ef9e3d66c9869e6e031c39378021d6bbe67786a2960be4e927508b7cd8a196a13eadb1e9809bed7368466e1438eb224120fae16666d2e9b5dce4ffe631e379da85129afa86a364c128dfd5f454304618253607e928f89b900c6f0c08fcd17b7aa10f8312e2fc0c10eedc2fc36409d08d2ed165fc97ac385247ff9220f12dd5dd8bd6370184d75e9fb529b60ed71e58ec2d090077e5f7b6d734365931858d7cff1edd6463b46f8d078fc1bdc6b1bc55edf2f7f6b662556877beab830b64bac0854c010563e3f55c782dc91def24e1d5dd0a29b5b9d3f00c1b67425c5c57c89fc32f9e6ba64ed6959e072b31f7b7f546d7a6d3b86cadff2063fb1575ec1cf6325543717a4fad1d46a4aa06cc1d76da5ce75a9fc26ce265010b6955983d59cde3395859d085aa2c91ab05feabad8fa9d1eb9bd0dc72695e478f9edb2ab79323bc1f6fac37512810e5335f7fe2b7e18ce66f47e5f82cef3e15ce8b78dd2ecfcd2a497e2ce6cc6c4f16aad7276accea1ae482bb71f0a9173fcabaea74adf34d4bac730d67a0bb70bb1f2239deb99593c579b6c469bcac278e1bec03381033870e295db2bbec9971dcd1fb7db8f7f8c4d278f075bf8202db32a45a9ce0c7cf5621e31cfe39cdc715094eb9baf1968e710e25511a2406432007858fb939da21d6934face23e1585b917f1e0bfc4fabd24d4165b1c840c4bcc37f0eb006ddf0571a681b65ec1eec526dfb9343d26629e6b26281f38d35f2d3de32b5196b88a73f57a057af8942931160f7819325b626a273388538cafbf37a920c0f56e16b9f4dba38588177e78fff14d707715d44dd1572adc7465b0f66e0574c13623cfda3a4b4478428a7aeb5539412bee36d681adeabb029895ea8dda4c24c4c25bcf9bacc8eda760c9bcd3c6266bc5d4861e88745d76e1d3c612a51e2fe9c446378fd1545bb1d264530aa2da667a4804e2820f10e414bc8a824ce73b943c6b32fb015cb6b72c3c02d19493cb53af7015059083ec3e41a0716df20dd69e38d26356d69d29338803839786bdabfaff5ea4212d790656009839b3a70675dc680358b308d91d7a16fe3b73a985fc38b5b60dbb6703c4f0ca7d472cd5be17f125331f080c8a9588792bca34b2bf0bb5b082b93332e4bc9626265eb8aedd706843bd8cc228312e5bac77cf9421387e6be1df351ab8b9d76c5e0b09446a514f4214c5d9c8265c2142367ac46380b8859d1e4df23a0181fa5128dcc34dcb3cf0125f49d32bfd4bfc4deda884be4a61515766d3c5def327d73ba0d53c133462eaeab26efc1e8dd5d37dc9bdd2cf258f16a010746950ff789c56ba6b89b6801fb648f8fc0d4bdc2a1468d1ca22711774e53c0bf602ac37355e22d425cd317605f6d1bd7b6de4dba66e4565ba828358a87fd485fd4b075258e4a371b03927545871218aab08036c5d1000943ec3048548c487e6b93a39480e3b6e28d296cfe6f87aed57f4fed93bb0db5b824cc588dc178ddf180efc750453144c6ff3b0102d5b0863aedc94760d0d6ee07b317133fbe7ae4abc80bcb7ab011b910d5348de4117151c48e701421be1694bc09644b416d353bfe2df4c466c44ffdcec4b8f10802d905642d0876f71c4e3147f951c7a98e236e1a4de5fcfa29f382965586fe53973eee0dba9e2744fc2d16b82f5989391a1e5d674ebab259d1953edf4c494dc6e40b2b6c842c549c79ff6b355d058d45a49fbace9913d645f91e642bcb2c51ecb6c560b62df494d101079a2c3f9cf2775bc4f6a991445590049f296d392d616b217868d490f75619b1fd973b364e567896dd1c21706662716662c82c5d3a02aafbdfa0f003731b5b293d84e822bd0891efb240903b4096e1424297cafb2501d801d338b121d77dbdc3058dcb06b5310da0800a66d1d9276c01a1e788c4ddbe65a510ff23bd5cd38c2061d7198c5f51b66550ed85ea61e8f3590187d8dfe3cf5940854f995924d6c09fdec381ebf0c596ef048f2dcc861c46e2d0f151c949adb1c6459369b76efabed61317c5d3d5479653e9b68027b8b3c43d72f1f9830ac40952dc295fcb0bb36c1c4f8678bd4848e8ba485e2ee03c61f08997bd6d1285231694049d876fa259d1c67aa1b3d602b72901c612a239ffd414892878b7177e72f3b0a61a1da2b8abe2a1c5084198a91eaa10452adfeec2ad213d1b7ccc98ff3290bf3c0a2c9f561a9364e7181b5f7998d2091e7bfc25da2d580230c7fa321a6af0bc2e5bca04c711e2dfe7d465fbec9c4ffb037baedd66cadcebddabbbbb643fc1da5179834d869be2accae8d90778803c8cf68ce933afcfd2c6bd3b78502f970f5f03fcc9fc677d8703bfc7947fef2cafed798b76c87bcd5050a6f09761cf689ca189ccf7ed0250a28221659779bb8cd2bda3fcbd2b87581a6e79bae9f4729d8ce5355f03968f7880e75c78a29559e69d372ce5398cc8a338114cfb2ffcf2c6cad1f01f2d3091e49720fc2d9a4c8007dc5092e551e15dc6cd31df24e65b9196c67907b932a41f613328aa3acea9a2dc620ea40cf16fbd3fb95f04a5814443f773aceddbd234391d20943b64930eb348e217b065d5043c953e6cbf8a9241c4e2d47988a5f27679a7c3b62d9c0ee041af7067faaeef5f0470993162c8efdcb1abea23ca6dcaf1f68816e35891955b51ac7e3ccedbaf19804bd720678eb07ce41aec6ec0edaf79eab476aadcd3f2c5bfd64f3842ef8f8d980e1ce2ad0377c4357ff88b878cade962b924d9dcc162c4ae38dc52942f576e7a730693a9ce5792dae56e0450dc8e67b312940ba470f62cbf44c6262bbc6617499e4c57f5889d8ea9407bf152fb4c4f41b0522b05b47243a0e9c243815e40955ffed5ed10c7ff900fa17ca345658fccf612001c2dac42b46c0dfe17f3b0d92ae6a2c649b27100ed87ef88e61b02268571d4fd766d935e2bfb0c5274d837d9de083ce3e0bce1e4be6ebada1c7f2235dd4a65f6c1660672466935a84e269cdc44209d181ae2ccb3b1fe6f8dbb13f0a462fccea3e6d042ea479c2cfd55afe61e03852448275fd056946ef0237616daf1909c7b02e93b8c4cd72b1f3de0f914b8cb5dcd3fa9e21fc3b186efe938dde08833bf2ce82872bd619658bdea2de22e58a506861e3295e7bcd451bd6c8575d149baf2adef17de6e94919eeb27a1bf50a6f0c23a68988cb90a4021d153c2b1b116b5eb2eec291d96bd4cdc75b27d11d2f3e8278e47758a9696d631bd1b9b2fafb943a0f59dd39ea4ac111d8b24fb95c7b7ff841ca986e9c37e7138b67ece6fb1f53b6bca2d151db3a3a5f59185c039cc3eaaa0be50adea07f9907b87cccc26407cf38c6fcfd54d82625e97363dd074217093b68d0f93ffb3cdda967b0a0570505bfe154eff9adef6d935521ffce055277a51581157e2790f92263ad3ae982436193c</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Practical info</category>
+      </categories>
+      <tags>
+        <tag>Miao</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Time Zone</title>
     <url>/2020/11/04/Others-Practical-info-Time-zones/</url>
     <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201104124526.png" style="zoom: 50%;" />
@@ -1942,6 +1926,39 @@
       </categories>
       <tags>
         <tag>Hexo_Adv🕸️</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Nice Songs</title>
+    <url>/2020/08/31/Others-Nice-songs/</url>
+    <content><![CDATA[<h4 id="※-Chinese-Songs-※"><a href="#※-Chinese-Songs-※" class="headerlink" title="※ Chinese Songs ※"></a>※ Chinese Songs ※</h4><h5 id="amp-Singles"><a href="#amp-Singles" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><strong>后来(Later)</strong> - [Music: 王继康/ Lyrics: 施人诚 / Singer: <a href="https://zh.wikipedia.org/wiki/%E5%88%98%E8%8B%A5%E8%8B%B1">刘若英</a>] - 1999 - @Love @Regret</p>
+<p><strong>童话(Fairy Tale)</strong> - [Music/Lyrics/Singer: <a href="https://en.wikipedia.org/wiki/Michael_Wong_(singer)">光良(Michael Wong)</a>- 2005 - @Love </p>
+<p><strong>老男孩</strong> - [Music: <a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A9%8B%E5%8D%93%E5%BC%A5">大橋卓弥</a> / Lyrics: <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A4%AA%E5%88%A9">王太利</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F">筷子兄弟</a> ] - 2010 - @Courage</p>
+<p><strong>那些年(Those Bygone Years)</strong> - [Music: <a href="https://baike.baidu.com/item/%E6%9C%A8%E6%9D%91%E5%85%85%E5%88%A9/10940641">木村充利</a> / Lyrics: <a href="https://en.wikipedia.org/wiki/Giddens_Ko">Giddens Ko</a> / Singer: <a href="https://zh.wikipedia.org/wiki/%E8%83%A1%E5%A4%8F">胡夏</a>] - 2011 - @Love @School </p>
+<p><strong>少年</strong> - [Music/Lyrics/Singer: <a href="https://zh.wikipedia.org/wiki/%E6%A2%A6%E7%84%B6">梦然</a>] - 2019 - @Courage</p>
+<a id="more"></a>
+
+<h4 id="※-Japanese-Songs-※"><a href="#※-Japanese-Songs-※" class="headerlink" title="※ Japanese Songs ※"></a>※ Japanese Songs ※</h4><h5 id="amp-いきものがかり-Ikimono-gakari"><a href="#amp-いきものがかり-Ikimono-gakari" class="headerlink" title="&amp; いきものがかり [Ikimono-gakari]"></a>&amp; <a href="https://ikimonogakari.com/">いきものがかり</a> [Ikimono-gakari]</h5><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201025102917.png" style="zoom: 80%;" />
+
+<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201028082408.png" style="zoom: 80%;" />
+
+<hr>
+<p><strong>SAKURA</strong> - 2006 - @Memory  @Love @Sadness</p>
+<p><strong>YELL</strong> - 2009 - @Courage</p>
+<p><strong>ありがとう</strong>(Arigatou = Thank you) - 2010 - @Love @Regret </p>
+<h4 id="※-English-Songs-※"><a href="#※-English-Songs-※" class="headerlink" title="※ English Songs ※"></a>※ English Songs ※</h4><h5 id="amp-Singles-1"><a href="#amp-Singles-1" class="headerlink" title="&amp; Singles"></a>&amp; Singles</h5><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah"><strong>Monsters</strong></a> - 2014 - Katie Sky - @Courage</p>
+<h5 id="amp-Songs-from-Annual-GRAMMY-Awards"><a href="#amp-Songs-from-Annual-GRAMMY-Awards" class="headerlink" title="&amp; Songs from Annual GRAMMY Awards"></a>&amp; Songs from <a href="https://www.grammy.com/grammys/awards">Annual GRAMMY Awards</a></h5></br>
+
+
+
+<h4 id="※-Ref"><a href="#※-Ref" class="headerlink" title="※ Ref"></a>※ Ref</h4><p><a href="https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah">https://open.spotify.com/artist/31bkgXHo67awewnmvrdsah</a></p>
+]]></content>
+      <categories>
+        <category>🏳️‍🌈 Others</category>
+        <category>Music</category>
+      </categories>
+      <tags>
+        <tag>music🎵</tag>
       </tags>
   </entry>
 </search>
