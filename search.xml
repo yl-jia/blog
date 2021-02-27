@@ -237,6 +237,34 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo_Basic @ Post displayed per page in Archive</title>
+    <url>/2020/09/05/2020-09-05-Hexo-Basic-Post-displayed-per-page-in-Archive/</url>
+    <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<h4 id="2-Configure-the-“-site-config-yml”-file"><a href="#2-Configure-the-“-site-config-yml”-file" class="headerlink" title="2. Configure the “./site/_config.yml” file."></a>2. Configure the “./site/_config.yml” file.</h4><p>add option code：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line">  <span class="attr">enabled:</span> <span class="literal">true</span> <span class="comment"># The default value is true, set to false if you do not want to enable the plugin</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">30</span> <span class="comment"># Posts displayed per page. (0 = disable pagination)</span></span><br><span class="line">  <span class="attr">yearly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">monthly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">daily:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span> <span class="comment"># Posts order. (Order by date descending by default)</span></span><br></pre></td></tr></table></figure>
+
+
+
+<hr>
+<blockquote>
+<p>Ref:</p>
+<p><a href="https://github.com/hexojs/hexo-generator-archive">https://github.com/hexojs/hexo-generator-archive</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📘 Tutorials</category>
+        <category>Hexo</category>
+        <category>Basic</category>
+      </categories>
+      <tags>
+        <tag>Hexo_Basic🕸️</tag>
+        <tag>Page optimization📄</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo_Adv @ Blog post encrypt function</title>
     <url>/2020/09/05/2020-09-05-Hexo-Adv-blog-post-encrypt/</url>
     <content><![CDATA[<h4 id="1-Install-plugin-“hexo-blog-encrypt”-for-Next"><a href="#1-Install-plugin-“hexo-blog-encrypt”-for-Next" class="headerlink" title="1. Install plugin “hexo-blog-encrypt” for Next"></a>1. Install plugin “hexo-blog-encrypt” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line">npm install --save hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
@@ -273,31 +301,42 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo_Basic @ Post displayed per page in Archive</title>
-    <url>/2020/09/05/2020-09-05-Hexo-Basic-Post-displayed-per-page-in-Archive/</url>
-    <content><![CDATA[<h4 id="1-Install-plugin-“hexo-generator-archive”-for-Next"><a href="#1-Install-plugin-“hexo-generator-archive”-for-Next" class="headerlink" title="1. Install plugin “hexo-generator-archive” for Next"></a>1. Install plugin “hexo-generator-archive” for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-generator-archive --save</span></span><br></pre></td></tr></table></figure>
+    <title>Hexo[Next] @ Insert Image Browser for embedded images</title>
+    <url>/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</url>
+    <content><![CDATA[<img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifr5ldjnej30gs0cnn36.jpg" alt="" style="zoom:80%;" />
 
 <a id="more"></a>
 
-<h4 id="2-Configure-the-“-site-config-yml”-file"><a href="#2-Configure-the-“-site-config-yml”-file" class="headerlink" title="2. Configure the “./site/_config.yml” file."></a>2. Configure the “./site/_config.yml” file.</h4><p>add option code：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line">  <span class="attr">enabled:</span> <span class="literal">true</span> <span class="comment"># The default value is true, set to false if you do not want to enable the plugin</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">30</span> <span class="comment"># Posts displayed per page. (0 = disable pagination)</span></span><br><span class="line">  <span class="attr">yearly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">monthly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">daily:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span> <span class="comment"># Posts order. (Order by date descending by default)</span></span><br></pre></td></tr></table></figure>
+<h4 id="1-Install-the-fancyBox3-for-Next"><a href="#1-Install-the-fancyBox3-for-Next" class="headerlink" title="1. Install the fancyBox3 for Next"></a>1. Install the fancyBox3 for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/themes/next/source/lib</span><br><span class="line">cd ./site_folder/themes/next/source/lib</span><br><span class="line">git clone https://github.com/theme-next/theme-next-fancybox3 fancybox</span><br></pre></td></tr></table></figure>
+
+<p>or</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/source/lib</span><br><span class="line"><span class="built_in">cd</span> ./site_folder/source/lib</span><br><span class="line">git clone https://github.com/theme<span class="literal">-next</span>/theme<span class="literal">-next</span><span class="literal">-fancybox3</span> fancybox</span><br></pre></td></tr></table></figure>
 
 
 
-<hr>
+<h4 id="2-Configure-the-“next-config-yml”-file"><a href="#2-Configure-the-“next-config-yml”-file" class="headerlink" title="2. Configure the “next/_config.yml” file."></a>2. Configure the “next/_config.yml” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml | vi</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="3-Effect-preview"><a href="#3-Effect-preview" class="headerlink" title="3. Effect preview"></a>3. Effect preview</h4><img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifrhfusq8j31h30oq7wh.jpg" alt="" style="zoom: 33%;" />
+
+<p>This setting works globally, all images in your blog.</p>
 <blockquote>
 <p>Ref:</p>
-<p><a href="https://github.com/hexojs/hexo-generator-archive">https://github.com/hexojs/hexo-generator-archive</a></p>
+<p><a href="https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html">https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html</a></p>
+<p><a href="https://github.com/theme-next/theme-next-fancybox3">https://github.com/theme-next/theme-next-fancybox3</a></p>
 </blockquote>
 ]]></content>
       <categories>
         <category>📘 Tutorials</category>
         <category>Hexo</category>
-        <category>Basic</category>
+        <category>Theme_Next</category>
       </categories>
       <tags>
-        <tag>Hexo_Basic🕸️</tag>
         <tag>Page optimization📄</tag>
+        <tag>Hexo[Next]🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -385,45 +424,6 @@
       </categories>
       <tags>
         <tag>Good places✈️</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo[Next] @ Insert Image Browser for embedded images</title>
-    <url>/2020/09/05/2020-09-05-Hexo-Next-Insert-Image-Browser-for-embedded-images/</url>
-    <content><![CDATA[<img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifr5ldjnej30gs0cnn36.jpg" alt="" style="zoom:80%;" />
-
-<a id="more"></a>
-
-<h4 id="1-Install-the-fancyBox3-for-Next"><a href="#1-Install-the-fancyBox3-for-Next" class="headerlink" title="1. Install the fancyBox3 for Next"></a>1. Install the fancyBox3 for Next</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/themes/next/source/lib</span><br><span class="line">cd ./site_folder/themes/next/source/lib</span><br><span class="line">git clone https://github.com/theme-next/theme-next-fancybox3 fancybox</span><br></pre></td></tr></table></figure>
-
-<p>or</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">mkdir ./site_folder/source/lib</span><br><span class="line"><span class="built_in">cd</span> ./site_folder/source/lib</span><br><span class="line">git clone https://github.com/theme<span class="literal">-next</span>/theme<span class="literal">-next</span><span class="literal">-fancybox3</span> fancybox</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="2-Configure-the-“next-config-yml”-file"><a href="#2-Configure-the-“next-config-yml”-file" class="headerlink" title="2. Configure the “next/_config.yml” file."></a>2. Configure the “next/_config.yml” file.</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ./site_folder/themes/next/_config.yml | vi</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="3-Effect-preview"><a href="#3-Effect-preview" class="headerlink" title="3. Effect preview"></a>3. Effect preview</h4><img src="http://ww1.sinaimg.cn/large/006PIvmFgy1gifrhfusq8j31h30oq7wh.jpg" alt="" style="zoom: 33%;" />
-
-<p>This setting works globally, all images in your blog.</p>
-<blockquote>
-<p>Ref:</p>
-<p><a href="https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html">https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html</a></p>
-<p><a href="https://github.com/theme-next/theme-next-fancybox3">https://github.com/theme-next/theme-next-fancybox3</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>📘 Tutorials</category>
-        <category>Hexo</category>
-        <category>Theme_Next</category>
-      </categories>
-      <tags>
-        <tag>Page optimization📄</tag>
-        <tag>Hexo[Next]🕸️</tag>
       </tags>
   </entry>
   <entry>
@@ -700,18 +700,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2nd Wedding Anniversary</title>
-    <url>/2020/10/19/2020-10-19-wedding-anniversary/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="9bf7095c605dcde7d87ae33a681717371aec8867a991bb62cbf367366e62812c">ccaa9cb1d60be991ee03bc7daedf2a98436daecb4dd45de12ee244fbc39d88ae786534317c636e1eb992dd205c04fb0510cd019c295da83f0cd261cce11a3f7e188e62c29329f6771456ab246a9d25f5419fc4a0813ca946af8dea9eea1d1dbbc8cd1692bcb7f6ee8a53578f9ae6426c5ba19b53dbee1cc8e37d0d5408dac0ee0bffdef0848bb07fe47c88c33911d9b45be97ef6ac5aa23fccb97a6ae13fab6b6a5a36bd28934aa06949f6545535a77beda9a66ea580e16304d1b0fd3bd40439df93cf139e88118fb4c7bcfea80db0b82e6d317673eb69bdf82d9b0aa246b8eaf68b2ddb3e55b4d32997b6f913da78e663454f4cf889a8210b348cd3b48f1de315de6577563bb47d475c7fca68e68422a83d441f92db2b72f8e4048fc0a956180f3fb3675a12e83638444bf0debfc67c270f066ba38e4151322b2f634c31b6152ac6b96d8f3bfe29b5bd0532291716df0ee3c31803b245c35abd85b67543bc562410c644083c502de5f660b839e8c9cff67984cb350e8adcaf4a4431aa135bd72a31db0df31bffcc2926e572ec4bbcfe584c56748f17976f980e9d78dbbd3c6de1a7cb62b7cafef9bbbccd01af6f6eb999077bccc1c121a9c6cb1fd031d4d7bc046970ee94ad1b2a08b46e79805599efafc34800b8e5ded6cb035a9a9b99b3bd4809e56e918cfd64c7cf0bd591f4df9a548b2a57524e0298d0327bbd8ab88153e572a94aef50099fd648560a57bb1c19175c976d8225bee7e6bf5e80e44a3014dee3811f0ab85ef37c94248a3f0d600f928ea579cfd4f1cffa035f1dbf825c597b709cb07ddd526f1aa21d5a61ee3f9ee2e7bff9af57e605235847ed7f1d030764479a3421b4b09a794fe14b72f023cdb6cc3e44c14839552dcc2aed333ec335d55c32c81f669b31221fbf1cfeeba538bf3fb30a8d175170fecf38f130eea63bcd82920937701e39b45b356fc05ee5400a42eea0c610ebd6fb0371247c1d8b5fe9d9527bcb592b17b6ea5292083956b5c05970ad1d8d82c59ef9a65f757b6b8b10fd5c7823240f9c9e3bdfef46dd596a57cc67964184698a291f27d6bb6cf0b20496159796851a3223aad712d46fc659b95683a05cea7fbf9cde7794c46b6a637ab976e636b269403b506bc3f2b217b7e1c814e5d09752878bd323ced2469cea65dae0a84d7f6502358ab79e8df369d50e5ec749a4e9c05f82855cf4b264e6f0e350c4c25e316d4012fd966338d0579be7b17d35ac5ecc1ae797b18f1f93743b7068d27cc3dbe1a7244c95d7aa9b4b328ad7a996c23c37f9bf541aa97ff3127661212713ea976814faa51214f82b36a731c4fd06e176c523c9c8bfbeab6c96ec8981f9da2ed82a88391435ed9c263203b65eb29bb2f39c78d9f50bdeabed24c511ad1403d8e4771d434bfb6fd5ca05868357befb9b8f92f9d915b97367723b156d4d24df00620b5926b59dda03c1e24ca04e87a1e20dbcfe55a1c0b3ccd915345e0f872d950e38c1a9dd596adff3abdce0ed31ea3a4ef6fa711b8c41fbcdf9aa1e5e9cb4d3bb21aac70558c57316c945</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>☀️ Daily life</category>
-        <category>Mine</category>
-      </categories>
-      <tags>
-        <tag>anniversary🎉</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Picture bed building by GitHub + PicGo</title>
     <url>/2020/10/18/2020-10-18-Picturebed-using-PicGo-and-Github/</url>
     <content><![CDATA[<p>This article describes how to use your own GitHub as a picture bed and use the open source software PicGo to upload pictures to GitHub.</p>
@@ -746,6 +734,18 @@
       </tags>
   </entry>
   <entry>
+    <title>2nd Wedding Anniversary</title>
+    <url>/2020/10/19/2020-10-19-wedding-anniversary/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="9bf7095c605dcde7d87ae33a681717371aec8867a991bb62cbf367366e62812c">ccaa9cb1d60be991ee03bc7daedf2a98436daecb4dd45de12ee244fbc39d88ae786534317c636e1eb992dd205c04fb0510cd019c295da83f0cd261cce11a3f7e188e62c29329f6771456ab246a9d25f5419fc4a0813ca946af8dea9eea1d1dbbc8cd1692bcb7f6ee8a53578f9ae6426c5ba19b53dbee1cc8e37d0d5408dac0ee0bffdef0848bb07fe47c88c33911d9b45be97ef6ac5aa23fccb97a6ae13fab6b6a5a36bd28934aa06949f6545535a77beda9a66ea580e16304d1b0fd3bd40439df93cf139e88118fb4c7bcfea80db0b82e6d317673eb69bdf82d9b0aa246b8eaf68b2ddb3e55b4d32997b6f913da78e663454f4cf889a8210b348cd3b48f1de315de6577563bb47d475c7fca68e68422a83d441f92db2b72f8e4048fc0a956180f3fb3675a12e83638444bf0debfc67c270f066ba38e4151322b2f634c31b6152ac6b96d8f3bfe29b5bd0532291716df0ee3c31803b245c35abd85b67543bc562410c644083c502de5f660b839e8c9cff67984cb350e8adcaf4a4431aa135bd72a31db0df31bffcc2926e572ec4bbcfe584c56748f17976f980e9d78dbbd3c6de1a7cb62b7cafef9bbbccd01af6f6eb999077bccc1c121a9c6cb1fd031d4d7bc046970ee94ad1b2a08b46e79805599efafc34800b8e5ded6cb035a9a9b99b3bd4809e56e918cfd64c7cf0bd591f4df9a548b2a57524e0298d0327bbd8ab88153e572a94aef50099fd648560a57bb1c19175c976d8225bee7e6bf5e80e44a3014dee3811f0ab85ef37c94248a3f0d600f928ea579cfd4f1cffa035f1dbf825c597b709cb07ddd526f1aa21d5a61ee3f9ee2e7bff9af57e605235847ed7f1d030764479a3421b4b09a794fe14b72f023cdb6cc3e44c14839552dcc2aed333ec335d55c32c81f669b31221fbf1cfeeba538bf3fb30a8d175170fecf38f130eea63bcd82920937701e39b45b356fc05ee5400a42eea0c610ebd6fb0371247c1d8b5fe9d9527bcb592b17b6ea5292083956b5c05970ad1d8d82c59ef9a65f757b6b8b10fd5c7823240f9c9e3bdfef46dd596a57cc67964184698a291f27d6bb6cf0b20496159796851a3223aad712d46fc659b95683a05cea7fbf9cde7794c46b6a637ab976e636b269403b506bc3f2b217b7e1c814e5d09752878bd323ced2469cea65dae0a84d7f6502358ab79e8df369d50e5ec749a4e9c05f82855cf4b264e6f0e350c4c25e316d4012fd966338d0579be7b17d35ac5ecc1ae797b18f1f93743b7068d27cc3dbe1a7244c95d7aa9b4b328ad7a996c23c37f9bf541aa97ff3127661212713ea976814faa51214f82b36a731c4fd06e176c523c9c8bfbeab6c96ec8981f9da2ed82a88391435ed9c263203b65eb29bb2f39c78d9f50bdeabed24c511ad1403d8e4771d434bfb6fd5ca05868357befb9b8f92f9d915b97367723b156d4d24df00620b5926b59dda03c1e24ca04e87a1e20dbcfe55a1c0b3ccd915345e0f872d950e38c1a9dd596adff3abdce0ed31ea3a4ef6fa711b8c41fbcdf9aa1e5e9cb4d3bb21aac70558c57316c945</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>☀️ Daily life</category>
+        <category>Mine</category>
+      </categories>
+      <tags>
+        <tag>anniversary🎉</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>AI Algorithms</title>
     <url>/2020/12/12/Biology-AI-AI-Algorithms/</url>
     <content><![CDATA[<img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212191558.png" style="zoom: 33%;" />
@@ -763,6 +763,32 @@
 
 <h4 id="※-Artificial-Neural-Networks-ANN"><a href="#※-Artificial-Neural-Networks-ANN" class="headerlink" title="※ Artificial Neural Networks [ANN]"></a>※ Artificial Neural Networks [ANN]</h4><h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs"></a>Refs</h4><blockquote>
 <p><a href="https://www.youtube.com/watch?app=desktop&amp;v=7J-DfS52bnI">https://www.youtube.com/watch?app=desktop&amp;v=7J-DfS52bnI</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>🧬 Biology</category>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1 @ THE ETHICS OF ARTIFICIAL INTELLIGENCE</title>
+    <url>/2020/12/12/Biology-AI-Ethics-of-Artificial-Intelligence/</url>
+    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212173740.png"></p>
+<a id="more"></a>
+
+<p><strong>AI shouldn’t harm humans and other morally relevant beings, and to the moral status of the machines themselves.</strong></p>
+<ul>
+<li>The issues that may arise in the near future of AI.</li>
+<li>Challenges for ensuring that AI operates safely as it approaches humans in its intelligence.</li>
+<li>How we might assess whether, and in what circumstances, AIs themselves have moral status.</li>
+<li>How AIs might differ from humans in certain basic respects relevant to our ethical assessment of them.</li>
+<li>Creating AIs more intelligent than human, and ensuring that they use their advanced intelligence for good rather than ill</li>
+</ul>
+<h4 id="※"><a href="#※" class="headerlink" title="※"></a>※</h4><h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs"></a>Refs</h4><blockquote>
+<p><a href="http://faculty.smcm.edu/acjamieson/s13/artificialintelligence.pdf">http://faculty.smcm.edu/acjamieson/s13/artificialintelligence.pdf</a></p>
 </blockquote>
 ]]></content>
       <categories>
@@ -866,32 +892,6 @@
       </categories>
       <tags>
         <tag>Cas9</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>1 @ THE ETHICS OF ARTIFICIAL INTELLIGENCE</title>
-    <url>/2020/12/12/Biology-AI-Ethics-of-Artificial-Intelligence/</url>
-    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/yl-jia/picbed/main/img/20201212173740.png"></p>
-<a id="more"></a>
-
-<p><strong>AI shouldn’t harm humans and other morally relevant beings, and to the moral status of the machines themselves.</strong></p>
-<ul>
-<li>The issues that may arise in the near future of AI.</li>
-<li>Challenges for ensuring that AI operates safely as it approaches humans in its intelligence.</li>
-<li>How we might assess whether, and in what circumstances, AIs themselves have moral status.</li>
-<li>How AIs might differ from humans in certain basic respects relevant to our ethical assessment of them.</li>
-<li>Creating AIs more intelligent than human, and ensuring that they use their advanced intelligence for good rather than ill</li>
-</ul>
-<h4 id="※"><a href="#※" class="headerlink" title="※"></a>※</h4><h4 id="Refs"><a href="#Refs" class="headerlink" title="Refs"></a>Refs</h4><blockquote>
-<p><a href="http://faculty.smcm.edu/acjamieson/s13/artificialintelligence.pdf">http://faculty.smcm.edu/acjamieson/s13/artificialintelligence.pdf</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>🧬 Biology</category>
-        <category>AI</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -1131,18 +1131,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Think about Film and Television Production</title>
-    <url>/2020/10/25/China-perception-Think-about-Film-and-television-Production/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="60f2596ce6723de6af77d504221fcf905b703f569408c7824d858efe13cc4b69">8b99030997d9e294e22d169f14a9b9af30076946d2e16ff2003e748bfa20774718e7eb4c449d12c407648717416cd24c6c5afe0d5a5abc1b186122fba0801dc54dd8356b33f5d024bbb55c3b04fa03f0f0d102f01c1d8591329662b03faa5b49be8262c42da0bde783dc561c7cc46e92496eb7a9762d621693371735636029a1ac2bb1dd1974f462aa3d5ba12445ed2dcd598a4b6216f0ea8833980ab1c0e09f78e348e231b43087370273e723e425d9500d657af02c6b7e4dd7ad9dfd4f7df3127319535f0e9d0fb1fe4256788736ed9328f01f20e07b2b86daf38c9630ea7c9eb66a7e941df294c9e885da4add10eb9c6cc8ffe5a57fe1346c288b89ecb760fe3a93ccaf9416071245aaf85ba6f55ba26586e3123fc424494f9831ea22d5990d863596032c72d3c7be3362061c4f939258b1c1f16640bb906d31bf48870838ab0c63430db3454f55b762a21a72ce0a5d4e47fefe6d36652886b95c28e968c9417b5a8f62d232137529201fa0cb6ef0bb1a52732878200dba7195a4912f2834f9d1f0602fb43eaa058ae79150ef81360d22e4eaf8171f6c8ff276eff4f8ba5414cca25114f22079d3a9c481b675086516bbd428e65447ffc1ab9a894c1140acd579b43a704c4acbe460bdbc261ff18483106f47f7f34fc69e204eb5a77855d08abec39f6257b1a73ea8653b3c908e92d96130bd71f390830e41c5391fc7187b36f0aaedd6ae58745b6967b6ddbcd0acce540c434713d14303d5425ed443e704710771f6189c26f00c39295c5d757f393b670058c3f9f46f6a1ee8bc1af75a31bb2ed3ba734ca63d521ac9d8e4973c97a2355c33372bcc2a717810bfd4a078cd182528a00b3eaa599acc5886e3fb02f3b986536e687e1fe74589d60d4ebf4739e7c5b90c15986eb2fdaca09c1861b8c8d0aed5151bd768c9befc9e35e5baef6006e891653aa2413c54536b132be2d2a0e575637267b8b3bd8e39114e5545f7fe9104c6d1dffe16a54e29c1e4bfb4f6dd4b336e3e63a15e56b7f69f1675504ad3a022c657fb461fd6cea5badc1ebb67cbbf255f191b82a729a964e7a77d24490d3a9be774c40745f643204f9fff2f14abc9bfc6cf68a408a7a3f1c72e257466bdc94c699dc70f9d291b2728cebcb5b3c8d8b4a4f8c1fa7b4b8d59845aeaeda309522a476e57c69d8ec686ccc5c70ebbf3e1a7e83be8c9b3930505f31c804a5f4b91663120e753d1ba45cb59f709abdbc1d3f67bf812d9ea3123e0ad08bb73938a5a4f57079e8fa3c6653ab094ed3035f751ac4bf211161ed40b3ab72e16d7bef28fdf5fde40af515420547753cf2d4c8e8a90fe28ddff591aaee8f213bb415d6fdcee0fd65761c03267136b1cfceadf8426a6f9b0d68083d53d0b5cf271d40809ae68e4f86ad540bb1f5fd4af140960cad936e930e1dcbd359cd99838494e9d8ff356b53726bf25822ac8045238c40ebeeb57322dd63d73aee42d6681b08d51148fe2655a44c75bb33f8f6154fac067dd77508c5d71f13fdf5b3a786d25ece909</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>🐉 China</category>
-        <category>Perception</category>
-      </categories>
-      <tags>
-        <tag>Opinion💭</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Western Blot @ Loading control</title>
     <url>/2020/11/03/Biology-WB-loading-control/</url>
     <content><![CDATA[<h4 id="amp-Common-Loading-Control-Proteins-for-Western-Blot"><a href="#amp-Common-Loading-Control-Proteins-for-Western-Blot" class="headerlink" title="&amp; Common Loading Control Proteins for Western Blot"></a>&amp; Common Loading Control Proteins for Western Blot</h4><table>
@@ -1310,6 +1298,18 @@
       </categories>
       <tags>
         <tag>loading control</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Think about Film and Television Production</title>
+    <url>/2020/10/25/China-perception-Think-about-Film-and-television-Production/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="<font color=red>Please enter your password:</font>" /><label><font color=red>Please enter your password:</font></label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="60f2596ce6723de6af77d504221fcf905b703f569408c7824d858efe13cc4b69">8b99030997d9e294e22d169f14a9b9af30076946d2e16ff2003e748bfa20774718e7eb4c449d12c407648717416cd24c6c5afe0d5a5abc1b186122fba0801dc54dd8356b33f5d024bbb55c3b04fa03f0f0d102f01c1d8591329662b03faa5b49be8262c42da0bde783dc561c7cc46e92496eb7a9762d621693371735636029a1ac2bb1dd1974f462aa3d5ba12445ed2dcd598a4b6216f0ea8833980ab1c0e09f78e348e231b43087370273e723e425d9500d657af02c6b7e4dd7ad9dfd4f7df3127319535f0e9d0fb1fe4256788736ed9328f01f20e07b2b86daf38c9630ea7c9eb66a7e941df294c9e885da4add10eb9c6cc8ffe5a57fe1346c288b89ecb760fe3a93ccaf9416071245aaf85ba6f55ba26586e3123fc424494f9831ea22d5990d863596032c72d3c7be3362061c4f939258b1c1f16640bb906d31bf48870838ab0c63430db3454f55b762a21a72ce0a5d4e47fefe6d36652886b95c28e968c9417b5a8f62d232137529201fa0cb6ef0bb1a52732878200dba7195a4912f2834f9d1f0602fb43eaa058ae79150ef81360d22e4eaf8171f6c8ff276eff4f8ba5414cca25114f22079d3a9c481b675086516bbd428e65447ffc1ab9a894c1140acd579b43a704c4acbe460bdbc261ff18483106f47f7f34fc69e204eb5a77855d08abec39f6257b1a73ea8653b3c908e92d96130bd71f390830e41c5391fc7187b36f0aaedd6ae58745b6967b6ddbcd0acce540c434713d14303d5425ed443e704710771f6189c26f00c39295c5d757f393b670058c3f9f46f6a1ee8bc1af75a31bb2ed3ba734ca63d521ac9d8e4973c97a2355c33372bcc2a717810bfd4a078cd182528a00b3eaa599acc5886e3fb02f3b986536e687e1fe74589d60d4ebf4739e7c5b90c15986eb2fdaca09c1861b8c8d0aed5151bd768c9befc9e35e5baef6006e891653aa2413c54536b132be2d2a0e575637267b8b3bd8e39114e5545f7fe9104c6d1dffe16a54e29c1e4bfb4f6dd4b336e3e63a15e56b7f69f1675504ad3a022c657fb461fd6cea5badc1ebb67cbbf255f191b82a729a964e7a77d24490d3a9be774c40745f643204f9fff2f14abc9bfc6cf68a408a7a3f1c72e257466bdc94c699dc70f9d291b2728cebcb5b3c8d8b4a4f8c1fa7b4b8d59845aeaeda309522a476e57c69d8ec686ccc5c70ebbf3e1a7e83be8c9b3930505f31c804a5f4b91663120e753d1ba45cb59f709abdbc1d3f67bf812d9ea3123e0ad08bb73938a5a4f57079e8fa3c6653ab094ed3035f751ac4bf211161ed40b3ab72e16d7bef28fdf5fde40af515420547753cf2d4c8e8a90fe28ddff591aaee8f213bb415d6fdcee0fd65761c03267136b1cfceadf8426a6f9b0d68083d53d0b5cf271d40809ae68e4f86ad540bb1f5fd4af140960cad936e930e1dcbd359cd99838494e9d8ff356b53726bf25822ac8045238c40ebeeb57322dd63d73aee42d6681b08d51148fe2655a44c75bb33f8f6154fac067dd77508c5d71f13fdf5b3a786d25ece909</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>🐉 China</category>
+        <category>Perception</category>
+      </categories>
+      <tags>
+        <tag>Opinion💭</tag>
       </tags>
   </entry>
   <entry>
